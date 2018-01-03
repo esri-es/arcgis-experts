@@ -1006,7 +1006,7 @@
             "stackexchange": null,
             "geodev": false,
             "advocate": false,
-            "technologies": "GeoPortal Server"
+            "technologies": "GeoPortal Server, INSPIRE"
         },
         {
             "name": "Antonio Remirez",
@@ -1160,7 +1160,7 @@
             "stackexchange": null,
             "geodev": true,
             "advocate": false,
-            "technologies": "ArcGIS API for JavaScript, Storymaps, User Experience (UX), Design, User Interfaces (UI), Operations Dashboard for ArcGIS"
+            "technologies": "ArcGIS API for JavaScript, Storymaps, User Experience (UX), Design, User Interfaces (UI), Operations Dashboard for ArcGIS,ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS"
         },
         {
             "name": "Jorge Barrachina",
@@ -1175,6 +1175,20 @@
             "geodev": true,
             "advocate": true,
             "technologies": "ArcGIS API for JavaScript"
+        },
+        {
+            "name": "Yansa Tejada",
+            "picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfjAAAAJDMxMTdiOTg3LWUzN2YtNGI2Ni1iZTcyLTFkZDJjMTY2OGE3NQ.jpg",
+            "linkedin": "https://www.linkedin.com/in/yansa-tejada-mengibar-a1302b19",
+            "twitter": "https://twitter.com/yyansays",
+            "github": null,
+            "geonet": null,
+            "arcgis": null,
+            "stackoverflow": null,
+            "stackexchange": null,
+            "geodev": true,
+            "advocate": false,
+            "technologies": "Geoportal Server, INSPIRE"
         }
     ]
 }
