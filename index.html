@@ -239,22 +239,44 @@
         </div>
     </div>
 
+    </script>
 
+    <script id="missingExpert" type="text/x-jsrender">
+    <div class="card block trailer-1" data-background="missing">
+        <figure class="card-image-wrap">
 
+            <img class="card-image" src="no_avatar.jpg" alt="{{:name}}">
+
+            <figcaption class="card-image-caption text-center">
+                Missing someone?
+            </figcaption>
+        </figure>
+
+        <div class="card-content text-center">
+            <p class="font-size--1 card-last">
+                <a
+                    class="btn"
+                    href="https://github.com/esri-es/arcgis-experts/issues/new">
+                    Suggest new expert
+                </a>
+            </p>
+
+        </div>
+    </div>
     </script>
 
     <script id="techsTmpl" type="text/x-jsrender">
-    <li class="clickable">{{>#data}}</li>
+        <li class="clickable">{{>#data}}</li>
     </script>
 
     <div class="js-modal modal-overlay modifier-class" data-modal="modalTechnologies">
-        <div class="modal-content column-12" role="dialog" aria-labelledby="modal" role="dialog">
+        <div class="modal-content column-12" role="dialog" aria-labelledby="modal">
 
             <a class="js-modal-toggle right" href="#" aria-label="close-modal">
-                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 32 32" class="svg-icon"><path d="M18.404 16l9.9 9.9-2.404 2.404-9.9-9.9-9.9 9.9L3.696 25.9l9.9-9.9-9.9-9.898L6.1 3.698l9.9 9.899 9.9-9.9 2.404 2.406-9.9 9.898z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewbox="0 0 32 32" class="svg-icon"><path d="M18.404 16l9.9 9.9-2.404 2.404-9.9-9.9-9.9 9.9L3.696 25.9l9.9-9.9-9.9-9.898L6.1 3.698l9.9 9.899 9.9-9.9 2.404 2.406-9.9 9.898z"/></svg>
             </a>
 
-            <h3 class='trailer-half'>Technologies</h3>
+            <h3 class="trailer-half">Technologies</h3>
             <ul id="all-techs"></ul>
 
             <div class="text-right">
@@ -283,14 +305,20 @@
 
         $.getJSON("./experts.json", function(data){
             var template = $.templates("#theTmpl");
-            data.experts = shuffle(data.experts);
-            var htmlOutput = template.render(data.experts);
+            data = shuffle(data);
+            var htmlOutput = template.render(data);
 
             $("#expert-list").html(htmlOutput);
 
+            // Add missing expert
+            var template = $.templates("#missingExpert");
+            var htmlOutput = template.render({});
+            $("#expert-list").append(htmlOutput);
+
+
             var techs = [];
-            for ( i=0; i<data.experts.length; i++ ){
-                var aux = data.experts[i].technologies;
+            for ( i=0; i<data.length; i++ ){
+                var aux = data[i].technologies;
                 if(aux){
                     aux = aux.split(", ");
                     techs = techs.concat(aux);
@@ -345,6 +373,7 @@
             $(".card.block").show();
             $('#clearBtn').addClass('btn-disabled');
         }
+        $("[data-background=\"missing\"]").show();
 
         if(this.value){
             // Avoid display all techs
