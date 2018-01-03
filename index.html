@@ -139,7 +139,7 @@
                         <span class="clickable">Web AppBuilder</span>,
                         <span class="clickable">Esri Leaflet</span>,
 
-                        <span class="js-modal-toggle" href="#" data-modal="foo">view all</span>
+                        <span class="js-modal-toggle" href="#" data-modal="modalTechnologies">view all</span>
                     </span>
                 </div>
             </div>
@@ -158,83 +158,85 @@
 
     <script id="theTmpl" type="text/x-jsrender">
     <div class="card block trailer-1" data-background="{{lower:technologies}}">
-    <figure class="card-image-wrap">
-    {{if geodev || advocate}}
-        <mark class="tag label font-size--3">
-        {{if geodev}}
-        <span class="tooltip" aria-label="He/she can write code">#geodev</span>
-        {{/if}}
-        {{if geodev && advocate}} & {{/if}}
-        {{if advocate}}
-        <span class="tooltip" aria-label="His/her job is to make developers lifes easier">#advocate</span>
-        {{/if}}
-        </mark>
-    {{/if}}
-    {{if picture}}
-    <img class="card-image" src="{{:picture}}" alt="{{:name}}">
-    {{else}}
-    <img class="card-image" src="no_avatar.jpg" alt="{{:name}}">
-    {{/if}}
+        <figure class="card-image-wrap">
+            {{if geodev || advocate}}
+                <mark class="tag label font-size--3">
+                {{if geodev}}
+                    <span class="tooltip" aria-label="He/she can write code">#geodev</span>
+                {{/if}}
 
-    <figcaption class="card-image-caption text-center">
-    {{:name}}
-    </figcaption>
-    </figure>
-    <div class="card-content text-center">
-    <p class="font-size--1 card-last">
-    <!--{{:technologies}}-->
+                {{if geodev && advocate}} & {{/if}}
 
-    {{if github}}
-    <a href="{{:github}}" target="blank" class="tooltip" aria-label="Github">
-    <i class="fa fa-github" aria-hidden="true"></i>
-    </a>
-    {{/if}}
+                {{if advocate}}
+                    <span class="tooltip" aria-label="His/her job is to make developers lifes easier">#advocate</span>
+                {{/if}}
+                </mark>
+            {{/if}}
 
-    {{if stackexchange}}
-    <a href="{{:stackexchange}}" target="blank" class="tooltip" aria-label="StackExchange">
-    <i class="fa fa-stack-exchange" aria-hidden="true"></i>
-    </a>
-    {{/if}}
+            {{if picture}}
+                <img class="card-image" src="{{:picture}}" alt="{{:name}}">
+            {{else}}
+                <img class="card-image" src="no_avatar.jpg" alt="{{:name}}">
+            {{/if}}
 
-    {{if stackoverflow}}
-    <a href="{{:stackoverflow}}" target="blank" class="tooltip" aria-label="StackOverflow">
-    <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-    </a>
-    {{/if}}
+            <figcaption class="card-image-caption text-center">
+                {{:name}}
+            </figcaption>
+        </figure>
 
-    {{if linkedin}}
-    <a href="{{:linkedin}}" target="blank" class="tooltip" aria-label="Linkedin">
-    <i class="fa fa-linkedin" aria-hidden="true"></i>
-    </a>
-    {{/if}}
+        <div class="card-content text-center">
+            <p class="font-size--1 card-last">
+                <!--{{:technologies}}-->
 
-    {{if twitter}}
-    <a href="{{:twitter}}" target="blank" class="tooltip" aria-label="Twitter">
-    <i class="fa fa-twitter" aria-hidden="true"></i>
-    </a>
-    {{/if}}
+                {{if github}}
+                    <a href="{{:github}}" target="blank" class="tooltip" aria-label="Github">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-    {{if geonet}}
-    <a href="{{:geonet}}" target="blank" class="tooltip" aria-label="GeoNet">
-    <i class="fa fa-comments-o" aria-hidden="true"></i>
-    </a>
-    {{/if}}
+                {{if stackexchange}}
+                    <a href="{{:stackexchange}}" target="blank" class="tooltip" aria-label="StackExchange">
+                        <i class="fa fa-stack-exchange" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-    {{if arcgis}}
-    <a href="{{:arcgis}}" target="blank" class="tooltip" aria-label="ArcGIS Online">
-    <i class="fa fa-globe" aria-hidden="true"></i>
-    </a>
-    {{/if}}
+                {{if stackoverflow}}
+                    <a href="{{:stackoverflow}}" target="blank" class="tooltip" aria-label="StackOverflow">
+                        <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-    <span class="tooltip modifier-class" aria-label="Background: {{:technologies}}">
-    <i class="fa fa-question-circle"></i>
-    </span>
+                {{if linkedin}}
+                    <a href="{{:linkedin}}" target="blank" class="tooltip" aria-label="Linkedin">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
+                {{if twitter}}
+                    <a href="{{:twitter}}" target="blank" class="tooltip" aria-label="Twitter">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-    </p>
+                {{if geonet}}
+                    <a href="{{:geonet}}" target="blank" class="tooltip" aria-label="GeoNet">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
+                {{if arcgis}}
+                    <a href="{{:arcgis}}" target="blank" class="tooltip" aria-label="ArcGIS Online">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-    </div>
+                <span class="tooltip modifier-class" aria-label="Background: {{:technologies}}">
+                    <i class="fa fa-question-circle"></i>
+                </span>
+
+            </p>
+
+        </div>
     </div>
 
 
@@ -245,7 +247,7 @@
     <li class="clickable">{{>#data}}</li>
     </script>
 
-    <div class="js-modal modal-overlay modifier-class" data-modal="foo">
+    <div class="js-modal modal-overlay modifier-class" data-modal="modalTechnologies">
         <div class="modal-content column-12" role="dialog" aria-labelledby="modal" role="dialog">
 
             <a class="js-modal-toggle right" href="#" aria-label="close-modal">
