@@ -1,0 +1,221 @@
+{
+    "3D": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/3d/"
+    },
+    "AngularJS": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/angular/"
+    },
+    "AppStudio for ArcGIS": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/appstudio"
+    },
+    "ArcGIS API for JavaScript": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/dojo/"
+    },
+    "ArcGIS API for Python": {
+        "url": "https://esri-es.github.io/awesome-arcgis/back-end/technologies/python/"
+    },
+    "ArcGIS Desktop": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/"
+    },
+    "ArcGIS Earth": {
+        "url": null
+    },
+    "ArcGIS Enterprise": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/"
+    },
+    "ArcGIS Hub": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-hub/"
+    },
+    "ArcGIS Image Server": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/image-server"
+    },
+    "ArcGIS Maps for Office": {
+        "url": null
+    },
+    "ArcGIS Online": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/"
+    },
+    "ArcGIS Open Data": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-online/arcgis-open-data/"
+    },
+    "ArcGIS Pro": {
+        "url": null
+    },
+    "ArcGIS Pro (scripting with Python)": {
+        "url": "https://esri-es.github.io/awesome-arcgis/back-end/technologies/python/"
+    },
+    "ArcGIS Pro SDK": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/arcgis-pro/"
+    },
+    "ArcGIS REST API": {
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/open-vision/open-specifications/arcgis-rest-api"
+    },
+    "ArcGIS Runtime SDK for .NET": {
+        "url": "https://esri-es.github.io/awesome-arcgis/desktop/technologies/dot-net/"
+    },
+    "ArcGIS Runtime SDK for Android": {
+        "url": "https://esri-es.github.io/awesome-arcgis/mobile/technologies/android/"
+    },
+    "ArcGIS Runtime SDK for Java": {
+        "url": "https://esri-es.github.io/awesome-arcgis/desktop/technologies/java/"
+    },
+    "ArcGIS Runtime SDK for Qt": {
+        "url": "https://esri-es.github.io/awesome-arcgis/desktop/technologies/qt/"
+    },
+    "ArcGIS Runtime SDK for iOS": {
+        "url": "https://esri-es.github.io/awesome-arcgis/mobile/technologies/ios/"
+    },
+    "ArcPy": {
+        "url": "https://esri-es.github.io/awesome-arcgis/back-end/technologies/python/"
+    },
+    "Basemaps": {
+        "url": null
+    },
+    "Calcite": {
+        "url": null
+    },
+    "Collector for ArcGIS": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/collector-for-arcgis/"
+    },
+    "Demographics": {
+        "url": null
+    },
+    "Design": {
+        "url": null
+    },
+    "Dojo": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/dojo/"
+    },
+    "Drone2Map": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/drone2map/"
+    },
+    "EmberJS": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/ember/"
+    },
+    "Esri Business Analyst": {
+        "url": null
+    },
+    "Esri CityEngine": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/city-engine/"
+    },
+    "Esri Leaflet": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/leaflet/"
+    },
+    "Esri World Geocoding Service": {
+        "url": null
+    },
+    "Explorer for ArcGIS": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/explorer-for-arcgis/"
+    },
+    "Full Motion Video": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-desktop/add-ins/full-motion-video/"
+    },
+    "GeoAnalytics Server": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/geoanalytics-server/"
+    },
+    "GeoEvent Server": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/arcgis-enterprise/arcgis-server/geoevent-server/"
+    },
+    "GeoPortal Server": {
+        "url": null
+    },
+    "Imagery and Rasters": {
+        "url": null
+    },
+    "Insights for ArcGIS": {
+        "url": null
+    },
+    "Knockout": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/knockout/"
+    },
+    "KoopJS": {
+        "url": null
+    },
+    "Lidar": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/content/data-types/las/lidar/"
+    },
+    "Living Atlas": {
+        "url": null
+    },
+    "Navigator for ArcGIS": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/navigator-for-arcgis/"
+    },
+    "Network Analyst": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/extensions/network-analyst/"
+    },
+    "NodeJS": {
+        "url": "https://esri-es.github.io/awesome-arcgis/back-end/technologies/nodejs/"
+    },
+    "Offline-editor-js": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/dojo/offline-editor-js/"
+    },
+    "Open Source": {
+        "url": null
+    },
+    "Operations Dashboard for ArcGIS": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/operations-dashboard/?h=perations%20dashboa"
+    },
+    "Phonegap (Apache Cordova)": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/phonegap/"
+    },
+    "Python": {
+        "url": "https://esri-es.github.io/awesome-arcgis/back-end/technologies/python/"
+    },
+    "R": {
+        "url": "https://esri-es.github.io/awesome-arcgis/back-end/technologies/r/"
+    },
+    "ReactJS": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/react/"
+    },
+    "Ruby on Rails": {
+        "url": "https://esri-es.github.io/awesome-arcgis/back-end/technologies/ruby/"
+    },
+    "Sencha (ExtJS)": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/extjs-sencha/"
+    },
+    "Storymaps": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/configurable-apps/"
+    },
+    "StreetMap Premium for ArcGIS": {
+        "url": null
+    },
+    "Survey123 for ArcGIS": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/survey123/?h=survey123%20for%20arcgis"
+    },
+    "User Experience (UX)": {
+        "url": null
+    },
+    "User Interfaces (UI)": {
+        "url": null
+    },
+    "Vector Tiles": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/content/service-types/map-service/tile-map-service/vector-tiles/"
+    },
+    "Virtual Reality (VR)": {
+        "url": "https://esri-es.github.io/awesome-arcgis/vr/"
+    },
+    "VueJS": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/vuejs/"
+    },
+    "Web AppBuilder": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/web-appbuilder/"
+    },
+    "Web AppBuilder for ArcGIS (Developer Edition)": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/web-appbuilder/developer-edition/?h=web%20appbuilder"
+    },
+    "Web Map specification": {
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/open-vision/open-specifications/web-map/"
+    },
+    "Workforce for ArcGIS": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/workforce/?h=workfor"
+    },
+    "Xamarin": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/workforce/?q=xamarin"
+    },
+    "i3s": {
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/open-vision/open-specifications/i3s/"
+    },
+    "jQuery": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/jquery/?h=jquery"
+    }
+}

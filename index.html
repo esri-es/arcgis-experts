@@ -48,14 +48,24 @@ window.onload = function () {calcite.init();};
     overflow: scroll;
 }
 ::-webkit-scrollbar {
-        -webkit-appearance: none;
-        width: 7px;
-    }
-    ::-webkit-scrollbar-thumb {
-        border-radius: 4px;
-        background-color: rgba(0,0,0,.5);
-        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
-    }
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+.alert{
+    max-width: none;
+}
+.tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+    background-color: rgba(204, 204, 204, 0.73);
+}
 </style>
 </head>
 
@@ -80,19 +90,11 @@ window.onload = function () {calcite.init();};
 
             <!-- tablet and mobile sized navigation -->
             <div class="tablet-show top-nav-flex">
-                <!-- open primary navigation drawer -->
-                <nav class="top-nav-flex-list" role="navigation" aria-labelledby="topnav">
-                    <a href="/" class="icon-ui-menu top-nav-link js-drawer-toggle" data-drawer="top-nav"><span class="phone-hide">Menu</span></a>
-                </nav>
-                <!-- logo / home -->
+
                 <header class="top-nav-flex-title">
-                    <a href="/" class="top-nav-link">ArcGIS <span class="phone-hide">for Developers</span></a>
+                    <a href="/" class="top-nav-link"><span class="phone-hide">Find and follow</span> ArcGIS Experts</a>
                 </header>
-                <!-- user specific actions -->
-                <nav class="top-nav-flex-list text-right" role="navigation" aria-labelledby="usernav">
-                    <a class="top-nav-link icon-ui-search js-drawer-toggle" href="#" aria-label="Search"><span class="phone-hide">Search</span></a>
-                    <a class="top-nav-link icon-ui-user margin-left-1 js-drawer-toggle" href="#" aria-label="Sign In"><span class="phone-hide">Sign In</span></a>
-                </nav>
+
             </div>
         </div>
     </div>
@@ -104,7 +106,13 @@ window.onload = function () {calcite.init();};
                     <label for="tags" class="text-white text-center" style="padding-top: 5px;">I'm looking for an expert in: </label>
                 </div>
                 <div class="column-18 trailer-1">
-                    <input class="input-group-input" id="tags">
+                    <div class="input-group">
+                      <input class="input-group-input" id="tags">
+                      <span class="input-group-button btn-disabled" id="clearBtn">
+                        <button class="btn">Clear</button>
+                      </span>
+                    </div>
+
                     <span class="small">
                         E.g:
                         <span class="clickable">User Experience</span>,
@@ -120,123 +128,142 @@ window.onload = function () {calcite.init();};
                     </span>
                 </div>
             </div>
-            </div>
-            <p id="techs" class="trailer-1"></p>
         </div>
-    </header>
-
-    <div class="grid-container">
-        <div class="block-group block-group-6-up tablet-block-group-2-up phone-block-group-1-up leader-2" id="expert-list">
-        </div>
-
-        <script id="theTmpl" type="text/x-jsrender">
-        <div class="card block trailer-1" data-background="{{lower:technologies}}">
-        <figure class="card-image-wrap">
-
-        {{if picture}}
-            <img class="card-image" src="{{:picture}}" alt="{{:name}}">
-        {{else}}
-            <img class="card-image" src="no_avatar.jpg" alt="{{:name}}">
-        {{/if}}
-
-        <figcaption class="card-image-caption text-center">
-        {{:name}}
-        </figcaption>
-        </figure>
-        <div class="card-content text-center">
-        <p class="font-size--1 card-last">
-        <!--{{:technologies}}-->
-
-        {{if github}}
-        <a href="{{:github}}" target="blank">
-        <i class="fa fa-github" aria-hidden="true"></i>
-        </a>
-        {{/if}}
-
-        {{if stackexchange}}
-        <a href="{{:stackexchange}}" target="blank">
-        <i class="fa fa-stack-exchange" aria-hidden="true"></i>
-        </a>
-        {{/if}}
-
-        {{if stackoverflow}}
-        <a href="{{:stackoverflow}}" target="blank">
-        <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-        </a>
-        {{/if}}
-
-        {{if linkedin}}
-        <a href="{{:linkedin}}" target="blank">
-        <i class="fa fa-linkedin" aria-hidden="true"></i>
-        </a>
-        {{/if}}
-
-        {{if twitter}}
-        <a href="{{:twitter}}" target="blank">
-        <i class="fa fa-twitter" aria-hidden="true"></i>
-        </a>
-        {{/if}}
-
-        {{if geonet}}
-        <a href="{{:geonet}}" target="blank">
-        <i class="fa fa-comments-o" aria-hidden="true"></i>
-        </a>
-        {{/if}}
-
-        {{if arcgis}}
-        <a href="{{:arcgis}}" target="blank">
-        <i class="fa fa-globe" aria-hidden="true"></i>
-        </a>
-        {{/if}}
-
-        <span class="tooltip modifier-class" aria-label="{{:technologies}}">
-        <i class="fa fa-question-circle"></i>
-        </span>
-
-
-        </p>
-
-
-        </div>
-        </div>
-
-
-
-        </script>
-
-        <script id="techsTmpl" type="text/x-jsrender">
-            <li class="clickable">{{>#data}}</li>
-        </script>
-
-        <div class="js-modal modal-overlay modifier-class" data-modal="foo">
-  <div class="modal-content column-12" role="dialog" aria-labelledby="modal" role="dialog">
-
-    <a class="js-modal-toggle right" href="#" aria-label="close-modal">
-      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 32 32" class="svg-icon"><path d="M18.404 16l9.9 9.9-2.404 2.404-9.9-9.9-9.9 9.9L3.696 25.9l9.9-9.9-9.9-9.898L6.1 3.698l9.9 9.899 9.9-9.9 2.404 2.406-9.9 9.898z"/></svg>
-    </a>
-
-    <h3 class='trailer-half'>Technologies</h3>
-    <ul id="all-techs"></ul>
-
-    <div class="text-right">
-        <button class="btn js-modal-toggle">Done</button>
+        <p id="techs" class="trailer-1"></p>
     </div>
-  </div>
-</div>
+</header>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script src="jsrender.min.js"></script>
+<div class="grid-container">
+    <div class="alert alert-yellow modifier-class is-active leader-1 text-center" style="display:none">
+      Learn more about <span class="selected-techs"></span> in the Awesome list of resources
+    </div>
 
-        <script src="./jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-        <script>
-        $.views.converters("lower", function(val) {
-          // Convert data-value or expression to upper case
-          if(val){
-              return val.toLowerCase();
-          }else{
-              return '';
-          }
-        });
+    <div class="block-group block-group-6-up tablet-block-group-2-up phone-block-group-1-up leader-1" id="expert-list">
+    </div>
+
+    <script id="theTmpl" type="text/x-jsrender">
+    <div class="card block trailer-1" data-background="{{lower:technologies}}">
+    <figure class="card-image-wrap">
+    {{if geodev || advocate}}
+        <mark class="tag label font-size--3">
+        {{if geodev}}
+        <span class="tooltip" aria-label="He/she can write code">#geodev</span>
+        {{/if}}
+        {{if geodev && advocate}} & {{/if}}
+        {{if advocate}}
+        <span class="tooltip" aria-label="His/her job is to make developers lifes easier">#advocate</span>
+        {{/if}}
+        </mark>
+    {{/if}}
+    {{if picture}}
+    <img class="card-image" src="{{:picture}}" alt="{{:name}}">
+    {{else}}
+    <img class="card-image" src="no_avatar.jpg" alt="{{:name}}">
+    {{/if}}
+
+    <figcaption class="card-image-caption text-center">
+    {{:name}}
+    </figcaption>
+    </figure>
+    <div class="card-content text-center">
+    <p class="font-size--1 card-last">
+    <!--{{:technologies}}-->
+
+    {{if github}}
+    <a href="{{:github}}" target="blank">
+    <i class="fa fa-github" aria-hidden="true"></i>
+    </a>
+    {{/if}}
+
+    {{if stackexchange}}
+    <a href="{{:stackexchange}}" target="blank">
+    <i class="fa fa-stack-exchange" aria-hidden="true"></i>
+    </a>
+    {{/if}}
+
+    {{if stackoverflow}}
+    <a href="{{:stackoverflow}}" target="blank">
+    <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+    </a>
+    {{/if}}
+
+    {{if linkedin}}
+    <a href="{{:linkedin}}" target="blank">
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </a>
+    {{/if}}
+
+    {{if twitter}}
+    <a href="{{:twitter}}" target="blank">
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    </a>
+    {{/if}}
+
+    {{if geonet}}
+    <a href="{{:geonet}}" target="blank">
+    <i class="fa fa-comments-o" aria-hidden="true"></i>
+    </a>
+    {{/if}}
+
+    {{if arcgis}}
+    <a href="{{:arcgis}}" target="blank">
+    <i class="fa fa-globe" aria-hidden="true"></i>
+    </a>
+    {{/if}}
+
+    <span class="tooltip modifier-class" aria-label="{{:technologies}}">
+    <i class="fa fa-question-circle"></i>
+    </span>
+
+
+    </p>
+
+
+    </div>
+    </div>
+
+
+
+    </script>
+
+    <script id="techsTmpl" type="text/x-jsrender">
+    <li class="clickable">{{>#data}}</li>
+    </script>
+
+    <div class="js-modal modal-overlay modifier-class" data-modal="foo">
+        <div class="modal-content column-12" role="dialog" aria-labelledby="modal" role="dialog">
+
+            <a class="js-modal-toggle right" href="#" aria-label="close-modal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 32 32" class="svg-icon"><path d="M18.404 16l9.9 9.9-2.404 2.404-9.9-9.9-9.9 9.9L3.696 25.9l9.9-9.9-9.9-9.898L6.1 3.698l9.9 9.899 9.9-9.9 2.404 2.406-9.9 9.898z"/></svg>
+            </a>
+
+            <h3 class='trailer-half'>Technologies</h3>
+            <ul id="all-techs"></ul>
+
+            <div class="text-right">
+                <button class="btn js-modal-toggle">Done</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="jsrender.min.js"></script>
+
+    <script src="./jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script>
+    $.views.converters("lower", function(val) {
+        // Convert data-value or expression to upper case
+        if(val){
+            return val.toLowerCase();
+        }else{
+            return '';
+        }
+    });
+    var params = getUrlParams();
+    var links;
+    $.getJSON("./awesome-links.json", function(data){
+        links = data;
+
         $.getJSON("./experts.json", function(data){
             var template = $.templates("#theTmpl");
             data.experts = shuffle(data.experts);
@@ -276,27 +303,68 @@ window.onload = function () {calcite.init();};
                 $('#tags').val(this.innerText);
                 $('#tags').keyup();
             });
+
+            if(params.tech){
+                $('#tags').val(params.tech);
+                $('#tags').keyup();
+            }
         }).done(function() {
             console.log( "second success" );
         })
         .fail(function(jqXHR, textStatus, errorThrown) { alert('getJSON request failed! ' + textStatus); })
+    });
+    $('#clearBtn').click(function(){
+        $('#tags').val('');
+        $('#tags').keyup();
+        $('#clearBtn').addClass('btn-disabled');
+    })
 
-        $("#tags").keyup(function(){
-            var value = this.value.toLowerCase();
-            if(value){
-                var condition = `[data-background*=\"${value}\"]`;
-                $(`.card.block${condition}`).show()
-                $(".card.block").not(condition).hide()
-            }else{
-                $(".card.block").show();
+    $("#tags").keyup(function(){
+
+        var value = this.value.toLowerCase();
+        if(value){
+            $('#clearBtn').removeClass('btn-disabled');
+            var condition = `[data-background*=\"${value}\"]`;
+            $(`.card.block${condition}`).show()
+            $(".card.block").not(condition).hide()
+        }else{
+            $(".card.block").show();
+            $('#clearBtn').addClass('btn-disabled');
+        }
+
+        if(this.value){
+            // Avoid display all techs
+            var regex = new RegExp(this.value, "i");
+            var filteredNames = filtered_keys(links, regex);
+
+            if(filteredNames.length > 0){
+                console.log("filteredNames = ", filteredNames)
+                $(".alert").show();
+                $(".selected-techs").empty();
+                filteredNames.forEach(function(elem, i){
+
+                    var el = $('<a target="_blank"></a>').text(elem).attr("href", links[elem].url);
+                    $(".selected-techs").append(el);
+
+                    if(i < filteredNames.length - 1){
+
+                        $(".selected-techs").append(", ");
+                    }
+
+                });
+                //$(".selected-techs").text(aux);
+
             }
-        });
+        }else{
+            $(".alert").hide();
+        }
+    });
 
-        function shuffle(array) {
-          var currentIndex = array.length, temporaryValue, randomIndex;
+    function shuffle(array) {
+        var currentIndex = array.length, temporaryValue, randomIndex;
 
-          // While there remain elements to shuffle...
-          while (0 !== currentIndex) {
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
 
             // Pick a remaining element...
             randomIndex = Math.floor(Math.random() * currentIndex);
@@ -306,13 +374,33 @@ window.onload = function () {calcite.init();};
             temporaryValue = array[currentIndex];
             array[currentIndex] = array[randomIndex];
             array[randomIndex] = temporaryValue;
-          }
-
-          return array;
         }
 
+        return array;
+    }
+
+    var filtered_keys = function(obj, filter) {
+      var key, keys = [];
+      for (key in obj) {
+        if (obj.hasOwnProperty(key) && filter.test(key)) {
+            console.log("metemos=",key)
+          keys.push(key);
+        }
+      }
+      return keys;
+    }
+
+    function getUrlParams() {
+        var search = location.search.substring(1);
+        if(search){
+            var obj = decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"');
+            return JSON.parse('{"' + obj  + '"}');
+        }else{
+            return null;
+        }
+    }
 
 
-        </script>
-    </body>
-    </html>
+    </script>
+</body>
+</html>
