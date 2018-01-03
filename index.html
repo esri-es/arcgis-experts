@@ -256,6 +256,7 @@
             <p class="font-size--1 card-last">
                 <a
                     id="missingExpertLink"
+                    target="_blank"
                     class="btn"
                     href="https://github.com/esri-es/arcgis-experts/issues/new">
                     Suggest new expert
@@ -375,7 +376,7 @@
             $(".card.block").show();
             $('#clearBtn').addClass('btn-disabled');
         }
-        $("#missingExpertLink").attr('href', `https://github.com/esri-es/arcgis-experts/issues/new?title=Missing%20expert%20in%20${value}`)
+        $("#missingExpertLink").attr('href', `https://github.com/esri-es/arcgis-experts/issues/new?title=Missing%20expert%20in%20${this.value}`)
         $("[data-background=\"missing\"]").show();
 
         if(this.value){
