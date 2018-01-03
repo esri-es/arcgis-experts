@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Calcite web template</title>
+    <title>Find and follow ArcGIS Experts</title>
     <meta charset="utf-8">
 
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
@@ -34,9 +34,28 @@ window.onload = function () {calcite.init();};
 .card-content i{
     margin: 0 1px;
 }
-.card-image{
+.small span, .clickable{
     /* max-height: 180px; */
+    cursor: pointer;
+    text-decoration: underline;
 }
+.small{
+    font-size: .9rem;
+    color: #bfbdbd;
+}
+#all-techs{
+    max-height: 300px;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(0,0,0,.5);
+        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    }
 </style>
 </head>
 
@@ -47,7 +66,7 @@ window.onload = function () {calcite.init();};
             <!-- desktop sized navigation -->
             <div class="tablet-hide">
                 <!-- logo / home -->
-                <a href="#" class="top-nav-title">ArcGIS Experts</a>
+                <a href="#" class="top-nav-title">Find and follow ArcGIS Experts</a>
                 <!-- primary navigation sections -->
                 <nav class="top-nav-list" role="navigation" aria-labelledby="topnav">
                 </nav>
@@ -84,8 +103,21 @@ window.onload = function () {calcite.init();};
                 <div class="column-6">
                     <label for="tags" class="text-white text-center" style="padding-top: 5px;">I'm looking for an expert in: </label>
                 </div>
-                <div class="column-18">
+                <div class="column-18 trailer-1">
                     <input class="input-group-input" id="tags">
+                    <span class="small">
+                        E.g:
+                        <span class="clickable">User Experience</span>,
+                        <span class="clickable">JavaScript</span>,
+                        <span class="clickable">Storymaps</span>,
+                        <span class="clickable">Web Map</span>,
+                        <span class="clickable">Android</span>,
+                        <span class="clickable">Drone2Map</span>,
+                        <span class="clickable">Web AppBuilder</span>,
+                        <span class="clickable">Esri Leaflet</span>,
+
+                        <span class="js-modal-toggle" href="#" data-modal="foo">view all</span>
+                    </span>
                 </div>
             </div>
             </div>
@@ -102,9 +134,9 @@ window.onload = function () {calcite.init();};
         <figure class="card-image-wrap">
 
         {{if picture}}
-            <img class="card-image" src="{{:picture}}" alt="Bridge Club, 1954">
+            <img class="card-image" src="{{:picture}}" alt="{{:name}}">
         {{else}}
-            <img class="card-image" src="no_avatar.jpg" alt="Bridge Club, 1954">
+            <img class="card-image" src="no_avatar.jpg" alt="{{:name}}">
         {{/if}}
 
         <figcaption class="card-image-caption text-center">
@@ -172,6 +204,26 @@ window.onload = function () {calcite.init();};
 
         </script>
 
+        <script id="techsTmpl" type="text/x-jsrender">
+            <li class="clickable">{{>#data}}</li>
+        </script>
+
+        <div class="js-modal modal-overlay modifier-class" data-modal="foo">
+  <div class="modal-content column-12" role="dialog" aria-labelledby="modal" role="dialog">
+
+    <a class="js-modal-toggle right" href="#" aria-label="close-modal">
+      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 32 32" class="svg-icon"><path d="M18.404 16l9.9 9.9-2.404 2.404-9.9-9.9-9.9 9.9L3.696 25.9l9.9-9.9-9.9-9.898L6.1 3.698l9.9 9.899 9.9-9.9 2.404 2.406-9.9 9.898z"/></svg>
+    </a>
+
+    <h3 class='trailer-half'>Technologies</h3>
+    <ul id="all-techs"></ul>
+
+    <div class="text-right">
+        <button class="btn js-modal-toggle">Done</button>
+    </div>
+  </div>
+</div>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="jsrender.min.js"></script>
 
@@ -211,8 +263,18 @@ window.onload = function () {calcite.init();};
 
             techs = unique(techs);
             console.log("techs = ",techs)
+            var techsTmpl = $.templates("#techsTmpl");
+            var htmlOutput = techsTmpl.render(techs.sort());
+
+            $("#all-techs").html(htmlOutput);
+
             $( "#tags" ).autocomplete({
                 source: techs
+            });
+
+            $('.clickable').click(function(){
+                $('#tags').val(this.innerText);
+                $('#tags').keyup();
             });
         }).done(function() {
             console.log( "second success" );
@@ -248,6 +310,7 @@ window.onload = function () {calcite.init();};
 
           return array;
         }
+
 
 
         </script>
