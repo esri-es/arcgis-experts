@@ -39,7 +39,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "AppStudio for ArcGIS, Survey123 for ArcGIS, Collector for ArcGIS, Explorer for ArcGIS, Navigator for ArcGIS, Workforce for ArcGIS"
+        "technologies": "AppStudio for ArcGIS, Survey123 for ArcGIS, Collector for ArcGIS, Explorer for ArcGIS, Navigator for ArcGIS, Workforce for ArcGIS, ArcGIS Runtime SDK for Qt"
     },
     {
         "name": "Jeff Shaner",
@@ -607,7 +607,7 @@
         "linkedin": "https://www.linkedin.com/in/sathyaprasad/",
         "twitter": "https://twitter.com/sathyaprasad",
         "github": "https://github.com/sathyaprasad",
-        "geonet": null,
+        "geonet": "https://community.esri.com/people/sprasad-esristaff",
         "arcgis": null,
         "stackoverflow": null,
         "stackexchange": null,
@@ -655,7 +655,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
-        "technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS, Esri Startup Program, Calcite"
+        "technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS, Esri Startup Program, Calcite, Cedar, Demographics, Esri World Geocoding Service, Open Source"
     },
     {
         "name": "Mark Jagt",
@@ -865,7 +865,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "ArcGIS API for JavaScript"
+        "technologies": "ArcGIS API for JavaScript 4.x"
     },
     {
         "name": "Richie Carmichael",
@@ -963,7 +963,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "GeoEvent Server, GeoAnalytics Server, Insights for ArcGIS"
+        "technologies": "GeoEvent Server, GeoAnalytics Server, Insights for ArcGIS, ArcGIS Enterprise"
     },
     {
         "name": "Juanjo Pérez",
@@ -1019,7 +1019,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "ArcGIS API for JavaScript, Dojo, Web AppBuilder for ArcGIS (Developer Edition), ArcGIS Enterprise, ArcGIS API for Python, Offline-editor-js"
+        "technologies": "ArcGIS API for JavaScript, Dojo, Web AppBuilder for ArcGIS (Developer Edition), ArcGIS Enterprise, ArcGIS API for Python, Offline-editor-js, ArcPy"
     },
     {
         "name": "Joan Pere",
@@ -1033,7 +1033,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "ArcGIS API for JavaScript, Web AppBuilder for ArcGIS (Developer Edition), ArcGIS Enterprise, ArcGIS Runtime SDK for Android, Python, ArcGIS API for Python"
+        "technologies": "ArcGIS API for JavaScript, Web AppBuilder for ArcGIS (Developer Edition), ArcGIS Enterprise, ArcGIS Runtime SDK for Android, Python, ArcGIS API for Python, ArcPy"
     },
     {
         "name": "Luis Rodriguez",
@@ -1073,7 +1073,7 @@
         "arcgis": null,
         "stackoverflow": null,
         "stackexchange": null,
-        "geodev": true,
+        "geodev": false,
         "advocate": false,
         "technologies": "3D, i3s, ArcGIS Earth"
     },
@@ -1502,11 +1502,73 @@
         "arcgis": null,
         "stackoverflow": null,
         "stackexchange": null,
-        "geodev": true,
+        "geodev": false,
         "advocate": false,
         "technologies": "i3s, 3D"
+    },{
+        "name": "Jen Trieu",
+        "picture": null,
+        "linkedin": "https://www.linkedin.com/in/jen-trieu-2520ab56/",
+        "twitter": null,
+        "github": "https://github.com/jtrieu",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Runtime SDK for Qt, QML"
+    },{
+        "name": "Michael Tims",
+        "picture": "https://avatars3.githubusercontent.com/u/5607251?s=460&v=4",
+        "linkedin": null,
+        "twitter": null,
+        "github": "https://github.com/michael-tims",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Runtime SDK for Qt, QML, ArcGIS Runtime SDK for .NET"
+    },{
+        "name": "Lucas Danzinger",
+        "picture": "https://avatars1.githubusercontent.com/u/4107363?s=460&v=4",
+        "linkedin": "https://www.linkedin.com/in/lucas-danzinger-ab371b37/",
+        "twitter": "https://twitter.com/geo_badger",
+        "github": "https://github.com/ldanzinger",
+        "geonet": "https://community.esri.com/people/LDanzinger-esristaff",
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Runtime SDK for Qt, Python"
+    },{
+        "name": "Tina Jin",
+        "picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/0ab/0ee/284cbb1.jpg",
+        "linkedin": "https://www.linkedin.com/in/tina-jin-11710291/",
+        "twitter": null,
+        "github": "https://github.com/TinaJin",
+        "geonet": "https://community.esri.com/people/TJin-esristaff",
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "AppStudio for ArcGIS"
+    },{
+        "name": "Clinton Dow",
+        "picture": "https://avatars0.githubusercontent.com/u/11847212?s=460&v=4",
+        "linkedin": "https://www.linkedin.com/in/clintondow/",
+        "twitter": "https://twitter.com/DataNavigator",
+        "github": "https://github.com/data-navigator",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "Python, ArcPy"
     }
-
-
-
 ]
