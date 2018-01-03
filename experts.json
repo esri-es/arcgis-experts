@@ -12,7 +12,7 @@
             "stackexchange": null,
             "geodev": false,
             "advocate": false,
-            "technologies": "Lidar, Drone2Map, ArcGIS Image Server, Imagery and Rasters"
+            "technologies": "Lidar, Drone2Map, ArcGIS Image Server, Imagery and Rasters, Full Motion Video"
         },
         {
             "name": "Deane Kensok",
@@ -222,7 +222,7 @@
             "stackexchange": null,
             "geodev": true,
             "advocate": false,
-            "technologies": "Storymaps (story teller), Design, User Experience (UX), User Interfaces (UI)"
+            "technologies": "Storymaps, Design, User Experience (UX), User Interfaces (UI)"
         },
         {
             "name": "Allen Carroll",
@@ -236,7 +236,7 @@
             "stackexchange": null,
             "geodev": false,
             "advocate": false,
-            "technologies": "Storymaps (story teller)"
+            "technologies": "Storymaps"
         },
         {
             "name": "Owen Evans",
@@ -250,7 +250,7 @@
             "stackexchange": null,
             "geodev": false,
             "advocate": false,
-            "technologies": "Storymaps (story teller)"
+            "technologies": "Storymaps"
         },
         {
             "name": "John Nelson",
@@ -264,7 +264,7 @@
             "stackexchange": null,
             "geodev": false,
             "advocate": false,
-            "technologies": "Storymaps (story teller)"
+            "technologies": "Storymaps"
         },
         {
             "name": "Jennifer Bell",
@@ -278,7 +278,7 @@
             "stackexchange": null,
             "geodev": false,
             "advocate": false,
-            "technologies": "Storymaps (story teller)"
+            "technologies": "Storymaps"
         },
         {
             "name": "Tim Witt",
@@ -544,7 +544,7 @@
             "stackexchange": null,
             "geodev": true,
             "advocate": false,
-            "technologies": "R"
+            "technologies": "R-language"
         },
         {
             "name": "Morten Nielsen",
@@ -656,7 +656,7 @@
             "stackexchange": null,
             "geodev": true,
             "advocate": true,
-            "technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS"
+            "technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS"
         },
         {
             "name": "Mark Jagt",
