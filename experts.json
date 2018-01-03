@@ -81,7 +81,7 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
-        "technologies": "Full Motion Video, Imagery and Rasters"
+        "technologies": "Full Motion Video, Imagery and Rasters, ArcGIS Image Server"
     },
     {
         "name": "Clark Swinehart",
@@ -103,7 +103,7 @@
         "linkedin": "https://www.linkedin.com/in/christopher-zent-3578579/",
         "twitter": null,
         "github": "https://github.com/cjzent",
-        "geonet": null,
+        "geonet": "https://community.esri.com/people/czent-esristaff",
         "arcgis": null,
         "stackoverflow": null,
         "stackexchange": null,
@@ -193,7 +193,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
-        "technologies": "ArcGIS Hub, ArcGIS Open Data, NodeJS, Esri Leaflet, ArcGIS API for JavaScript, Open Source"
+        "technologies": "ArcGIS Hub, ArcGIS Open Data, NodeJS, Esri Leaflet, ArcGIS API for JavaScript 3.x, Open Source, ArcGIS REST API"
     },
     {
         "name": "Andrew Turner",
@@ -551,7 +551,7 @@
         "linkedin": "https://www.linkedin.com/in/dotmorten/",
         "twitter": "https://twitter.com/dotMorten",
         "github": "https://github.com/dotMorten",
-        "geonet": null,
+        "geonet": "https://community.esri.com/people/mnielsen-esristaff",
         "arcgis": null,
         "stackoverflow": null,
         "stackexchange": null,
@@ -579,7 +579,7 @@
         "linkedin": "https://www.linkedin.com/in/eric-bader-b44ab83a/",
         "twitter": "https://twitter.com/ECBader",
         "github": "https://github.com/eric906",
-        "geonet": null,
+        "geonet": "https://community.esri.com/people/ebader-esristaff",
         "arcgis": null,
         "stackoverflow": null,
         "stackexchange": null,
@@ -599,7 +599,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "ArcGIS Runtime SDK for iOS"
+        "technologies": "ArcGIS Runtime SDK for iOS, ArcGIS Runtime SDK for macOS"
     },
     {
         "name": "Sathya Prasad",
@@ -613,7 +613,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "ArcGIS Runtime SDK for Qt"
+        "technologies": "ArcGIS Runtime SDK for Qt, AppStudio for ArcGIS"
     },
     {
         "name": "David Martinez",
@@ -641,7 +641,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
-        "technologies": "ArcGIS API for JavaScript, Esri Startup Program"
+        "technologies": "ArcGIS API for JavaScript 4.x, Esri Startup Program"
     },
     {
         "name": "Raul Jimenez",
@@ -655,7 +655,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
-        "technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS, Esri Startup Program"
+        "technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS, Esri Startup Program, Calcite"
     },
     {
         "name": "Mark Jagt",
@@ -725,7 +725,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
-        "technologies": "ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS, ArcGIS API for JavaScript, Sencha (ExtJS)"
+        "technologies": "ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS, ArcGIS API for JavaScript, Sencha (ExtJS), ArcGIS Runtime SDK for macOS"
     },
     {
         "name": "Rene Rubalcava",
@@ -739,7 +739,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
-        "technologies": "ArcGIS API for JavaScript, ReactJS, VueJS, EmberJS, Knockout, Dojo, Electron"
+        "technologies": "ArcGIS API for JavaScript 3.x, ArcGIS API for JavaScript 4.x, ReactJS, VueJS, EmberJS, Knockout, Dojo, Electron, ArcGIS REST API"
     },
     {
         "name": "Jim Barry",
@@ -781,7 +781,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification"
+        "technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification, ArcGIS Online"
     },
     {
         "name": "Justin Colville",
@@ -879,7 +879,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "ArcGIS API for JavaScript"
+        "technologies": "ArcGIS API for JavaScript 4.x"
     },
     {
         "name": "Julie Powell",
@@ -1159,7 +1159,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "ArcGIS API for JavaScript, Storymaps, User Experience (UX), Design, User Interfaces (UI), Operations Dashboard for ArcGIS, ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS"
+        "technologies": "ArcGIS API for JavaScript, Storymaps, User Experience (UX), Design, User Interfaces (UI), Operations Dashboard for ArcGIS, ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS, Calcite"
     },
     {
         "name": "Jorge Barrachina",
@@ -1216,7 +1216,284 @@
         "geodev": false,
         "advocate": false,
         "technologies": "R-language"
+    },
+    {
+        "name": "Javier Gutierrez",
+        "picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAA0vAAAAJGJiODY2NmVmLTBlYzAtNGJiZC1iNzhlLTJiZmFkNjdmZTcyOQ.jpg",
+        "linkedin": "https://www.linkedin.com/in/jgtrez/",
+        "twitter": "https://twitter.com/jgutierrez0",
+        "github": "https://github.com/gutierrezj",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS API for JavaScript 4.x, 3D"
+    },
+    {
+        "name": "Johannes Schmid",
+        "picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAA1ZAAAAJGQ1NjkyOWQxLTA1ZWYtNGM2NC05YmUxLTBlY2MyYjU3MzU4Mw.jpg",
+        "linkedin": "https://www.linkedin.com/in/johannes-schmid-63a769142/",
+        "twitter": null,
+        "github": "https://github.com/joejohndoe",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS API for JavaScript 4.x, 3D"
+    },
+    {
+        "name": "Marika Vertzonis",
+        "picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAUDAAAAJDE5ODdmNGU3LWQyNTItNGZhMi05NGVhLWI0YTJmNTg3MDFlYw.jpg",
+        "linkedin": "https://www.linkedin.com/in/marika-vertzonis-67b219109/",
+        "twitter": null,
+        "github": "https://github.com/marikavertzonis",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": false,
+        "advocate": false,
+        "technologies": "AppStudio for ArcGIS"
+
+    },
+    {
+        "name": "John Grayson",
+        "picture": "https://raw.githubusercontent.com/esri-es/arcgis-experts/master/imgs/john-grayson.png",
+        "linkedin": null,
+        "twitter": "https://twitter.com/johndgrayson9",
+        "github": "https://github.com/jgrayson-apl",
+        "geonet": "https://community.esri.com/people/jgrayson-esristaff",
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS API for JavaScript 4.x, Vector Tiles"
+
+    },
+    {
+        "name": "Peter Becker",
+        "picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/072/1f1/19f4f49.jpg",
+        "linkedin": "https://www.linkedin.com/in/peter-becker-5027b8a/",
+        "twitter": null,
+        "github": "https://github.com/PBecker92373",
+        "geonet": "https://community.esri.com/people/pbecker-esristaff",
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": false,
+        "advocate": false,
+        "technologies": "ArcGIS Image Server"
+
+    },
+    {
+        "name": "Naila Khan",
+        "picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA3cAAAAJGVkMTZiNGUyLWMyNGMtNDhiZC1iMzQ3LWQ5YmU5NWJlZGU1NQ.jpg",
+        "linkedin": "https://www.linkedin.com/in/nkhan07/",
+        "twitter": null,
+        "github": "https://github.com/nkhan07",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Image Server"
+
+    },
+    {
+        "name": "Wenxue Ju",
+        "picture": null,
+        "linkedin": "https://www.linkedin.com/in/wenxue-ju-ab5735a/",
+        "twitter": null,
+        "github": "https://github.com/wju",
+        "geonet": "https://community.esri.com/people/Wenxue1",
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Image Server"
+
+    },
+    {
+        "name": "Paul Ross",
+        "picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAUuAAAAJGE5OGI4YTliLWFjNjEtNDZjMy1iODZhLTA3ZDA5M2JkODA4ZA.jpg",
+        "linkedin": "https://www.linkedin.com/in/paulross01/",
+        "twitter": "https://twitter.com/pwross01",
+        "github": "https://github.com/pwross",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Online"
+    },
+    {
+        "name": "Andrew Stauffer",
+        "picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbXAAAAJDFiYTgxMTdiLTcwNzgtNDE0OC1iMDYyLWZiZTJhOGE2M2M0ZA.jpg",
+        "linkedin": "https://www.linkedin.com/in/andrewjstauffer/",
+        "twitter": null,
+        "github": null,
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": false,
+        "advocate": false,
+        "technologies": "ArcGIS Online, ArcGIS Open Data"
+    },
+    {
+        "name": "Wolfgang Kaiser",
+        "picture": "https://avatars0.githubusercontent.com/u/5561398?s=460&v=4",
+        "linkedin": "https://www.linkedin.com/in/wolfgang-kaiser-15357299/",
+        "twitter": null,
+        "github": "https://github.com/Wolf-K",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Pro SDK"
+    },
+    {
+        "name": "Uma Harano",
+        "picture": null,
+        "linkedin": "https://www.linkedin.com/in/uma-harano-5a559bb9/",
+        "twitter": null,
+        "github": "https://github.com/UmaHarano",
+        "geonet": "https://community.esri.com/people/UHarano-esristaff",
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Pro SDK"
+    },{
+        "name": "Andrew Chapkowski",
+        "picture": null,
+        "linkedin": "https://www.linkedin.com/in/andrew-c-514b173b/",
+        "twitter": null,
+        "github": "https://github.com/achapkowski",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS REST API"
+    },{
+        "name": "Mike Branscomb",
+        "picture": "https://avatars2.githubusercontent.com/u/3381768?s=460&v=4",
+        "linkedin": "https://www.linkedin.com/in/michael-branscomb-4560bb6/",
+        "twitter": null,
+        "github": "https://github.com/mbranscomb",
+        "geonet": "https://community.esri.com/people/MBranscomb-esristaff",
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Runtime SDK for .NET"
+    },{
+        "name": "Antti Kajanus",
+        "picture": "https://avatars3.githubusercontent.com/u/1155333?s=460&v=4",
+        "linkedin": "https://www.linkedin.com/in/anttikajanus/",
+        "twitter": "https://twitter.com/anttikajanus",
+        "github": "https://github.com/anttikajanus",
+        "geonet": "https://community.esri.com/people/akajanus-esristaff",
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Runtime SDK for .NET"
+    },{
+        "name": "Dan O'Neill",
+        "picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAIABADGAAAAAQAAAAAAAAtgAAAAJDZmODNhZjc1LTU1ZWQtNDQ0MS1hMDE1LWIxZTBlM2NiMDQxYw.jpg",
+        "linkedin": "https://www.linkedin.com/in/jdoneill/",
+        "twitter": null,
+        "github": "https://github.com/doneill",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for Java"
+    },{
+        "name": "Ionut Alixandroae",
+        "picture": "https://pbs.twimg.com/profile_images/894468419243954176/9qfDQOgN_400x400.jpg",
+        "linkedin": "https://www.linkedin.com/in/ialixandroae/",
+        "twitter": "https://twitter.com/ialixandroae",
+        "github": null,
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Runtime SDK for Java"
+    },{
+        "name": "Mark Baird",
+        "picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/7/000/1fd/3d2/156e8b4.jpg",
+        "linkedin": "https://www.linkedin.com/in/mark-baird-5565786/",
+        "twitter": null,
+        "github": "https://github.com/mbcoder",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Runtime SDK for Java"
+    },{
+        "name": "Tyler Schiewe",
+        "picture": "https://avatars3.githubusercontent.com/u/6752266?s=460&v=4",
+        "linkedin": "https://www.linkedin.com/in/tyler-schiewe-35203381/",
+        "twitter": null,
+        "github": "https://github.com/tschie",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Runtime SDK for Java"
+    },{
+        "name": "Suganya Baskaran",
+        "picture": "https://avatars3.githubusercontent.com/u/4185324?s=460&v=4",
+        "linkedin": "https://www.linkedin.com/in/suganyab/",
+        "twitter": null,
+        "github": "https://github.com/sbaskaran",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Runtime SDK for macOS"
+    },{
+        "name": "Gagandeep Singh",
+        "picture": "https://avatars2.githubusercontent.com/u/1700271?s=460&v=4",
+        "linkedin": "https://www.linkedin.com/in/gagandeepsingh04/",
+        "twitter": null,
+        "github": "https://github.com/singhgag",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Runtime SDK for macOS"
     }
+
 
 
 ]
