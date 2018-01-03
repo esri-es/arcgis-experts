@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calcite web template</title>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+
+<!--[if IE]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-rc.8/css/calcite-web.min.css">
+<link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./jquery-ui-1.12.1.custom/jquery-ui.css">
+<link rel="stylesheet" href="./jquery-ui-1.12.1.custom/jquery-ui.structure.min.css">
+<link rel="stylesheet" href="./jquery-ui-1.12.1.custom/jquery-ui.theme.min.css">
+<script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-rc.8/js/calcite-web.min.js"></script>
+<script>
+window.onload = function () {calcite.init();};
+</script>
+<style>
+.sub-nav{
+    background-color: #052942;
+}
+.card-content i{
+    margin: 0 1px;
+}
+.card-image{
+    /* max-height: 180px; */
+}
+</style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <div class="column-24">
+            <!-- desktop sized navigation -->
+            <div class="tablet-hide">
+                <!-- logo / home -->
+                <a href="#" class="top-nav-title">ArcGIS Experts</a>
+                <!-- primary navigation sections -->
+                <nav class="top-nav-list" role="navigation" aria-labelledby="topnav">
+                </nav>
+                <!-- user specific dropdowns -->
+                <nav class="class-top-nav-list right" role="navigation" aria-labelledby="usernav">
+
+                    <!--<a class="top-nav-link margin-left-1" href="esri-spain.html">Esri Spain Experts</a>-->
+                    <a class="btn btn-clear margin-left-1 leader-half" href="#">Contribute</a>
+                </nav>
+            </div>
+
+            <!-- tablet and mobile sized navigation -->
+            <div class="tablet-show top-nav-flex">
+                <!-- open primary navigation drawer -->
+                <nav class="top-nav-flex-list" role="navigation" aria-labelledby="topnav">
+                    <a href="/" class="icon-ui-menu top-nav-link js-drawer-toggle" data-drawer="top-nav"><span class="phone-hide">Menu</span></a>
+                </nav>
+                <!-- logo / home -->
+                <header class="top-nav-flex-title">
+                    <a href="/" class="top-nav-link">ArcGIS <span class="phone-hide">for Developers</span></a>
+                </header>
+                <!-- user specific actions -->
+                <nav class="top-nav-flex-list text-right" role="navigation" aria-labelledby="usernav">
+                    <a class="top-nav-link icon-ui-search js-drawer-toggle" href="#" aria-label="Search"><span class="phone-hide">Search</span></a>
+                    <a class="top-nav-link icon-ui-user margin-left-1 js-drawer-toggle" href="#" aria-label="Sign In"><span class="phone-hide">Sign In</span></a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <header class="sub-nav" role="banner">
+        <div class="grid-container">
+
+            <div class="ui-front leader-1">
+                <div class="column-6">
+                    <label for="tags" class="text-white text-center" style="padding-top: 5px;">I'm looking for an expert in: </label>
+                </div>
+                <div class="column-18">
+                    <input class="input-group-input" id="tags">
+                </div>
+            </div>
+            </div>
+            <p id="techs" class="trailer-1"></p>
+        </div>
+    </header>
+
+    <div class="grid-container">
+        <div class="block-group block-group-6-up tablet-block-group-2-up phone-block-group-1-up leader-2" id="expert-list">
+        </div>
+
+        <script id="theTmpl" type="text/x-jsrender">
+        <div class="card block trailer-1" data-background="{{lower:technologies}}">
+        <figure class="card-image-wrap">
+
+        {{if picture}}
+            <img class="card-image" src="{{:picture}}" alt="Bridge Club, 1954">
+        {{else}}
+            <img class="card-image" src="no_avatar.jpg" alt="Bridge Club, 1954">
+        {{/if}}
+
+        <figcaption class="card-image-caption text-center">
+        {{:name}}
+        </figcaption>
+        </figure>
+        <div class="card-content text-center">
+        <p class="font-size--1 card-last">
+        <!--{{:technologies}}-->
+
+        {{if github}}
+        <a href="{{:github}}" target="blank">
+        <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+        {{/if}}
+
+        {{if stackexchange}}
+        <a href="{{:stackexchange}}" target="blank">
+        <i class="fa fa-stack-exchange" aria-hidden="true"></i>
+        </a>
+        {{/if}}
+
+        {{if stackoverflow}}
+        <a href="{{:stackoverflow}}" target="blank">
+        <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+        </a>
+        {{/if}}
+
+        {{if linkedin}}
+        <a href="{{:linkedin}}" target="blank">
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        {{/if}}
+
+        {{if twitter}}
+        <a href="{{:twitter}}" target="blank">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        {{/if}}
+
+        {{if geonet}}
+        <a href="{{:geonet}}" target="blank">
+        <i class="fa fa-comments-o" aria-hidden="true"></i>
+        </a>
+        {{/if}}
+
+        {{if arcgis}}
+        <a href="{{:arcgis}}" target="blank">
+        <i class="fa fa-globe" aria-hidden="true"></i>
+        </a>
+        {{/if}}
+
+        <span class="tooltip modifier-class" aria-label="{{:technologies}}">
+        <i class="fa fa-question-circle"></i>
+        </span>
+
+
+        </p>
+
+
+        </div>
+        </div>
+
+
+
+        </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="jsrender.min.js"></script>
+
+        <script src="./jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+        <script>
+        $.views.converters("lower", function(val) {
+          // Convert data-value or expression to upper case
+          if(val){
+              return val.toLowerCase();
+          }else{
+              return '';
+          }
+        });
+        $.getJSON("./experts.json", function(data){
+            var template = $.templates("#theTmpl");
+            data.experts = shuffle(data.experts);
+            var htmlOutput = template.render(data.experts);
+
+            $("#expert-list").html(htmlOutput);
+
+            var techs = [];
+            for ( i=0; i<data.experts.length; i++ ){
+                var aux = data.experts[i].technologies;
+                if(aux){
+                    aux = aux.split(", ");
+                    techs = techs.concat(aux);
+                }
+            }
+
+            function unique(list) {
+                var result = [];
+                $.each(list, function(i, e) {
+                    if ($.inArray(e, result) == -1) result.push(e);
+                });
+                return result;
+            }
+
+            techs = unique(techs);
+            console.log("techs = ",techs)
+            $( "#tags" ).autocomplete({
+                source: techs
+            });
+        }).done(function() {
+            console.log( "second success" );
+        })
+        .fail(function(jqXHR, textStatus, errorThrown) { alert('getJSON request failed! ' + textStatus); })
+
+        $("#tags").keyup(function(){
+            var value = this.value.toLowerCase();
+            if(value){
+                var condition = `[data-background*=\"${value}\"]`;
+                $(`.card.block${condition}`).show()
+                $(".card.block").not(condition).hide()
+            }else{
+                $(".card.block").show();
+            }
+        });
+
+        function shuffle(array) {
+          var currentIndex = array.length, temporaryValue, randomIndex;
+
+          // While there remain elements to shuffle...
+          while (0 !== currentIndex) {
+
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+          }
+
+          return array;
+        }
+
+
+        </script>
+    </body>
+    </html>
