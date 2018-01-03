@@ -289,7 +289,6 @@ window.onload = function () {calcite.init();};
             }
 
             techs = unique(techs);
-            console.log("techs = ",techs)
             var techsTmpl = $.templates("#techsTmpl");
             var htmlOutput = techsTmpl.render(techs.sort());
 
@@ -304,12 +303,10 @@ window.onload = function () {calcite.init();};
                 $('#tags').keyup();
             });
 
-            if(params.tech){
+            if(params && params.tech){
                 $('#tags').val(params.tech);
                 $('#tags').keyup();
             }
-        }).done(function() {
-            console.log( "second success" );
         })
         .fail(function(jqXHR, textStatus, errorThrown) { alert('getJSON request failed! ' + textStatus); })
     });
@@ -338,7 +335,6 @@ window.onload = function () {calcite.init();};
             var filteredNames = filtered_keys(links, regex);
 
             if(filteredNames.length > 0){
-                console.log("filteredNames = ", filteredNames)
                 $(".alert").show();
                 $(".selected-techs").empty();
                 filteredNames.forEach(function(elem, i){
@@ -352,8 +348,6 @@ window.onload = function () {calcite.init();};
                     }
 
                 });
-                //$(".selected-techs").text(aux);
-
             }
         }else{
             $(".alert").hide();
@@ -383,7 +377,6 @@ window.onload = function () {calcite.init();};
       var key, keys = [];
       for (key in obj) {
         if (obj.hasOwnProperty(key) && filter.test(key)) {
-            console.log("metemos=",key)
           keys.push(key);
         }
       }
