@@ -43,6 +43,11 @@
     .card-content i{
         margin: 0 1px;
     }
+    @media screen and (max-width: 479px){
+        .card-content i{
+            margin: 0 6px 6px;
+        }
+    }
     .small span, .clickable{
         /* max-height: 180px; */
         cursor: pointer;
@@ -107,9 +112,9 @@
             <div class="tablet-show top-nav-flex">
 
                 <header class="top-nav-flex-title">
-                    <a href="/" class="top-nav-link"><span class="phone-hide">Find and follow</span> ArcGIS Experts</a>
+                    <a href="#" class="top-nav-link"><span class="phone-hide">Find and follow</span> ArcGIS Experts</a>
                 </header>
-                <nav class="class-top-nav-list right phone-hide" role="navigation" aria-labelledby="usernav">
+                <nav class="class-top-nav-list right phone-show" role="navigation" aria-labelledby="usernav">
                     <a class="top-nav-link icon-ui-question margin-left-1" href="https://github.com/esri-es/arcgis-experts/blob/master/README.md#what-is-this-about" aria-label="Sign In"><span class="phone-hide"></span></a>
 
                 </nav>
@@ -123,34 +128,34 @@
                 <div class="column-6">
                     <label for="tags" class="text-white text-center tablet-hide" style="padding-top: 5px;">I'm looking for an expert in: </label>
                 </div>
-                <div class="column-18 trailer-1">
+                <div class="column-18 ">
                     <div class="input-group">
-                      <input class="input-group-input" id="tags">
-                      <span class="input-group-button btn-disabled" id="clearBtn">
-                        <button class="btn">Clear</button>
-                      </span>
+                        <input class="input-group-input" id="tags">
+                        <span class="input-group-button btn-disabled" id="clearBtn">
+                            <button class="btn">Clear</button>
+                        </span>
                     </div>
 
-                    <span class="small">
+                    <div class="small phone-hide trailer-1">
                         E.g:
                         <span class="clickable">User Experience</span>,
                         <span class="clickable">JavaScript</span>,
-                        <span class="phone-hide">
-                            <span class="clickable">Storymaps</span>,
-                            <span class="clickable">Web Map</span>,
-                            <span class="clickable">Android</span>,
-                            <span class="clickable">Drone2Map</span>,
-                            <span class="clickable">Web AppBuilder</span>,
-                            <span class="clickable">Esri Leaflet</span>,
-                        </span>
+                        <span class="clickable">Storymaps</span>,
+                        <span class="clickable">Web Map</span>,
+                        <span class="clickable">Android</span>,
+                        <span class="clickable">Drone2Map</span>,
+                        <span class="clickable">Web AppBuilder</span>,
+                        <span class="clickable">Esri Leaflet</span>,
                         <span class="js-modal-toggle" href="#" data-modal="modalTechnologies">view all</span>
-                    </span>
+                    </div>
+                    <div class="small text-center phone-show trailer-half">
+                        <span class="js-modal-toggle" href="#" data-modal="modalTechnologies">View all topics</span>
+                    </div>
                 </div>
             </div>
         </div>
         <p id="techs" class="trailer-1"></p>
-    </div>
-</header>
+    </header>
 
 <div class="grid-container">
     <div class="alert alert-yellow modifier-class is-active leader-1 text-center" style="display:none">
@@ -159,241 +164,253 @@
 
     <div class="block-group block-group-6-up tablet-block-group-3-up phone-block-group-2-up leader-1" id="expert-list">
     </div>
+</div>
 
-    <script id="theTmpl" type="text/x-jsrender">
-    <div class="card block trailer-1" data-background="{{lower:technologies}}">
-        <figure class="card-image-wrap">
-            {{if geodev || advocate}}
-                <mark class="tag label font-size--3">
-                {{if geodev}}
-                    <span class="tooltip" aria-label="He/she can write code">#geodev</span>
-                {{/if}}
-
-                {{if geodev && advocate}} & {{/if}}
-
-                {{if advocate}}
-                    <span class="tooltip" aria-label="His/her job is to make developers lifes easier">#advocate</span>
-                {{/if}}
-                </mark>
+<script id="theTmpl" type="text/x-jsrender">
+<div class="card block trailer-1" data-background="{{lower:technologies}}">
+    <figure class="card-image-wrap">
+        {{if geodev || advocate}}
+            <mark class="tag label font-size--3">
+            {{if geodev}}
+                <span class="tooltip" aria-label="He/she can write code">#geodev</span>
             {{/if}}
 
-            {{if picture}}
-                <img class="card-image" src="{{:picture}}" alt="{{:name}}">
-            {{else}}
-                <img class="card-image" src="no_avatar.jpg" alt="{{:name}}">
+            {{if geodev && advocate}} & {{/if}}
+
+            {{if advocate}}
+                <span class="tooltip" aria-label="His/her job is to make developers lifes easier">#advocate</span>
             {{/if}}
+            </mark>
+        {{/if}}
 
-            <figcaption class="card-image-caption text-center">
-                {{:name}}
-            </figcaption>
-        </figure>
-
-        <div class="card-content text-center">
-            <p class="font-size--1 card-last">
-                <!--{{:technologies}}-->
-
-                {{if github}}
-                    <a href="{{:github}}" target="blank" class="tooltip" aria-label="Github">
-                        <i class="fa fa-github" aria-hidden="true"></i>
-                    </a>
-                {{/if}}
-
-                {{if stackexchange}}
-                    <a href="{{:stackexchange}}" target="blank" class="tooltip" aria-label="StackExchange">
-                        <i class="fa fa-stack-exchange" aria-hidden="true"></i>
-                    </a>
-                {{/if}}
-
-                {{if stackoverflow}}
-                    <a href="{{:stackoverflow}}" target="blank" class="tooltip" aria-label="StackOverflow">
-                        <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                    </a>
-                {{/if}}
-
-                {{if linkedin}}
-                    <a href="{{:linkedin}}" target="blank" class="tooltip" aria-label="Linkedin">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                {{/if}}
-
-                {{if twitter}}
-                    <a href="{{:twitter}}" target="blank" class="tooltip" aria-label="Twitter">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                {{/if}}
-
-                {{if geonet}}
-                    <a href="{{:geonet}}" target="blank" class="tooltip" aria-label="GeoNet">
-                        <i class="fa fa-comments-o" aria-hidden="true"></i>
-                    </a>
-                {{/if}}
-
-                {{if arcgis}}
-                    <a href="{{:arcgis}}" target="blank" class="tooltip" aria-label="ArcGIS Online">
-                        <i class="fa fa-globe" aria-hidden="true"></i>
-                    </a>
-                {{/if}}
-
-                <span class="tooltip modifier-class" aria-label="Background: {{:technologies}}">
-                    <i class="fa fa-question-circle"></i>
-                </span>
-
-            </p>
-
-        </div>
-    </div>
-
-    </script>
-
-    <script id="missingExpert" type="text/x-jsrender">
-    <div class="card block trailer-1" data-background="missing">
-        <figure class="card-image-wrap">
-
+        {{if picture}}
+            <img class="card-image" src="{{:picture}}" alt="{{:name}}">
+        {{else}}
             <img class="card-image" src="no_avatar.jpg" alt="{{:name}}">
+        {{/if}}
 
-            <figcaption class="card-image-caption text-center">
-                Missing someone?
-            </figcaption>
-        </figure>
+        <figcaption class="card-image-caption text-center">
+            {{firstname:name}}
+            <span class="phone-hide">{{lastname:name}}</span>
+        </figcaption>
+    </figure>
 
-        <div class="card-content text-center">
-            <p class="font-size--1 card-last">
-                <a
-                    id="missingExpertLink"
-                    target="_blank"
-                    class="btn btn-fill"
-                    href="https://github.com/esri-es/arcgis-experts/issues/new">
-                    <span class="tablet-hide">Suggest expert</span>
-                    <span class="tablet-show">Add suggestion</span>
+    <div class="card-content text-center">
+        <p class="font-size--1 card-last">
+            <!--{{:technologies}}-->
+
+            {{if github}}
+                <a href="{{:github}}" target="blank" class="tooltip" aria-label="Github">
+                    <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
-            </p>
+            {{/if}}
 
-        </div>
+            {{if stackexchange}}
+                <a href="{{:stackexchange}}" target="blank" class="tooltip" aria-label="StackExchange">
+                    <i class="fa fa-stack-exchange" aria-hidden="true"></i>
+                </a>
+            {{/if}}
+
+            {{if stackoverflow}}
+                <a href="{{:stackoverflow}}" target="blank" class="tooltip" aria-label="StackOverflow">
+                    <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                </a>
+            {{/if}}
+
+            {{if linkedin}}
+                <a href="{{:linkedin}}" target="blank" class="tooltip" aria-label="Linkedin">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            {{/if}}
+
+            {{if twitter}}
+                <a href="{{:twitter}}" target="blank" class="tooltip" aria-label="Twitter">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+            {{/if}}
+
+            {{if geonet}}
+                <a href="{{:geonet}}" target="blank" class="tooltip" aria-label="GeoNet">
+                    <i class="fa fa-comments-o" aria-hidden="true"></i>
+                </a>
+            {{/if}}
+
+            {{if arcgis}}
+                <a href="{{:arcgis}}" target="blank" class="tooltip" aria-label="ArcGIS Online">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                </a>
+            {{/if}}
+
+            <span class="tooltip modifier-class" aria-label="Background: {{:technologies}}">
+                <i class="fa fa-question-circle"></i>
+            </span>
+
+        </p>
+
     </div>
-    </script>
+</div>
 
-    <script id="techsTmpl" type="text/x-jsrender">
-        <li class="clickable">{{>#data}}</li>
-    </script>
+</script>
 
-    <div class="js-modal modal-overlay modifier-class" data-modal="modalTechnologies">
-        <div class="modal-content column-12" role="dialog" aria-labelledby="modal">
+<script id="missingExpert" type="text/x-jsrender">
+<div class="card block trailer-1" data-background="missing">
+    <figure class="card-image-wrap">
 
-            <a class="js-modal-toggle right" href="#" aria-label="close-modal">
-                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewbox="0 0 32 32" class="svg-icon"><path d="M18.404 16l9.9 9.9-2.404 2.404-9.9-9.9-9.9 9.9L3.696 25.9l9.9-9.9-9.9-9.898L6.1 3.698l9.9 9.899 9.9-9.9 2.404 2.406-9.9 9.898z"/></svg>
+        <img class="card-image" src="no_avatar.jpg" alt="{{:name}}">
+
+        <figcaption class="card-image-caption text-center">
+            Miss someone?
+        </figcaption>
+    </figure>
+
+    <div class="card-content text-center">
+        <p class="font-size--1 card-last">
+            <a
+                id="missingExpertLink"
+                target="_blank"
+                class="btn btn-fill"
+                href="https://github.com/esri-es/arcgis-experts/issues/new">
+                <span class="tablet-hide">Suggest expert</span>
+                <span class="tablet-show">Suggest</span>
             </a>
+        </p>
 
-            <h3 class="trailer-half">Topics listing</h3>
-            <ul id="all-techs"></ul>
+    </div>
+</div>
+</script>
 
-            <div class="text-right">
-                <button class="btn js-modal-toggle">Done</button>
-            </div>
+<script id="techsTmpl" type="text/x-jsrender">
+    <li class="clickable">{{>#data}}</li>
+</script>
+
+<div class="js-modal modal-overlay modifier-class" data-modal="modalTechnologies">
+    <div class="modal-content column-12" role="dialog" aria-labelledby="modal">
+
+        <a class="js-modal-toggle right" href="#" aria-label="close-modal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewbox="0 0 32 32" class="svg-icon"><path d="M18.404 16l9.9 9.9-2.404 2.404-9.9-9.9-9.9 9.9L3.696 25.9l9.9-9.9-9.9-9.898L6.1 3.698l9.9 9.899 9.9-9.9 2.404 2.406-9.9 9.898z"/></svg>
+        </a>
+
+        <h3 class="trailer-half">Topics listing</h3>
+        <ul id="all-techs"></ul>
+
+        <div class="text-right">
+            <button class="btn js-modal-toggle">Done</button>
         </div>
     </div>
+</div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="jsrender.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="jsrender.min.js"></script>
 
-    <script src="./jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-    <script>
-    $.views.converters("lower", function(val) {
-        // Convert data-value or expression to upper case
-        if(val){
-            return val.toLowerCase();
-        }else{
-            return '';
+<script src="./jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script>
+$.views.converters("lower", function(val) {
+    // Convert data-value or expression to upper case
+    if(val){
+        return val.toLowerCase();
+    }else{
+        return '';
+    }
+});
+$.views.converters("firstname", function(val) {
+    return val.split(' ')[0];
+});
+$.views.converters("lastname", function(val) {
+    return val.split(' ')[1];
+});
+
+var params = getUrlParams();
+var links;
+$.getJSON("./awesome-links.json", function(data){
+    links = data;
+
+    $.getJSON("./experts.json", function(data){
+        var template = $.templates("#theTmpl");
+        data = shuffle(data);
+        var htmlOutput = template.render(data);
+
+        $("#expert-list").html(htmlOutput);
+
+        // Add missing expert
+        var template = $.templates("#missingExpert");
+        var htmlOutput = template.render({});
+        $("#expert-list").append(htmlOutput);
+
+
+        var techs = [];
+        for ( i=0; i<data.length; i++ ){
+            var aux = data[i].technologies;
+            if(aux){
+                aux = aux.split(", ");
+                techs = techs.concat(aux);
+            }
         }
-    });
-    var params = getUrlParams();
-    var links;
-    $.getJSON("./awesome-links.json", function(data){
-        links = data;
 
-        $.getJSON("./experts.json", function(data){
-            var template = $.templates("#theTmpl");
-            data = shuffle(data);
-            var htmlOutput = template.render(data);
-
-            $("#expert-list").html(htmlOutput);
-
-            // Add missing expert
-            var template = $.templates("#missingExpert");
-            var htmlOutput = template.render({});
-            $("#expert-list").append(htmlOutput);
-
-
-            var techs = [];
-            for ( i=0; i<data.length; i++ ){
-                var aux = data[i].technologies;
-                if(aux){
-                    aux = aux.split(", ");
-                    techs = techs.concat(aux);
-                }
-            }
-
-            function unique(list) {
-                var result = [];
-                $.each(list, function(i, e) {
-                    if ($.inArray(e, result) == -1) result.push(e);
-                });
-                return result;
-            }
-
-            techs = unique(techs);
-            var techsTmpl = $.templates("#techsTmpl");
-            var htmlOutput = techsTmpl.render(techs.sort());
-
-            $("#all-techs").html(htmlOutput);
-            $("#all-techs").append('<li>Missing any?, please <a href="https://github.com/esri-es/arcgis-experts/issues/new?title=Missing topic: [TOPIC]&body=I would like to see experts in...">let us know</a></li>')
-
-            $( "#tags" ).autocomplete({
-                source: techs
+        function unique(list) {
+            var result = [];
+            $.each(list, function(i, e) {
+                if ($.inArray(e, result) == -1) result.push(e);
             });
+            return result;
+        }
 
-            $('.clickable').click(function(){
-                $('#tags').val(this.innerText);
-                $('#tags').keyup();
-            });
+        techs = unique(techs);
+        var techsTmpl = $.templates("#techsTmpl");
+        var htmlOutput = techsTmpl.render(techs.sort());
 
-            if(params && params.topic){
-                $('#tags').val(params.topic);
-                $('#tags').keyup();
-            }
-        })
-        .fail(function(jqXHR, textStatus, errorThrown) { alert('getJSON request failed! ' + textStatus); })
-    });
-    $('#clearBtn').click(function(){
-        $('#tags').val('');
-        $('#tags').keyup();
-        $('#clearBtn').addClass('btn-disabled');
+        $("#all-techs").html(htmlOutput);
+        $("#all-techs").append('<li>Missing any?, please <a href="https://github.com/esri-es/arcgis-experts/issues/new?title=Missing topic: [TOPIC]&body=I would like to see experts in...">let us know</a></li>')
+
+        $( "#tags" ).autocomplete({
+            source: techs
+        });
+
+        $('.clickable').click(function(){
+            $('#tags').val(this.innerText);
+            $('#tags').keyup();
+        });
+
+        if(params && params.topic){
+            $('#tags').val(params.topic);
+            $('#tags').keyup();
+        }
     })
+    .fail(function(jqXHR, textStatus, errorThrown) { alert('getJSON request failed! ' + textStatus); })
+});
+$('#clearBtn').click(function(){
+    $('#tags').val('');
+    $('#tags').keyup();
+    $('#clearBtn').addClass('btn-disabled');
+})
 
-    $("#tags").keyup(function(){
+$("#tags").keyup(function(){
 
-        var value = this.value.toLowerCase();
-        if(value){
-            $('#clearBtn').removeClass('btn-disabled');
-            var condition = `[data-background*=\"${value}\"]`;
-            $(`.card.block${condition}`).show()
-            $(".card.block").not(condition).hide()
-        }else{
-            $(".card.block").show();
-            $('#clearBtn').addClass('btn-disabled');
-        }
-        $("#missingExpertLink").attr('href', `https://github.com/esri-es/arcgis-experts/issues/new?title=Missing%20expert%20in%20${this.value}`)
-        $("[data-background=\"missing\"]").show();
+    var value = this.value.toLowerCase();
+    if(value){
+        $('#clearBtn').removeClass('btn-disabled');
+        var condition = `[data-background*=\"${value}\"]`;
+        $(`.card.block${condition}`).show()
+        $(".card.block").not(condition).hide()
+    }else{
+        $(".card.block").show();
+        $('#clearBtn').addClass('btn-disabled');
+    }
+    $("#missingExpertLink").attr('href', `https://github.com/esri-es/arcgis-experts/issues/new?title=Missing%20expert%20in%20${this.value}`)
+    $("[data-background=\"missing\"]").show();
 
-        if(this.value){
-            // Avoid display all techs
-            var regex = new RegExp(this.value, "i");
-            var filteredNames = filtered_keys(links, regex);
+    if(this.value){
+        // Avoid display all techs
+        var regex = new RegExp(this.value, "i");
+        var filteredNames = filtered_keys(links, regex);
+        var hasAwesomePage = false;
 
-            if(filteredNames.length > 0){
-                $(".alert").show();
-                $(".selected-techs").empty();
-                filteredNames.forEach(function(elem, i){
+        if(filteredNames.length > 0){
+            console.log("filteredNames=",filteredNames)
+            $(".selected-techs").empty();
+            filteredNames.forEach(function(elem, i){
 
+                if(links[elem].url){
+                    hasAwesomePage = true;
                     var el = $('<a target="_blank"></a>').text(elem).attr("href", links[elem].url);
                     $(".selected-techs").append(el);
 
@@ -401,64 +418,69 @@
 
                         $(".selected-techs").append(", ");
                     }
+                }
 
-                });
+            });
+            if (hasAwesomePage){
+                $(".alert").show();
             }
-        }else{
-            $(".alert").hide();
+
         }
-    });
+    }else{
+        $(".alert").hide();
+    }
+});
 
-    function shuffle(array) {
-        var currentIndex = array.length, temporaryValue, randomIndex;
+function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
 
-        // While there remain elements to shuffle...
-        while (0 !== currentIndex) {
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
 
-            // Pick a remaining element...
-            randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex -= 1;
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
 
-            // And swap it with the current element.
-            temporaryValue = array[currentIndex];
-            array[currentIndex] = array[randomIndex];
-            array[randomIndex] = temporaryValue;
-        }
-
-        return array;
+        // And swap it with the current element.
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
     }
 
-    var filtered_keys = function(obj, filter) {
-      var key, keys = [];
-      for (key in obj) {
-        if (obj.hasOwnProperty(key) && filter.test(key)) {
-          keys.push(key);
-        }
-      }
-      return keys;
+    return array;
+}
+
+var filtered_keys = function(obj, filter) {
+  var key, keys = [];
+  for (key in obj) {
+    if (obj.hasOwnProperty(key) && filter.test(key)) {
+      keys.push(key);
     }
+  }
+  return keys;
+}
 
-    function getUrlParams() {
-        var search = location.search.substring(1);
-        if(search){
-            var obj = decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"');
-            return JSON.parse('{"' + obj  + '"}');
-        }else{
-            return null;
-        }
+function getUrlParams() {
+    var search = location.search.substring(1);
+    if(search){
+        var obj = decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"');
+        return JSON.parse('{"' + obj  + '"}');
+    }else{
+        return null;
     }
+}
 
-    </script>
+</script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49620025-14"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49620025-14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag('config', 'UA-49620025-14');
-    </script>
+  gtag('config', 'UA-49620025-14');
+</script>
 
 </body>
 </html>
