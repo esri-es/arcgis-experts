@@ -1189,6 +1189,20 @@
             "geodev": true,
             "advocate": false,
             "technologies": "Geoportal Server, INSPIRE"
+        },
+        {
+            "name": "David Cardella",
+            "picture": "https://avatars0.githubusercontent.com/u/1372978?v=4",
+            "linkedin": "https://www.linkedin.com/in/david-cardella-32bbb312/",
+            "twitter": null,
+            "github": "https://github.com/dcardella",
+            "geonet": null,
+            "arcgis": null,
+            "stackoverflow": null,
+            "stackexchange": null,
+            "geodev": false,
+            "advocate": false,
+            "technologies": "ArcGIS Runtime SDK for macOS, ArcGIS API for Python, ArcGIS Runtime SDK for iOS"
         }
     ]
 }
