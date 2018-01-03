@@ -1262,7 +1262,7 @@
     },
     {
         "name": "John Grayson",
-        "picture": "https://raw.githubusercontent.com/esri-es/arcgis-experts/master/imgs/john-grayson.png",
+        "picture": "https://esri-es.github.io/arcgis-experts/imgs/john-grayson.png",
         "linkedin": null,
         "twitter": "https://twitter.com/johndgrayson9",
         "github": "https://github.com/jgrayson-apl",
@@ -1492,6 +1492,19 @@
         "geodev": true,
         "advocate": false,
         "technologies": "ArcGIS Runtime SDK for macOS"
+    },{
+        "name": "Tamrat Belayneh",
+        "picture": "https://esri-es.github.io/arcgis-experts/imgs/tamrat-belayneh.png",
+        "linkedin": null,
+        "twitter": null,
+        "github": "https://github.com/Tamrat-B",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "i3s, 3D"
     }
 
 
