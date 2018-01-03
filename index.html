@@ -83,8 +83,9 @@ window.onload = function () {calcite.init();};
                 <!-- user specific dropdowns -->
                 <nav class="class-top-nav-list right" role="navigation" aria-labelledby="usernav">
 
+                    <a class="top-nav-link margin-left-1" href="https://github.com/esri-es/arcgis-experts/blob/master/README.md#what-is-this-about">Who is in here?</a>
                     <!--<a class="top-nav-link margin-left-1" href="esri-spain.html">Esri Spain Experts</a>-->
-                    <a class="btn btn-clear margin-left-1 leader-half" href="#">Contribute</a>
+                    <a class="btn btn-clear margin-left-1 leader-half" href="https://github.com/esri-es/arcgis-experts/blob/master/CONTRIBUTING.md">Contribute</a>
                 </nav>
             </div>
 
@@ -170,48 +171,48 @@ window.onload = function () {calcite.init();};
     <!--{{:technologies}}-->
 
     {{if github}}
-    <a href="{{:github}}" target="blank">
+    <a href="{{:github}}" target="blank" class="tooltip" aria-label="Github">
     <i class="fa fa-github" aria-hidden="true"></i>
     </a>
     {{/if}}
 
     {{if stackexchange}}
-    <a href="{{:stackexchange}}" target="blank">
+    <a href="{{:stackexchange}}" target="blank" class="tooltip" aria-label="StackExchange">
     <i class="fa fa-stack-exchange" aria-hidden="true"></i>
     </a>
     {{/if}}
 
     {{if stackoverflow}}
-    <a href="{{:stackoverflow}}" target="blank">
+    <a href="{{:stackoverflow}}" target="blank" class="tooltip" aria-label="StackOverflow">
     <i class="fa fa-stack-overflow" aria-hidden="true"></i>
     </a>
     {{/if}}
 
     {{if linkedin}}
-    <a href="{{:linkedin}}" target="blank">
+    <a href="{{:linkedin}}" target="blank" class="tooltip" aria-label="Linkedin">
     <i class="fa fa-linkedin" aria-hidden="true"></i>
     </a>
     {{/if}}
 
     {{if twitter}}
-    <a href="{{:twitter}}" target="blank">
+    <a href="{{:twitter}}" target="blank" class="tooltip" aria-label="Twitter">
     <i class="fa fa-twitter" aria-hidden="true"></i>
     </a>
     {{/if}}
 
     {{if geonet}}
-    <a href="{{:geonet}}" target="blank">
+    <a href="{{:geonet}}" target="blank" class="tooltip" aria-label="GeoNet">
     <i class="fa fa-comments-o" aria-hidden="true"></i>
     </a>
     {{/if}}
 
     {{if arcgis}}
-    <a href="{{:arcgis}}" target="blank">
+    <a href="{{:arcgis}}" target="blank" class="tooltip" aria-label="ArcGIS Online">
     <i class="fa fa-globe" aria-hidden="true"></i>
     </a>
     {{/if}}
 
-    <span class="tooltip modifier-class" aria-label="{{:technologies}}">
+    <span class="tooltip modifier-class" aria-label="Background: {{:technologies}}">
     <i class="fa fa-question-circle"></i>
     </span>
 
