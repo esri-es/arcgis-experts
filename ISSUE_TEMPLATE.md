@@ -1,12 +1,4 @@
-If you haven't done it already, please read the contributor guide, it will only take 2 minutes of your time.
-
-https://github.com/esri-es/arcgis-experts/blob/master/CONTRIBUTING.md
-
-Thanks!
-
-----
-
-*Profile template*
+If you are suggesting a new expert please fill this template:
 
 ```
 {
