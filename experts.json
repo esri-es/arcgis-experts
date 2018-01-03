@@ -1020,7 +1020,7 @@
             "stackexchange": null,
             "geodev": true,
             "advocate": false,
-            "technologies": "ArcGIS API for JavaScript, Dojo, Web AppBuilder for ArcGIS (Developer Edition), ArcGIS Enterprise, ArcGIS API for Python"
+            "technologies": "ArcGIS API for JavaScript, Dojo, Web AppBuilder for ArcGIS (Developer Edition), ArcGIS Enterprise, ArcGIS API for Python, Offline-editor-js"
         },
         {
             "name": "Joan Pere",
@@ -1203,6 +1203,22 @@
             "geodev": false,
             "advocate": false,
             "technologies": "ArcGIS Runtime SDK for macOS, ArcGIS API for Python, ArcGIS Runtime SDK for iOS"
+        },
+        {
+            "name": "Dariya Ordanovich",
+            "picture": "https://pbs.twimg.com/profile_images/724137333348569088/b9LlI6BR_400x400.jpg",
+            "linkedin": "https://ru.linkedin.com/in/dariyaordanovich/es",
+            "twitter": "https://twitter.com/dordanovich",
+            "github": null,
+            "geonet": null,
+            "arcgis": null,
+            "stackoverflow": null,
+            "stackexchange": null,
+            "geodev": false,
+            "advocate": false,
+            "technologies": "R-language"
         }
+
+
     ]
 }
