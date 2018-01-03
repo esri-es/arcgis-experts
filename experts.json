@@ -642,7 +642,7 @@
             "stackexchange": null,
             "geodev": true,
             "advocate": true,
-            "technologies": "ArcGIS API for JavaScript"
+            "technologies": "ArcGIS API for JavaScript, Esri Startup Program"
         },
         {
             "name": "Raul Jimenez",
@@ -656,7 +656,7 @@
             "stackexchange": null,
             "geodev": true,
             "advocate": true,
-            "technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS"
+            "technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS, Esri Startup Program"
         },
         {
             "name": "Mark Jagt",
@@ -768,7 +768,7 @@
             "stackexchange": null,
             "geodev": true,
             "advocate": false,
-            "technologies": "ArcGIS API for JavaScript, Web Map specification"
+            "technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification"
         },
         {
             "name": "Jeremy Bartley",
@@ -782,7 +782,7 @@
             "stackexchange": null,
             "geodev": true,
             "advocate": false,
-            "technologies": "ArcGIS API for JavaScript, Web Map specification"
+            "technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification"
         },
         {
             "name": "Justin Colville",
@@ -796,7 +796,7 @@
             "stackexchange": null,
             "geodev": true,
             "advocate": false,
-            "technologies": "ArcGIS API for JavaScript, Web Map specification"
+            "technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification"
         },
         {
             "name": "Tom Wayson",
@@ -1146,7 +1146,7 @@
             "stackexchange": null,
             "geodev": true,
             "advocate": false,
-            "technologies": "ArcGIS API for JavaScript, ReactJS, ArcGIS API for Python, ArcGIS Online, NodeJS"
+            "technologies": "ArcGIS API for JavaScript, ReactJS, ArcGIS API for Python, ArcGIS Online, NodeJS, Esri Startup Program"
         },
         {
             "name": "Alejandro Pequeño",
