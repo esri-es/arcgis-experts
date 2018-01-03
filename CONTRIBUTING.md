@@ -1,10 +1,11 @@
-Feel free to check the [issues on this repo](https://github.com/esri-es/arcgis-experts/issues) and do a pull request.
+Feel free to check the [issues on this repo](https://github.com/esri-es/arcgis-experts/issues) and do a [pull request](https://help.github.com/articles/about-pull-requests/).
 
 ### Add new experts
 
 If you want to suggest a new expert please [open a issue and fill this template](https://github.com/esri-es/arcgis-experts/issues/new):
 
-```{
+```
+{
     "name": null,
     "picture": null,
     "linkedin": null,
@@ -20,8 +21,12 @@ If you want to suggest a new expert please [open a issue and fill this template]
 }
 ```
 
-### Update existing
+### Update existing profiles
 
 The existing profiles are located in the [experts.json](https://github.com/esri-es/arcgis-experts/blob/master/experts.json) file, so if you want, you can also update any existing profile doing a [pull request](https://help.github.com/articles/about-pull-requests/) or using the [online editor](https://help.github.com/articles/editing-files-in-your-repository/).
 
 If you are not able to do that you can also [open a issue](https://github.com/esri-es/arcgis-experts/issues/new) doing a Copy&Paste of the profile and updating the fields.
+
+### Other contributions
+
+Feel free to open any issue to suggest an enhancement, report a bug, etc.

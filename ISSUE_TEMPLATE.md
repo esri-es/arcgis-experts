@@ -8,7 +8,8 @@ Thanks!
 
 *Profile template*
 
-```{
+```
+{
     "name": null,
     "picture": null,
     "linkedin": null,
