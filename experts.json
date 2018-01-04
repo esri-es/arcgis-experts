@@ -1330,7 +1330,7 @@
         "arcgis": null,
         "stackoverflow": null,
         "stackexchange": null,
-        "geodev": true,
+        "geodev": false,
         "advocate": false,
         "technologies": "ArcGIS Online"
     },
