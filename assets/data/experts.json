@@ -29,7 +29,7 @@
     },
     {
         "name": "Ismael Chivite",
-        "picture": "https://esri-es.github.io/arcgis-experts/assets/imgs/ismael-chivite.png",
+        "picture": "./assets/imgs/ismael-chivite.png",
         "linkedin": "https://www.linkedin.com/in/ismaelchivite/",
         "twitter": null,
         "github": "https://github.com/IsmaelInRedlands",
@@ -99,7 +99,7 @@
     },
     {
         "name": "Christopher Zent",
-        "picture": null,
+        "picture": "./assets/imgs/christopher-zent.jpg",
         "linkedin": "https://www.linkedin.com/in/christopher-zent-3578579/",
         "twitter": null,
         "github": "https://github.com/cjzent",
@@ -281,7 +281,7 @@
     },
     {
         "name": "Tim Witt",
-        "picture": "https://esri-es.github.io/arcgis-experts/assets/imgs/tim-witt.png",
+        "picture": "./assets/imgs/tim-witt.png",
         "linkedin": null,
         "twitter": null,
         "github": "https://github.com/timw1984/",
@@ -365,7 +365,7 @@
     },
     {
         "name": "Robert Garrity",
-        "picture": "https://esri-es.github.io/arcgis-experts/assets/imgs/robert-garrity.jpg",
+        "picture": "./assets/imgs/robert-garrity.jpg",
         "linkedin": null,
         "twitter": null,
         "github": "https://github.com/rgarrity",
@@ -757,7 +757,7 @@
     },
     {
         "name": "Bjorn Svensson",
-        "picture": "https://esri-es.github.io/arcgis-experts/assets/imgs/bjorn-svensonn.png",
+        "picture": "./assets/imgs/bjorn-svensonn.png",
         "linkedin": "https://www.linkedin.com/in/bjornman/",
         "twitter": "https://twitter.com/Bjorn_Svensson",
         "github": "https://github.com/bsvensson",
@@ -771,7 +771,7 @@
     },
     {
         "name": "Jeremy Bartley",
-        "picture": "https://esri-es.github.io/arcgis-experts/assets/imgs/jeremy-bartley.png",
+        "picture": "./assets/imgs/jeremy-bartley.png",
         "linkedin": "https://www.linkedin.com/in/jeremy-bartley-52559a4/",
         "twitter": "https://twitter.com/mapdex?lang=en",
         "github": "https://github.com/jbartley",
@@ -967,7 +967,7 @@
     },
     {
         "name": "Juanjo Pérez",
-        "picture": null,
+        "picture": "./assets/imgs/juanjo-perez.jpg",
         "linkedin": "https://es.linkedin.com/in/juan-jose-perez-real-50045460",
         "twitter": null,
         "github": null,
@@ -981,7 +981,7 @@
     },
     {
         "name": "Isaac Sánchez",
-        "picture": "https://esri-es.github.io/arcgis-experts/assets/imgs/isaac-sanchez.jpg",
+        "picture": "./assets/imgs/isaac-sanchez.jpg",
         "linkedin": "https://es.linkedin.com/in/isaacsanchezcastro",
         "twitter": "https://twitter.com/IsaacSCastro",
         "github": null,
@@ -1262,7 +1262,7 @@
     },
     {
         "name": "John Grayson",
-        "picture": "https://esri-es.github.io/arcgis-experts/assets/imgs/john-grayson.png",
+        "picture": "./assets/imgs/john-grayson.png",
         "linkedin": null,
         "twitter": "https://twitter.com/johndgrayson9",
         "github": "https://github.com/jgrayson-apl",
@@ -1307,7 +1307,7 @@
     },
     {
         "name": "Wenxue Ju",
-        "picture": null,
+        "picture": "./assets/imgs/wenxue-ju.jpg",
         "linkedin": "https://www.linkedin.com/in/wenxue-ju-ab5735a/",
         "twitter": null,
         "github": "https://github.com/wju",
@@ -1364,7 +1364,7 @@
     },
     {
         "name": "Uma Harano",
-        "picture": null,
+        "picture": "https://avatars2.githubusercontent.com/u/6740984?s=460&v=4",
         "linkedin": "https://www.linkedin.com/in/uma-harano-5a559bb9/",
         "twitter": null,
         "github": "https://github.com/UmaHarano",
@@ -1377,7 +1377,7 @@
         "technologies": "ArcGIS Pro SDK"
     },{
         "name": "Andrew Chapkowski",
-        "picture": null,
+        "picture": "https://avatars2.githubusercontent.com/u/5131271?s=460&v=4",
         "linkedin": "https://www.linkedin.com/in/andrew-c-514b173b/",
         "twitter": null,
         "github": "https://github.com/achapkowski",
@@ -1494,7 +1494,7 @@
         "technologies": "ArcGIS Runtime SDK for macOS"
     },{
         "name": "Tamrat Belayneh",
-        "picture": "https://esri-es.github.io/arcgis-experts/assets/imgs/tamrat-belayneh.png",
+        "picture": "./assets/imgs/tamrat-belayneh.png",
         "linkedin": null,
         "twitter": null,
         "github": "https://github.com/Tamrat-B",
@@ -1507,7 +1507,7 @@
         "technologies": "i3s, 3D"
     },{
         "name": "Jen Trieu",
-        "picture": null,
+        "picture": "https://avatars0.githubusercontent.com/u/6116216?s=460&v=4",
         "linkedin": "https://www.linkedin.com/in/jen-trieu-2520ab56/",
         "twitter": null,
         "github": "https://github.com/jtrieu",
