@@ -92,9 +92,8 @@
     [data-modal="modalProfile"] strong{
         text-decoration: underline;
     }
-    [data-modal="modalProfile"] img{
-        box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 0 16px 0 rgba(0,0,0,0.05);
-        border: 1px solid #efefef;
+    [data-modal="modalProfile"] figcaption{
+        display: none;
     }
     </style>
 </head>
@@ -327,7 +326,8 @@
             <p id="expertSocialLinks"></p>
         </div>
         <div class="column-3">
-            <img id="expertPicture" class="card-image" src="no_avatar.jpg" alt="{{:name}}">
+
+            <div id="expertPicture"></div>
         </div>
 
         <div class="text-center column-11 leader-half">
@@ -425,6 +425,7 @@ $.getJSON("./awesome-links.json", function(data){
             var modal = $('.js-modal[data-modal="modalProfile"]');
             var e = experts[$(this).data("userindex")];
             var elClass = `#${$(this).data("userslug")} .social`;
+            var elFigure = `#${$(this).data("userslug")} figure`;
 
             if(modal.hasClass('is-active')){
                 modal.removeClass('is-active');
@@ -437,10 +438,10 @@ $.getJSON("./awesome-links.json", function(data){
             $('#expertSocialLinks').empty().append($(elClass).clone())
 
             var profile = encodeURIComponent(JSON.stringify(e));
-            $('#expertDisclaimer').html(`Something missing or wrong? <a href="https://github.com/esri-es/arcgis-experts/issues/new?title=Update ${e.name} profile&body=${profile}">please tell us</a>`);
+            $('#expertDisclaimer').html(`Have you found something wrong or do you miss something?, <a href="https://github.com/esri-es/arcgis-experts/issues/new?title=Update ${e.name} profile&body=${profile}">please tell us</a>.`);
 
             if(e.picture){
-                $('#expertPicture').attr('src', e.picture);
+                $('#expertPicture').html($(elFigure).clone());
             }
 
             return false;
