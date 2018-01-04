@@ -11,13 +11,10 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
 
     <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
-    </script>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!--[if IE]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <!--[if IE]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
     <![endif]-->
 
     <meta property="og:type" content="article"/>
@@ -29,111 +26,19 @@
 
     <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-rc.8/css/calcite-web.min.css">
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./jquery-ui-1.12.1.custom/jquery-ui.css">
-    <link rel="stylesheet" href="./jquery-ui-1.12.1.custom/jquery-ui.structure.min.css">
-    <link rel="stylesheet" href="./jquery-ui-1.12.1.custom/jquery-ui.theme.min.css">
-    <script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-rc.8/js/calcite-web.min.js"></script>
+    <link rel="stylesheet" href="./assets/libs/jquery-ui-1.12.1.custom/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/libs/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="./assets/libs/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css">
+    <script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-rc.8/js/calcite-web.js"></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+
     <script>
-    window.onload = function () {calcite.init();};
+        window.onload = function () {calcite.init();};
     </script>
-    <style>
-    .sub-nav{
-        background-color: #052942;
-    }
-    .card-content i{
-        margin: 0 1px;
-    }
-    .small span, .clickable{
-        /* max-height: 180px; */
-        cursor: pointer;
-        text-decoration: underline;
-    }
-    .small{
-        font-size: .9rem;
-        color: #bfbdbd;
-        margin-top: 5px;
-    }
-    .very-small{
-        font-size: .8rem;
-    }
-    .input-group{
-        margin-bottom: .2rem;
-    }
-    #all-techs{
-        max-height: 300px;
-        overflow: scroll;
-    }
-    ::-webkit-scrollbar {
-        -webkit-appearance: none;
-        width: 7px;
-    }
-    ::-webkit-scrollbar-thumb {
-        border-radius: 4px;
-        background-color: rgba(0,0,0,.5);
-        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
-    }
-    .alert{
-        max-width: none;
-        z-index: 2;
-    }
-    .tag {
-        position: absolute;
-        top: 0;
-        right: 0;
-        border-radius: 0;
-        background-color: rgba(204, 204, 204, 0.73);
-    }
-    #expertSocialLinks a{
-        font-size: 1.5rem;
-        margin-right: .5rem;
-    }
-    [data-modal="modalProfile"] strong{
-        text-decoration: underline;
-    }
-    [data-modal="modalProfile"] figcaption{
-        display: none;
-    }
-    [data-modal="modalProfile"] .col-left{
-        width: 75%;
-        float: left;
-    }
-    [data-modal="modalProfile"] .col-right{
-        width: 25%;
-        float: left;
-    }
-    .clear{
-        clear:both
-    }
-    .expertPicture.phone-show .card-image-wrap{
-        width: 40%;
-        margin: 0 auto 1rem;
-    }
-    [data-modal="modalProfile"] .label{
-        white-space: normal;
-        text-align: center;
-        font-size: .7rem;
-        bottom: 0;
-        top: auto;
-        left: 0;
-    }
 
-    @media screen and (max-width: 479px){
-        .card-content i{
-            margin: 0 6px 6px;
-        }
-        [data-modal="modalProfile"] .col-left{
-            width: 100%;
-        }
-        [data-modal="modalProfile"] mark{
-            font-size: 0.6rem;
-        }
-
-    }
-    </style>
 </head>
 
 <body>
-
     <div class="grid-container">
         <div class="column-24">
             <!-- desktop sized navigation -->
@@ -210,7 +115,13 @@
     </div>
 </div>
 
-<script id="theTmpl" type="text/x-jsrender">
+
+<!--
+************************************************************
+                    MISSING EXPERT
+************************************************************
+-->
+<script id="expertCard" type="text/x-jsrender">
 <div class="card block trailer-1" id="{{slugify:name}}" data-background="{{lower:technologies}}">
     <figure class="card-image-wrap">
         {{if geodev || advocate}}
@@ -230,7 +141,7 @@
         {{if picture}}
             <img class="card-image" src="{{:picture}}" alt="{{:name}}">
         {{else}}
-            <img class="card-image" src="no_avatar.jpg" alt="{{:name}}">
+            <img class="card-image" src="./assets/imgs/no_avatar.jpg" alt="{{:name}}">
         {{/if}}
 
         <figcaption class="card-image-caption text-center">
@@ -284,10 +195,14 @@
                 </a>
             {{/if}}
 
-            <a class="js-modal-toggle" href="#expert={{slugify:name}}" data-userslug="{{slugify:name}}" data-modal="modalProfile" data-userIndex="{{:#index}}">
-                <i class="fa fa-question-circle"></i>
-            </a>
-
+            <span class="tooltip" aria-label="Full user profile">
+                <i
+                    class="showModalProfile fa fa-question-circle js-modal-toggle"
+                    data-modal="modalProfile"
+                    data-userslug="{{slugify:name}}"
+                    data-userIndex="{{:#index}}"
+                ></i>
+            </span>
         </p>
 
     </div>
@@ -295,6 +210,12 @@
 
 </script>
 
+
+<!--
+************************************************************
+                    MISSING EXPERT
+************************************************************
+-->
 <script id="missingExpert" type="text/x-jsrender">
 <div class="card block trailer-1" data-background="missing">
     <figure class="card-image-wrap">
@@ -376,233 +297,10 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="jsrender.min.js"></script>
+<script src="./assets/libs/jsrender.min.js"></script>
 
-<script src="./jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-<script>
-$.views.converters("lower", function(val) {
-    // Convert data-value or expression to upper case
-    if(val){
-        return val.toLowerCase();
-    }else{
-        return '';
-    }
-});
-$.views.converters("firstname", function(val) {
-    return val.split(' ')[0];
-});
-$.views.converters("lastname", function(val) {
-    return val.split(' ')[1];
-});
-$.views.converters("slugify", function(text){
-  return text.toString().toLowerCase()
-    .replace(/\s+/g, '-')           // Replace spaces with -
-    .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
-    .replace(/\-\-+/g, '-')         // Replace multiple - with single -
-    .replace(/^-+/, '')             // Trim - from start of text
-    .replace(/-+$/, '');            // Trim - from end of text
-});
-
-
-var params = getUrlParams();
-var anchors = getUrlAnchors();
-var links, experts;
-$.getJSON("./awesome-links.json", function(data){
-    links = data;
-
-    $.getJSON("./experts.json", function(data){
-        var template = $.templates("#theTmpl");
-        experts = shuffle(data);
-        var htmlOutput = template.render(experts);
-
-        $("#expert-list").html(htmlOutput);
-
-        // Add missing expert
-        var template = $.templates("#missingExpert");
-        var htmlOutput = template.render({});
-        $("#expert-list").append(htmlOutput);
-
-
-        var techs = [];
-        for ( i=0; i<data.length; i++ ){
-            var aux = data[i].technologies;
-            if(aux){
-                aux = aux.split(", ");
-                techs = techs.concat(aux);
-            }
-        }
-
-        function unique(list) {
-            var result = [];
-            $.each(list, function(i, e) {
-                if ($.inArray(e, result) == -1) result.push(e);
-            });
-            return result;
-        }
-
-        techs = unique(techs);
-        var techsTmpl = $.templates("#techsTmpl");
-        var htmlOutput = techsTmpl.render(techs.sort());
-
-        $("#all-techs").html(htmlOutput);
-        $("#all-techs").append('<li>Missing any?, please <a href="https://github.com/esri-es/arcgis-experts/issues/new?title=Missing topic: [TOPIC]&body=I would like to see experts in...">let us know</a></li>')
-
-        $( "#tags" ).autocomplete({
-            source: techs
-        });
-
-        $('.clickable').click(function(){
-            $('#tags').val(this.innerText);
-            $('#tags').keyup();
-        });
-
-        $('.js-modal-toggle[data-modal="modalProfile"]').click(function(e){
-            e.preventDefault();
-
-            var modal = $('.js-modal[data-modal="modalProfile"]');
-            var e = experts[$(this).data("userindex")];
-            var elClass = `#${$(this).data("userslug")} .social`;
-            var elFigure = `#${$(this).data("userslug")} figure`;
-
-            if(modal.hasClass('is-active')){
-                modal.removeClass('is-active');
-            }else{
-                modal.addClass('is-active');
-            }
-
-            $('#expertName').text(`${e.name}\'s profile`);
-            $('#expertSkills').html(`<strong>Background in:</strong><br> ${e.technologies}`);
-            $('#expertSocialLinks').empty().append($(elClass).clone())
-
-            var profile = encodeURIComponent(JSON.stringify(e));
-            $('#expertDisclaimer').html(`Have you found something wrong or do you miss something?, <a href="https://github.com/esri-es/arcgis-experts/issues/new?title=Update ${e.name} profile&body=${profile}">please tell us</a>.`);
-
-            if(e.picture){
-                $('.expertPicture').html($(elFigure).clone());
-            }
-
-            return false;
-        });
-
-        if(params && params.topic){
-            $('#tags').val(params.topic);
-            $('#tags').keyup();
-        }
-
-        if(anchors && anchors.expert){
-            openExpertModal(anchors.expert);
-        }
-    })
-    .fail(function(jqXHR, textStatus, errorThrown) { alert('getJSON request failed! ' + textStatus); })
-});
-$('#clearBtn').click(function(){
-    $('#tags').val('');
-    $('#tags').keyup();
-    $('#clearBtn').addClass('btn-disabled');
-})
-
-$("#tags").keyup(function(){
-
-    var value = this.value.toLowerCase();
-    if(value){
-        $('#clearBtn').removeClass('btn-disabled');
-        var condition = `[data-background*=\"${value}\"]`;
-        $(`.card.block${condition}`).show()
-        $(".card.block").not(condition).hide()
-    }else{
-        $(".card.block").show();
-        $('#clearBtn').addClass('btn-disabled');
-    }
-    $("#missingExpertLink").attr('href', `https://github.com/esri-es/arcgis-experts/issues/new?title=Missing%20expert%20in%20${this.value}`)
-    $("[data-background=\"missing\"]").show();
-
-    if(this.value){
-        // Avoid display all techs
-        var regex = new RegExp(this.value, "i");
-        var filteredNames = filtered_keys(links, regex);
-        var hasAwesomePage = false;
-
-        if(filteredNames.length > 0){
-            console.log("filteredNames=",filteredNames)
-            $(".selected-techs").empty();
-            filteredNames.forEach(function(elem, i){
-
-                if(links[elem].url){
-                    hasAwesomePage = true;
-                    var el = $('<a target="_blank"></a>').text(elem).attr("href", links[elem].url);
-                    $(".selected-techs").append(el);
-
-                    if(i < filteredNames.length - 1){
-
-                        $(".selected-techs").append(", ");
-                    }
-                }
-
-            });
-            if (hasAwesomePage){
-                $(".alert").show();
-            }
-
-        }
-    }else{
-        $(".alert").hide();
-    }
-});
-
-function openExpertModal(expertName){
-    $(`#${expertName} .js-modal-toggle`).click();
-    // debugger
-}
-
-function shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex;
-
-    // While there remain elements to shuffle...
-    while (0 !== currentIndex) {
-
-        // Pick a remaining element...
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
-
-        // And swap it with the current element.
-        temporaryValue = array[currentIndex];
-        array[currentIndex] = array[randomIndex];
-        array[randomIndex] = temporaryValue;
-    }
-
-    return array;
-}
-
-var filtered_keys = function(obj, filter) {
-  var key, keys = [];
-  for (key in obj) {
-    if (obj.hasOwnProperty(key) && filter.test(key)) {
-      keys.push(key);
-    }
-  }
-  return keys;
-}
-
-function getUrlParams() {
-    var search = location.search.substring(1);
-    if(search){
-        var obj = decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"');
-        return JSON.parse('{"' + obj  + '"}');
-    }else{
-        return null;
-    }
-}
-function getUrlAnchors() {
-    var search = location.href.split("#")[1];
-    if(search){
-        var obj = decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"');
-        return JSON.parse('{"' + obj  + '"}');
-    }else{
-        return null;
-    }
-}
-
-</script>
+<script src="./assets/libs/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="./assets/js/main.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49620025-14"></script>
@@ -614,5 +312,6 @@ function getUrlAnchors() {
   gtag('config', 'UA-49620025-14');
 </script>
 
+<span class="js-modal-toggle" data-modal="modalProfile" style="display:none">&nbsp;</span>
 </body>
 </html>

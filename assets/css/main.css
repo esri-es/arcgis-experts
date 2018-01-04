@@ -1,0 +1,96 @@
+.sub-nav{
+    background-color: #052942;
+}
+.card-content i{
+    margin: 0 1px;
+}
+.small span, .clickable{
+    /* max-height: 180px; */
+    cursor: pointer;
+    text-decoration: underline;
+}
+.small{
+    font-size: .9rem;
+    color: #bfbdbd;
+    margin-top: 5px;
+}
+.very-small{
+    font-size: .8rem;
+}
+.input-group{
+    margin-bottom: .2rem;
+}
+#all-techs{
+    max-height: 300px;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+.alert{
+    max-width: none;
+    z-index: 2;
+}
+.tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+    background-color: rgba(204, 204, 204, 0.73);
+}
+#expertSocialLinks a{
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+[data-modal="modalProfile"] strong{
+    text-decoration: underline;
+}
+[data-modal="modalProfile"] figcaption{
+    display: none;
+}
+[data-modal="modalProfile"] .col-left{
+    width: 75%;
+    float: left;
+}
+[data-modal="modalProfile"] .col-right{
+    width: 25%;
+    float: left;
+}
+.clear{
+    clear:both
+}
+.expertPicture.phone-show .card-image-wrap{
+    width: 40%;
+    margin: 0 auto 1rem;
+}
+[data-modal="modalProfile"] .label{
+    white-space: normal;
+    text-align: center;
+    font-size: .7rem;
+    bottom: 0;
+    top: auto;
+    left: 0;
+}
+.fa-question-circle.js-modal-toggle {
+    color: rgb(0, 121, 193);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 479px){
+    .card-content i{
+        margin: 0 6px 6px;
+    }
+    [data-modal="modalProfile"] .col-left{
+        width: 100%;
+    }
+    [data-modal="modalProfile"] mark{
+        font-size: 0.6rem;
+    }
+
+}

@@ -365,7 +365,7 @@
     },
     {
         "name": "Robert Garrity",
-        "picture": "https://esri-es.github.io/arcgis-experts/imgs/robert-garrity.jpg",
+        "picture": "https://esri-es.github.io/arcgis-experts/assets/imgs/robert-garrity.jpg",
         "linkedin": null,
         "twitter": null,
         "github": "https://github.com/rgarrity",
@@ -981,7 +981,7 @@
     },
     {
         "name": "Isaac Sánchez",
-        "picture": "https://esri-es.github.io/arcgis-experts/imgs/isaac-sanchez.jpg",
+        "picture": "https://esri-es.github.io/arcgis-experts/assets/imgs/isaac-sanchez.jpg",
         "linkedin": "https://es.linkedin.com/in/isaacsanchezcastro",
         "twitter": "https://twitter.com/IsaacSCastro",
         "github": null,
@@ -1262,7 +1262,7 @@
     },
     {
         "name": "John Grayson",
-        "picture": "https://esri-es.github.io/arcgis-experts/imgs/john-grayson.png",
+        "picture": "https://esri-es.github.io/arcgis-experts/assets/imgs/john-grayson.png",
         "linkedin": null,
         "twitter": "https://twitter.com/johndgrayson9",
         "github": "https://github.com/jgrayson-apl",
@@ -1494,7 +1494,7 @@
         "technologies": "ArcGIS Runtime SDK for macOS"
     },{
         "name": "Tamrat Belayneh",
-        "picture": "https://esri-es.github.io/arcgis-experts/imgs/tamrat-belayneh.png",
+        "picture": "https://esri-es.github.io/arcgis-experts/assets/imgs/tamrat-belayneh.png",
         "linkedin": null,
         "twitter": null,
         "github": "https://github.com/Tamrat-B",
