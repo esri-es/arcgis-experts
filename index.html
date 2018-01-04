@@ -123,7 +123,11 @@
 -->
 <script id="expertCard" type="text/x-jsrender">
 <div class="card block trailer-1" id="{{slugify:name}}" data-background="{{lower:technologies}}">
-    <figure class="card-image-wrap">
+    <figure
+        class="card-image-wrap showModalProfile"
+        data-userslug="{{slugify:name}}"
+        data-userIndex="{{:#index}}"
+    >
         {{if geodev || advocate}}
             <mark class="tag label font-size--3">
             {{if geodev}}
@@ -197,8 +201,7 @@
 
             <span class="tooltip" aria-label="Full user profile">
                 <i
-                    class="showModalProfile fa fa-question-circle js-modal-toggle"
-                    data-modal="modalProfile"
+                    class="showModalProfile fa fa-question-circle"
                     data-userslug="{{slugify:name}}"
                     data-userIndex="{{:#index}}"
                 ></i>
@@ -220,7 +223,7 @@
 <div class="card block trailer-1" data-background="missing">
     <figure class="card-image-wrap">
 
-        <img class="card-image" src="imgs/contributors-wanted.png" alt="{{:name}}">
+        <img class="card-image" src="./assets/imgs/contributors-wanted.png" alt="{{:name}}">
 
         <figcaption class="card-image-caption text-center">
             Miss someone?

@@ -77,8 +77,11 @@
     top: auto;
     left: 0;
 }
-.fa-question-circle.js-modal-toggle {
+.fa-question-circle.showModalProfile {
     color: rgb(0, 121, 193);
+    cursor: pointer;
+}
+.showModalProfile{
     cursor: pointer;
 }
 
