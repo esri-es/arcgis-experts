@@ -43,11 +43,6 @@
     .card-content i{
         margin: 0 1px;
     }
-    @media screen and (max-width: 479px){
-        .card-content i{
-            margin: 0 6px 6px;
-        }
-    }
     .small span, .clickable{
         /* max-height: 180px; */
         cursor: pointer;
@@ -94,6 +89,37 @@
     }
     [data-modal="modalProfile"] figcaption{
         display: none;
+    }
+    [data-modal="modalProfile"] .col-left{
+        width: 75%;
+        float: left;
+    }
+    [data-modal="modalProfile"] .col-right{
+        width: 25%;
+        float: left;
+    }
+    .clear{
+        clear:both
+    }
+    .expertPicture.phone-show .card-image-wrap{
+        width: 40%;
+        margin: 0 auto 1rem;
+    }
+    [data-modal="modalProfile"] .label{
+        white-space: normal;
+        text-align: center;
+    }
+    @media screen and (max-width: 479px){
+        .card-content i{
+            margin: 0 6px 6px;
+        }
+        [data-modal="modalProfile"] .col-left{
+            width: 100%;
+        }
+        [data-modal="modalProfile"] mark{
+            font-size: 0.6rem;
+        }
+
     }
     </style>
 </head>
@@ -316,21 +342,24 @@
         </a>
 
         <h3 class="trailer-half" id="expertName"></h3>
-        <div class="column-8">
-            <p id="expertSkills"></p>
-            <p class="trailer-0">
-                <strong>
-                    Social profiles:
-                </strong>
-            </p>
-            <p id="expertSocialLinks"></p>
-        </div>
-        <div class="column-3">
+        <div class="expertPicture phone-show text-center"></div>
+        <div class="clearfix">
+            <div class="col-left">
+                <p id="expertSkills"></p>
+                <p class="trailer-0">
+                    <strong>
+                        Social profiles:
+                    </strong>
+                </p>
+                <p id="expertSocialLinks"></p>
+            </div>
+            <div class="col-right phone-hide">
 
-            <div id="expertPicture"></div>
+                <div class="expertPicture"></div>
+            </div>
         </div>
 
-        <div class="text-center column-11 leader-half">
+        <div class="text-center block leader-half">
             <p id="expertDisclaimer" class="text-center trailer-half"></p>
 
             <button class="btn js-modal-toggle">Done</button>
@@ -441,7 +470,7 @@ $.getJSON("./awesome-links.json", function(data){
             $('#expertDisclaimer').html(`Have you found something wrong or do you miss something?, <a href="https://github.com/esri-es/arcgis-experts/issues/new?title=Update ${e.name} profile&body=${profile}">please tell us</a>.`);
 
             if(e.picture){
-                $('#expertPicture').html($(elFigure).clone());
+                $('.expertPicture').html($(elFigure).clone());
             }
 
             return false;
