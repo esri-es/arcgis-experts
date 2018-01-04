@@ -76,7 +76,7 @@ $.getJSON("./assets/data/awesome-links.json", function(data){
             $('#expertSkills').html(`<strong>Background in:</strong><br> ${e.technologies}`);
             $('#expertSocialLinks').empty().append($(elClass).clone())
 
-            var profile = encodeURIComponent(JSON.stringify(e, null, 2));
+            var profile = encodeURIComponent(`\`\`\`js\n${JSON.stringify(e, null, 2)}\n\`\`\``);
             $('#expertDisclaimer').html(`Have you found something wrong or do you miss something?, <a href="https://github.com/esri-es/arcgis-experts/issues/new?title=Update ${e.name} profile&body=${profile}">please tell us</a>.`);
 
             if(e.picture){
