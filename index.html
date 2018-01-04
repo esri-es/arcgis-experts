@@ -85,6 +85,17 @@
         border-radius: 0;
         background-color: rgba(204, 204, 204, 0.73);
     }
+    #expertSocialLinks a{
+        font-size: 1.5rem;
+        margin-right: .5rem;
+    }
+    [data-modal="modalProfile"] strong{
+        text-decoration: underline;
+    }
+    [data-modal="modalProfile"] img{
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 0 16px 0 rgba(0,0,0,0.05);
+        border: 1px solid #efefef;
+    }
     </style>
 </head>
 
@@ -167,7 +178,7 @@
 </div>
 
 <script id="theTmpl" type="text/x-jsrender">
-<div class="card block trailer-1" data-background="{{lower:technologies}}">
+<div class="card block trailer-1" id="{{slugify:name}}" data-background="{{lower:technologies}}">
     <figure class="card-image-wrap">
         {{if geodev || advocate}}
             <mark class="tag label font-size--3">
@@ -197,53 +208,52 @@
 
     <div class="card-content text-center">
         <p class="font-size--1 card-last">
-            <!--{{:technologies}}-->
 
             {{if github}}
-                <a href="{{:github}}" target="blank" class="tooltip" aria-label="Github">
+                <a href="{{:github}}" target="blank" class="tooltip social" aria-label="Github">
                     <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
             {{/if}}
 
             {{if stackexchange}}
-                <a href="{{:stackexchange}}" target="blank" class="tooltip" aria-label="StackExchange">
+                <a href="{{:stackexchange}}" target="blank" class="tooltip social" aria-label="StackExchange">
                     <i class="fa fa-stack-exchange" aria-hidden="true"></i>
                 </a>
             {{/if}}
 
             {{if stackoverflow}}
-                <a href="{{:stackoverflow}}" target="blank" class="tooltip" aria-label="StackOverflow">
+                <a href="{{:stackoverflow}}" target="blank" class="tooltip social" aria-label="StackOverflow">
                     <i class="fa fa-stack-overflow" aria-hidden="true"></i>
                 </a>
             {{/if}}
 
             {{if linkedin}}
-                <a href="{{:linkedin}}" target="blank" class="tooltip" aria-label="Linkedin">
+                <a href="{{:linkedin}}" target="blank" class="tooltip social" aria-label="Linkedin">
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
             {{/if}}
 
             {{if twitter}}
-                <a href="{{:twitter}}" target="blank" class="tooltip" aria-label="Twitter">
+                <a href="{{:twitter}}" target="blank" class="tooltip social" aria-label="Twitter">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
             {{/if}}
 
             {{if geonet}}
-                <a href="{{:geonet}}" target="blank" class="tooltip" aria-label="GeoNet">
+                <a href="{{:geonet}}" target="blank" class="tooltip social" aria-label="GeoNet">
                     <i class="fa fa-comments-o" aria-hidden="true"></i>
                 </a>
             {{/if}}
 
             {{if arcgis}}
-                <a href="{{:arcgis}}" target="blank" class="tooltip" aria-label="ArcGIS Online">
+                <a href="{{:arcgis}}" target="blank" class="tooltip social" aria-label="ArcGIS Online">
                     <i class="fa fa-globe" aria-hidden="true"></i>
                 </a>
             {{/if}}
 
-            <span class="tooltip modifier-class" aria-label="Background: {{:technologies}}">
+            <a class="js-modal-toggle" href="#expert={{slugify:name}}" data-userslug="{{slugify:name}}" data-modal="modalProfile" data-userIndex="{{:#index}}">
                 <i class="fa fa-question-circle"></i>
-            </span>
+            </a>
 
         </p>
 
@@ -299,6 +309,35 @@
     </div>
 </div>
 
+<div class="js-modal modal-overlay modifier-class" data-modal="modalProfile">
+    <div class="modal-content column-12" role="dialog" aria-labelledby="modal">
+
+        <a class="js-modal-toggle right" href="#" aria-label="close-modal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewbox="0 0 32 32" class="svg-icon"><path d="M18.404 16l9.9 9.9-2.404 2.404-9.9-9.9-9.9 9.9L3.696 25.9l9.9-9.9-9.9-9.898L6.1 3.698l9.9 9.899 9.9-9.9 2.404 2.406-9.9 9.898z"/></svg>
+        </a>
+
+        <h3 class="trailer-half" id="expertName"></h3>
+        <div class="column-8">
+            <p id="expertSkills"></p>
+            <p class="trailer-0">
+                <strong>
+                    Social profiles:
+                </strong>
+            </p>
+            <p id="expertSocialLinks"></p>
+        </div>
+        <div class="column-3">
+            <img id="expertPicture" class="card-image" src="no_avatar.jpg" alt="{{:name}}">
+        </div>
+
+        <div class="text-center column-11 leader-half">
+            <p id="expertDisclaimer" class="text-center trailer-half"></p>
+
+            <button class="btn js-modal-toggle">Done</button>
+        </div>
+    </div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="jsrender.min.js"></script>
 
@@ -318,16 +357,26 @@ $.views.converters("firstname", function(val) {
 $.views.converters("lastname", function(val) {
     return val.split(' ')[1];
 });
+$.views.converters("slugify", function(text){
+  return text.toString().toLowerCase()
+    .replace(/\s+/g, '-')           // Replace spaces with -
+    .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+    .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+    .replace(/^-+/, '')             // Trim - from start of text
+    .replace(/-+$/, '');            // Trim - from end of text
+});
+
 
 var params = getUrlParams();
-var links;
+var anchors = getUrlAnchors();
+var links, experts;
 $.getJSON("./awesome-links.json", function(data){
     links = data;
 
     $.getJSON("./experts.json", function(data){
         var template = $.templates("#theTmpl");
-        data = shuffle(data);
-        var htmlOutput = template.render(data);
+        experts = shuffle(data);
+        var htmlOutput = template.render(experts);
 
         $("#expert-list").html(htmlOutput);
 
@@ -370,9 +419,40 @@ $.getJSON("./awesome-links.json", function(data){
             $('#tags').keyup();
         });
 
+        $('.js-modal-toggle[data-modal="modalProfile"]').click(function(e){
+            e.preventDefault();
+
+            var modal = $('.js-modal[data-modal="modalProfile"]');
+            var e = experts[$(this).data("userindex")];
+            var elClass = `#${$(this).data("userslug")} .social`;
+
+            if(modal.hasClass('is-active')){
+                modal.removeClass('is-active');
+            }else{
+                modal.addClass('is-active');
+            }
+
+            $('#expertName').text(`${e.name}\'s profile`);
+            $('#expertSkills').html(`<strong>Background in:</strong><br> ${e.technologies}`);
+            $('#expertSocialLinks').empty().append($(elClass).clone())
+
+            var profile = encodeURIComponent(JSON.stringify(e));
+            $('#expertDisclaimer').html(`Something missing or wrong? <a href="https://github.com/esri-es/arcgis-experts/issues/new?title=Update ${e.name} profile&body=${profile}">please tell us</a>`);
+
+            if(e.picture){
+                $('#expertPicture').attr('src', e.picture);
+            }
+
+            return false;
+        });
+
         if(params && params.topic){
             $('#tags').val(params.topic);
             $('#tags').keyup();
+        }
+
+        if(anchors && anchors.expert){
+            openExpertModal(anchors.expert);
         }
     })
     .fail(function(jqXHR, textStatus, errorThrown) { alert('getJSON request failed! ' + textStatus); })
@@ -431,6 +511,11 @@ $("#tags").keyup(function(){
     }
 });
 
+function openExpertModal(expertName){
+    $(`#${expertName} .js-modal-toggle`).click();
+    // debugger
+}
+
 function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
 
@@ -462,6 +547,15 @@ var filtered_keys = function(obj, filter) {
 
 function getUrlParams() {
     var search = location.search.substring(1);
+    if(search){
+        var obj = decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"');
+        return JSON.parse('{"' + obj  + '"}');
+    }else{
+        return null;
+    }
+}
+function getUrlAnchors() {
+    var search = location.href.split("#")[1];
     if(search){
         var obj = decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"');
         return JSON.parse('{"' + obj  + '"}');
