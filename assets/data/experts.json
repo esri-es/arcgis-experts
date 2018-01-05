@@ -11,6 +11,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Lidar, Drone2Map, ArcGIS Image Server, Imagery and Rasters, Full Motion Video"
     },
     {
@@ -25,6 +27,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Vector Tiles"
     },
     {
@@ -39,6 +43,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "AppStudio for ArcGIS, Survey123 for ArcGIS, Collector for ArcGIS, Explorer for ArcGIS, Navigator for ArcGIS, Workforce for ArcGIS, ArcGIS Runtime SDK for Qt"
     },
     {
@@ -53,6 +59,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Collector for ArcGIS, Workforce for ArcGIS, Operations Dashboard for ArcGIS"
     },
     {
@@ -67,6 +75,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Explorer for ArcGIS, AppStudio for ArcGIS"
     },
     {
@@ -81,6 +91,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Full Motion Video, Imagery and Rasters, ArcGIS Image Server"
     },
     {
@@ -95,6 +107,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Full Motion Video"
     },
     {
@@ -109,6 +123,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Pro SDK"
     },
     {
@@ -123,6 +139,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Enterprise, GeoAnalytics Server"
     },
     {
@@ -137,6 +155,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Enterprise, GeoAnalytics Server, GeoEvent Server"
     },
     {
@@ -151,6 +171,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Enterprise, GeoAnalytics Server, GeoEvent Server"
     },
     {
@@ -165,6 +187,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": "http://thunderheadxpler.blogspot.com.es/",
         "technologies": "GeoEvent Server"
     },
     {
@@ -179,6 +203,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Hub"
     },
     {
@@ -193,6 +219,8 @@
         "stackexchange": "https://gis.stackexchange.com/users/21012/john-gravois?tab=profile",
         "geodev": true,
         "advocate": true,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Hub, ArcGIS Open Data, NodeJS, Esri Leaflet, ArcGIS API for JavaScript 3.x, Open Source, ArcGIS REST API"
     },
     {
@@ -207,6 +235,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Hub, ArcGIS Open Data, Cedar"
     },
     {
@@ -221,6 +251,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Storymaps, Design, User Experience (UX), User Interfaces (UI)"
     },
     {
@@ -235,6 +267,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Storymaps"
     },
     {
@@ -249,6 +283,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Storymaps"
     },
     {
@@ -263,6 +299,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Storymaps"
     },
     {
@@ -277,6 +315,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Storymaps"
     },
     {
@@ -291,6 +331,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Storymaps"
     },
     {
@@ -305,6 +347,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Storymaps"
     },
     {
@@ -319,6 +363,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Storymaps"
     },
     {
@@ -333,6 +379,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Drone2Map"
     },
     {
@@ -347,6 +395,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Network Analyst, Navigator for ArcGIS, StreetMap Premium for ArcGIS"
     },
     {
@@ -361,6 +411,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Network Analyst"
     },
     {
@@ -375,6 +427,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Network Analyst"
     },
     {
@@ -389,6 +443,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Network Analyst"
     },
     {
@@ -403,6 +459,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Navigator for ArcGIS"
     },
     {
@@ -417,6 +475,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Survey123 for ArcGIS"
     },
     {
@@ -431,6 +491,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Web AppBuilder for ArcGIS (Developer Edition)"
     },
     {
@@ -445,6 +507,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
+        "youtube": null,
+        "blog": "https://gavinr.com/",
         "technologies": "Web AppBuilder for ArcGIS (Developer Edition)"
     },
     {
@@ -459,6 +523,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Web AppBuilder for ArcGIS (Developer Edition)"
     },
     {
@@ -473,6 +539,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Web AppBuilder for ArcGIS (Developer Edition)"
     },
     {
@@ -487,6 +555,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Web AppBuilder for ArcGIS (Developer Edition)"
     },
     {
@@ -501,6 +571,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Ruby on Rails, NodeJS, ArcGIS REST API, AngularJS, Esri Leaflet"
     },
     {
@@ -515,6 +587,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcPy, Python, ArcGIS API for JavaScript"
     },
     {
@@ -529,6 +603,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for Python"
     },
     {
@@ -543,6 +619,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "R-language"
     },
     {
@@ -557,6 +635,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for .NET, ArcGIS Runtime SDK for WPF"
     },
     {
@@ -571,6 +651,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for .NET, Virtual Reality (VR), ArcGIS Runtime SDK for WPF"
     },
     {
@@ -585,6 +667,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for Java, ArcGIS Runtime SDK for Android"
     },
     {
@@ -599,6 +683,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for iOS, ArcGIS Runtime SDK for macOS"
     },
     {
@@ -613,6 +699,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for Qt, AppStudio for ArcGIS"
     },
     {
@@ -627,6 +715,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript"
     },
     {
@@ -641,6 +731,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript 4.x, Esri Startup Program"
     },
     {
@@ -655,6 +747,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
+        "youtube": "https://www.youtube.com/GeoDevelopers",
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS, Esri Startup Program, Calcite, Cedar, Demographics, Esri World Geocoding Service, Open Source"
     },
     {
@@ -669,6 +763,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for Python"
     },
     {
@@ -683,6 +779,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript, Phonegap (Apache Cordova), AngularJS, Offline-editor-js, jQuery"
     },
     {
@@ -697,6 +795,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
+        "youtube": null,
+        "blog": null,
         "technologies": "User Interfaces (UI), User Experience (UX), Design, Calcite, jQuery"
     },
     {
@@ -711,6 +811,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Pro (scripting with Python)"
     },
     {
@@ -725,6 +827,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS, ArcGIS API for JavaScript, Sencha (ExtJS), ArcGIS Runtime SDK for macOS"
     },
     {
@@ -733,12 +837,14 @@
         "linkedin": "https://www.linkedin.com/in/renerubalcava/",
         "twitter": "https://twitter.com/odoenet",
         "github": "https://github.com/odoe",
-        "geonet": null,
+        "geonet": "https://community.esri.com/people/odoe",
         "arcgisonline": null,
         "stackoverflow": null,
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
+        "youtube": "https://www.youtube.com/channel/UCo7tc3KZgH4GMUcqcSFBLOQ",
+        "blog": "http://odoe.net/blog/",
         "technologies": "ArcGIS API for JavaScript 3.x, ArcGIS API for JavaScript 4.x, ReactJS, VueJS, EmberJS, Knockout, Dojo, Electron, ArcGIS REST API"
     },
     {
@@ -753,6 +859,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript"
     },
     {
@@ -767,6 +875,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification"
     },
     {
@@ -781,6 +891,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification, ArcGIS Online"
     },
     {
@@ -795,6 +907,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification"
     },
     {
@@ -809,6 +923,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": "http://tomwayson.com/",
         "technologies": "AngularJS, Cedar, EmberJS"
     },
     {
@@ -823,6 +939,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "AngularJS"
     },
     {
@@ -837,6 +955,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": "http://blog.davebouwman.com/",
         "technologies": "AngularJS, EmberJS"
     },
     {
@@ -851,6 +971,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "AngularJS"
     },
     {
@@ -865,6 +987,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript 4.x"
     },
     {
@@ -879,6 +1003,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": "http://kiwigis.blogspot.com.es/",
         "technologies": "ArcGIS API for JavaScript 4.x"
     },
     {
@@ -893,6 +1019,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript"
     },
     {
@@ -907,6 +1035,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "jQuery, User Experience (UX)"
     },
     {
@@ -921,6 +1051,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Phonegap (Apache Cordova)"
     },
     {
@@ -935,6 +1067,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Desktop, ArcGIS Online, ArcGIS Open Data, ArcGIS Pro, ArcGIS Earth, ArcGIS Maps for Office, Esri Business Analyst, KoopJS, Operations Dashboard for ArcGIS, Web AppBuilder for ArcGIS, Workforce for ArcGIS"
     },
     {
@@ -949,6 +1083,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": "https://esriblog.wordpress.com/author/nachovazquezesri/",
         "technologies": "ArcGIS Desktop, ArcGIS Pro"
     },
     {
@@ -963,6 +1099,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "GeoEvent Server, GeoAnalytics Server, Insights for ArcGIS, ArcGIS Enterprise"
     },
     {
@@ -977,6 +1115,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Open Data, Living Atlas"
     },
     {
@@ -991,6 +1131,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Earth, 3D, i3s, Esri CityEngine, Virtual Reality (VR)"
     },
     {
@@ -1005,6 +1147,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "GeoPortal Server, INSPIRE"
     },
     {
@@ -1019,6 +1163,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript, Dojo, Web AppBuilder for ArcGIS (Developer Edition), ArcGIS Enterprise, ArcGIS API for Python, Offline-editor-js, ArcPy"
     },
     {
@@ -1033,6 +1179,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript, Web AppBuilder for ArcGIS (Developer Edition), ArcGIS Enterprise, ArcGIS Runtime SDK for Android, Python, ArcGIS API for Python, ArcPy"
     },
     {
@@ -1047,6 +1195,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Pro SDK"
     },
     {
@@ -1061,6 +1211,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for .NET, Xamarin"
     },
     {
@@ -1075,6 +1227,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "3D, i3s, ArcGIS Earth"
     },
     {
@@ -1089,6 +1243,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "KoopJS"
     },
     {
@@ -1103,6 +1259,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Esri World Geocoding Service, Basemaps"
     },
     {
@@ -1117,6 +1275,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Demographics"
     },
     {
@@ -1131,6 +1291,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "User Interfaces (UI), User Experience (UX), Design"
     },
     {
@@ -1145,6 +1307,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript, ReactJS, ArcGIS API for Python, ArcGIS Online, NodeJS, Esri Startup Program"
     },
     {
@@ -1159,6 +1323,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript, Storymaps, User Experience (UX), Design, User Interfaces (UI), Operations Dashboard for ArcGIS, ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS, Calcite"
     },
     {
@@ -1173,6 +1339,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": true,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript"
     },
     {
@@ -1187,6 +1355,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Geoportal Server, INSPIRE"
     },
     {
@@ -1201,6 +1371,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for macOS, ArcGIS API for Python, ArcGIS Runtime SDK for iOS"
     },
     {
@@ -1215,6 +1387,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "R-language"
     },
     {
@@ -1229,6 +1403,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript 4.x, 3D"
     },
     {
@@ -1243,6 +1419,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript 4.x, 3D"
     },
     {
@@ -1257,6 +1435,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "AppStudio for ArcGIS"
 
     },
@@ -1272,6 +1452,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript 4.x, Vector Tiles"
 
     },
@@ -1287,6 +1469,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Image Server"
 
     },
@@ -1302,6 +1486,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Image Server"
 
     },
@@ -1317,6 +1503,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Image Server"
 
     },
@@ -1332,6 +1520,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Online"
     },
     {
@@ -1346,6 +1536,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Online, ArcGIS Open Data"
     },
     {
@@ -1360,6 +1552,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Pro SDK"
     },
     {
@@ -1374,6 +1568,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Pro SDK"
     },{
         "name": "Andrew Chapkowski",
@@ -1387,6 +1583,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS REST API"
     },{
         "name": "Mike Branscomb",
@@ -1400,6 +1598,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for .NET, ArcGIS Runtime SDK for WPF"
     },{
         "name": "Antti Kajanus",
@@ -1413,6 +1613,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for .NET"
     },{
         "name": "Dan O'Neill",
@@ -1426,6 +1628,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for Java"
     },{
         "name": "Ionut Alixandroae",
@@ -1439,6 +1643,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript, NodeJS, Web AppBuilder for ArcGIS (Developer Edition), jQuery, Python, ArcGIS API for Python, ArcPy, ArcGIS REST API, ArcGIS Enterprise, ArcGIS Runtime SDK for Java, Calcite, CityEngine, Operations Dashboard for ArcGIS, Storymaps"
     },{
         "name": "Mark Baird",
@@ -1452,6 +1658,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for Java"
     },{
         "name": "Tyler Schiewe",
@@ -1465,6 +1673,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for Java"
     },{
         "name": "Suganya Baskaran",
@@ -1478,6 +1688,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for macOS"
     },{
         "name": "Gagandeep Singh",
@@ -1491,6 +1703,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for macOS"
     },{
         "name": "Tamrat Belayneh",
@@ -1504,6 +1718,8 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "i3s, 3D"
     },{
         "name": "Jen Trieu",
@@ -1517,6 +1733,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for Qt, QML"
     },{
         "name": "Michael Tims",
@@ -1530,6 +1748,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for Qt, QML, ArcGIS Runtime SDK for .NET"
     },{
         "name": "Lucas Danzinger",
@@ -1543,6 +1763,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for Qt, Python"
     },{
         "name": "Tina Jin",
@@ -1556,6 +1778,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "AppStudio for ArcGIS"
     },{
         "name": "Clinton Dow",
@@ -1569,6 +1793,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "Python, ArcPy"
     },{
         "name": "Matej Vrtich",
@@ -1582,6 +1808,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS API for JavaScript"
     },{
         "name": "Dominique Broux",
@@ -1595,6 +1823,8 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "ArcGIS Runtime SDK for WPF"
     },{
         "name": "Frederic Aubry",
@@ -1608,6 +1838,24 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
+        "youtube": null,
+        "blog": null,
         "technologies": "EmberJS"
+    },
+    {
+        "name": "Hussein Nasser",
+        "picture": "https://pbs.twimg.com/profile_images/934174489507590144/lM1jlV9M_400x400.jpg",
+        "linkedin": "https://www.linkedin.com/in/hnaser/",
+        "twitter": "https://twitter.com/hnasr",
+        "github": "https://github.com/hnasr",
+        "geonet": null,
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "youtube": "https://www.youtube.com/user/GISIGeometry",
+        "blog": "http://www.husseinnasser.com",
+        "technologies": "ArcGIS API for JavaScript 4.x, Geodatabase, UtilityNetwork, ArcGIS Server"
     }
 ]
