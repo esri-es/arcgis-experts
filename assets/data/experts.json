@@ -220,7 +220,7 @@
 		"advocate": true,
 		"youtube": null,
 		"blog": null,
-		"technologies": "ArcGIS Hub, ArcGIS Open Data, NodeJS, Esri Leaflet, ArcGIS API for JavaScript 3.x, Open Source, ArcGIS REST API"
+		"technologies": "ArcGIS Hub, ArcGIS Open Data, NodeJS, Esri Leaflet, ArcGIS API for JavaScript 3.x, Open Source, ArcGIS REST API, KoopJS"
 	},
 	{
 		"name": "Andrew Turner",
@@ -1453,7 +1453,7 @@
 		"advocate": false,
 		"youtube": null,
 		"blog": null,
-		"technologies": "ArcGIS API for JavaScript 4.x, Vector Tiles, KoopJS"
+		"technologies": "ArcGIS API for JavaScript 4.x, Vector Tiles"
 
 	},
 	{
