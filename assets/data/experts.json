@@ -1003,7 +1003,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "youtube": null,
+        "youtube": "https://www.youtube.com/channel/UCkGfnF-ui55wOuhLarXMIGw",
         "blog": "http://kiwigis.blogspot.com.es/",
         "technologies": "ArcGIS API for JavaScript 4.x"
     },
@@ -1227,7 +1227,7 @@
         "stackexchange": null,
         "geodev": false,
         "advocate": false,
-        "youtube": null,
+        "youtube": "https://www.youtube.com/channel/UCSzuvSYEIN_ut8u7Qov76AQ",
         "blog": null,
         "technologies": "3D, i3s, ArcGIS Earth"
     },
