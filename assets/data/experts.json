@@ -1432,14 +1432,14 @@
         "picture": "https://pbs.twimg.com/profile_images/894468419243954176/9qfDQOgN_400x400.jpg",
         "linkedin": "https://www.linkedin.com/in/ialixandroae/",
         "twitter": "https://twitter.com/ialixandroae",
-        "github": null,
-        "geonet": null,
+        "github": "https://github.com/ialixandroae",
+        "geonet": "https://community.esri.com/people/ialixandroaeesriro-ro-esridist",
         "arcgis": null,
-        "stackoverflow": null,
+        "stackoverflow": "https://stackoverflow.com/users/5629171/ionut-alixandroae",
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "ArcGIS Runtime SDK for Java"
+        "technologies": "ArcGIS API for JavaScript, NodeJS, Web AppBuilder for ArcGIS (Developer Edition), jQuery, Python, ArcGIS API for Python, ArcPy, ArcGIS REST API, ArcGIS Enterprise, ArcGIS Runtime SDK for Java, Calcite, CityEngine, Operations Dashboard for ArcGIS, Storymaps"
     },{
         "name": "Mark Baird",
         "picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/7/000/1fd/3d2/156e8b4.jpg",
