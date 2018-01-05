@@ -37,7 +37,7 @@
         "linkedin": "https://www.linkedin.com/in/ismaelchivite/",
         "twitter": null,
         "github": "https://github.com/IsmaelInRedlands",
-        "geonet": null,
+        "geonet": "https://community.esri.com/people/ichivite-esristaff",
         "arcgisonline": null,
         "stackoverflow": null,
         "stackexchange": null,
@@ -45,7 +45,7 @@
         "advocate": false,
         "youtube": null,
         "blog": null,
-        "technologies": "AppStudio for ArcGIS, Survey123 for ArcGIS, Collector for ArcGIS, Explorer for ArcGIS, Navigator for ArcGIS, Workforce for ArcGIS, ArcGIS Runtime SDK for Qt"
+        "technologies": "AppStudio for ArcGIS, Survey123 for ArcGIS, Collector for ArcGIS, Explorer for ArcGIS, Navigator for ArcGIS, Workforce for ArcGIS, ArcGIS Runtime SDK for Qt, ArcGIS Enterprise"
     },
     {
         "name": "Jeff Shaner",
