@@ -237,7 +237,7 @@
         "advocate": false,
         "youtube": null,
         "blog": null,
-        "technologies": "ArcGIS Hub, ArcGIS Open Data, Cedar"
+        "technologies": "ArcGIS Hub, ArcGIS Open Data, Cedar, KoopJS"
     },
     {
         "name": "Sajit Thomas",
@@ -1454,7 +1454,7 @@
         "advocate": false,
         "youtube": null,
         "blog": null,
-        "technologies": "ArcGIS API for JavaScript 4.x, Vector Tiles"
+        "technologies": "ArcGIS API for JavaScript 4.x, Vector Tiles, KoopJS"
 
     },
     {
@@ -1841,8 +1841,7 @@
         "youtube": null,
         "blog": null,
         "technologies": "EmberJS"
-    },
-    {
+    },{
         "name": "Hussein Nasser",
         "picture": "https://pbs.twimg.com/profile_images/934174489507590144/lM1jlV9M_400x400.jpg",
         "linkedin": "https://www.linkedin.com/in/hnaser/",
@@ -1857,5 +1856,50 @@
         "youtube": "https://www.youtube.com/user/GISIGeometry",
         "blog": "http://www.husseinnasser.com",
         "technologies": "ArcGIS API for JavaScript 4.x, Geodatabase, UtilityNetwork, ArcGIS Server"
+    },{
+        "name": "Matt Driscoll",
+        "picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAJ-AAAAJGI3MmQxZDdjLTBkNTQtNDQ2Ny05ODc2LWY0NzFiYTlmMDlmYw.jpg",
+        "linkedin": "https://www.linkedin.com/in/driscollm/",
+        "twitter": "https://twitter.com/driskull",
+        "github": "https://github.com/driskull",
+        "geonet": "https://community.esri.com/people/MDriscoll-esristaff",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "youtube": null,
+        "blog": null,
+        "technologies": "ArcGIS API for JavaScript, Dojo, Offline-editor-js"
+    },{
+        "name": "Sam Libby",
+        "picture": "./assets/imgs/sam-libby.png",
+        "linkedin": "https://www.linkedin.com/in/samlibby/",
+        "twitter": null,
+        "github": "https://github.com/slibby",
+        "geonet": "https://community.esri.com/people/SLibby-esristaff",,
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "youtube": null,
+        "blog": null,
+        "technologies": "KoopJS, ArcGIS Enterprise, Python"
+    },{
+        "name": "Adam Pfister",
+        "picture": "https://media-exp2.licdn.com/media/p/2/005/0b3/2e8/35e0c6e.jpg",
+        "linkedin": "https://www.linkedin.com/in/ajpfister/",
+        "twitter": "https://twitter.com/adamjpfister",
+        "github": "https://github.com/apfister",
+        "geonet": "https://community.esri.com/people/apfister-esristaff",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "youtube": null,
+        "blog": null,
+        "technologies": "KoopJS, ArcGIS Server, Esri Leaflet, Dojo, ArcGIS API for JavaScript"
     }
 ]
