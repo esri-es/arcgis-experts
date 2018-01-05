@@ -572,7 +572,7 @@
 		"advocate": false,
 		"youtube": null,
 		"blog": null,
-		"technologies": "Ruby on Rails, NodeJS, ArcGIS REST API, AngularJS, Esri Leaflet"
+		"technologies": "Ruby on Rails, NodeJS, ArcGIS REST API, AngularJS, Esri Leaflet, oAuth"
 	},
 	{
 		"name": "Gary Sheppard",
@@ -748,7 +748,7 @@
 		"advocate": true,
 		"youtube": "https://www.youtube.com/GeoDevelopers",
 		"blog": null,
-		"technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS, Esri Startup Program, Calcite, Cedar, Demographics, Esri World Geocoding Service, Open Source"
+		"technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS, Esri Startup Program, Calcite, Cedar, Demographics, Esri World Geocoding Service, Open Source, oAuth"
 	},
 	{
 		"name": "Mark Jagt",
@@ -956,7 +956,7 @@
 		"advocate": false,
 		"youtube": null,
 		"blog": "http://blog.davebouwman.com/",
-		"technologies": "AngularJS, EmberJS"
+		"technologies": "AngularJS, EmberJS, oAuth"
 	},
 	{
 		"name": "Keith Stewart",
