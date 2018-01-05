@@ -557,7 +557,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "ArcGIS Runtime SDK for .NET"
+        "technologies": "ArcGIS Runtime SDK for .NET, ArcGIS Runtime SDK for WPF"
     },
     {
         "name": "Rex Hansen",
@@ -571,7 +571,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "ArcGIS Runtime SDK for .NET, Virtual Reality (VR)"
+        "technologies": "ArcGIS Runtime SDK for .NET, Virtual Reality (VR), ArcGIS Runtime SDK for WPF"
     },
     {
         "name": "Eric Bader",
@@ -1400,7 +1400,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "ArcGIS Runtime SDK for .NET"
+        "technologies": "ArcGIS Runtime SDK for .NET, ArcGIS Runtime SDK for WPF"
     },{
         "name": "Antti Kajanus",
         "picture": "https://avatars3.githubusercontent.com/u/1155333?s=460&v=4",
@@ -1583,5 +1583,19 @@
         "geodev": true,
         "advocate": false,
         "technologies": "ArcGIS API for JavaScript"
+    },{
+        "name": "Dominique Broux",
+        "picture": "https://avatars1.githubusercontent.com/u/4007034?s=460&v=4",
+        "linkedin": null,
+        "twitter": "https://twitter.com/dbroux",
+        "github": "https://github.com/dbroux",
+        "geonet": "https://community.esri.com/people/dbroux-esristaff",
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Runtime SDK for WPF"
+
     }
 ]
