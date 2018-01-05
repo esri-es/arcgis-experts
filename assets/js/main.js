@@ -119,14 +119,25 @@ $("#tags").keyup(function(){
     $("[data-background=\"missing\"]").show();
 
     if(this.value){
+
+
         // Avoid display all techs
-        var regex = new RegExp(this.value, "i");
-        var filteredNames = filtered_keys(links, regex);
-        var hasAwesomePage = false;
+        var regex = new RegExp(this.value, "i"),
+            filteredNames = filtered_keys(links, regex),
+            hasAwesomePage = false,
+            topic = encodeURIComponent(this.value);
+            issue_title = encodeURIComponent(`New resource page for ${this.value}`),
+            issue_body = encodeURIComponent(`I would like to have a new resource page about this. Should we ask [the experts](https://esri-es.github.io/arcgis-experts/?topic=${topic}) to check if they can help us with this?.\n\nWe could start adding the [resource page template](RESOURCE_PAGE_TEMPLATE.md) to the repo to start drafting this page.\n\nI think this page would be located inside **[REPLACE THIS]** section.\n\nCheers!`),
+            topic_quoted = encodeURIComponent(`"${this.value}"`);
+            search_link = `https://esri-es.github.io/arcgis-search/?search=${topic_quoted}&utm_source=arcgis-experts&utm_medium=page`;
+
+        var str = `We haven\'t found any page on the <a href="https://esri-es.github.io/awesome-arcgis/">Awesome List for ArcGIS Developers</a> for \"<strong><a href="${search_link}">${this.value}</a></strong>\", feel free to <a href="https://github.com/hhkaos/awesome-arcgis/issues/new?title=${issue_title}&body=${issue_body}">ask for it</a>.`
+
+        $(".alert").html('Learn more about <span class="selected-techs"></span> in the Awesome list of resources')
 
         if(filteredNames.length > 0){
-            console.log("filteredNames=",filteredNames)
-            $(".selected-techs").empty();
+            //console.log("filteredNames=",filteredNames)
+
             filteredNames.forEach(function(elem, i){
 
                 if(links[elem].url){
@@ -141,11 +152,15 @@ $("#tags").keyup(function(){
                 }
 
             });
-            if (hasAwesomePage){
-                $(".alert").show();
+
+            if (!hasAwesomePage){
+                $(".alert").html(str)
             }
 
+        }else{
+            $(".alert").html(str)
         }
+        $(".alert").show();
     }else{
         $(".alert").hide();
     }
