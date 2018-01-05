@@ -101,6 +101,9 @@
     "Esri Leaflet": {
         "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/leaflet/"
     },
+    "Esri Startup Program":{
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/startup-program/"
+    },
     "Esri World Geocoding Service": {
         "url": null
     },
