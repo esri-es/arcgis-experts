@@ -809,7 +809,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "AngularJS, Cedar"
+        "technologies": "AngularJS, Cedar, EmberJS"
     },
     {
         "name": "Jacob Wasilkowski",
@@ -837,7 +837,7 @@
         "stackexchange": null,
         "geodev": true,
         "advocate": false,
-        "technologies": "AngularJS"
+        "technologies": "AngularJS, EmberJS"
     },
     {
         "name": "Keith Stewart",
@@ -1596,6 +1596,19 @@
         "geodev": true,
         "advocate": false,
         "technologies": "ArcGIS Runtime SDK for WPF"
+    },{
+        "name": "Frederic Aubry",
+        "picture": "https://avatars2.githubusercontent.com/u/3506166?s=460&v=4",
+        "linkedin": "https://www.linkedin.com/in/frederic-aubry-a1a36b13/",
+        "twitter": "https://twitter.com/FFAubry",
+        "github": "https://github.com/ffaubry",
+        "geonet": null,
+        "arcgis": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "EmberJS"
 
     }
 ]
