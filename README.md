@@ -3,7 +3,7 @@ This is a curated list of experts in ArcGIS Technology.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of contents** 
+**Table of contents**
 
 - [Who is in this list](#who-is-in-this-list)
 - [Why this project?](#why-this-project)
@@ -46,4 +46,4 @@ We just want to clarify what this is not, it is **NOT**:
 
 ## Contributions
 
-Read the [contributors guide](./CONTRIBUTING.md).
+Please read the [contributors guide](./CONTRIBUTING.md).
