@@ -7,7 +7,7 @@ This is a curated list of experts in ArcGIS Technology.
 
 - [Who is in this list](#who-is-in-this-list)
 - [Why this project?](#why-this-project)
-- [What is it **not**](#what-is-it-not)
+- [What it is **not**](#what-is-it-not)
 - [Contributions](#contributions)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -37,7 +37,7 @@ The initial idea was to help anyone interested on ArcGIS technologies to find an
 
 So our main goal is to help anyone to find and follow the public activity of an expert but also to recognize all of this experts are doing to help others.
 
-## What is it **not**
+## What it is **not**
 
 We just want to clarify what this is not, it is **NOT**:
 
