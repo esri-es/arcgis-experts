@@ -10,8 +10,8 @@ We have not many rules (yet ;-P), this is a list of topics we consider you can h
 
 - [Existing issues](#existing-issues)
 - [Improving the list of experts](#improving-the-list-of-experts)
-- [Add new experts](#add-new-experts)
-- [Update existing profiles](#update-existing-profiles)
+    - [Add new experts](#add-new-experts)
+    - [Update existing profiles](#update-existing-profiles)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
