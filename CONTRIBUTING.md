@@ -2,7 +2,7 @@
 
 First of all, thanks for been here!, we really appreciate you are considering to help us.
 
-We have not many rules (yes ;-P), this is a list of topics we consider you can help us, but feel free to suggest anything else you want opening a new issue.
+We have not many rules (yet ;-P), this is a list of topics we consider you can help us, but feel free to suggest anything else you want opening a new issue.
 
 ## Existing issues
 
