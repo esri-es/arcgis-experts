@@ -1930,5 +1930,35 @@
         "geodev": false,
 		"advocate": false,
 		"technologies": "Esri Startup Program"
+    },{
+        "name": "Alan Cassidy",
+		"picture": "https://media-exp2.licdn.com/media/p/5/005/053/343/104af94.jpg",
+		"linkedin": "https://www.linkedin.com/in/alan-cassidy-60146538/",
+		"twitter": null,
+		"github": null,
+		"geonet": "https://community.esri.com/people/acassidy-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": "https://community.esri.com/people/acassidy-esristaff/blog",
+        "geodev": false,
+		"advocate": false,
+		"technologies": "ArcGIS Marketplace"
+    },{
+        "name": "Martin Copping",
+		"picture": "./assets/imgs/martin-copping.jpg",
+		"linkedin": "https://www.linkedin.com/in/mcopping/",
+		"twitter": "https://twitter.com/mgcopping",
+		"github": null,
+		"geonet": "https://community.esri.com/people/MCopping-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+        "geodev": false,
+		"advocate": false,
+		"technologies": "ArcGIS Marketplace, Esri Startup Program"
     }
 ]
