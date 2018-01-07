@@ -1,6 +1,6 @@
 # Contributors
 
-First of all, thanks for been here!, we really appreciate you are considering to help us.
+First of all, thanks for been here!, we really appreciate you are considering to help [us](https://github.com/esri-es/arcgis-experts/graphs/contributors).
 
 We have not many rules (yet ;-P), this is a list of topics we consider you can help us, but feel free to suggest anything else you want opening a new issue.
 
