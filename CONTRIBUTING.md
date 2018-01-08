@@ -24,7 +24,7 @@ Let us know inside the issue if you want to work on it so we can assign it to yo
 
 ## Suggesting new topics
 
-You can see all the topics available clicking the "view all" link in the app.
+You can see all the topics available clicking the "view all" link in [the app](https://esri-es.github.io/arcgis-experts/).
 
 ![Screenshot](./assets/imgs/btn-view-all.png)
 
