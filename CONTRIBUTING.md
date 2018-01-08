@@ -8,18 +8,27 @@ We have not many rules (yet ;-P), this is a list of topics we consider you can h
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of contents**  
 
-- [Existing issues](#existing-issues)
+- [Fixing bugs or adding enhancements](#fixing-bugs-or-adding-enhancements)
+- [Suggesting new topics](#suggesting-new-topics)
 - [Improving the list of experts](#improving-the-list-of-experts)
     - [Add new experts](#add-new-experts)
     - [Update existing profiles](#update-existing-profiles)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Existing issues
+## Fixing bugs or adding enhancements
 
 There are already a list of [bugs reported and enhancements suggested](https://github.com/esri-es/arcgis-experts/issues) you might want to check.
 
 Let us know inside the issue if you want to work on it so we can assign it to you.
+
+## Suggesting new topics
+
+You can see all the topics available clicking the "view all" link in the app.
+
+![Screenshot](./assets/imgs/btn-view-all.png)
+
+This list is a work in progress, so if you miss some topic please [open an issue](issues/new?title=Missing%20topic:%20[TOPIC]&body=I%20would%20like%20to%20see%20experts%20in...) and let us know.
 
 ## Improving the list of experts
 
