@@ -34,24 +34,7 @@ This list is a work in progress, so if you miss some topic please [open an issue
 
 ### Add new experts
 
-If you want to suggest a new expert you can directly do a [pull request](https://help.github.com/articles/about-pull-requests/) or if you feel lazy, or do not know how to do that, [open a issue and fill this template](https://github.com/esri-es/arcgis-experts/issues/new):
-
-```
-{
-    "name": null,
-    "picture": null,
-    "linkedin": null,
-    "twitter": null,
-    "github": null,
-    "geonet": null,
-    "arcgis": null,
-    "stackoverflow": null,
-    "stackexchange": null,
-    "geodev": false,
-    "advocate": false,
-    "technologies": null
-}
-```
+If you want to suggest a new expert you can directly do a [pull request](https://help.github.com/articles/about-pull-requests/) or if you feel lazy, or do not know how to do that, [open a issue](https://github.com/esri-es/arcgis-experts/issues/new) and fill [this template](./ISSUE_TEMPLATE.md).
 
 ### Update existing profiles
 
