@@ -2005,5 +2005,20 @@
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Android"
+	}, {
+		"name": "Xueming Wu",
+		"picture": "https://avatars1.githubusercontent.com/u/5581259?s=460&v=4",
+		"linkedin": "https://community.esri.com/people/XWu-esristaff",
+		"twitter": null,
+		"github": "https://github.com/XuemingRocks",
+		"geonet": "https://community.esri.com/people/JFord-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"geodev": true,
+		"advocate": false,
+		"technologies": "ArcGIS Runtime SDK for Android"
 	}
 ]
