@@ -8,9 +8,11 @@ If you are suggesting a new expert please fill this template:
     "twitter": null,
     "github": null,
     "geonet": null,
-    "arcgis": null,
+    "arcgisonline": null,
     "stackoverflow": null,
     "stackexchange": null,
+    "youtube": null,
+    "blog": null,
     "geodev": false,
     "advocate": false,
     "technologies": null
