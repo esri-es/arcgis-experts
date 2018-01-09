@@ -44,4 +44,4 @@ The existing profiles are located in the [experts.json](https://github.com/esri-
 
 **For non-developers**:
 
-If you don't know how to do that [open page](https://esri-es.github.io/arcgis-experts/), find the profile (Ctrl+F), click the question mark icon and click the "**please tell us**" link just above the "**Done**" button.
+In case you don't know how to do a pull request, [open the app](https://esri-es.github.io/arcgis-experts/), find the profile (*use Ctrl+F*), click the question mark icon and then click the "**please tell us**" link just above the "**Done**" button.
