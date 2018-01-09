@@ -2020,5 +2020,20 @@
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Android"
-	}
+	},{
+		"name": "Matthias Schenker",
+		"picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAvdAAAAJDg3Y2IxMDI1LWIyY2ItNDljYS1hMzg3LTIwN2Q1MzRlNzAzYg.jpg",
+		"linkedin": "https://www.linkedin.com/in/matthias-schenker-274623a/",
+		"twitter": "https://twitter.com/MattSchenker",
+		"github": "https://github.com/mschenker",
+		"geonet": "https://community.esri.com/people/m.schenkeresri-ch-esridist",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": "",
+        "geodev": true,
+		"advocate": false,
+		"technologies": "ArcGIS Enterprise, ArcGIS Rest API, ArcGIS API for Python"
+    }
 ]
