@@ -2031,7 +2031,7 @@
 		"stackoverflow": null,
 		"stackexchange": null,
 		"youtube": null,
-		"blog": "",
+		"blog": null,
         "geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Enterprise, ArcGIS Rest API, ArcGIS API for Python"
