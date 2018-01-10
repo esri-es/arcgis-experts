@@ -84,6 +84,11 @@
 .showModalProfile{
     cursor: pointer;
 }
+.card-image-caption{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 @media screen and (max-width: 479px){
     .card-content i{
