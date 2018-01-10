@@ -2032,7 +2032,7 @@
         "stackexchange": null,
         "youtube": null,
         "blog": null,
-        "geodev": true,
+        "geodev": false,
         "advocate": true,
         "technologies": "ArcGIS Runtime SDK for Java"
     }
