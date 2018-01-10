@@ -2035,5 +2035,20 @@
         "geodev": false,
         "advocate": true,
         "technologies": "ArcGIS Runtime SDK for Java"
+    },{
+        "name": "Rob Burke",
+        "picture": "https://media-exp2.licdn.com/media/p/3/000/018/2fb/3658a2f.jpg",
+        "linkedin": "https://www.linkedin.com/in/rob-burke-2054a82/",
+        "twitter": null,
+        "github": "https://github.com/robburke414",
+        "geonet": "https://community.esri.com/people/rburke-esristaff",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "youtube": null,
+        "blog": null,
+        "geodev": true,
+        "advocate": false,
+        "technologies": "ArcGIS Pro SDK"
     }
 ]
