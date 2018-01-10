@@ -90,7 +90,11 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
+.ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 @media screen and (max-width: 479px){
     .card-content i{
         margin: 0 6px 6px;

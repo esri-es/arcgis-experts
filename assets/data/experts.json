@@ -492,7 +492,7 @@
 		"blog": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Web AppBuilder for ArcGIS (Developer Edition)"
+		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
 	},
 	{
 		"name": "Gavin Rehkemper",
@@ -508,7 +508,7 @@
 		"blog": "https://gavinr.com/",
 		"geodev": true,
 		"advocate": true,
-		"technologies": "Web AppBuilder for ArcGIS (Developer Edition)"
+		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
 	},
 	{
 		"name": "Derek Law",
@@ -524,7 +524,7 @@
 		"blog": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Web AppBuilder for ArcGIS (Developer Edition)"
+		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
 	},
 	{
 		"name": "Jianxia Song",
@@ -540,7 +540,7 @@
 		"blog": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Web AppBuilder for ArcGIS (Developer Edition)"
+		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
 	},
 	{
 		"name": "Lemao Wu",
@@ -556,7 +556,7 @@
 		"blog": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Web AppBuilder for ArcGIS (Developer Edition)"
+		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
 	},
 	{
 		"name": "Patrick Arlt",
@@ -716,7 +716,7 @@
 		"blog": null,
 		"geodev": true,
 		"advocate": true,
-		"technologies": "ArcGIS API for JavaScript"
+		"technologies": "ArcGIS API for JavaScript, Web AppBuilder for ArcGIS - Developer Edition"
 	},
 	{
 		"name": "Sean McGee",
@@ -1164,7 +1164,7 @@
 		"blog": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS API for JavaScript, Dojo, Web AppBuilder for ArcGIS (Developer Edition), ArcGIS Enterprise, ArcGIS API for Python, Offline-editor-js, ArcPy"
+		"technologies": "ArcGIS API for JavaScript, Dojo, Web AppBuilder for ArcGIS - Developer Edition, ArcGIS Enterprise, ArcGIS API for Python, Offline-editor-js, ArcPy"
 	},
 	{
 		"name": "Joan Pere",
@@ -1180,7 +1180,7 @@
 		"blog": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS API for JavaScript, Web AppBuilder for ArcGIS (Developer Edition), ArcGIS Enterprise, ArcGIS Runtime SDK for Android, Python, ArcGIS API for Python, ArcPy"
+		"technologies": "ArcGIS API for JavaScript, Web AppBuilder for ArcGIS - Developer Edition, ArcGIS Enterprise, ArcGIS Runtime SDK for Android, Python, ArcGIS API for Python, ArcPy"
 	},
 	{
 		"name": "Luis Rodriguez",
@@ -1629,7 +1629,7 @@
 		"blog": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS API for JavaScript, NodeJS, Web AppBuilder for ArcGIS (Developer Edition), jQuery, Python, ArcGIS API for Python, ArcPy, ArcGIS REST API, ArcGIS Enterprise, ArcGIS Runtime SDK for Java, Calcite, CityEngine, Operations Dashboard for ArcGIS, Storymaps"
+		"technologies": "ArcGIS API for JavaScript, NodeJS, Web AppBuilder for ArcGIS - Developer Edition, jQuery, Python, ArcGIS API for Python, ArcPy, ArcGIS REST API, ArcGIS Enterprise, ArcGIS Runtime SDK for Java, Calcite, CityEngine, Operations Dashboard for ArcGIS, Storymaps"
 	}, {
 		"name": "Mark Baird",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/7/000/1fd/3d2/156e8b4.jpg",
@@ -1959,7 +1959,7 @@
 		"blog": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "EmberJS, ArcGIS Open Data, Backbone, ArcGIS API for JavaScript"
+		"technologies": "EmberJS, ArcGIS Open Data, Backbone, ArcGIS API for JavaScript, ArcGIS Hub"
 	}, {
 		"name": "Shelly Gill",
 		"picture": "https://avatars1.githubusercontent.com/u/3903588?s=460&v=4",
