@@ -6,39 +6,39 @@ var params = getUrlParams(),
     anchors = getUrlAnchors(),
     links, experts;
 
-$.getJSON("./assets/data/awesome-links.json", function(data){
+$.getJSON('./assets/data/awesome-links.json', function(data){
     links = data;
 
-    $.getJSON("./assets/data/experts.json", function(data){
-        var template = $.templates("#expertCard");
+    $.getJSON('./assets/data/experts.json', function(data){
+        var template = $.templates('#expertCard');
         experts = shuffle(data);
         var htmlOutput = template.render(experts);
 
-        $("#expert-list").html(htmlOutput);
+        $('#expert-list').html(htmlOutput);
 
         // Add missing expert
-        var template = $.templates("#missingExpert");
+        var template = $.templates('#missingExpert');
         var htmlOutput = template.render({});
-        $("#expert-list").append(htmlOutput);
+        $('#expert-list').append(htmlOutput);
 
 
         var techs = [];
         for ( i=0; i<data.length; i++ ){
             var aux = data[i].technologies;
             if(aux){
-                aux = aux.split(", ");
+                aux = aux.split(', ');
                 techs = techs.concat(aux);
             }
         }
 
         techs = unique(techs);
-        var techsTmpl = $.templates("#techsTmpl");
+        var techsTmpl = $.templates('#techsTmpl');
         var htmlOutput = techsTmpl.render(techs.sort());
 
-        $("#all-techs").html(htmlOutput);
-        $("#all-techs").append('<li>Missing any?, please <a href="https://github.com/esri-es/arcgis-experts/issues/new?title=Missing topic: [TOPIC]&body=I would like to see experts in...">let us know</a></li>')
+        $('#all-techs').html(htmlOutput);
+        $('#all-techs').append('<li>Missing any?, please <a href="https://github.com/esri-es/arcgis-experts/issues/new?title=Missing topic: [TOPIC]&body=I would like to see experts in...">let us know</a></li>')
 
-        $( "#tags" ).autocomplete({source: techs});
+        $('#tags').autocomplete({source: techs});
 
         $('.clickable').click(function(){
             $('#tags').val(this.innerText);
@@ -51,9 +51,12 @@ $.getJSON("./assets/data/awesome-links.json", function(data){
 
         // Open and load data inside the modal with the user profile info
         $('.showModalProfile').click(function(e){
-            //e.preventDefault();
-            var userslug = $(this).data("userslug"),
-                userindex = $(this).data("userindex")
+            var userslug = $(this).data('userslug'),
+                userindex = $(this).data('userindex'),
+                modal = $('.js-modal[data-modal="modalProfile"]'),
+                e = experts[userindex],
+                elClass = `#${userslug} .social`,
+                elFigure = `#${userslug} figure`;
 
             if(window.location.href.indexOf('expert=') !== -1 ){
                 window.location.href = window.location.href.replace(/#*expert=.*/i, `#expert=${userslug}`);
@@ -64,11 +67,6 @@ $.getJSON("./assets/data/awesome-links.json", function(data){
                     window.location.href += `#expert=${userslug}`;
                 }
             }
-
-            var modal = $('.js-modal[data-modal="modalProfile"]');
-            var e = experts[userindex];
-            var elClass = `#${userslug} .social`;
-            var elFigure = `#${userslug} figure`;
 
             modal.addClass('is-active');
 
@@ -95,34 +93,38 @@ $.getJSON("./assets/data/awesome-links.json", function(data){
             openExpertModal(anchors.expert);
         }
     })
-    .fail(function(jqXHR, textStatus, errorThrown) { alert('getJSON request failed! ' + textStatus); })
+    .fail(function(jqXHR, textStatus, errorThrown) {
+        //TODO: show modal with link to open issue
+        alert('getJSON request failed! ' + textStatus);
+    })
 });
+
 $('#clearBtn').click(function(){
     $('#tags').val('');
     $('#tags').keyup();
     $('#clearBtn').addClass('btn-disabled');
 })
 
-$("#tags").keyup(function(){
+$('#tags').keyup(function(){
 
     var value = this.value.toLowerCase();
     if(value){
         $('#clearBtn').removeClass('btn-disabled');
         var condition = `[data-background*=\"${value}\"]`;
         $(`.card.block${condition}`).show()
-        $(".card.block").not(condition).hide()
+        $('.card.block').not(condition).hide()
     }else{
-        $(".card.block").show();
+        $('.card.block').show();
         $('#clearBtn').addClass('btn-disabled');
     }
-    $("#missingExpertLink").attr('href', `https://github.com/esri-es/arcgis-experts/issues/new?title=Missing%20expert%20in%20${this.value}`)
-    $("[data-background=\"missing\"]").show();
+    $('#missingExpertLink').attr('href', `https://github.com/esri-es/arcgis-experts/issues/new?title=Missing%20expert%20in%20${this.value}`)
+    $('[data-background="missing"]').show();
 
     if(this.value){
 
 
         // Avoid display all techs
-        var regex = new RegExp(this.value, "i"),
+        var regex = new RegExp(this.value, 'i'),
             filteredNames = filtered_keys(links, regex),
             hasAwesomePage = false,
             topic = encodeURIComponent(this.value);
@@ -133,7 +135,7 @@ $("#tags").keyup(function(){
 
         var str = `We haven\'t found any page on the <a href="https://esri-es.github.io/awesome-arcgis/">Awesome List for ArcGIS Developers</a> for \"<strong><a href="${search_link}">${this.value}</a></strong>\", feel free to <a href="https://github.com/hhkaos/awesome-arcgis/issues/new?title=${issue_title}&body=${issue_body}">ask for it</a>.`
 
-        $(".alert").html('Learn more about <span class="selected-techs"></span> in the Awesome list of resources')
+        $('.alert').html('Learn more about <span class="selected-techs"></span> in the Awesome list of resources')
 
         if(filteredNames.length > 0){
             //console.log("filteredNames=",filteredNames)
@@ -142,27 +144,27 @@ $("#tags").keyup(function(){
 
                 if(links[elem].url){
                     hasAwesomePage = true;
-                    var el = $('<a target="_blank"></a>').text(elem).attr("href", links[elem].url);
-                    $(".selected-techs").append(el);
+                    var el = $('<a target="_blank"></a>').text(elem).attr('href', links[elem].url);
+                    $('.selected-techs').append(el);
 
                     if(i < filteredNames.length - 1){
 
-                        $(".selected-techs").append(", ");
+                        $('.selected-techs').append(', ');
                     }
                 }
 
             });
 
             if (!hasAwesomePage){
-                $(".alert").html(str)
+                $('.alert').html(str)
             }
 
         }else{
-            $(".alert").html(str)
+            $('.alert').html(str)
         }
-        $(".alert").show();
+        $('.alert').show();
     }else{
-        $(".alert").hide();
+        $('.alert').hide();
     }
 });
 
@@ -208,8 +210,9 @@ function getUrlParams() {
         return null;
     }
 }
+
 function getUrlAnchors() {
-    var search = location.href.split("#")[1];
+    var search = location.href.split('#')[1];
     if(search){
         var obj = decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"');
         return JSON.parse('{"' + obj  + '"}');
@@ -220,7 +223,7 @@ function getUrlAnchors() {
 /***********************************************
     JSRENDER converters for template rendering
 ************************************************/
-$.views.converters("lower", function(val) {
+$.views.converters('lower', function(val) {
     // Convert data-value or expression to upper case
     if(val){
         return val.toLowerCase();
@@ -229,15 +232,15 @@ $.views.converters("lower", function(val) {
     }
 });
 
-$.views.converters("firstname", function(val) {
+$.views.converters('firstname', function(val) {
     return val.split(' ')[0];
 });
 
-$.views.converters("lastname", function(val) {
+$.views.converters('lastname', function(val) {
     return val.split(' ')[1];
 });
 
-$.views.converters("slugify", function(text){
+$.views.converters('slugify', function(text){
   return text.toString().toLowerCase()
     .replace(/\s+/g, '-')
     .replace(/[^\w\-]+/g, '')
