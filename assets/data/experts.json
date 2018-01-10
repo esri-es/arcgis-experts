@@ -2020,5 +2020,20 @@
         "geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Enterprise, ArcGIS Rest API, ArcGIS API for Python"
+    },{
+        "name": "Johnathon Malott",
+        "picture": "https://avatars2.githubusercontent.com/u/14575538?s=460&v=4",
+        "linkedin": "https://www.linkedin.com/in/jcmalott/",
+        "twitter": null,
+        "github": "https://github.com/john0005",
+        "geonet": "https://community.esri.com/people/JMalott-esristaff",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "youtube": null,
+        "blog": null,
+        "geodev": true,
+        "advocate": true,
+        "technologies": "Runtime SDK for Java"
     }
 ]
