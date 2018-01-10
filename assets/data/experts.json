@@ -1616,21 +1616,6 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for .NET"
 	}, {
-		"name": "Dan O'Neill",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAIABADGAAAAAQAAAAAAAAtgAAAAJDZmODNhZjc1LTU1ZWQtNDQ0MS1hMDE1LWIxZTBlM2NiMDQxYw.jpg",
-		"linkedin": "https://www.linkedin.com/in/jdoneill/",
-		"twitter": null,
-		"github": "https://github.com/doneill",
-		"geonet": "https://community.esri.com/people/doneill-esristaff",
-		"arcgisonline": null,
-		"stackoverflow": null,
-		"stackexchange": null,
-		"youtube": null,
-		"blog": null,
-		"geodev": true,
-		"advocate": false,
-		"technologies": "ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for Java"
-	}, {
 		"name": "Ionut Alixandroae",
 		"picture": "https://pbs.twimg.com/profile_images/894468419243954176/9qfDQOgN_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/ialixandroae/",
