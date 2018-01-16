@@ -2080,5 +2080,20 @@
         "geodev": false,
         "advocate": false,
         "technologies": "GeoNet"
+    },{
+        "name": "Dan Patterson",
+        "picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAIdAAAAJGVkYjBmNzEzLWMzMDktNDM5Yy04YjBlLTZiN2VjZjJiY2M2MA.jpg",
+        "linkedin": "https://www.linkedin.com/in/dan-patterson-4b3369ba/",
+        "twitter": null,
+        "github": null,
+        "geonet": "https://community.esri.com/people/Dan_Patterson",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "youtube": null,
+        "blog": null,
+        "geodev": false,
+        "advocate": false,
+        "technologies": "Python, Arcpy"
     }
 ]
