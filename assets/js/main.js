@@ -6,6 +6,22 @@ var params = getUrlParams(),
     anchors = getUrlAnchors(),
     links, experts;
 
+$(document).ready(function(){
+    if(params.header === "true" || !params.header){
+        $('#header').css('display', '');
+    }
+    if(params.search === "true" || !params.search){
+        $('#searchBar').css('display', '');
+    }
+    if(params.awesome === "true" || !params.awesome){
+        $('#awesome').css('display', '');
+    }
+    if(params.suggestions === "true" || !params.suggestions){
+        $('#missingCard').css('display', '');
+    }
+});
+
+
 $.getJSON('./assets/data/awesome-links.json', function(data){
     links = data;
 
@@ -16,10 +32,12 @@ $.getJSON('./assets/data/awesome-links.json', function(data){
 
         $('#expert-list').html(htmlOutput);
 
-        // Add missing expert
-        var template = $.templates('#missingExpert');
-        var htmlOutput = template.render({});
-        $('#expert-list').append(htmlOutput);
+        if(params.suggestions === "true" || !params.suggestions){
+            // Add missing expert
+            var template = $.templates('#missingExpert');
+            var htmlOutput = template.render({});
+            $('#expert-list').append(htmlOutput);
+        }
 
 
         var techs = [];
@@ -117,7 +135,10 @@ $('#tags').keyup(function(){
         $('.card.block').show();
         $('#clearBtn').addClass('btn-disabled');
     }
-    $('#missingExpertLink').attr('href', `https://github.com/esri-es/arcgis-experts/issues/new?title=Missing%20expert%20in%20${this.value}`)
+    if(params.suggestions === "true" || !params.suggestions){
+        $('#missingExpertLink').attr('href', `https://github.com/esri-es/arcgis-experts/issues/new?title=Missing%20expert%20in%20${this.value}`)
+    }
+
     $('[data-background="missing"]').show();
 
     if(this.value){
@@ -207,7 +228,7 @@ function getUrlParams() {
         var obj = decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"');
         return JSON.parse('{"' + obj  + '"}');
     }else{
-        return null;
+        return {};
     }
 }
 

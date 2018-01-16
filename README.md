@@ -8,6 +8,9 @@ This is a curated list of experts in ArcGIS Technology.
 - [Who is in this list](#who-is-in-this-list)
 - [Why this project?](#why-this-project)
 - [What it is **not**](#what-is-it-not)
+- [Application capabilities](#application-capabilities)
+  - [Filter by technology](#filter-by-technology)
+  - [Hide interface blocks](#hide-interface-blocks)
 - [Contributions](#contributions)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -43,6 +46,22 @@ We just want to clarify what this is not, it is **NOT**:
 
 * A list of people working on the support team
 * A list of people publicly committed to answer any request/question they receive on any channel
+
+---
+
+## Application capabilities
+
+### Filter by technology
+
+You can link directly to a filtered list of experts setting a the URL param `topic`. Example: [List of User Experience experts](https://esri-es.github.io/arcgis-experts/?topic=User%20Experience)
+
+### Hide interface blocks
+
+If you are thinking on embedding all the experts in an iframe in to a website, you should know that you can hide some parts of the interface. You can set to `false` any of the following params to hide them: `header`, `search`, `awesome`, `suggestions`.
+
+[![Screenshot](./assets/imgs/query-params.png)](./assets/imgs/query-params.png)
+
+Example: [Display just the list of JavaScript experts](https://esri-es.github.io/arcgis-experts/?topic=JavaScript&awesome=false&header=false&search=false&suggestions=false#expert=richie-carmichael).
 
 ## Contributions
 

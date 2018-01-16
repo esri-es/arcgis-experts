@@ -39,7 +39,7 @@
 </head>
 
 <body>
-    <div class="grid-container">
+    <div class="grid-container" id="header" style="display: none">
         <div class="column-24">
             <!-- desktop sized navigation -->
             <div class="tablet-hide">
@@ -70,7 +70,7 @@
             </div>
         </div>
     </div>
-    <header class="sub-nav" role="banner">
+    <header class="sub-nav" role="banner" id="searchBar" style="display: none">
         <div class="grid-container">
 
             <div class="ui-front leader-1">
@@ -106,11 +106,14 @@
         <p id="techs" class="trailer-1"></p>
     </header>
 
-<div class="grid-container">
-    <div class="alert alert-yellow modifier-class is-active leader-1 text-center" style="display:none">
+<div id="awesome" class="grid-container" style="display: none">
+    <div class="alert alert-yellow modifier-class is-active leader-1 text-center" style="display: none">
       Learn more about <span class="selected-techs"></span> in the Awesome list of resources
     </div>
 
+
+</div>
+<div class="grid-container">
     <div class="block-group block-group-6-up tablet-block-group-3-up phone-block-group-2-up leader-1" id="expert-list">
     </div>
 </div>
@@ -232,7 +235,7 @@
 ************************************************************
 -->
 <script id="missingExpert" type="text/x-jsrender">
-<div class="card block trailer-1" data-background="missing">
+<div class="card block trailer-1" data-background="missing" id="missingCard">
     <figure class="card-image-wrap">
 
         <img class="card-image" src="./assets/imgs/contributors-wanted.png" alt="{{:name}}">
