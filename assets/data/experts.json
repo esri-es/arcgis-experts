@@ -492,7 +492,7 @@
 		"blog": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
+		"technologies": "Web AppBuilder for ArcGIS - Developer Edition, GeoNet"
 	},
 	{
 		"name": "Gavin Rehkemper",
@@ -2050,5 +2050,35 @@
         "geodev": true,
         "advocate": false,
         "technologies": "ArcGIS Pro SDK"
+    },{
+        "name": "Chris Catania",
+        "picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAVCAAAAJDc4NDIzNzI4LWZjNGUtNDZjMi1iYjgzLTVhYzAxZmIwYTVjMQ.jpg",
+        "linkedin": "https://www.linkedin.com/in/christophercatania/",
+        "twitter": "https://twitter.com/chriscatania",
+        "github": null,
+        "geonet": "https://community.esri.com/people/CCatania-esristaff",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "youtube": null,
+        "blog": null,
+        "geodev": false,
+        "advocate": false,
+        "technologies": "GeoNet"
+    },{
+        "name": "Michelle Mathias",
+        "picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAgHAAAAJDE0ZDhkNjBjLTBjYjQtNGE0NS05YTYyLTIzZTc4ZDI4NzFkYQ.jpg",
+        "linkedin": "https://www.linkedin.com/in/mlmathias/",
+        "twitter": null,
+        "github": null,
+        "geonet": "https://community.esri.com/people/MMathias-esristaff",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "youtube": null,
+        "blog": null,
+        "geodev": false,
+        "advocate": false,
+        "technologies": "GeoNet"
     }
 ]
