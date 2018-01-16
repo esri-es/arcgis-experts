@@ -49,6 +49,10 @@ We just want to clarify what this is not, it is **NOT**:
 * A list of people working on the support team
 * A list of people publicly committed to answer any request/question they receive on any channel
 
+---
+
+## Tips and tricks
+
 ## Solving your questions on GeoNet
 
 [GeoNet](https://community.esri.com/) is the Official Esri Community, there you will find "[Places](https://community.esri.com/places)" (*[learn more about Places](https://community.esri.com/docs/DOC-1081)*) for almost each topic you will find experts on this project.
@@ -65,9 +69,6 @@ Related content:
 
 [Read more news about GeoNet on the Blog](https://community.esri.com/community/help-and-feedback/blog) (or follow the [content via RSS](https://community.esri.com/view-browse-feed.jspa?browseSite=content&browseViewID=placeContent&userID=-1&containerType=14&containerID=2004&filterID=contentstatus%5Bpublished%5D~objecttype~objecttype%5Bblogpost%5D))
 
----
-
-## Tips and tricks
 
 ### Filter by technology
 
