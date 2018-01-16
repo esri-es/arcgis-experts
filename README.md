@@ -10,8 +10,8 @@ This is a curated list of experts in ArcGIS Technology.
 - [What it is **not**](#what-is-it-not)
 - [Tips and tricks](#tips-and-tricks)
   - [Solving your questions on GeoNet](#solving-your-questions-on-geoNet)
-  - [Filter by technology](#filter-by-technology)
-  - [Hide interface blocks](#hide-interface-blocks)
+  - [Filter by URL](#filter-by-url)
+  - [Embed this project](#embed-this-project)
 - [Contributions](#contributions)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -71,11 +71,13 @@ Related content:
 
 
 
-### Filter by technology
+### Filter by URL
 
-You can link directly to a filtered list of experts setting a the URL param `topic`. Example: [List of User Experience experts](https://esri-es.github.io/arcgis-experts/?topic=User%20Experience)
+You can link directly to a filtered list of experts on a topic setting a the URL param `topic`.
 
-### Hide interface blocks
+Example: [List of User Experience experts](https://esri-es.github.io/arcgis-experts/?topic=User%20Experience)
+
+### Embed this project
 
 If you are thinking on embedding all the experts in an iframe in to a website, you should know that you can hide some parts of the interface. You can set to `false` any of the following params to hide them: `header`, `search`, `awesome`, `suggestions`.
 
