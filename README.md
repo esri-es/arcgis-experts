@@ -61,7 +61,7 @@ If you are thinking on embedding all the experts in an iframe in to a website, y
 
 [![Screenshot](./assets/imgs/query-params.png)](./assets/imgs/query-params.png)
 
-Example: [Display just the list of JavaScript experts](https://esri-es.github.io/arcgis-experts/?topic=JavaScript&awesome=false&header=false&search=false&suggestions=false#expert=richie-carmichael).
+Example: [Display just a list of JavaScript experts](https://esri-es.github.io/arcgis-experts/?topic=JavaScript&awesome=false&header=false&search=false&suggestions=false).
 
 ## Contributions
 
