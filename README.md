@@ -61,13 +61,14 @@ If case you have any doubt **do not contact this experts directly**, instead use
 
 > **Recomendation**: mention specific experts using the character `@`.
 
+You can learn more how GeoNet works in the [GeoNet Manual](https://community.esri.com/docs/DOC-11240-geonet-manual).
+
 Related content:
 
 * [Where do I post my question?](https://community.esri.com/docs/DOC-1081) (related: [GeoNet Community Structure](https://community.esri.com/docs/DOC-1544-geonet-community-structure))
 * [How to ask questions and get answers](https://community.esri.com/community/help-and-feedback/blog/2016/08/15/community-news-and-tips-how-to-ask-questions-and-get-answers)
 * [Are you using the right GeoNet content tool?](https://community.esri.com/community/help-and-feedback/blog/2016/08/31/how-to-pick-the-right-content-tool-understanding-geonet-content-types)
 
-[Read more news about GeoNet on the Blog](https://community.esri.com/community/help-and-feedback/blog) (or follow the [content via RSS](https://community.esri.com/view-browse-feed.jspa?browseSite=content&browseViewID=placeContent&userID=-1&containerType=14&containerID=2004&filterID=contentstatus%5Bpublished%5D~objecttype~objecttype%5Bblogpost%5D))
 
 
 ### Filter by technology
