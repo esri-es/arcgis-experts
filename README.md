@@ -9,7 +9,7 @@ This is a curated list of experts in ArcGIS Technology.
 - [Why this project?](#why-this-project)
 - [What it is **not**](#what-is-it-not)
 - [Tips and tricks](#tips-and-tricks)
-  - [Solving your questions on GeoNet](#solving-your-questions-on-geoNet)
+  - [Solving your questions on GeoNet](#solving-your-questions-on-geonet)
   - [Filter by URL](#filter-by-url)
   - [Embed this project](#embed-this-project)
 - [Contributions](#contributions)
