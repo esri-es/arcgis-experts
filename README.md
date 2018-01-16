@@ -55,7 +55,7 @@ We just want to clarify what this is not, it is **NOT**:
 
 ## Solving your questions on GeoNet
 
-[GeoNet](https://community.esri.com/) is the Official Esri Community, there you will find "[Places](https://community.esri.com/places)" (*[learn more about Places](https://community.esri.com/docs/DOC-1081)*) for almost each topic you will find experts on this project.
+[GeoNet](https://community.esri.com/) is the Official Esri Community, there you will find "[Places](https://community.esri.com/places)" for almost each topic you will find experts on this project.
 
 If case you have any doubt **do not contact this experts directly**, instead use GeoNet to ask your question so anyone else in the community can benefit from the answer.
 
