@@ -7,6 +7,10 @@ var params = getUrlParams(),
     links, experts;
 
 $(document).ready(function(){
+    if(params.bg){
+        var bg = decodeURIComponent(params.bg);
+        $('body').css('background', `${bg}`);
+    }
     if(params.header === "true" || !params.header){
         $('#header').css('display', '');
     }

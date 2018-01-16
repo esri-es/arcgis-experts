@@ -63,6 +63,11 @@ If you are thinking on embedding all the experts in an iframe in to a website, y
 
 Example: [Display just a list of JavaScript experts](https://esri-es.github.io/arcgis-experts/?topic=JavaScript&awesome=false&header=false&search=false&suggestions=false).
 
+You can also set the body's background using the param `bg`. Examples:
+* [Set up a texture](https://esri-es.github.io/arcgis-experts/?topic=JavaScript&awesome=false&header=false&search=false&suggestions=false&bg=url(http%3A%2F%2Fbg.siteorigin.com%2Fimage%2Fgenerate%3Fcolor%3D545454%26pattern%3D45degreee_fabric%26blend%3D2%26intensity%3D11.00%26noise%3D0%29)
+* [Set up a background color](https://esri-es.github.io/arcgis-experts/?topic=JavaScript&awesome=false&header=false&search=false&suggestions=false&bg=%23924)
+
+
 ## Contributions
 
 Please read the [contributors guide](./CONTRIBUTING.md).
