@@ -94,7 +94,11 @@ $.getJSON('./assets/data/awesome-links.json', function(data){
 
             $('#expertName').text(`${e.name}\'s profile`);
             $('#expertSkills').html(`<strong>Background in:</strong><br> ${e.technologies}`);
-            $('#expertSocialLinks').empty().append($(elClass).clone())
+            $('#expertSocialLinks').empty().append($(elClass).clone());
+
+            var encodedName = encodeURIComponent(e.name);
+            $('#arcgirSearch a').attr('href',`https://esri-es.github.io/arcgis-search/?search=%22${encodedName}%22`);
+            $('#arcgirSearch span').text(e.name);
 
             var profile = encodeURIComponent(`\`\`\`js\n${JSON.stringify(e, null, 2)}\n\`\`\``);
             $('#expertDisclaimer').html(`Have you found something wrong or do you miss something?, <a href="https://github.com/esri-es/arcgis-experts/issues/new?title=Update ${e.name} profile&body=${profile}">please tell us</a>.`);
