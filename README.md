@@ -5,25 +5,27 @@ This is a curated list of experts in ArcGIS Technology.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of contents**
 
-- [Who is in this list](#who-is-in-this-list)
+- [Who is listed in this project](#who-is-listed-in-this-project)
 - [Why this project?](#why-this-project)
 - [What it is **not**](#what-is-it-not)
-- [Application capabilities](#application-capabilities)
+- [Tips and tricks](#tips-and-tricks)
+  - [Solving your questions on GeoNet](#solving-your-questions-on-geoNet)
   - [Filter by technology](#filter-by-technology)
   - [Hide interface blocks](#hide-interface-blocks)
 - [Contributions](#contributions)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Who is in this list
+## Who is listed in this project
 
 > **Note:** All available information is this repository has been found publicly browsing through the Internet or through the contributions of other experts.
 
-We have included people (working at Esri or not) we have found in:
+We have included people (working at Esri or not) we have found on:
 
 * [Esri's Github Repositories](https://github.com/orgs/Esri/people?utf8=%E2%9C%93&query=Nelson) (top contributors)
 * [Esri's Youtube Channels](https://esri-es.github.io/awesome-arcgis/esri/#youtube-channels) (speakers)
 * [GeoNet](http://community.esri.com/), [StackExchange](https://gis.stackexchange.com/) and [StackOverflow](https://stackoverflow.com/search?q=arcgis+esri) (top contributors)
+* Known experts willing to help you [solving your questions on GeoNet](#solving-your-questions-on-geoNet)
 
 Some of them are listed by other expert recommendations.
 
@@ -47,9 +49,25 @@ We just want to clarify what this is not, it is **NOT**:
 * A list of people working on the support team
 * A list of people publicly committed to answer any request/question they receive on any channel
 
+## Solving your questions on GeoNet
+
+[GeoNet](https://community.esri.com/) is the Official Esri Community, there you will find "[Places](https://community.esri.com/places)" (*[learn more about Places](https://community.esri.com/docs/DOC-1081)*) for almost each topic you will find experts on this project.
+
+If case you have any doubt **do not contact this experts directly**, instead use GeoNet to ask your question so anyone else in the community can benefit from the answer.
+
+> **Recomendation**: mention specific experts using the character `@`.
+
+Related content:
+
+* [Where do I post my question?](https://community.esri.com/docs/DOC-1081) (related: [GeoNet Community Structure](https://community.esri.com/docs/DOC-1544-geonet-community-structure))
+* [How to ask questions and get answers](https://community.esri.com/community/help-and-feedback/blog/2016/08/15/community-news-and-tips-how-to-ask-questions-and-get-answers)
+* [Are you using the right GeoNet content tool?](https://community.esri.com/community/help-and-feedback/blog/2016/08/31/how-to-pick-the-right-content-tool-understanding-geonet-content-types)
+
+[Read more news about GeoNet on the Blog](https://community.esri.com/community/help-and-feedback/blog) (or follow the [content via RSS](https://community.esri.com/view-browse-feed.jspa?browseSite=content&browseViewID=placeContent&userID=-1&containerType=14&containerID=2004&filterID=contentstatus%5Bpublished%5D~objecttype~objecttype%5Bblogpost%5D))
+
 ---
 
-## Application capabilities
+## Tips and tricks
 
 ### Filter by technology
 
