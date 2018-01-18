@@ -1123,16 +1123,16 @@
 		"picture": "./assets/imgs/isaac-sanchez.jpg",
 		"linkedin": "https://es.linkedin.com/in/isaacsanchezcastro",
 		"twitter": "https://twitter.com/IsaacSCastro",
-		"github": null,
+		"github": "https://github.com/IsCastro",
 		"geonet": "https://community.esri.com/people/isaac.sanchezesri-es-esridist",
-		"arcgisonline": null,
+		"arcgisonline": "http://www.arcgis.com/home/search.html?q=owner%3Aisaac.sanchez.preventas&t=content&start=1&sortOrder=desc&sortField=relevance",
 		"stackoverflow": null,
 		"stackexchange": null,
-		"youtube": null,
+		"youtube": "https://www.youtube.com/channel/UCgcVhTgCP9rxGrU8-Y0rsqw/videos",
 		"blog": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "ArcGIS Earth, 3D, i3s, Esri CityEngine, Virtual Reality (VR), BIM"
+		"technologies": "ArcGIS Pro, 3D, i3s, Esri CityEngine, Building Information Modeling (BIM), ArcGIS Earth, Indoor mapping, 3D modeling, Virtual Reality (VR), Augmented Reality (AR), Mixed Reality (MR), Lidar"
 	},
 	{
 		"name": "Lorenzo Mateos",
@@ -2124,7 +2124,7 @@
         "blog": null,
         "geodev": false,
         "advocate": false,
-        "technologies": "BIM"
+        "technologies": "Building Information Modeling (BIM)"
     },{
         "name": "Jeff Archer",
         "picture": "https://media-exp2.licdn.com/media/p/6/005/013/069/1f5a99d.jpg",
@@ -2139,6 +2139,21 @@
         "blog": "https://community.esri.com/people/jarcher-esristaff/blog",
         "geodev": false,
         "advocate": false,
-        "technologies": "BIM"
+        "technologies": "Building Information Modeling (BIM)"
+    },{
+        "name": "Don Kuehne",
+        "picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAANFAAAAJDdhNjQ1OGM2LWVlMTUtNDgwYy04YjhkLWVmODczMGRmYmJkNw.jpg",
+        "linkedin": "https://www.linkedin.com/in/don-kuehne-0b85365/",
+        "twitter": null,
+        "github": null,
+        "geonet": "https://community.esri.com/people/dkuehne-esristaff",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "youtube": null,
+        "blog": "http://giscadblog.blogspot.com.es/?lipi=urn:li:page:d_flagship3_profile_view_base;G2Zich6hREenuCVvPKgqyQ%3D%3D",
+        "geodev": false,
+        "advocate": false,
+        "technologies": "Building Information Modeling (BIM), Computer-aided design (CAD)"
     }
 ]
