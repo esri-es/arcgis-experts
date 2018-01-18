@@ -71,6 +71,9 @@
     "Basemaps": {
         "url": null
     },
+    "BIM": {
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/disciplines/bim/"
+    },
     "Calcite": {
         "url": null
     },
