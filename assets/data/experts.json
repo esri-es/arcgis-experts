@@ -1132,7 +1132,7 @@
 		"blog": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "ArcGIS Earth, 3D, i3s, Esri CityEngine, Virtual Reality (VR)"
+		"technologies": "ArcGIS Earth, 3D, i3s, Esri CityEngine, Virtual Reality (VR), BIM"
 	},
 	{
 		"name": "Lorenzo Mateos",
@@ -2095,5 +2095,50 @@
         "geodev": false,
         "advocate": false,
         "technologies": "Python, Arcpy, GeoNet"
+    },{
+        "name": "Candace Loya",
+        "picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAA1vAAAAJGI3YWYwNzE0LTVmYmUtNGE3Zi04OGJlLTZhZmU0NzA0Y2JkNA.jpg",
+        "linkedin": "https://www.linkedin.com/in/candaceloya909/",
+        "twitter": null,
+        "github": null,
+        "geonet": "https://community.esri.com/people/CLoya-esristaff",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "youtube": null,
+        "blog": null,
+        "geodev": false,
+        "advocate": false,
+        "technologies": "GeoNet"
+    },{
+        "name": "Craig McCabe",
+        "picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAA0mAAAAJDNlZmVkN2QyLTJiYzQtNDMyOC1iZTk3LWM2OGFhYTZmODQ0OQ.jpg",
+        "linkedin": "https://www.linkedin.com/in/craigmccabe/",
+        "twitter": null,
+        "github": "https://github.com/craig-mccabe",
+        "geonet": "https://community.esri.com/people/CMcCabe-esristaff",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "youtube": null,
+        "blog": null,
+        "geodev": false,
+        "advocate": false,
+        "technologies": "BIM"
+    },{
+        "name": "Jeff Archer",
+        "picture": "https://media-exp2.licdn.com/media/p/6/005/013/069/1f5a99d.jpg",
+        "linkedin": "https://www.linkedin.com/in/jeff-archer-2a9062a/",
+        "twitter": "https://twitter.com/vee_dubb",
+        "github": "https://github.com/archermaps",
+        "geonet": "https://community.esri.com/people/jarcher-esristaff",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "youtube": null,
+        "blog": "https://community.esri.com/people/jarcher-esristaff/blog",
+        "geodev": false,
+        "advocate": false,
+        "technologies": "BIM"
     }
 ]
