@@ -2155,5 +2155,20 @@
         "geodev": false,
         "advocate": false,
         "technologies": "Building Information Modeling (BIM), Computer-aided design (CAD)"
+    },{
+        "name": "Steven Nelson",
+        "picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAjyAAAAJGJiOThhNjNlLWY5ZjktNDE1OC1hOWNiLTZkNDdjYzI0YjNhMQ.jpg",
+        "linkedin": "https://www.linkedin.com/in/smichaelnelson/",
+        "twitter": "https://twitter.com/smnelsondesign",
+        "github": null,
+        "geonet": "https://community.esri.com/people/SNelson-esristaff",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "youtube": null,
+        "blog": "https://community.esri.com/people/SNelson-esristaff/blog",
+        "geodev": false,
+        "advocate": false,
+        "technologies": "Design, User Experience (UX), User Interfaces (UI)"
     }
 ]
