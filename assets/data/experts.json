@@ -158,22 +158,22 @@
 		"advocate": false,
 		"technologies": "ArcGIS Enterprise, GeoAnalytics Server, GeoEvent Server"
 	},
-	{
-		"name": "Suzzane Foss",
-		"picture": "https://pbs.twimg.com/profile_images/489426544264085506/BsgyioAS_400x400.jpeg",
-		"linkedin": null,
-		"twitter": "https://www.twitter.com/sfoss_esri",
-		"github": null,
-		"geonet": "https://community.esri.com/people/SFoss-esristaff",
-		"arcgisonline": null,
-		"stackoverflow": null,
-		"stackexchange": null,
-		"youtube": null,
-		"blog": null,
-		"geodev": false,
-		"advocate": false,
-		"technologies": "ArcGIS Enterprise, GeoAnalytics Server, GeoEvent Server"
-	},
+    {
+      "name": "Suzanne Foss",
+      "picture": "https://pbs.twimg.com/profile_images/489426544264085506/BsgyioAS_400x400.jpeg",
+      "linkedin": null,
+      "twitter": "https://www.twitter.com/sfoss_esri",
+      "github": null,
+      "geonet": "https://community.esri.com/people/SFoss-esristaff",
+      "arcgisonline": null,
+      "stackoverflow": null,
+      "stackexchange": null,
+      "youtube": null,
+      "blog": null,
+      "geodev": false,
+      "advocate": false,
+      "technologies": "ArcGIS Enterprise, GeoAnalytics Server, GeoEvent Server"
+    },
 	{
 		"name": "Mansour Raad",
 		"picture": "https://avatars2.githubusercontent.com/u/984730?v=3",
