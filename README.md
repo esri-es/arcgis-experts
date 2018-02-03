@@ -61,7 +61,7 @@ If case you have any doubt **do not contact this experts directly**, instead use
 
 > **Recomendation**: mention specific experts using the character `@`.
 
-You can learn more how GeoNet works in the [GeoNet Manual](https://community.esri.com/docs/DOC-11240-geonet-manual).
+You can learn more how GeoNet works in the [GeoNet Manual](https://community.esri.com/community/help-and-feedback/pages/geonet-tools-resources).
 
 Related content:
 
