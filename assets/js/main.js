@@ -158,7 +158,7 @@ $('#tags').keyup(function(){
             hasAwesomePage = false,
             topic = encodeURIComponent(this.value);
             issue_title = encodeURIComponent(`New resource page for ${this.value}`),
-            issue_body = encodeURIComponent(`I would like to have a new resource page about this. Should we ask [the experts](https://esri-es.github.io/arcgis-experts/?topic=${topic}) to check if they can help us with this?.\n\nWe could start adding the [resource page template](RESOURCE_PAGE_TEMPLATE.md) to the repo to start drafting this page.\n\nI think this page would be located inside **[REPLACE THIS]** section.\n\nCheers!`),
+            issue_body = encodeURIComponent(`I would like to have a new resource page about this topic. Should we ask [the experts](https://esri-es.github.io/arcgis-experts/?topic=${topic}) to check if they can help us with this?.\n\nWe should start adding the [resource page template](RESOURCE_PAGE_TEMPLATE.md). I have checked the [project structure](https://github.com/hhkaos/awesome-arcgis/blob/master/SUMMARY.md) and I think this page should be placed under "**[REPLACE THIS]**" section.\n\nCheers!`),
             topic_quoted = encodeURIComponent(`"${this.value}"`);
             search_link = `https://esri-es.github.io/arcgis-search/?search=${topic_quoted}&utm_source=arcgis-experts&utm_medium=page`;
 
