@@ -876,7 +876,7 @@
 		"blog": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification"
+		"technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification, Resource Proxy"
 	},
 	{
 		"name": "Jeremy Bartley",
@@ -2139,7 +2139,7 @@
 		"blog": "https://community.esri.com/people/jarcher-esristaff/blog",
 		"geodev": false,
 		"advocate": false,
-		"technologies": "Building Information Modeling (BIM)"
+		"technologies": "Building Information Modeling (BIM), Indoor mapping"
 	}, {
 		"name": "Don Kuehne",
 		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAANFAAAAJDdhNjQ1OGM2LWVlMTUtNDgwYy04YjhkLWVmODczMGRmYmJkNw.jpg",
