@@ -80,6 +80,9 @@
     "Collector for ArcGIS": {
         "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/collector-for-arcgis/"
     },
+    "D3.js": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/d3/"
+    },
     "Demographics": {
         "url": null
     },
@@ -127,6 +130,9 @@
     },
     "Imagery and Rasters": {
         "url": null
+    },
+    "Indoor": {
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/disciplines/indoor/"
     },
     "Insights for ArcGIS": {
         "url": null
