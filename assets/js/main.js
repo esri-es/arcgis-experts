@@ -31,6 +31,9 @@ $.getJSON('./assets/data/awesome-links.json', function(data){
 
     $.getJSON('./assets/data/experts.json', function(data){
         var template = $.templates('#expertCard');
+        data = data.filter(function( obj ) {
+            return obj.consent === true;
+        });
         experts = shuffle(data);
         var htmlOutput = template.render(experts);
 
@@ -91,7 +94,6 @@ $.getJSON('./assets/data/awesome-links.json', function(data){
             }
 
             modal.addClass('is-active');
-
             $('#expertName').text(`${e.name}\'s profile`);
             $('#expertSkills').html(`<strong>Background in:</strong><br> ${e.technologies}`);
             $('#expertSocialLinks').empty().append($(elClass).clone());

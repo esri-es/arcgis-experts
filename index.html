@@ -145,106 +145,108 @@
 ************************************************************
 -->
 <script id="expertCard" type="text/x-jsrender">
-<div class="card block trailer-1" id="{{slugify:name}}" data-background="{{lower:technologies}}">
-    <figure
-        class="card-image-wrap showModalProfile"
-        data-userslug="{{slugify:name}}"
-        data-userIndex="{{:#index}}"
-    >
-        {{if geodev || advocate}}
-            <mark class="tag label font-size--3">
-            {{if geodev}}
-                <span class="tooltip" aria-label="He/she can write code">#geodev</span>
+{{if consent}}
+    <div class="card block trailer-1" id="{{slugify:name}}" data-background="{{lower:technologies}}">
+        <figure
+            class="card-image-wrap showModalProfile"
+            data-userslug="{{slugify:name}}"
+            data-userIndex="{{:#getIndex()}}"
+        >
+            {{if geodev || advocate}}
+                <mark class="tag label font-size--3">
+                {{if geodev}}
+                    <span class="tooltip" aria-label="He/she can write code">#geodev</span>
+                {{/if}}
+
+                {{if geodev && advocate}} & {{/if}}
+
+                {{if advocate}}
+                    <span class="tooltip" aria-label="His/her job is to make developers lifes easier">#advocate</span>
+                {{/if}}
+                </mark>
             {{/if}}
 
-            {{if geodev && advocate}} & {{/if}}
-
-            {{if advocate}}
-                <span class="tooltip" aria-label="His/her job is to make developers lifes easier">#advocate</span>
-            {{/if}}
-            </mark>
-        {{/if}}
-
-        {{if picture}}
-            <img class="card-image" src="{{:picture}}" alt="{{:name}}">
-        {{else}}
-            <img class="card-image" src="./assets/imgs/no_avatar.jpg" alt="{{:name}}">
-        {{/if}}
-
-        <figcaption class="card-image-caption text-center" title="{{:name}}">
-            {{firstname:name}}
-            <span class="phone-hide">{{lastname:name}}</span>
-        </figcaption>
-    </figure>
-
-    <div class="card-content text-center">
-        <p class="font-size--1 card-last">
-
-            {{if github}}
-                <a href="{{:github}}" target="blank" class="tooltip social" aria-label="Github">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
+            {{if picture}}
+                <img class="card-image" src="{{:picture}}" alt="{{:name}}">
+            {{else}}
+                <img class="card-image" src="./assets/imgs/no_avatar.jpg" alt="{{:name}}">
             {{/if}}
 
-            {{if stackexchange}}
-                <a href="{{:stackexchange}}" target="blank" class="tooltip social" aria-label="StackExchange">
-                    <i class="fa fa-stack-exchange" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+            <figcaption class="card-image-caption text-center" title="{{:name}}">
+                {{firstname:name}}
+                <span class="phone-hide">{{lastname:name}}</span>
+            </figcaption>
+        </figure>
 
-            {{if stackoverflow}}
-                <a href="{{:stackoverflow}}" target="blank" class="tooltip social" aria-label="StackOverflow">
-                    <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+        <div class="card-content text-center">
+            <p class="font-size--1 card-last">
 
-            {{if linkedin}}
-                <a href="{{:linkedin}}" target="blank" class="tooltip social" aria-label="Linkedin">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+                {{if github}}
+                    <a href="{{:github}}" target="blank" class="tooltip social" aria-label="Github">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-            {{if twitter}}
-                <a href="{{:twitter}}" target="blank" class="tooltip social" aria-label="Twitter">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+                {{if stackexchange}}
+                    <a href="{{:stackexchange}}" target="blank" class="tooltip social" aria-label="StackExchange">
+                        <i class="fa fa-stack-exchange" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-            {{if geonet}}
-                <a href="{{:geonet}}" target="blank" class="tooltip social" aria-label="GeoNet">
-                    <i class="fa fa-comments-o" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+                {{if stackoverflow}}
+                    <a href="{{:stackoverflow}}" target="blank" class="tooltip social" aria-label="StackOverflow">
+                        <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-            {{if youtube}}
-                <a href="{{:youtube}}" target="blank" class="tooltip social" aria-label="Youtube channel">
-                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+                {{if linkedin}}
+                    <a href="{{:linkedin}}" target="blank" class="tooltip social" aria-label="Linkedin">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-            {{if blog}}
-                <a href="{{:blog}}" target="blank" class="tooltip social" aria-label="Blog">
-                    <i class="fa fa-rss" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+                {{if twitter}}
+                    <a href="{{:twitter}}" target="blank" class="tooltip social" aria-label="Twitter">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-            {{if arcgisonline}}
-                <a href="{{:arcgisonline}}" target="blank" class="tooltip social" aria-label="ArcGIS Online">
-                    <i class="fa fa-globe" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+                {{if geonet}}
+                    <a href="{{:geonet}}" target="blank" class="tooltip social" aria-label="GeoNet">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-            <span class="tooltip" aria-label="Full user profile">
-                <i
-                    class="showModalProfile fa fa-question-circle"
-                    data-userslug="{{slugify:name}}"
-                    data-userIndex="{{:#index}}"
-                ></i>
-            </span>
-        </p>
+                {{if youtube}}
+                    <a href="{{:youtube}}" target="blank" class="tooltip social" aria-label="Youtube channel">
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
+                {{if blog}}
+                    <a href="{{:blog}}" target="blank" class="tooltip social" aria-label="Blog">
+                        <i class="fa fa-rss" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
+
+                {{if arcgisonline}}
+                    <a href="{{:arcgisonline}}" target="blank" class="tooltip social" aria-label="ArcGIS Online">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
+
+                <span class="tooltip" aria-label="Full user profile">
+                    <i
+                        class="showModalProfile fa fa-question-circle"
+                        data-userslug="{{slugify:name}}"
+                        data-userIndex="{{:#index}}"
+                    ></i>
+                </span>
+            </p>
+
+        </div>
     </div>
-</div>
+{{/if}}
 
 </script>
 
