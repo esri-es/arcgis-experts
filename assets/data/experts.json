@@ -2308,5 +2308,21 @@
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Design, User Experience (UX), User Interfaces (UI)"
-	}
+	}, {
+        "consent": false,
+		"name": "Satish Sankaran",
+		"picture": "https://media-exp2.licdn.com/media/p/2/000/28e/3e2/28470c0.jpg",
+		"linkedin": "https://www.linkedin.com/in/satish-sankaran-421bb231/",
+		"twitter": null,
+		"github": null,
+		"geonet": "https://community.esri.com/people/sSankaran-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "OGC, GeoPortal Server, WCS, WMS, WFS, KML, WMTS"
+    }
 ]
