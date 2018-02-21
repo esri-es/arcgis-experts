@@ -1393,7 +1393,7 @@
 		"technologies": "ArcGIS API for JavaScript, ReactJS, ArcGIS API for Python, ArcGIS Online, NodeJS, Esri Startup Program"
 	},
 	{
-		"consent": false,
+		"consent": true,
 		"name": "Alejandro Pequeño",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfJAAAAJDA0NmMwY2IxLWFjYzktNDdmYy1iMmYyLTVhMWQ3YzM4MjUwNQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/alejandro-peque%C3%B1o-pulleiro-a6157b123/",

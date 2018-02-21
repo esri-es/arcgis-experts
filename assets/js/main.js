@@ -4,7 +4,7 @@
 
 var params = getUrlParams(),
     anchors = getUrlAnchors(),
-    links, experts;
+    links, experts, showAll = false;
 
 $(document).ready(function(){
     if(params.bg){
@@ -23,6 +23,9 @@ $(document).ready(function(){
     if(params.suggestions === "true" || !params.suggestions){
         $('#missingCard').css('display', '');
     }
+    if(params.showAll && params.showAll === "true" ){
+        showAll = true;
+    }
 });
 
 
@@ -31,11 +34,13 @@ $.getJSON('./assets/data/awesome-links.json', function(data){
 
     $.getJSON('./assets/data/experts.json', function(data){
         var template = $.templates('#expertCard');
-        data = data.filter(function( obj ) {
-            return obj.consent === true;
-        });
+        if(!showAll){
+            data = data.filter(function( obj ) {
+                return obj.consent === true;
+            });
+        }
         experts = shuffle(data);
-        var htmlOutput = template.render(experts);
+        var htmlOutput = template.render(experts, {showAll: showAll});
 
         $('#expert-list').html(htmlOutput);
 

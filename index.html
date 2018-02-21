@@ -145,7 +145,9 @@
 ************************************************************
 -->
 <script id="expertCard" type="text/x-jsrender">
-{{if consent}}
+
+{{if ~showAll || consent}}
+
     <div class="card block trailer-1" id="{{slugify:name}}" data-background="{{lower:technologies}}">
         <figure
             class="card-image-wrap showModalProfile"
