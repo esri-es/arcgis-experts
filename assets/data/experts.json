@@ -1,6 +1,6 @@
 [{
-    "consent": true,
-        "name": "Isaac Medel",
+		"consent": true,
+		"name": "Isaac Medel",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAwrAAAAJGNiNTJkZmYwLWE5YWEtNDA4OC1iODY0LTI2MzQ1Y2NkMjZmMg.jpg",
 		"linkedin": "https://www.linkedin.com/in/isaac-medel-calvo-485186a/",
 		"twitter": null,
@@ -16,8 +16,8 @@
 		"technologies": "Lidar, Drone2Map, ArcGIS Image Server, Imagery and Rasters, Full Motion Video"
 	},
 	{
-        "consent": false,
-        "name": "Deane Kensok",
+		"consent": false,
+		"name": "Deane Kensok",
 		"picture": "https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAzSAAAAJDE3YjdjNTM2LTczMGYtNDczYy05M2I5LWM4NTNjYTA3ZjBiOQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/deane-kensok-6596904/",
 		"twitter": null,
@@ -33,8 +33,8 @@
 		"technologies": "Vector Tiles, Basemaps"
 	},
 	{
-        "consent": false,
-        "name": "Ismael Chivite",
+		"consent": false,
+		"name": "Ismael Chivite",
 		"picture": "./assets/imgs/ismael-chivite.png",
 		"linkedin": "https://www.linkedin.com/in/ismaelchivite/",
 		"twitter": null,
@@ -50,8 +50,8 @@
 		"technologies": "AppStudio for ArcGIS, Survey123 for ArcGIS, Collector for ArcGIS, Explorer for ArcGIS, Navigator for ArcGIS, Workforce for ArcGIS, ArcGIS Runtime SDK for Qt, ArcGIS Enterprise"
 	},
 	{
-        "consent": false,
-        "name": "Jeff Shaner",
+		"consent": false,
+		"name": "Jeff Shaner",
 		"picture": "https://avatars3.githubusercontent.com/u/7576996?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/jeff-shaner-b77bb311/",
 		"twitter": null,
@@ -67,8 +67,8 @@
 		"technologies": "Collector for ArcGIS, Workforce for ArcGIS, Operations Dashboard for ArcGIS"
 	},
 	{
-        "consent": false,
-        "name": "Chris LeSueur",
+		"consent": false,
+		"name": "Chris LeSueur",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAk1AAAAJGQ0ZjAyNTEyLWRjZGYtNDI5YS04YzY5LWExY2Y3M2QwNzhjYQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/chris-lesueur-20927813/",
 		"twitter": null,
@@ -84,8 +84,8 @@
 		"technologies": "Explorer for ArcGIS, AppStudio for ArcGIS"
 	},
 	{
-        "consent": true,
-        "name": "Cody Benkelman",
+		"consent": true,
+		"name": "Cody Benkelman",
 		"picture": "https://media-exp1.licdn.com/media/AAEAAQAAAAAAAAoHAAAAJDFiYmQ4Mjg2LTdmZTctNDcyZi1iM2M3LTk5YmNhNGI5ZTk5Mg.jpg",
 		"linkedin": "https://www.linkedin.com/in/cody-benkelman-0b62761",
 		"twitter": null,
@@ -101,8 +101,8 @@
 		"technologies": "Full Motion Video, Image Management, Imagery and Rasters, ArcGIS Image Server, Lidar, Drones, Drone2Map"
 	},
 	{
-        "consent": false,
-        "name": "Clark Swinehart",
+		"consent": false,
+		"name": "Clark Swinehart",
 		"picture": "https://media-exp1.licdn.com/media/p/8/000/1fd/2dd/3244746.jpg",
 		"linkedin": "https://www.linkedin.com/in/clark-swinehart-96064b1",
 		"twitter": null,
@@ -118,8 +118,8 @@
 		"technologies": "Full Motion Video"
 	},
 	{
-        "consent": false,
-        "name": "Christopher Zent",
+		"consent": false,
+		"name": "Christopher Zent",
 		"picture": "./assets/imgs/christopher-zent.jpg",
 		"linkedin": "https://www.linkedin.com/in/christopher-zent-3578579/",
 		"twitter": null,
@@ -135,8 +135,8 @@
 		"technologies": "ArcGIS Pro SDK"
 	},
 	{
-        "consent": false,
-        "name": "Philip Heede",
+		"consent": false,
+		"name": "Philip Heede",
 		"picture": "https://avatars3.githubusercontent.com/u/1400423?v=4",
 		"linkedin": "https://www.linkedin.com/in/pheede/",
 		"twitter": "https://twitter.com/pheede",
@@ -152,8 +152,8 @@
 		"technologies": "ArcGIS Enterprise, GeoAnalytics Server"
 	},
 	{
-        "consent": false,
-        "name": "Adam Mollenkopf",
+		"consent": false,
+		"name": "Adam Mollenkopf",
 		"picture": "https://avatars0.githubusercontent.com/u/4580532?v=4",
 		"linkedin": "https://www.linkedin.com/in/adammollenkopf",
 		"twitter": "https://www.twitter.com/amollenkopf",
@@ -169,8 +169,8 @@
 		"technologies": "ArcGIS Enterprise, GeoAnalytics Server, GeoEvent Server"
 	},
 	{
-        "consent": false,
-        "name": "Suzanne Foss",
+		"consent": false,
+		"name": "Suzanne Foss",
 		"picture": "https://pbs.twimg.com/profile_images/489426544264085506/BsgyioAS_400x400.jpeg",
 		"linkedin": null,
 		"twitter": "https://www.twitter.com/sfoss_esri",
@@ -186,8 +186,8 @@
 		"technologies": "ArcGIS Enterprise, GeoAnalytics Server, GeoEvent Server"
 	},
 	{
-        "consent": false,
-        "name": "Mansour Raad",
+		"consent": false,
+		"name": "Mansour Raad",
 		"picture": "https://avatars2.githubusercontent.com/u/984730?v=3",
 		"linkedin": null,
 		"twitter": "https://www.twitter.com/mraad",
@@ -203,8 +203,8 @@
 		"technologies": "GeoEvent Server"
 	},
 	{
-        "consent": false,
-        "name": "Patrick Hammons",
+		"consent": false,
+		"name": "Patrick Hammons",
 		"picture": "https://avatars2.githubusercontent.com/u/3640800?v=4",
 		"linkedin": "https://www.linkedin.com/in/pthammons/",
 		"twitter": "https://twitter.com/hamhandedly",
@@ -220,8 +220,8 @@
 		"technologies": "ArcGIS Hub"
 	},
 	{
-        "consent": true,
-        "name": "John Gravois",
+		"consent": true,
+		"name": "John Gravois",
 		"picture": "https://avatars1.githubusercontent.com/u/3011734?v=3",
 		"linkedin": "https://www.linkedin.com/in/johngravois",
 		"twitter": "https://twitter.com/geogangster",
@@ -237,8 +237,8 @@
 		"technologies": "ArcGIS Hub, ArcGIS Open Data, NodeJS, Esri Leaflet, ArcGIS API for JavaScript 3.x, Open Source, ArcGIS REST API, KoopJS"
 	},
 	{
-        "consent": false,
-        "name": "Andrew Turner",
+		"consent": false,
+		"name": "Andrew Turner",
 		"picture": "https://avatars2.githubusercontent.com/u/1218?v=3",
 		"linkedin": "https://www.linkedin.com/in/ajturner/",
 		"twitter": "https://twitter.com/ajturner",
@@ -254,8 +254,8 @@
 		"technologies": "ArcGIS Hub, ArcGIS Open Data, Cedar, KoopJS"
 	},
 	{
-        "consent": false,
-        "name": "Sajit Thomas",
+		"consent": false,
+		"name": "Sajit Thomas",
 		"picture": "https://avatars0.githubusercontent.com/u/4028925?v=3",
 		"linkedin": "https://www.linkedin.com/in/sajit-thomas-33a9a034",
 		"twitter": "https://twitter.com/SpatialAgent",
@@ -271,8 +271,8 @@
 		"technologies": "Storymaps, Design, User Experience (UX), User Interfaces (UI)"
 	},
 	{
-        "consent": false,
-        "name": "Allen Carroll",
+		"consent": false,
+		"name": "Allen Carroll",
 		"picture": "https://avatars1.githubusercontent.com/u/5605521?v=4",
 		"linkedin": "https://www.linkedin.com/in/allencarroll/",
 		"twitter": "https://twitter.com/AllenCarroll",
@@ -288,8 +288,8 @@
 		"technologies": "Storymaps"
 	},
 	{
-        "consent": false,
-        "name": "Owen Evans",
+		"consent": false,
+		"name": "Owen Evans",
 		"picture": "https://avatars2.githubusercontent.com/u/3215530?v=3",
 		"linkedin": "https://www.linkedin.com/in/owenjevans",
 		"twitter": "https://twitter.com/OwenGeo",
@@ -305,8 +305,8 @@
 		"technologies": "Storymaps"
 	},
 	{
-        "consent": false,
-        "name": "John Nelson",
+		"consent": false,
+		"name": "John Nelson",
 		"picture": "https://pbs.twimg.com/profile_images/877539569746419712/zOOkdAkE_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/johnmnelson/",
 		"twitter": "https://twitter.com/John_M_Nelson",
@@ -322,8 +322,8 @@
 		"technologies": "Storymaps"
 	},
 	{
-        "consent": false,
-        "name": "Jennifer Bell",
+		"consent": false,
+		"name": "Jennifer Bell",
 		"picture": "https://pbs.twimg.com/profile_images/877316597932670977/ByX5n-2q_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/jennifer-bell-181b108a/",
 		"twitter": "https://twitter.com/jbellmaps",
@@ -339,8 +339,8 @@
 		"technologies": "Storymaps"
 	},
 	{
-        "consent": false,
-        "name": "Tim Witt",
+		"consent": false,
+		"name": "Tim Witt",
 		"picture": "./assets/imgs/tim-witt.png",
 		"linkedin": null,
 		"twitter": null,
@@ -356,8 +356,8 @@
 		"technologies": "Storymaps"
 	},
 	{
-        "consent": false,
-        "name": "Stephen Sylvia",
+		"consent": false,
+		"name": "Stephen Sylvia",
 		"picture": "https://avatars1.githubusercontent.com/u/1211360?v=3",
 		"linkedin": "https://www.linkedin.com/in/stephen-sylvia-0aa04620/",
 		"twitter": null,
@@ -373,8 +373,8 @@
 		"technologies": "Storymaps"
 	},
 	{
-        "consent": true,
-        "name": "Allison Muise",
+		"consent": true,
+		"name": "Allison Muise",
 		"picture": "https://geonet.esri.com/people/AMuise-esristaff/avatar/46.png?a=7395",
 		"linkedin": "https://www.linkedin.com/in/allison-muise-96936532/",
 		"twitter": null,
@@ -390,8 +390,8 @@
 		"technologies": "Storymaps"
 	},
 	{
-        "consent": false,
-        "name": "Tony Mason",
+		"consent": false,
+		"name": "Tony Mason",
 		"picture": "https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/01e/1b6/247e0c4.jpg",
 		"linkedin": "https://www.linkedin.com/in/tonymmason",
 		"twitter": null,
@@ -407,8 +407,8 @@
 		"technologies": "Drone2Map"
 	},
 	{
-        "consent": false,
-        "name": "Scott Sandusky",
+		"consent": false,
+		"name": "Scott Sandusky",
 		"picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/000/171/2ea/3ca4591.jpg",
 		"linkedin": "https://www.linkedin.com/in/scott-sandusky-184aa9a/",
 		"twitter": null,
@@ -424,8 +424,8 @@
 		"technologies": "Network Analyst, Navigator for ArcGIS, StreetMap Premium for ArcGIS"
 	},
 	{
-        "consent": false,
-        "name": "Patrick Stevens",
+		"consent": false,
+		"name": "Patrick Stevens",
 		"picture": "https://avatars4.githubusercontent.com/u/2279249?v=4",
 		"linkedin": null,
 		"twitter": null,
@@ -441,8 +441,8 @@
 		"technologies": "Network Analyst"
 	},
 	{
-        "consent": false,
-        "name": "Robert Garrity",
+		"consent": false,
+		"name": "Robert Garrity",
 		"picture": "./assets/imgs/robert-garrity.jpg",
 		"linkedin": null,
 		"twitter": null,
@@ -458,8 +458,8 @@
 		"technologies": "Network Analyst"
 	},
 	{
-        "consent": false,
-        "name": "Melinda Morang",
+		"consent": false,
+		"name": "Melinda Morang",
 		"picture": "https://pbs.twimg.com/profile_images/652943605137444864/dNhYTL54_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/melinda-morang-915a1b35/",
 		"twitter": "https://twitter.com/MelindaMorang",
@@ -475,8 +475,8 @@
 		"technologies": "Network Analyst, Public transit"
 	},
 	{
-        "consent": true,
-        "name": "Brent Pierce",
+		"consent": true,
+		"name": "Brent Pierce",
 		"picture": "https://avatars1.githubusercontent.com/u/3674302?&v=4",
 		"linkedin": "https://www.linkedin.com/in/brent-pierce-8bb5b55/",
 		"twitter": null,
@@ -492,8 +492,8 @@
 		"technologies": "Navigator for ArcGIS, Explorer for ArcGIS, Geodatabase, iOS and Android Runtime SDKs"
 	},
 	{
-        "consent": false,
-        "name": "James Tedrick",
+		"consent": false,
+		"name": "James Tedrick",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/6/000/1d4/1e3/2765d58.jpg",
 		"linkedin": "https://www.linkedin.com/in/james-tedrick-3455403/",
 		"twitter": null,
@@ -509,8 +509,8 @@
 		"technologies": "Survey123 for ArcGIS"
 	},
 	{
-        "consent": false,
-        "name": "Robert J Scheitlin",
+		"consent": false,
+		"name": "Robert J Scheitlin",
 		"picture": "https://avatars1.githubusercontent.com/u/1216460?v=3",
 		"linkedin": null,
 		"twitter": null,
@@ -526,8 +526,8 @@
 		"technologies": "Web AppBuilder for ArcGIS - Developer Edition, GeoNet"
 	},
 	{
-        "consent": true,
-        "name": "Gavin Rehkemper",
+		"consent": true,
+		"name": "Gavin Rehkemper",
 		"picture": "https://avatars3.githubusercontent.com/u/209355?v=3",
 		"linkedin": "http://www.linkedin.com/in/gavinrehkemper",
 		"twitter": "https://twitter.com/gavinrehkemper",
@@ -543,8 +543,8 @@
 		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
 	},
 	{
-        "consent": false,
-        "name": "Derek Law",
+		"consent": false,
+		"name": "Derek Law",
 		"picture": "https://avatars3.githubusercontent.com/u/1037228?v=4",
 		"linkedin": "https://www.linkedin.com/in/dereklaw88/",
 		"twitter": "https://twitter.com/gis_bandit",
@@ -560,8 +560,8 @@
 		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
 	},
 	{
-        "consent": false,
-        "name": "Jianxia Song",
+		"consent": false,
+		"name": "Jianxia Song",
 		"picture": "https://avatars2.githubusercontent.com/u/5741973?v=4",
 		"linkedin": "https://www.linkedin.com/in/jianxia-song-a8b78429/",
 		"twitter": null,
@@ -577,8 +577,8 @@
 		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
 	},
 	{
-        "consent": false,
-        "name": "Lemao Wu",
+		"consent": false,
+		"name": "Lemao Wu",
 		"picture": "https://avatars1.githubusercontent.com/u/4428300?v=4",
 		"linkedin": "https://www.linkedin.com/in/lemao-wu-4533b922/",
 		"twitter": "https://twitter.com/lemaowu",
@@ -594,8 +594,8 @@
 		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
 	},
 	{
-        "consent": false,
-        "name": "Patrick Arlt",
+		"consent": false,
+		"name": "Patrick Arlt",
 		"picture": "https://avatars2.githubusercontent.com/u/378557?v=3",
 		"linkedin": "https://www.linkedin.com/in/patrickarlt",
 		"twitter": "https://twitter.com/patrickarlt",
@@ -611,8 +611,8 @@
 		"technologies": "Ruby on Rails, NodeJS, ArcGIS REST API, AngularJS, Esri Leaflet, oAuth"
 	},
 	{
-        "consent": false,
-        "name": "Gary Sheppard",
+		"consent": false,
+		"name": "Gary Sheppard",
 		"picture": "https://avatars2.githubusercontent.com/u/3091666?v=3",
 		"linkedin": "https://www.linkedin.com/in/glsheppardjr/",
 		"twitter": "https://twitter.com/shepshep",
@@ -628,8 +628,8 @@
 		"technologies": "ArcPy, Python, ArcGIS API for JavaScript"
 	},
 	{
-        "consent": false,
-        "name": "Rohit Singh",
+		"consent": false,
+		"name": "Rohit Singh",
 		"picture": "https://avatars3.githubusercontent.com/u/17867943?v=3",
 		"linkedin": null,
 		"twitter": null,
@@ -645,8 +645,8 @@
 		"technologies": "ArcGIS API for Python"
 	},
 	{
-        "consent": false,
-        "name": "Marjean Pobuda",
+		"consent": false,
+		"name": "Marjean Pobuda",
 		"picture": "https://avatars2.githubusercontent.com/u/7785275?s=460&v=4",
 		"linkedin": null,
 		"twitter": null,
@@ -662,8 +662,8 @@
 		"technologies": "R-language"
 	},
 	{
-        "consent": false,
-        "name": "Morten Nielsen",
+		"consent": false,
+		"name": "Morten Nielsen",
 		"picture": "https://pbs.twimg.com/profile_images/3441363917/f10c93086ba184bfc776fc466ff1b543_400x400.jpeg",
 		"linkedin": "https://www.linkedin.com/in/dotmorten/",
 		"twitter": "https://twitter.com/dotMorten",
@@ -679,8 +679,8 @@
 		"technologies": "ArcGIS Runtime SDK for .NET, ArcGIS Runtime SDK for WPF"
 	},
 	{
-        "consent": false,
-        "name": "Rex Hansen",
+		"consent": false,
+		"name": "Rex Hansen",
 		"picture": "https://pbs.twimg.com/profile_images/674032713364451328/ZJfULbk7_400x400.png",
 		"linkedin": "https://www.linkedin.com/in/rex-hansen-b3b69b/",
 		"twitter": "https://twitter.com/rex_hansen",
@@ -696,8 +696,8 @@
 		"technologies": "ArcGIS Runtime SDK for .NET, Virtual Reality (VR), ArcGIS Runtime SDK for WPF"
 	},
 	{
-        "consent": true,
-        "name": "Eric Bader",
+		"consent": true,
+		"name": "Eric Bader",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAVHAAAAJDQ3ZjdhNzI0LWJkZTMtNGM2MC04MWRkLWI3MDE3YzRmZjBjYQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/eric-bader-b44ab83a/",
 		"twitter": "https://twitter.com/ECBader",
@@ -713,8 +713,8 @@
 		"technologies": "ArcGIS Runtime SDK for Java, ArcGIS Runtime SDK for Android"
 	},
 	{
-        "consent": false,
-        "name": "Divesh Goyal",
+		"consent": false,
+		"name": "Divesh Goyal",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA0AAAAAJDg4Zjc2ZTFiLTFhMTUtNDU0Ni05Njk2LTBkYWQ1YmFlODI4MQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/d1v3sh/",
 		"twitter": null,
@@ -730,8 +730,8 @@
 		"technologies": "ArcGIS Runtime SDK for iOS, ArcGIS Runtime SDK for macOS"
 	},
 	{
-        "consent": false,
-        "name": "Sathya Prasad",
+		"consent": false,
+		"name": "Sathya Prasad",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAVnAAAAJDliOGNjNWNhLWY5MDgtNDE5YS1hMTNmLWMyN2Q5ZTljMTllMA.jpg",
 		"linkedin": "https://www.linkedin.com/in/sathyaprasad/",
 		"twitter": "https://twitter.com/sathyaprasad",
@@ -747,8 +747,8 @@
 		"technologies": "ArcGIS Runtime SDK for Qt, AppStudio for ArcGIS"
 	},
 	{
-        "consent": true,
-        "name": "David Martinez",
+		"consent": true,
+		"name": "David Martinez",
 		"picture": "https://avatars2.githubusercontent.com/u/2925134?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/david-martinez-7682392/",
 		"twitter": "https://twitter.com/davidjmart",
@@ -764,8 +764,8 @@
 		"technologies": "ArcGIS API for JavaScript, Web AppBuilder for ArcGIS - Developer Edition"
 	},
 	{
-        "consent": true,
-        "name": "Sean McGee",
+		"consent": true,
+		"name": "Sean McGee",
 		"picture": "https://pbs.twimg.com/media/DMW_du2XcAIAKP6.jpg:large",
 		"linkedin": "https://www.linkedin.com/in/hertswestuk/",
 		"twitter": "https://twitter.com/hertswestuk",
@@ -781,8 +781,8 @@
 		"technologies": "ArcGIS API for JavaScript 4.x, Esri Startup Program"
 	},
 	{
-        "consent": true,
-        "name": "Raul Jimenez",
+		"consent": true,
+		"name": "Raul Jimenez",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/01c/2dd/1be9db8.jpg",
 		"linkedin": "https://es.linkedin.com/in/jimenezortegaraul",
 		"twitter": "https://www.twitter.com/hhkaos",
@@ -798,8 +798,8 @@
 		"technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS, Esri Startup Program, Calcite, Cedar, Demographics, Esri World Geocoding Service, Open Source, oAuth"
 	},
 	{
-        "consent": true,
-        "name": "Mark Jagt",
+		"consent": true,
+		"name": "Mark Jagt",
 		"picture": "https://media-exp2.licdn.com/media/p/3/000/006/081/3600517.jpg",
 		"linkedin": "https://www.linkedin.com/in/markjagt",
 		"twitter": null,
@@ -815,8 +815,8 @@
 		"technologies": "ArcGIS API for Python, Esri Startup Program"
 	},
 	{
-        "consent": false,
-        "name": "Andy Gup",
+		"consent": false,
+		"name": "Andy Gup",
 		"picture": "https://avatars2.githubusercontent.com/u/510440?v=4",
 		"linkedin": "https://www.linkedin.com/in/andy-gup-0a865a",
 		"twitter": "http://twitter.com/andygup",
@@ -832,8 +832,8 @@
 		"technologies": "ArcGIS API for JavaScript, Phonegap (Apache Cordova), AngularJS, Offline-editor-js, jQuery"
 	},
 	{
-        "consent": true,
-        "name": "Allan Laframboise",
+		"consent": true,
+		"name": "Allan Laframboise",
 		"picture": "https://avatars3.githubusercontent.com/u/2539681?v=4",
 		"linkedin": "https://www.linkedin.com/in/allan-laframboise-33745b8",
 		"twitter": "https://twitter.com/al_laframboise",
@@ -849,8 +849,8 @@
 		"technologies": "User Interfaces (UI), User Experience (UX), Design, Calcite, jQuery"
 	},
 	{
-        "consent": false,
-        "name": "John Yaist",
+		"consent": false,
+		"name": "John Yaist",
 		"picture": "https://avatars1.githubusercontent.com/u/1399179?v=4",
 		"linkedin": null,
 		"twitter": "https://twitter.com/TheMapsHaps",
@@ -866,8 +866,8 @@
 		"technologies": "ArcGIS Pro (scripting with Python)"
 	},
 	{
-        "consent": false,
-        "name": "Nicholas Furness",
+		"consent": false,
+		"name": "Nicholas Furness",
 		"picture": "https://avatars1.githubusercontent.com/u/25374?v=4",
 		"linkedin": "https://www.linkedin.com/in/nixta/",
 		"twitter": "https://twitter.com/nixta",
@@ -883,8 +883,8 @@
 		"technologies": "ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS, ArcGIS API for JavaScript, Sencha (ExtJS), ArcGIS Runtime SDK for macOS"
 	},
 	{
-        "consent": false,
-        "name": "Rene Rubalcava",
+		"consent": false,
+		"name": "Rene Rubalcava",
 		"picture": "https://avatars3.githubusercontent.com/u/206462?v=4",
 		"linkedin": "https://www.linkedin.com/in/renerubalcava/",
 		"twitter": "https://twitter.com/odoenet",
@@ -900,8 +900,8 @@
 		"technologies": "ArcGIS API for JavaScript 3.x, ArcGIS API for JavaScript 4.x, ReactJS, VueJS, EmberJS, Knockout, Dojo, Electron, ArcGIS REST API"
 	},
 	{
-        "consent": false,
-        "name": "Jim Barry",
+		"consent": false,
+		"name": "Jim Barry",
 		"picture": "https://avatars1.githubusercontent.com/u/784495?v=4",
 		"linkedin": "https://www.linkedin.com/in/jdbarry/",
 		"twitter": "https://twitter.com/JimBarry",
@@ -917,8 +917,8 @@
 		"technologies": "ArcGIS API for JavaScript"
 	},
 	{
-        "consent": false,
-        "name": "Bjorn Svensson",
+		"consent": false,
+		"name": "Bjorn Svensson",
 		"picture": "./assets/imgs/bjorn-svensonn.png",
 		"linkedin": "https://www.linkedin.com/in/bjornman/",
 		"twitter": "https://twitter.com/Bjorn_Svensson",
@@ -934,8 +934,8 @@
 		"technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification, Resource Proxy"
 	},
 	{
-        "consent": false,
-        "name": "Jeremy Bartley",
+		"consent": false,
+		"name": "Jeremy Bartley",
 		"picture": "./assets/imgs/jeremy-bartley.png",
 		"linkedin": "https://www.linkedin.com/in/jeremy-bartley-52559a4/",
 		"twitter": "https://twitter.com/mapdex?lang=en",
@@ -951,8 +951,8 @@
 		"technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification, ArcGIS Online"
 	},
 	{
-        "consent": false,
-        "name": "Justin Colville",
+		"consent": false,
+		"name": "Justin Colville",
 		"picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/088/3a5/3cd9749.jpg",
 		"linkedin": "https://www.linkedin.com/in/justin-colville-18b29aa4/",
 		"twitter": null,
@@ -968,8 +968,8 @@
 		"technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification"
 	},
 	{
-        "consent": false,
-        "name": "Tom Wayson",
+		"consent": false,
+		"name": "Tom Wayson",
 		"picture": "https://avatars2.githubusercontent.com/u/662944?v=3",
 		"linkedin": "https://www.linkedin.com/in/tomwayson",
 		"twitter": "https://twitter.com/tomwayson",
@@ -985,8 +985,8 @@
 		"technologies": "AngularJS, Cedar, EmberJS"
 	},
 	{
-        "consent": false,
-        "name": "Jacob Wasilkowski",
+		"consent": false,
+		"name": "Jacob Wasilkowski",
 		"picture": "https://avatars2.githubusercontent.com/u/4933392?v=3",
 		"linkedin": null,
 		"twitter": "https://twitter.com/jwasilgeo",
@@ -1002,8 +1002,8 @@
 		"technologies": "AngularJS"
 	},
 	{
-        "consent": false,
-        "name": "Dave Bouwman",
+		"consent": false,
+		"name": "Dave Bouwman",
 		"picture": "https://avatars2.githubusercontent.com/u/119129?v=3",
 		"linkedin": "https://www.linkedin.com/in/davebouwman",
 		"twitter": "https://twitter.com/dbouwman",
@@ -1019,8 +1019,8 @@
 		"technologies": "AngularJS, EmberJS, oAuth"
 	},
 	{
-        "consent": false,
-        "name": "Keith Stewart",
+		"consent": false,
+		"name": "Keith Stewart",
 		"picture": "https://avatars3.githubusercontent.com/u/2197094?v=3",
 		"linkedin": "https://www.linkedin.com/in/keithgstewart",
 		"twitter": "https://twitter.com/TheKeithStewart",
@@ -1036,8 +1036,8 @@
 		"technologies": "AngularJS"
 	},
 	{
-        "consent": false,
-        "name": "Yann Cabon",
+		"consent": false,
+		"name": "Yann Cabon",
 		"picture": "https://avatars1.githubusercontent.com/u/1074239?v=3",
 		"linkedin": "https://www.linkedin.com/in/yann-cabon-a7710010/",
 		"twitter": "https://twitter.com/yanncabon",
@@ -1053,8 +1053,8 @@
 		"technologies": "ArcGIS API for JavaScript 4.x"
 	},
 	{
-        "consent": false,
-        "name": "Richie Carmichael",
+		"consent": false,
+		"name": "Richie Carmichael",
 		"picture": "https://avatars1.githubusercontent.com/u/2531121?v=3",
 		"linkedin": "https://www.linkedin.com/in/richiecarmichael/",
 		"twitter": "https://twitter.com/KiwiRichie",
@@ -1070,8 +1070,8 @@
 		"technologies": "ArcGIS API for JavaScript 4.x"
 	},
 	{
-        "consent": false,
-        "name": "Julie Powell",
+		"consent": false,
+		"name": "Julie Powell",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/045/0a2/2d50750.jpg",
 		"linkedin": "https://www.linkedin.com/in/julieapowell/",
 		"twitter": "https://twitter.com/JuliePowellGIS",
@@ -1087,8 +1087,8 @@
 		"technologies": "ArcGIS API for JavaScript"
 	},
 	{
-        "consent": false,
-        "name": "Erich Rainville",
+		"consent": false,
+		"name": "Erich Rainville",
 		"picture": "https://avatars3.githubusercontent.com/u/5419306?v=3",
 		"linkedin": "https://www.linkedin.com/in/erichrainville/",
 		"twitter": "https://twitter.com/TheBlueDog",
@@ -1104,8 +1104,8 @@
 		"technologies": "jQuery, User Experience (UX)"
 	},
 	{
-        "consent": false,
-        "name": "Lloyd Heberlie",
+		"consent": false,
+		"name": "Lloyd Heberlie",
 		"picture": "https://avatars3.githubusercontent.com/u/1824760?v=3",
 		"linkedin": "https://www.linkedin.com/in/lloydheberlie/",
 		"twitter": "https://twitter.com/lheberlie",
@@ -1121,8 +1121,8 @@
 		"technologies": "Phonegap (Apache Cordova)"
 	},
 	{
-        "consent": true,
-        "name": "Federico Lopez",
+		"consent": true,
+		"name": "Federico Lopez",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAvxAAAAJDIyNzBlZWY2LWJkZWEtNGFjNi04NGIyLTUwYTdmOGE3NTk1OQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/federico-lópez-fernández-9372a1140/",
 		"twitter": "https://twitter.com/fedelopezfdez",
@@ -1138,8 +1138,8 @@
 		"technologies": "ArcGIS Desktop, ArcGIS Online, ArcGIS Open Data, ArcGIS Pro, ArcGIS Earth, ArcGIS Maps for Office, Esri Business Analyst, KoopJS, Operations Dashboard for ArcGIS, Web AppBuilder for ArcGIS, Workforce for ArcGIS"
 	},
 	{
-        "consent": true,
-        "name": "Nacho Vazquez",
+		"consent": true,
+		"name": "Nacho Vazquez",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAMRAAAAJGY4Y2ZmZWU5LTQyY2QtNDUxMi05ZTQ0LWE5ODgwNjY1YjE5Yw.jpg",
 		"linkedin": "https://es.linkedin.com/in/ignaciovazquezvelez",
 		"twitter": "https://twitter.com/nachogondorff",
@@ -1155,8 +1155,8 @@
 		"technologies": "ArcGIS Desktop, ArcGIS Pro"
 	},
 	{
-        "consent": true,
-        "name": "Marta Davila",
+		"consent": true,
+		"name": "Marta Davila",
 		"picture": "https://pbs.twimg.com/profile_images/2185442643/yo_400x400.JPG",
 		"linkedin": null,
 		"twitter": "https://twitter.com/marta_davila",
@@ -1172,8 +1172,8 @@
 		"technologies": "GeoEvent Server, GeoAnalytics Server, Insights for ArcGIS, ArcGIS Enterprise"
 	},
 	{
-        "consent": true,
-        "name": "Juanjo Pérez",
+		"consent": true,
+		"name": "Juanjo Pérez",
 		"picture": "./assets/imgs/juanjo-perez.jpg",
 		"linkedin": "https://es.linkedin.com/in/juan-jose-perez-real-50045460",
 		"twitter": null,
@@ -1189,8 +1189,8 @@
 		"technologies": "ArcGIS Open Data, Living Atlas, Geocoding, ArcGIS Online, Basemaps"
 	},
 	{
-        "consent": true,
-        "name": "Isaac Sánchez",
+		"consent": true,
+		"name": "Isaac Sánchez",
 		"picture": "./assets/imgs/isaac-sanchez.jpg",
 		"linkedin": "https://es.linkedin.com/in/isaacsanchezcastro",
 		"twitter": "https://twitter.com/IsaacSCastro",
@@ -1206,8 +1206,8 @@
 		"technologies": "ArcGIS Pro, 3D, i3s, Esri CityEngine, Building Information Modeling (BIM), ArcGIS Earth, Indoor mapping, 3D modeling, Virtual Reality (VR), Augmented Reality (AR), Mixed Reality (MR), Lidar"
 	},
 	{
-        "consent": true,
-        "name": "Lorenzo Mateos",
+		"consent": true,
+		"name": "Lorenzo Mateos",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/095/2cf/3b5fe1a.jpg",
 		"linkedin": "https://es.linkedin.com/in/lorenzo-mateos-corchero-8745b393",
 		"twitter": null,
@@ -1223,8 +1223,8 @@
 		"technologies": "GeoPortal Server, INSPIRE"
 	},
 	{
-        "consent": true,
-        "name": "Antonio Remirez",
+		"consent": true,
+		"name": "Antonio Remirez",
 		"picture": "https://pbs.twimg.com/profile_images/864515767752048640/rVGoJbc-_400x400.jpg",
 		"linkedin": "https://es.linkedin.com/in/aremirez",
 		"twitter": "https://twitter.com/antonio_remirez",
@@ -1240,8 +1240,8 @@
 		"technologies": "ArcGIS API for JavaScript, Dojo, Web AppBuilder for ArcGIS - Developer Edition, ArcGIS Enterprise, ArcGIS API for Python, Offline-editor-js, ArcPy"
 	},
 	{
-        "consent": true,
-        "name": "Joan Pere",
+		"consent": true,
+		"name": "Joan Pere",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAjuAAAAJDY3NGYwZTk0LWQzNTEtNDI1Yy05MTZmLWI5MzAyNzQ2OGE4ZA.jpg",
 		"linkedin": "https://es.linkedin.com/in/joanpereavariento",
 		"twitter": "https://twitter.com/JoanPereNules",
@@ -1257,8 +1257,8 @@
 		"technologies": "ArcGIS API for JavaScript, Web AppBuilder for ArcGIS - Developer Edition, ArcGIS Enterprise, ArcGIS Runtime SDK for Android, Python, ArcGIS API for Python, ArcPy"
 	},
 	{
-        "consent": false,
-        "name": "Luis Rodriguez",
+		"consent": false,
+		"name": "Luis Rodriguez",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/03a/2b0/097a146.jpg",
 		"linkedin": "https://es.linkedin.com/in/luis-antonio-rodríguez-gonzález-8681352/es",
 		"twitter": "https://twitter.com/71luisrodriguez",
@@ -1274,8 +1274,8 @@
 		"technologies": "ArcGIS Pro SDK"
 	},
 	{
-        "consent": true,
-        "name": "Carlos López",
+		"consent": true,
+		"name": "Carlos López",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfLAAAAJGJiYjM5MTUxLTY1ZDAtNGE3YS05OTg3LWY4ODM3NDU3MmY3Nw.jpg",
 		"linkedin": "https://es.linkedin.com/in/carlos-lópez-moyano-1b0bb330",
 		"twitter": "https://twitter.com/raloji",
@@ -1291,8 +1291,8 @@
 		"technologies": "ArcGIS Runtime SDK for .NET, Xamarin"
 	},
 	{
-        "consent": false,
-        "name": "Chris Andrews",
+		"consent": false,
+		"name": "Chris Andrews",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/022/1b4/3ed2435.jpg",
 		"linkedin": "https://www.linkedin.com/in/chrisjandrews/",
 		"twitter": "https://twitter.com/_ChrisJAndrews",
@@ -1308,8 +1308,8 @@
 		"technologies": "3D, i3s, ArcGIS Earth"
 	},
 	{
-        "consent": false,
-        "name": "Daniel Fenton",
+		"consent": false,
+		"name": "Daniel Fenton",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAArmAAAAJDdhYjlmZWIwLTQ0MjMtNDZiMC04OTcyLTAzMDc5MjgzMjg5ZQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/dmfenton/",
 		"twitter": "https://twitter.com/dmfenton",
@@ -1325,8 +1325,8 @@
 		"technologies": "KoopJS"
 	},
 	{
-        "consent": false,
-        "name": "Nick Patel",
+		"consent": false,
+		"name": "Nick Patel",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAonAAAAJGQ5M2FmMWQ1LTY4ZDYtNGE2Ny04Mjg5LTdjNDMyYWJlN2FiMQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/patelnick/",
 		"twitter": null,
@@ -1342,8 +1342,8 @@
 		"technologies": "Esri World Geocoding Service, Basemaps"
 	},
 	{
-        "consent": false,
-        "name": "Lucy Guerra",
+		"consent": false,
+		"name": "Lucy Guerra",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/7/000/1ff/155/3a34320.jpg",
 		"linkedin": "https://www.linkedin.com/in/lucymarshallguerra/",
 		"twitter": null,
@@ -1359,8 +1359,8 @@
 		"technologies": "Demographics"
 	},
 	{
-        "consent": false,
-        "name": "Mike Gaigg",
+		"consent": false,
+		"name": "Mike Gaigg",
 		"picture": "https://avatars0.githubusercontent.com/u/782065?s=460&v=4",
 		"linkedin": null,
 		"twitter": null,
@@ -1376,8 +1376,8 @@
 		"technologies": "User Interfaces (UI), User Experience (UX), Design"
 	},
 	{
-        "consent": false,
-        "name": "Max Payson",
+		"consent": false,
+		"name": "Max Payson",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/3/005/073/212/2904ac0.jpg",
 		"linkedin": "https://www.linkedin.com/in/max-payson-08328b99/",
 		"twitter": "https://twitter.com/mhp207",
@@ -1393,8 +1393,8 @@
 		"technologies": "ArcGIS API for JavaScript, ReactJS, ArcGIS API for Python, ArcGIS Online, NodeJS, Esri Startup Program"
 	},
 	{
-        "consent": false,
-        "name": "Alejandro Pequeño",
+		"consent": false,
+		"name": "Alejandro Pequeño",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfJAAAAJDA0NmMwY2IxLWFjYzktNDdmYy1iMmYyLTVhMWQ3YzM4MjUwNQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/alejandro-peque%C3%B1o-pulleiro-a6157b123/",
 		"twitter": "https://twitter.com/alejanndropeq",
@@ -1410,8 +1410,8 @@
 		"technologies": "ArcGIS API for JavaScript, Storymaps, User Experience (UX), Design, User Interfaces (UI), Operations Dashboard for ArcGIS, ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS, Calcite"
 	},
 	{
-        "consent": true,
-        "name": "Jorge Barrachina",
+		"consent": true,
+		"name": "Jorge Barrachina",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAw9AAAAJDIxOGQ1ZGIzLTdmNDEtNGNjZi05YTYyLTAzYzYzNjgzZjc5MQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/jorgebarrachina/",
 		"twitter": "https://twitter.com/NTKOG",
@@ -1427,8 +1427,8 @@
 		"technologies": "ArcGIS API for JavaScript"
 	},
 	{
-        "consent": true,
-        "name": "Yansa Tejada",
+		"consent": true,
+		"name": "Yansa Tejada",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfjAAAAJDMxMTdiOTg3LWUzN2YtNGI2Ni1iZTcyLTFkZDJjMTY2OGE3NQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/yansa-tejada-mengibar-a1302b19",
 		"twitter": "https://twitter.com/yyansays",
@@ -1444,8 +1444,8 @@
 		"technologies": "Geoportal Server, INSPIRE"
 	},
 	{
-        "consent": false,
-        "name": "David Cardella",
+		"consent": false,
+		"name": "David Cardella",
 		"picture": "https://avatars0.githubusercontent.com/u/1372978?v=4",
 		"linkedin": "https://www.linkedin.com/in/david-cardella-32bbb312/",
 		"twitter": null,
@@ -1461,8 +1461,8 @@
 		"technologies": "ArcGIS Runtime SDK for macOS, ArcGIS API for Python, ArcGIS Runtime SDK for iOS"
 	},
 	{
-        "consent": false,
-        "name": "Dariya Ordanovich",
+		"consent": false,
+		"name": "Dariya Ordanovich",
 		"picture": "https://pbs.twimg.com/profile_images/724137333348569088/b9LlI6BR_400x400.jpg",
 		"linkedin": "https://ru.linkedin.com/in/dariyaordanovich/es",
 		"twitter": "https://twitter.com/dordanovich",
@@ -1478,8 +1478,8 @@
 		"technologies": "R-language"
 	},
 	{
-        "consent": false,
-        "name": "Javier Gutierrez",
+		"consent": false,
+		"name": "Javier Gutierrez",
 		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAA0vAAAAJGJiODY2NmVmLTBlYzAtNGJiZC1iNzhlLTJiZmFkNjdmZTcyOQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/jgtrez/",
 		"twitter": "https://twitter.com/jgutierrez0",
@@ -1495,8 +1495,8 @@
 		"technologies": "ArcGIS API for JavaScript 4.x, 3D"
 	},
 	{
-        "consent": false,
-        "name": "Johannes Schmid",
+		"consent": false,
+		"name": "Johannes Schmid",
 		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAA1ZAAAAJGQ1NjkyOWQxLTA1ZWYtNGM2NC05YmUxLTBlY2MyYjU3MzU4Mw.jpg",
 		"linkedin": "https://www.linkedin.com/in/johannes-schmid-63a769142/",
 		"twitter": null,
@@ -1512,8 +1512,8 @@
 		"technologies": "ArcGIS API for JavaScript 4.x, 3D"
 	},
 	{
-        "consent": false,
-        "name": "Marika Vertzonis",
+		"consent": false,
+		"name": "Marika Vertzonis",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAUDAAAAJDE5ODdmNGU3LWQyNTItNGZhMi05NGVhLWI0YTJmNTg3MDFlYw.jpg",
 		"linkedin": "https://www.linkedin.com/in/marika-vertzonis-67b219109/",
 		"twitter": null,
@@ -1530,8 +1530,8 @@
 
 	},
 	{
-        "consent": false,
-        "name": "John Grayson",
+		"consent": false,
+		"name": "John Grayson",
 		"picture": "./assets/imgs/john-grayson.png",
 		"linkedin": null,
 		"twitter": "https://twitter.com/johndgrayson9",
@@ -1548,8 +1548,8 @@
 
 	},
 	{
-        "consent": false,
-        "name": "Peter Becker",
+		"consent": false,
+		"name": "Peter Becker",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/072/1f1/19f4f49.jpg",
 		"linkedin": "https://www.linkedin.com/in/peter-becker-5027b8a/",
 		"twitter": null,
@@ -1566,8 +1566,8 @@
 
 	},
 	{
-        "consent": false,
-        "name": "Naila Khan",
+		"consent": false,
+		"name": "Naila Khan",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA3cAAAAJGVkMTZiNGUyLWMyNGMtNDhiZC1iMzQ3LWQ5YmU5NWJlZGU1NQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/nkhan07/",
 		"twitter": null,
@@ -1584,8 +1584,8 @@
 
 	},
 	{
-        "consent": false,
-        "name": "Wenxue Ju",
+		"consent": false,
+		"name": "Wenxue Ju",
 		"picture": "./assets/imgs/wenxue-ju.jpg",
 		"linkedin": "https://www.linkedin.com/in/wenxue-ju-ab5735a/",
 		"twitter": null,
@@ -1602,8 +1602,8 @@
 
 	},
 	{
-        "consent": false,
-        "name": "Paul Ross",
+		"consent": false,
+		"name": "Paul Ross",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAUuAAAAJGE5OGI4YTliLWFjNjEtNDZjMy1iODZhLTA3ZDA5M2JkODA4ZA.jpg",
 		"linkedin": "https://www.linkedin.com/in/paulross01/",
 		"twitter": "https://twitter.com/pwross01",
@@ -1619,8 +1619,8 @@
 		"technologies": "ArcGIS Online"
 	},
 	{
-        "consent": true,
-        "name": "Andrew Stauffer",
+		"consent": true,
+		"name": "Andrew Stauffer",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbXAAAAJDFiYTgxMTdiLTcwNzgtNDE0OC1iMDYyLWZiZTJhOGE2M2M0ZA.jpg",
 		"linkedin": "https://www.linkedin.com/in/andrewjstauffer/",
 		"twitter": null,
@@ -1636,8 +1636,8 @@
 		"technologies": "Waze, Teralytics"
 	},
 	{
-        "consent": false,
-        "name": "Wolfgang Kaiser",
+		"consent": false,
+		"name": "Wolfgang Kaiser",
 		"picture": "https://avatars0.githubusercontent.com/u/5561398?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/wolfgang-kaiser-15357299/",
 		"twitter": null,
@@ -1653,8 +1653,8 @@
 		"technologies": "ArcGIS Pro SDK"
 	},
 	{
-        "consent": false,
-        "name": "Uma Harano",
+		"consent": false,
+		"name": "Uma Harano",
 		"picture": "https://avatars2.githubusercontent.com/u/6740984?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/uma-harano-5a559bb9/",
 		"twitter": null,
@@ -1669,8 +1669,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Pro SDK"
 	}, {
-        "consent": false,
-        "name": "Andrew Chapkowski",
+		"consent": false,
+		"name": "Andrew Chapkowski",
 		"picture": "https://avatars2.githubusercontent.com/u/5131271?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/andrew-c-514b173b/",
 		"twitter": null,
@@ -1685,8 +1685,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS REST API"
 	}, {
-        "consent": false,
-        "name": "Mike Branscomb",
+		"consent": false,
+		"name": "Mike Branscomb",
 		"picture": "https://avatars2.githubusercontent.com/u/3381768?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/michael-branscomb-4560bb6/",
 		"twitter": null,
@@ -1701,8 +1701,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for .NET, ArcGIS Runtime SDK for WPF"
 	}, {
-        "consent": false,
-        "name": "Antti Kajanus",
+		"consent": false,
+		"name": "Antti Kajanus",
 		"picture": "https://avatars3.githubusercontent.com/u/1155333?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/anttikajanus/",
 		"twitter": "https://twitter.com/anttikajanus",
@@ -1717,8 +1717,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for .NET"
 	}, {
-        "consent": true,
-        "name": "Ionut Alixandroae",
+		"consent": true,
+		"name": "Ionut Alixandroae",
 		"picture": "https://pbs.twimg.com/profile_images/894468419243954176/9qfDQOgN_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/ialixandroae/",
 		"twitter": "https://twitter.com/ialixandroae",
@@ -1733,8 +1733,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript, NodeJS, Web AppBuilder for ArcGIS - Developer Edition, jQuery, Python, ArcGIS API for Python, ArcPy, ArcGIS REST API, ArcGIS Enterprise, ArcGIS Runtime SDK for Java, Calcite, CityEngine, Operations Dashboard for ArcGIS, Storymaps"
 	}, {
-        "consent": false,
-        "name": "Mark Baird",
+		"consent": false,
+		"name": "Mark Baird",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/7/000/1fd/3d2/156e8b4.jpg",
 		"linkedin": "https://www.linkedin.com/in/mark-baird-5565786/",
 		"twitter": null,
@@ -1749,8 +1749,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Java"
 	}, {
-        "consent": false,
-        "name": "Tyler Schiewe",
+		"consent": false,
+		"name": "Tyler Schiewe",
 		"picture": "https://avatars3.githubusercontent.com/u/6752266?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/tyler-schiewe-35203381/",
 		"twitter": null,
@@ -1765,8 +1765,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Java"
 	}, {
-        "consent": false,
-        "name": "Suganya Baskaran",
+		"consent": false,
+		"name": "Suganya Baskaran",
 		"picture": "https://avatars3.githubusercontent.com/u/4185324?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/suganyab/",
 		"twitter": null,
@@ -1781,8 +1781,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for macOS"
 	}, {
-        "consent": false,
-        "name": "Gagandeep Singh",
+		"consent": false,
+		"name": "Gagandeep Singh",
 		"picture": "https://avatars2.githubusercontent.com/u/1700271?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/gagandeepsingh04/",
 		"twitter": null,
@@ -1797,8 +1797,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for macOS"
 	}, {
-        "consent": false,
-        "name": "Tamrat Belayneh",
+		"consent": false,
+		"name": "Tamrat Belayneh",
 		"picture": "./assets/imgs/tamrat-belayneh.png",
 		"linkedin": null,
 		"twitter": null,
@@ -1813,8 +1813,8 @@
 		"advocate": false,
 		"technologies": "i3s, 3D"
 	}, {
-        "consent": false,
-        "name": "Jen Trieu",
+		"consent": false,
+		"name": "Jen Trieu",
 		"picture": "https://avatars0.githubusercontent.com/u/6116216?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/jen-trieu-2520ab56/",
 		"twitter": null,
@@ -1829,8 +1829,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Qt, QML"
 	}, {
-        "consent": false,
-        "name": "Michael Tims",
+		"consent": false,
+		"name": "Michael Tims",
 		"picture": "https://avatars3.githubusercontent.com/u/5607251?s=460&v=4",
 		"linkedin": null,
 		"twitter": null,
@@ -1845,8 +1845,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Qt, QML, ArcGIS Runtime SDK for .NET"
 	}, {
-        "consent": false,
-        "name": "Lucas Danzinger",
+		"consent": false,
+		"name": "Lucas Danzinger",
 		"picture": "https://avatars1.githubusercontent.com/u/4107363?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/lucas-danzinger-ab371b37/",
 		"twitter": "https://twitter.com/geo_badger",
@@ -1861,8 +1861,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Qt, Python"
 	}, {
-        "consent": false,
-        "name": "Tina Jin",
+		"consent": false,
+		"name": "Tina Jin",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/0ab/0ee/284cbb1.jpg",
 		"linkedin": "https://www.linkedin.com/in/tina-jin-11710291/",
 		"twitter": null,
@@ -1877,8 +1877,8 @@
 		"advocate": false,
 		"technologies": "AppStudio for ArcGIS"
 	}, {
-        "consent": true,
-        "name": "Clinton Dow",
+		"consent": true,
+		"name": "Clinton Dow",
 		"picture": "https://avatars0.githubusercontent.com/u/11847212?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/clintondow/",
 		"twitter": "https://twitter.com/DataNavigator",
@@ -1893,8 +1893,8 @@
 		"advocate": false,
 		"technologies": "Python, ArcPy"
 	}, {
-        "consent": false,
-        "name": "Matej Vrtich",
+		"consent": false,
+		"name": "Matej Vrtich",
 		"picture": "./assets/imgs/matej-vrtich.png",
 		"linkedin": "https://www.linkedin.com/in/matej-vrtich-9a0756b0/",
 		"twitter": null,
@@ -1909,8 +1909,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript"
 	}, {
-        "consent": false,
-        "name": "Dominique Broux",
+		"consent": false,
+		"name": "Dominique Broux",
 		"picture": "https://avatars1.githubusercontent.com/u/4007034?s=460&v=4",
 		"linkedin": null,
 		"twitter": "https://twitter.com/dbroux",
@@ -1925,8 +1925,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for WPF"
 	}, {
-        "consent": false,
-        "name": "Frederic Aubry",
+		"consent": false,
+		"name": "Frederic Aubry",
 		"picture": "https://avatars2.githubusercontent.com/u/3506166?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/frederic-aubry-a1a36b13/",
 		"twitter": "https://twitter.com/FFAubry",
@@ -1941,8 +1941,8 @@
 		"advocate": false,
 		"technologies": "EmberJS"
 	}, {
-        "consent": false,
-        "name": "Hussein Nasser",
+		"consent": false,
+		"name": "Hussein Nasser",
 		"picture": "https://pbs.twimg.com/profile_images/934174489507590144/lM1jlV9M_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/hnaser/",
 		"twitter": "https://twitter.com/hnasr",
@@ -1957,8 +1957,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript 4.x, Geodatabase, UtilityNetwork, ArcGIS Server"
 	}, {
-        "consent": false,
-        "name": "Matt Driscoll",
+		"consent": false,
+		"name": "Matt Driscoll",
 		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAJ-AAAAJGI3MmQxZDdjLTBkNTQtNDQ2Ny05ODc2LWY0NzFiYTlmMDlmYw.jpg",
 		"linkedin": "https://www.linkedin.com/in/driscollm/",
 		"twitter": "https://twitter.com/driskull",
@@ -1973,8 +1973,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript, Dojo, Offline-editor-js"
 	}, {
-        "consent": false,
-        "name": "Sam Libby",
+		"consent": false,
+		"name": "Sam Libby",
 		"picture": "./assets/imgs/sam-libby.png",
 		"linkedin": "https://www.linkedin.com/in/samlibby/",
 		"twitter": null,
@@ -1989,8 +1989,8 @@
 		"advocate": false,
 		"technologies": "KoopJS, ArcGIS Enterprise, Python"
 	}, {
-        "consent": false,
-        "name": "Adam Pfister",
+		"consent": false,
+		"name": "Adam Pfister",
 		"picture": "https://media-exp2.licdn.com/media/p/2/005/0b3/2e8/35e0c6e.jpg",
 		"linkedin": "https://www.linkedin.com/in/ajpfister/",
 		"twitter": "https://twitter.com/adamjpfister",
@@ -2005,8 +2005,8 @@
 		"advocate": false,
 		"technologies": "KoopJS, ArcGIS Server, Esri Leaflet, Dojo, ArcGIS API for JavaScript"
 	}, {
-        "consent": true,
-        "name": "Lars Schmitz",
+		"consent": true,
+		"name": "Lars Schmitz",
 		"picture": "https://media-exp2.licdn.com/media/p/3/005/01b/0e3/36c6d5b.jpg",
 		"linkedin": "https://www.linkedin.com/in/larsschmitz/",
 		"twitter": "https://twitter.com/pilukinum",
@@ -2021,8 +2021,8 @@
 		"advocate": false,
 		"technologies": "Esri Startup Program"
 	}, {
-        "consent": false,
-        "name": "Katie Decker",
+		"consent": false,
+		"name": "Katie Decker",
 		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAs5AAAAJDAyYjczNTE4LTM0NDItNDkyMi04NTgwLWIwOGI1NGM1ZDQwNg.jpg",
 		"linkedin": "https://www.linkedin.com/in/katdecker/",
 		"twitter": "https://twitter.com/globaldecker",
@@ -2037,8 +2037,8 @@
 		"advocate": false,
 		"technologies": "Esri Startup Program"
 	}, {
-        "consent": false,
-        "name": "Alan Cassidy",
+		"consent": false,
+		"name": "Alan Cassidy",
 		"picture": "https://media-exp2.licdn.com/media/p/5/005/053/343/104af94.jpg",
 		"linkedin": "https://www.linkedin.com/in/alan-cassidy-60146538/",
 		"twitter": null,
@@ -2053,8 +2053,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Marketplace"
 	}, {
-        "consent": false,
-        "name": "Martin Copping",
+		"consent": false,
+		"name": "Martin Copping",
 		"picture": "./assets/imgs/martin-copping.jpg",
 		"linkedin": "https://www.linkedin.com/in/mcopping/",
 		"twitter": "https://twitter.com/mgcopping",
@@ -2069,8 +2069,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Marketplace, Esri Startup Program"
 	}, {
-        "consent": false,
-        "name": "Mike Juniper",
+		"consent": false,
+		"name": "Mike Juniper",
 		"picture": "https://avatars3.githubusercontent.com/u/942837?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/mjuniper/",
 		"twitter": "https://twitter.com/mjuniper?lang=en",
@@ -2085,8 +2085,8 @@
 		"advocate": false,
 		"technologies": "EmberJS, ArcGIS Open Data, Backbone, ArcGIS API for JavaScript, ArcGIS Hub"
 	}, {
-        "consent": false,
-        "name": "Shelly Gill",
+		"consent": false,
+		"name": "Shelly Gill",
 		"picture": "https://avatars1.githubusercontent.com/u/3903588?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/shelly-gill-a2b98694/",
 		"twitter": null,
@@ -2101,8 +2101,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Android"
 	}, {
-        "consent": false,
-        "name": "Jeff Ford",
+		"consent": false,
+		"name": "Jeff Ford",
 		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAALiAAAAJGVkYjUzMzBmLWY3NWEtNDZhNS1hMTM3LWFhM2I1NTQ3NTNjYw.jpg",
 		"linkedin": "https://www.linkedin.com/in/jeffreyford2/",
 		"twitter": null,
@@ -2117,8 +2117,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Android"
 	}, {
-        "consent": false,
-        "name": "Xueming Wu",
+		"consent": false,
+		"name": "Xueming Wu",
 		"picture": "https://avatars1.githubusercontent.com/u/5581259?s=460&v=4",
 		"linkedin": "https://community.esri.com/people/XWu-esristaff",
 		"twitter": null,
@@ -2133,8 +2133,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Android"
 	}, {
-        "consent": false,
-        "name": "Matthias Schenker",
+		"consent": false,
+		"name": "Matthias Schenker",
 		"picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAvdAAAAJDg3Y2IxMDI1LWIyY2ItNDljYS1hMzg3LTIwN2Q1MzRlNzAzYg.jpg",
 		"linkedin": "https://www.linkedin.com/in/matthias-schenker-274623a/",
 		"twitter": "https://twitter.com/MattSchenker",
@@ -2149,8 +2149,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Enterprise, ArcGIS Rest API, ArcGIS API for Python"
 	}, {
-        "consent": false,
-        "name": "Johnathon Malott",
+		"consent": false,
+		"name": "Johnathon Malott",
 		"picture": "https://avatars2.githubusercontent.com/u/14575538?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/jcmalott/",
 		"twitter": null,
@@ -2165,8 +2165,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Java"
 	}, {
-        "consent": false,
-        "name": "Rob Burke",
+		"consent": false,
+		"name": "Rob Burke",
 		"picture": "https://media-exp2.licdn.com/media/p/3/000/018/2fb/3658a2f.jpg",
 		"linkedin": "https://www.linkedin.com/in/rob-burke-2054a82/",
 		"twitter": null,
@@ -2181,8 +2181,8 @@
 		"advocate": false,
 		"technologies": "ArcGIS Pro SDK"
 	}, {
-        "consent": false,
-        "name": "Chris Catania",
+		"consent": false,
+		"name": "Chris Catania",
 		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAVCAAAAJDc4NDIzNzI4LWZjNGUtNDZjMi1iYjgzLTVhYzAxZmIwYTVjMQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/christophercatania/",
 		"twitter": "https://twitter.com/chriscatania",
@@ -2197,8 +2197,8 @@
 		"advocate": false,
 		"technologies": "GeoNet"
 	}, {
-        "consent": false,
-        "name": "Michelle Mathias",
+		"consent": false,
+		"name": "Michelle Mathias",
 		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAgHAAAAJDE0ZDhkNjBjLTBjYjQtNGE0NS05YTYyLTIzZTc4ZDI4NzFkYQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/mlmathias/",
 		"twitter": null,
@@ -2213,8 +2213,8 @@
 		"advocate": false,
 		"technologies": "GeoNet"
 	}, {
-        "consent": false,
-        "name": "Dan Patterson",
+		"consent": false,
+		"name": "Dan Patterson",
 		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAIdAAAAJGVkYjBmNzEzLWMzMDktNDM5Yy04YjBlLTZiN2VjZjJiY2M2MA.jpg",
 		"linkedin": "https://www.linkedin.com/in/dan-patterson-4b3369ba/",
 		"twitter": null,
@@ -2229,8 +2229,8 @@
 		"advocate": false,
 		"technologies": "Python, Arcpy, GeoNet"
 	}, {
-        "consent": false,
-        "name": "Candace Loya",
+		"consent": false,
+		"name": "Candace Loya",
 		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAA1vAAAAJGI3YWYwNzE0LTVmYmUtNGE3Zi04OGJlLTZhZmU0NzA0Y2JkNA.jpg",
 		"linkedin": "https://www.linkedin.com/in/candaceloya909/",
 		"twitter": null,
@@ -2245,8 +2245,8 @@
 		"advocate": false,
 		"technologies": "GeoNet"
 	}, {
-        "consent": false,
-        "name": "Craig McCabe",
+		"consent": false,
+		"name": "Craig McCabe",
 		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAA0mAAAAJDNlZmVkN2QyLTJiYzQtNDMyOC1iZTk3LWM2OGFhYTZmODQ0OQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/craigmccabe/",
 		"twitter": null,
@@ -2261,8 +2261,8 @@
 		"advocate": false,
 		"technologies": "Building Information Modeling (BIM)"
 	}, {
-        "consent": false,
-        "name": "Jeff Archer",
+		"consent": false,
+		"name": "Jeff Archer",
 		"picture": "https://media-exp2.licdn.com/media/p/6/005/013/069/1f5a99d.jpg",
 		"linkedin": "https://www.linkedin.com/in/jeff-archer-2a9062a/",
 		"twitter": "https://twitter.com/vee_dubb",
@@ -2277,8 +2277,8 @@
 		"advocate": false,
 		"technologies": "Building Information Modeling (BIM), Indoor mapping"
 	}, {
-        "consent": false,
-        "name": "Don Kuehne",
+		"consent": false,
+		"name": "Don Kuehne",
 		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAANFAAAAJDdhNjQ1OGM2LWVlMTUtNDgwYy04YjhkLWVmODczMGRmYmJkNw.jpg",
 		"linkedin": "https://www.linkedin.com/in/don-kuehne-0b85365/",
 		"twitter": null,
@@ -2293,8 +2293,8 @@
 		"advocate": false,
 		"technologies": "Building Information Modeling (BIM), Computer-aided design (CAD)"
 	}, {
-        "consent": false,
-        "name": "Steven Nelson",
+		"consent": false,
+		"name": "Steven Nelson",
 		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAjyAAAAJGJiOThhNjNlLWY5ZjktNDE1OC1hOWNiLTZkNDdjYzI0YjNhMQ.jpg",
 		"linkedin": "https://www.linkedin.com/in/smichaelnelson/",
 		"twitter": "https://twitter.com/smnelsondesign",
