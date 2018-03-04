@@ -312,11 +312,11 @@
 		"twitter": "https://twitter.com/John_M_Nelson",
 		"github": "https://github.com/johnmnelson",
 		"geonet": "https://community.esri.com/people/jnelson-esristaff",
-		"arcgisonline": null,
+		"arcgisonline": "https://www.arcgis.com/home/search.html?q=owner%3AJohnMNelson_StoryMaps&restrict=false&start=1&sortOrder=desc&sortField=relevance",
 		"stackoverflow": null,
 		"stackexchange": null,
 		"youtube": null,
-		"blog": null,
+		"blog": "https://blogs.esri.com/esri/arcgis/author/John-2363/",
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Storymaps"
