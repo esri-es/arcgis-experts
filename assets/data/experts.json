@@ -2324,5 +2324,21 @@
 		"geodev": false,
 		"advocate": false,
 		"technologies": "OGC, GeoPortal Server, WCS, WMS, WFS, KML, WMTS"
+    },{
+        "consent": false,
+		"name": "Omar Maher",
+		"picture": "https://media.licdn.com/media/AAEAAQAAAAAAAAt3AAAAJGViNjZkMzQyLTgyNTMtNGFhOS05YWIwLWEzOGUxMGRhZjFlMA.jpg",
+		"linkedin": "https://www.linkedin.com/in/omaher/",
+		"twitter": "https://twitter.com/osalama",
+		"github": "https://github.com/OmarSalama",
+		"geonet": null,
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "Machine Learning, Deep Learning, Artificial Intelligence"
     }
 ]
