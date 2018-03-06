@@ -2,6 +2,7 @@ If you are suggesting a new expert please fill this template:
 
 ```
 {
+    "consent": false,
     "name": null,
     "picture": null,
     "linkedin": null,
