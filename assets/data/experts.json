@@ -648,18 +648,18 @@
 		"consent": false,
 		"name": "Marjean Pobuda",
 		"picture": "https://avatars2.githubusercontent.com/u/7785275?s=460&v=4",
-		"linkedin": null,
+		"linkedin": "https://www.linkedin.com/in/marjean-pobuda-79457190/",
 		"twitter": null,
 		"github": "https://github.com/marpobuda",
-		"geonet": null,
+		"geonet": "https://community.esri.com/people/mPobuda-esristaff",
 		"arcgisonline": null,
 		"stackoverflow": null,
 		"stackexchange": null,
 		"youtube": null,
-		"blog": null,
+		"blog": "https://blogs.esri.com/esri/arcgis/author/Marjean-2/",
 		"geodev": true,
 		"advocate": false,
-		"technologies": "R-language"
+		"technologies": "R-language, ArcGIS Pro"
 	},
 	{
 		"consent": false,
@@ -1157,7 +1157,7 @@
 	{
 		"consent": true,
 		"name": "Marta Davila",
-		"picture": "https://pbs.twimg.com/profile_images/2185442643/yo_400x400.JPG",
+		"picture": "https://pbs.twimg.com/profile_images/970618785433620480/M6UwfvyG_400x400.jpg",
 		"linkedin": null,
 		"twitter": "https://twitter.com/marta_davila",
 		"github": null,
@@ -1242,7 +1242,7 @@
 	{
 		"consent": true,
 		"name": "Joan Pere",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAjuAAAAJDY3NGYwZTk0LWQzNTEtNDI1Yy05MTZmLWI5MzAyNzQ2OGE4ZA.jpg",
+		"picture": "https://media.licdn.com/media/AAMABADGAAwAAQAAAAAAAA4IAAAAJGQyZWU4ZTU2LWIxMjctNDliNS04MWE4LTFkYjVmODJkZTFjOQ.jpg",
 		"linkedin": "https://es.linkedin.com/in/joanpereavariento",
 		"twitter": "https://twitter.com/JoanPereNules",
 		"github": "https://github.com/JoanPere",
@@ -1378,7 +1378,7 @@
 	{
 		"consent": false,
 		"name": "Max Payson",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/3/005/073/212/2904ac0.jpg",
+		"picture": "https://media.licdn.com/media/AAMABADGAAwAAQAAAAAAAA4aAAAAJDk4MDM1NmQ4LWM3NTgtNDhkOS1iMjg4LTExMmE1NWUxN2ZhMg.jpg",
 		"linkedin": "https://www.linkedin.com/in/max-payson-08328b99/",
 		"twitter": "https://twitter.com/mhp207",
 		"github": "http://github.com/mpayson",
@@ -1568,7 +1568,7 @@
 	{
 		"consent": false,
 		"name": "Naila Khan",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA3cAAAAJGVkMTZiNGUyLWMyNGMtNDhiZC1iMzQ3LWQ5YmU5NWJlZGU1NQ.jpg",
+		"picture": "https://avatars3.githubusercontent.com/u/8460046?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/nkhan07/",
 		"twitter": null,
 		"github": "https://github.com/nkhan07",
@@ -2167,7 +2167,7 @@
 	}, {
 		"consent": false,
 		"name": "Rob Burke",
-		"picture": "https://media-exp2.licdn.com/media/p/3/000/018/2fb/3658a2f.jpg",
+		"picture": "https://media.licdn.com/media/AAMABADuAAgAAQAAAAAAAA3sAAAAJDdjMWQ5NzU1LTQ4MjEtNGJmNy1iYzBmLTJiYTNjNjc2YjM5ZQ.bin",
 		"linkedin": "https://www.linkedin.com/in/rob-burke-2054a82/",
 		"twitter": null,
 		"github": "https://github.com/robburke414",
@@ -2309,7 +2309,7 @@
 		"advocate": false,
 		"technologies": "Design, User Experience (UX), User Interfaces (UI)"
 	}, {
-        "consent": false,
+		"consent": false,
 		"name": "Satish Sankaran",
 		"picture": "https://media-exp2.licdn.com/media/p/2/000/28e/3e2/28470c0.jpg",
 		"linkedin": "https://www.linkedin.com/in/satish-sankaran-421bb231/",
@@ -2324,8 +2324,17 @@
 		"geodev": false,
 		"advocate": false,
 		"technologies": "OGC, GeoPortal Server, WCS, WMS, WFS, KML, WMTS"
-    },{
-        "consent": false,
+	},
+
+
+
+
+
+
+
+
+	{
+		"consent": false,
 		"name": "Omar Maher",
 		"picture": "https://media.licdn.com/media/AAEAAQAAAAAAAAt3AAAAJGViNjZkMzQyLTgyNTMtNGFhOS05YWIwLWEzOGUxMGRhZjFlMA.jpg",
 		"linkedin": "https://www.linkedin.com/in/omaher/",
@@ -2340,5 +2349,107 @@
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Machine Learning, Deep Learning, Artificial Intelligence"
-    }
+	},
+	{
+		"consent": false,
+		"name": "Russell Roberts",
+		"picture": "https://media.licdn.com/media/AAEAAQAAAAAAAARsAAAAJDE1ZmQ2YTI2LTczMzUtNGRkZC05YTMzLTIxMjM5NDU5ZTc0Zg.jpg",
+		"linkedin": "https://www.linkedin.com/in/russjroberts/",
+		"twitter": "https://twitter.com/rssllrbrts?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2BjlDv1k6RWC4bEpsfehXJg%3D%3D",
+		"github": null,
+		"geonet": null,
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "Web Scene Viewer, 3D, ArcGIS API for JavaScript 4.x"
+	},
+	{
+		"consent": false,
+		"name": "Juan Carlos Franco",
+		"picture": null,
+		"linkedin": null,
+		"twitter": null,
+		"github": null,
+		"geonet": null,
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "ArcGIS API for JavaScript 4.x, Widgets"
+	},
+	{
+		"consent": false,
+		"name": "Kelly Hutchins",
+		"picture": null,
+		"linkedin": "https://www.linkedin.com/in/kelly-hutchins-73b720a6/",
+		"twitter": null,
+		"github": null,
+		"geonet": null,
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "Configurable Apps, Javascrip"
+	},
+	{
+		"consent": false,
+		"name": "Arthur (Art) Haddad",
+		"picture": "https://media.licdn.com/media/AAEAAQAAAAAAAAjoAAAAJDdkODhmNWE4LTIyZTItNGVkNC1hMDc1LWM0NjRjNTRmY2M5Mg.jpg",
+		"linkedin": "https://www.linkedin.com/in/ahaddad/",
+		"twitter": "https://twitter.com/ajhaddad",
+		"github": null,
+		"geonet": null,
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "Insights for ArcGIS"
+	},
+	{
+		"consent": false,
+		"name": "Linda Beale",
+		"picture": null,
+		"linkedin": null,
+		"twitter": null,
+		"github": null,
+		"geonet": null,
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "Insights for ArcGIS"
+	},
+	{
+		"consent": false,
+		"name": "Lauren Bennett",
+		"picture": null,
+		"linkedin": null,
+		"twitter": null,
+		"github": null,
+		"geonet": null,
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "Analytics, ArcGIS Pro"
+	}
 ]
