@@ -12,6 +12,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Vector Tiles, Basemaps"
@@ -30,6 +31,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "AppStudio for ArcGIS, Survey123 for ArcGIS, Collector for ArcGIS, Explorer for ArcGIS, Navigator for ArcGIS, Workforce for ArcGIS, ArcGIS Runtime SDK for Qt, ArcGIS Enterprise"
@@ -48,6 +50,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Collector for ArcGIS, Workforce for ArcGIS, Operations Dashboard for ArcGIS"
@@ -66,6 +69,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/Chris-196/",
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Explorer for ArcGIS, AppStudio for ArcGIS"
@@ -84,6 +88,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Full Motion Video, Image Management, Imagery and Rasters, ArcGIS Image Server, Lidar, Drones, Drone2Map"
@@ -102,6 +107,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Full Motion Video"
@@ -120,6 +126,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Pro SDK"
@@ -138,6 +145,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Enterprise, GeoAnalytics Server"
@@ -156,6 +164,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Enterprise, GeoAnalytics Server, GeoEvent Server"
@@ -174,6 +183,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Enterprise, GeoAnalytics Server, GeoEvent Server"
@@ -192,9 +202,10 @@
 		"youtube": null,
 		"blog": "http://thunderheadxpler.blogspot.com.es/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "GeoEvent Server"
+		"technologies": "GeoEvent Server, Deep Learning, Machine Learning"
 	},
 	{
 		"consent": false,
@@ -210,6 +221,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Hub"
@@ -228,6 +240,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/john-17/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS Hub, ArcGIS Open Data, NodeJS, Esri Leaflet, ArcGIS API for JavaScript 3.x, Open Source, ArcGIS REST API, KoopJS"
@@ -246,6 +259,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Hub, ArcGIS Open Data, Cedar, KoopJS"
@@ -264,6 +278,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Storymaps, Design, User Experience (UX), User Interfaces (UI)"
@@ -282,6 +297,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Storymaps"
@@ -300,6 +316,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/Owen/",
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Storymaps"
@@ -318,6 +335,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/John-2363/",
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Storymaps"
@@ -336,6 +354,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Storymaps"
@@ -354,6 +373,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Storymaps"
@@ -372,6 +392,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Storymaps"
@@ -390,6 +411,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Storymaps"
@@ -408,6 +430,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Drone2Map"
@@ -426,6 +449,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Network Analyst, Navigator for ArcGIS, StreetMap Premium for ArcGIS"
@@ -444,6 +468,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Network Analyst"
@@ -462,6 +487,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Network Analyst"
@@ -480,6 +506,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Network Analyst, Public transit"
@@ -498,6 +525,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Navigator for ArcGIS, Explorer for ArcGIS, Geodatabase, iOS and Android Runtime SDKs"
@@ -516,6 +544,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Survey123 for ArcGIS"
@@ -534,6 +563,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Web AppBuilder for ArcGIS - Developer Edition, GeoNet"
@@ -552,6 +582,7 @@
 		"youtube": null,
 		"blog": "https://community.esri.com/people/GRehkemper-esristaff/blog",
 		"website": "https://gavinr.com/",
+		"podcast": null,
 		"geodev": true,
 		"advocate": true,
 		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
@@ -570,6 +601,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
@@ -588,6 +620,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
@@ -606,6 +639,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
@@ -624,6 +658,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Ruby on Rails, NodeJS, ArcGIS REST API, AngularJS, Esri Leaflet, oAuth"
@@ -642,6 +677,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcPy, Python, ArcGIS API for JavaScript"
@@ -660,9 +696,10 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/Rohit-47/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS API for Python"
+		"technologies": "ArcGIS API for Python, Machine Learning, Deep Learning"
 	},
 	{
 		"consent": false,
@@ -678,6 +715,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/Marjean-2/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "R-language, ArcGIS Pro, Arcpy"
@@ -696,6 +734,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for .NET, ArcGIS Runtime SDK for WPF"
@@ -714,6 +753,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for .NET, Virtual Reality (VR), ArcGIS Runtime SDK for WPF"
@@ -732,6 +772,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/eric906/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Java, ArcGIS Runtime SDK for Android"
@@ -750,6 +791,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for iOS, ArcGIS Runtime SDK for macOS"
@@ -768,6 +810,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Qt, AppStudio for ArcGIS, Storymaps"
@@ -786,6 +829,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/David-1042/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS API for JavaScript, Web AppBuilder for ArcGIS - Developer Edition, ArcGIS API for Python"
@@ -804,6 +848,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS API for JavaScript 4.x, Esri Startup Program"
@@ -822,6 +867,7 @@
 		"youtube": "https://www.youtube.com/GeoDevelopers",
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS, Esri Startup Program, Calcite, Cedar, Demographics, Geocoding, Open Source, oAuth"
@@ -840,6 +886,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS API for Python, Esri Startup Program"
@@ -858,6 +905,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/andygup/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS API for JavaScript, Phonegap (Apache Cordova), AngularJS, Offline-editor-js, jQuery"
@@ -876,6 +924,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": true,
 		"technologies": "User Interfaces (UI), User Experience (UX), Design, Calcite, jQuery"
@@ -894,6 +943,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/John-291/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS Pro (scripting with Python)"
@@ -912,6 +962,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS, ArcGIS API for JavaScript, Sencha (ExtJS), ArcGIS Runtime SDK for macOS"
@@ -930,6 +981,7 @@
 		"youtube": "https://www.youtube.com/channel/UCo7tc3KZgH4GMUcqcSFBLOQ",
 		"blog": "http://odoe.net/blog/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS API for JavaScript 3.x, ArcGIS API for JavaScript 4.x, ReactJS, VueJS, EmberJS, Knockout, Dojo, Electron, ArcGIS REST API"
@@ -948,6 +1000,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript"
@@ -966,6 +1019,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/bjorn/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification, Resource Proxy"
@@ -984,6 +1038,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification, ArcGIS Online"
@@ -1002,6 +1057,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript, Web Map specification, Web Scene specification"
@@ -1020,6 +1076,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": "http://tomwayson.com/",
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "AngularJS, Cedar, EmberJS, ArcGIS Hub"
@@ -1038,6 +1095,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "AngularJS"
@@ -1056,6 +1114,7 @@
 		"youtube": null,
 		"blog": "http://blog.davebouwman.com/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "AngularJS, EmberJS, oAuth, ArcGIS Hub"
@@ -1074,6 +1133,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "AngularJS"
@@ -1092,6 +1152,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/Yann/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript 4.x"
@@ -1110,6 +1171,7 @@
 		"youtube": "https://www.youtube.com/channel/UCkGfnF-ui55wOuhLarXMIGw",
 		"blog": "http://kiwigis.blogspot.com.es/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript 4.x"
@@ -1128,6 +1190,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/julie_powell24/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript"
@@ -1146,6 +1209,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "jQuery, User Experience (UX)"
@@ -1164,6 +1228,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/heberlie/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Phonegap (Apache Cordova)"
@@ -1182,6 +1247,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Desktop, ArcGIS Online, ArcGIS Open Data, ArcGIS Pro, ArcGIS Earth, ArcGIS Maps for Office, Esri Business Analyst, KoopJS, Operations Dashboard for ArcGIS, Web AppBuilder for ArcGIS, Workforce for ArcGIS"
@@ -1200,6 +1266,7 @@
 		"youtube": null,
 		"blog": "https://esriblog.wordpress.com/author/nachovazquezesri/",
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Desktop, ArcGIS Pro"
@@ -1218,6 +1285,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "GeoEvent Server, GeoAnalytics Server, Insights for ArcGIS, ArcGIS Enterprise"
@@ -1236,6 +1304,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Open Data, Living Atlas, Geocoding, ArcGIS Online, Basemaps"
@@ -1254,6 +1323,7 @@
 		"youtube": "https://www.youtube.com/channel/UCgcVhTgCP9rxGrU8-Y0rsqw/videos",
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Pro, 3D, i3s, Esri CityEngine, Building Information Modeling (BIM), ArcGIS Earth, Indoor mapping, 3D modeling, Virtual Reality (VR), Augmented Reality (AR), Mixed Reality (MR), Lidar"
@@ -1272,6 +1342,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "GeoPortal Server, INSPIRE"
@@ -1290,6 +1361,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript, Dojo, Web AppBuilder for ArcGIS - Developer Edition, ArcGIS Enterprise, ArcGIS API for Python, Offline-editor-js, ArcPy"
@@ -1308,6 +1380,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript, Web AppBuilder for ArcGIS - Developer Edition, ArcGIS Enterprise, ArcGIS Runtime SDK for Android, Python, ArcGIS API for Python, ArcPy"
@@ -1326,6 +1399,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Pro SDK"
@@ -1344,6 +1418,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for .NET, Xamarin"
@@ -1362,6 +1437,7 @@
 		"youtube": "https://www.youtube.com/channel/UCSzuvSYEIN_ut8u7Qov76AQ",
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "3D, i3s, ArcGIS Earth"
@@ -1380,6 +1456,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "KoopJS"
@@ -1398,6 +1475,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Geocoding, Navigator for ArcGIS, Network Analyst, StreetMap Premium for ArcGIS"
@@ -1416,6 +1494,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Demographics"
@@ -1434,6 +1513,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "User Interfaces (UI), User Experience (UX), Design"
@@ -1452,6 +1532,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript, ReactJS, ArcGIS API for Python, ArcGIS Online, NodeJS, Esri Startup Program"
@@ -1470,6 +1551,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript, Storymaps, User Experience (UX), Design, User Interfaces (UI), Operations Dashboard for ArcGIS, ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS, Calcite"
@@ -1488,6 +1570,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS API for JavaScript"
@@ -1506,6 +1589,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Geoportal Server, INSPIRE"
@@ -1524,6 +1608,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for macOS, ArcGIS API for Python, ArcGIS Runtime SDK for iOS"
@@ -1542,6 +1627,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "R-language"
@@ -1560,6 +1646,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript 4.x, 3D"
@@ -1578,6 +1665,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript 4.x, 3D"
@@ -1596,6 +1684,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "AppStudio for ArcGIS"
@@ -1615,6 +1704,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript 4.x, Vector Tiles"
@@ -1634,6 +1724,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Image Server"
@@ -1653,6 +1744,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Image Server"
@@ -1672,6 +1764,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Image Server"
@@ -1691,6 +1784,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Online"
@@ -1709,6 +1803,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Waze, Teralytics"
@@ -1727,6 +1822,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Pro SDK"
@@ -1745,6 +1841,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Pro SDK"
@@ -1762,6 +1859,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS REST API"
@@ -1779,6 +1877,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for .NET, ArcGIS Runtime SDK for WPF"
@@ -1796,6 +1895,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for .NET"
@@ -1813,6 +1913,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript, NodeJS, Web AppBuilder for ArcGIS - Developer Edition, jQuery, Python, ArcGIS API for Python, ArcPy, ArcGIS REST API, ArcGIS Enterprise, ArcGIS Runtime SDK for Java, Calcite, CityEngine, Operations Dashboard for ArcGIS, Storymaps"
@@ -1830,6 +1931,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Java"
@@ -1847,6 +1949,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Java"
@@ -1864,6 +1967,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for macOS"
@@ -1881,6 +1985,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for macOS"
@@ -1898,6 +2003,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "i3s, 3D"
@@ -1915,6 +2021,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Qt, QML"
@@ -1932,6 +2039,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Qt, QML, ArcGIS Runtime SDK for .NET"
@@ -1949,6 +2057,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Qt, Python"
@@ -1966,6 +2075,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "AppStudio for ArcGIS"
@@ -1983,6 +2093,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Python, ArcPy"
@@ -2000,6 +2111,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript"
@@ -2017,6 +2129,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for WPF"
@@ -2034,6 +2147,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "EmberJS"
@@ -2051,6 +2165,7 @@
 		"youtube": "https://www.youtube.com/user/GISIGeometry",
 		"blog": "https://blogs.esri.com/esri/arcgis/2018/02/28/tracing-utility-networks-using-webapplications/",
 		"website": "http://www.husseinnasser.com",
+		"podcast": "https://player.fm/series/igeometry-podcast",
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript 4.x, Geodatabase, UtilityNetwork, ArcGIS Server"
@@ -2068,6 +2183,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript, Dojo, Offline-editor-js"
@@ -2085,6 +2201,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "KoopJS, ArcGIS Enterprise, Python"
@@ -2102,6 +2219,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "KoopJS, ArcGIS Server, Esri Leaflet, Dojo, ArcGIS API for JavaScript"
@@ -2119,6 +2237,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Esri Startup Program"
@@ -2136,6 +2255,7 @@
 		"youtube": null,
 		"blog": "https://community.esri.com/people/KDecker-esristaff/blog",
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Esri Startup Program"
@@ -2153,6 +2273,7 @@
 		"youtube": null,
 		"blog": "https://community.esri.com/people/acassidy-esristaff/blog",
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Marketplace"
@@ -2170,6 +2291,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Marketplace, Esri Startup Program"
@@ -2187,6 +2309,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "EmberJS, ArcGIS Open Data, Backbone, ArcGIS API for JavaScript, ArcGIS Hub"
@@ -2204,6 +2327,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Android"
@@ -2221,6 +2345,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Android"
@@ -2238,6 +2363,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Android"
@@ -2255,6 +2381,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Enterprise, ArcGIS Rest API, ArcGIS API for Python"
@@ -2272,6 +2399,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Java"
@@ -2289,6 +2417,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Pro SDK"
@@ -2306,6 +2435,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "GeoNet"
@@ -2323,6 +2453,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "GeoNet"
@@ -2340,6 +2471,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Python, Arcpy, GeoNet"
@@ -2357,6 +2489,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "GeoNet"
@@ -2374,6 +2507,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Building Information Modeling (BIM)"
@@ -2391,6 +2525,7 @@
 		"youtube": null,
 		"blog": "https://community.esri.com/people/jarcher-esristaff/blog",
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Building Information Modeling (BIM), Indoor mapping"
@@ -2408,6 +2543,7 @@
 		"youtube": null,
 		"blog": "http://giscadblog.blogspot.com.es/",
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Building Information Modeling (BIM), Computer-aided design (CAD)"
@@ -2425,6 +2561,7 @@
 		"youtube": null,
 		"blog": "https://community.esri.com/people/SNelson-esristaff/blog",
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Design, User Experience (UX), User Interfaces (UI)"
@@ -2442,6 +2579,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "OGC, GeoPortal Server, WCS, WMS, WFS, KML, WMTS"
@@ -2468,6 +2606,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Machine Learning, Deep Learning, Artificial Intelligence"
@@ -2486,6 +2625,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Web Scene Viewer, 3D, ArcGIS API for JavaScript 4.x"
@@ -2504,6 +2644,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript 4.x, Widgets"
@@ -2522,6 +2663,7 @@
 		"youtube": null,
 		"blog": "https://community.esri.com/people/khutchins-esristaff/blog",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Configurable Apps, ArcGIS API for JavaScript 4.x"
@@ -2540,6 +2682,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Insights for ArcGIS"
@@ -2558,6 +2701,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Insights for ArcGIS"
@@ -2576,6 +2720,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/tag/insights/",
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Insights for ArcGIS"
@@ -2594,6 +2739,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Analytics, ArcGIS Pro, ArcPy"
@@ -2612,6 +2758,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Utility Network"
@@ -2630,6 +2777,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Pro, ArcPy"
@@ -2648,6 +2796,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for Python"
@@ -2666,6 +2815,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Qt, 3D"
@@ -2684,6 +2834,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Virtual Reality (VR), Hololens, Augmented Reality (AR), ArcGIS Runtime SDK for .NET, Xamarin"
@@ -2702,6 +2853,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/esri-insider/author/bszukalski/",
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Storymaps"
@@ -2720,6 +2872,7 @@
 		"youtube": null,
 		"blog": "https://community.esri.com/people/KGerrow-esristaff/blog",
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Configurable Apps, Storymaps"
@@ -2738,6 +2891,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": true,
 		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
@@ -2756,6 +2910,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Storymaps"
@@ -2774,6 +2929,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Indoors, Esri Labs"
@@ -2792,6 +2948,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Indoors"
@@ -2810,6 +2967,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/Kristian-20/",
 		"website": null,
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript 4.x"
@@ -2827,7 +2985,8 @@
 		"stackexchange": null,
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/Raluca-5/",
-		"website": null,
+		"website": "http://raluca-nicola.net/",
+		"podcast": null,
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript 4.x"
@@ -2846,6 +3005,7 @@
 		"youtube": null,
 		"blog": null,
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Imagery and Rasters, ArcGIS Image Server"
@@ -2864,6 +3024,7 @@
 		"youtube": null,
 		"blog": "https://blogs.esri.com/esri/arcgis/author/ahowser/",
 		"website": null,
+		"podcast": null,
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Business Analyst, GeoEnrichment"

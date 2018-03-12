@@ -15,6 +15,7 @@ If you are suggesting a new expert please fill this template:
     "youtube": null,
     "blog": null,
     "website": null,
+    "podcast": null,
     "geodev": false,
     "advocate": false,
     "technologies": null
