@@ -659,7 +659,7 @@
 		"blog": "https://blogs.esri.com/esri/arcgis/author/Marjean-2/",
 		"geodev": true,
 		"advocate": false,
-		"technologies": "R-language, ArcGIS Pro"
+		"technologies": "R-language, ArcGIS Pro, Arcpy"
 	},
 	{
 		"consent": false,
@@ -795,7 +795,7 @@
 		"blog": null,
 		"geodev": true,
 		"advocate": true,
-		"technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS, Esri Startup Program, Calcite, Cedar, Demographics, Esri World Geocoding Service, Open Source, oAuth"
+		"technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS, Esri Startup Program, Calcite, Cedar, Demographics, Geocoding, Open Source, oAuth"
 	},
 	{
 		"consent": true,
@@ -1339,7 +1339,7 @@
 		"blog": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Esri World Geocoding Service, Basemaps"
+		"technologies": "Geocoding, Navigator for ArcGIS, Network Analyst, StreetMap Premium for ArcGIS"
 	},
 	{
 		"consent": false,
@@ -2467,7 +2467,7 @@
 		"blog": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "Analytics, ArcGIS Pro"
+		"technologies": "Analytics, ArcGIS Pro, ArcPy"
 	},
 	{
 		"consent": false,
@@ -2689,7 +2689,40 @@
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS API for JavaScript 4.x"
+	},
+	{
+		"consent": false,
+		"name": "Vinay Viswambharan",
+		"picture": "https://media.licdn.com/media/AAEAAQAAAAAAAAYxAAAAJDQyNGEzYWE4LTJjZDctNGEyNi04Y2RjLWFhODZiZmZiZWM3YQ.jpg",
+		"linkedin": "https://www.linkedin.com/in/vinayviswambharan/",
+		"twitter": "https://twitter.com/Vinay_1977",
+		"github": "https://github.com/TheVinay",
+		"geonet": null,
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "Imagery and Rasters, ArcGIS Image Server"
+	},
+	{
+		"consent": false,
+		"name": "Tony Howser",
+		"picture": "./assets/imgs/tony-howser.png",
+		"linkedin": null,
+		"twitter": null,
+		"github": null,
+		"geonet": "https://community.esri.com/people/tHowser-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": "https://blogs.esri.com/esri/arcgis/author/ahowser/",
+		"geodev": false,
+		"advocate": false,
+		"technologies": "ArcGIS Business Analyst, GeoEnrichment"
 	}
-
 
 ]
