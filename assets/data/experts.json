@@ -2168,7 +2168,7 @@
 		"podcast": "https://player.fm/series/igeometry-podcast",
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS API for JavaScript 4.x, Geodatabase, UtilityNetwork, ArcGIS Server"
+		"technologies": "ArcGIS API for JavaScript 4.x, Geodatabase, ArcGIS Utility Network, ArcGIS Server"
 	}, {
 		"consent": false,
 		"name": "Matt Driscoll",
