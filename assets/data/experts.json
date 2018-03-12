@@ -1,21 +1,4 @@
 [{
-		"consent": true,
-		"name": "Isaac Medel",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAwrAAAAJGNiNTJkZmYwLWE5YWEtNDA4OC1iODY0LTI2MzQ1Y2NkMjZmMg.jpg",
-		"linkedin": "https://www.linkedin.com/in/isaac-medel-calvo-485186a/",
-		"twitter": null,
-		"github": null,
-		"geonet": "https://community.esri.com/people/isaac.medelesri-es-esridist",
-		"arcgisonline": null,
-		"stackoverflow": null,
-		"stackexchange": null,
-		"youtube": null,
-		"blog": null,
-		"geodev": false,
-		"advocate": false,
-		"technologies": "Lidar, Drone2Map, ArcGIS Image Server, Imagery and Rasters, Full Motion Video"
-	},
-	{
 		"consent": false,
 		"name": "Deane Kensok",
 		"picture": "https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAzSAAAAJDE3YjdjNTM2LTczMGYtNDczYy05M2I5LWM4NTNjYTA3ZjBiOQ.jpg",
