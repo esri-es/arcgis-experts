@@ -68,6 +68,9 @@
     "ArcPy": {
         "url": "https://esri-es.github.io/awesome-arcgis/back-end/technologies/python/"
     },
+    "Artificial Intelligence": {
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/disciplines/artificial-intelligence/"
+    },
     "Basemaps": {
         "url": null
     },
@@ -82,6 +85,9 @@
     },
     "D3.js": {
         "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/d3/"
+    },
+    "Deep Learning": {
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/disciplines/artificial-intelligence/"
     },
     "Demographics": {
         "url": null
@@ -150,7 +156,7 @@
         "url": null
     },
     "Machine Learning": {
-        "url": "https://esri-es.github.io/awesome-arcgis/esri/disciplines/machine-learning/"
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/disciplines/artificial-intelligence/"
     },
     "Navigator for ArcGIS": {
         "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/navigator-for-arcgis/"
