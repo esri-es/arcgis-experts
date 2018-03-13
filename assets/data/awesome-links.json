@@ -149,6 +149,9 @@
     "Living Atlas": {
         "url": null
     },
+    "Machine Learning": {
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/disciplines/machine-learning/"
+    },
     "Navigator for ArcGIS": {
         "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/navigator-for-arcgis/"
     },
