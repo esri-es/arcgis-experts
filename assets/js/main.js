@@ -173,7 +173,10 @@ const filterExperts = function(value){
 
 
         // Avoid display all techs
-        var regex = new RegExp(value, 'i'),
+        const escapeRegExp = function(str) {
+            return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+        }
+        var regex = new RegExp(escapeRegExp(value), 'i'),
             filteredNames = filtered_keys(links, regex),
             hasAwesomePage = false,
             topic = encodeURIComponent(value);
