@@ -1848,7 +1848,7 @@
 	}, {
 		"consent": false,
 		"name": "Andrew Chapkowski",
-        "picture": "./assets/imgs/andrew-chapkowski.jpg",
+		"picture": "./assets/imgs/andrew-chapkowski.jpg",
 		"linkedin": "https://www.linkedin.com/in/andrew-c-514b173b/",
 		"twitter": null,
 		"github": "https://github.com/achapkowski",
@@ -3028,24 +3028,44 @@
 		"geodev": false,
 		"advocate": false,
 		"technologies": "ArcGIS Business Analyst, GeoEnrichment"
-	},{
-        "consent": false,
-        "name": "Dawn Wright",
-        "picture": "https://pbs.twimg.com/profile_images/2384440532/mapg50knvhv81g33bx0s_400x400.jpeg",
-        "linkedin": "https://www.linkedin.com/in/deepseadawn/",
-        "twitter": "https://twitter.com/deepseadawn",
-        "github": "https://github.com/deepseadawn",
-        "geonet": "https://community.esri.com/people/dWright-esristaff",
-        "arcgisonline": "https://www.arcgis.com/home/search.html?q=owner%3Adeepseadawn&restrict=false&start=1&sortOrder=desc&sortField=numviews",
-        "stackoverflow": null,
-        "stackexchange": null,
-        "youtube": "https://www.youtube.com/user/deepseadawn",
-        "blog": "https://blogs.esri.com/esri/esri-insider/author/Dawn/?lipi=urn%253Ali%253Apage%253Ad_flagship3_profile_view_base%253BsJ%252FDQfpdRmKrGeDkeW1mOw%253D%253D",
-        "website": "https://about.me/deepseadawn",
-        "podcast": null,
-        "geodev": false,
-        "advocate": false,
-        "technologies": "Machine learning, Remote Sensing, Artificial Intelligence (AI)"
-    }
+	}, {
+		"consent": false,
+		"name": "Dawn Wright",
+		"picture": "https://pbs.twimg.com/profile_images/2384440532/mapg50knvhv81g33bx0s_400x400.jpeg",
+		"linkedin": "https://www.linkedin.com/in/deepseadawn/",
+		"twitter": "https://twitter.com/deepseadawn",
+		"github": "https://github.com/deepseadawn",
+		"geonet": "https://community.esri.com/people/dWright-esristaff",
+		"arcgisonline": "https://www.arcgis.com/home/search.html?q=owner%3Adeepseadawn&restrict=false&start=1&sortOrder=desc&sortField=numviews",
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": "https://www.youtube.com/user/deepseadawn",
+		"blog": "https://blogs.esri.com/esri/esri-insider/author/Dawn/?lipi=urn%253Ali%253Apage%253Ad_flagship3_profile_view_base%253BsJ%252FDQfpdRmKrGeDkeW1mOw%253D%253D",
+		"website": "https://about.me/deepseadawn",
+		"podcast": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "Machine learning, Remote Sensing, Artificial Intelligence (AI)"
+	},
+	{
+		"consent": false,
+		"name": "Dariya Ordanovich",
+		"picture": "./assets/imgs/dariya-ordanovich.jpg",
+		"linkedin": "https://www.linkedin.com/in/dariyaordanovich/",
+		"twitter": "https://twitter.com/dordanovich",
+		"github": null,
+		"geonet": "https://community.esri.com/people/ordanovich",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "Machine learning, Artificial Intelligence (AI)"
+	}
+
 
 ]
