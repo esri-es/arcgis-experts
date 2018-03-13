@@ -552,7 +552,7 @@
 	{
 		"consent": false,
 		"name": "Robert Scheitlin",
-		"picture": "https://avatars1.githubusercontent.com/u/1216460?v=3",
+		"picture": "./assets/imgs/robert_scheitlin.jpg",
 		"linkedin": null,
 		"twitter": null,
 		"github": "https://github.com/rscheitlin",
@@ -1502,7 +1502,7 @@
 	{
 		"consent": false,
 		"name": "Mike Gaigg",
-		"picture": "https://avatars0.githubusercontent.com/u/782065?s=460&v=4",
+		"picture": "./assets/imgs/mike-gaigg.jpeg",
 		"linkedin": null,
 		"twitter": null,
 		"github": "https://github.com/michaelgaigg",
@@ -1848,7 +1848,7 @@
 	}, {
 		"consent": false,
 		"name": "Andrew Chapkowski",
-		"picture": "https://avatars2.githubusercontent.com/u/5131271?s=460&v=4",
+        "picture": "./assets/imgs/andrew-chapkowski.jpg",
 		"linkedin": "https://www.linkedin.com/in/andrew-c-514b173b/",
 		"twitter": null,
 		"github": "https://github.com/achapkowski",
