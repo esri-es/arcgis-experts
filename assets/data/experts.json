@@ -718,7 +718,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "R-language, ArcGIS Pro, Arcpy"
+		"technologies": "R-language, ArcGIS Pro, ArcPy"
 	},
 	{
 		"consent": false,
@@ -2384,7 +2384,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS Enterprise, ArcGIS Rest API, ArcGIS API for Python"
+		"technologies": "ArcGIS Enterprise, ArcGIS REST API, ArcGIS API for Python"
 	}, {
 		"consent": false,
 		"name": "Johnathon Malott",
@@ -2474,7 +2474,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "Python, Arcpy, GeoNet"
+		"technologies": "Python, ArcPy, GeoNet"
 	}, {
 		"consent": false,
 		"name": "Candace Loya",
