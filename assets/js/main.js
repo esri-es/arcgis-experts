@@ -39,6 +39,8 @@ $.getJSON('./assets/data/awesome-links.json', function(data){
                 return obj.consent === true;
             });
         }
+        console.log(`There are ${data.length} experts in this list`);
+
         experts = shuffle(data);
         var htmlOutput = template.render(experts, {showAll: showAll});
 
@@ -68,7 +70,12 @@ $.getJSON('./assets/data/awesome-links.json', function(data){
         $('#all-techs').html(htmlOutput);
         $('#all-techs').append('<li>Missing any?, please <a href="https://github.com/esri-es/arcgis-experts/issues/new?title=Missing topic: [TOPIC]&body=I would like to see experts in...">let us know</a></li>')
 
-        $('#tags').autocomplete({source: techs});
+        $('#tags').autocomplete({
+            source: techs,
+            select: function(ev, i){
+                filterExperts(i.item.value);
+            }
+        });
 
         $('.clickable').click(function(){
             $('#tags').val(this.innerText);
@@ -138,12 +145,18 @@ $('#clearBtn').click(function(){
     $('#clearBtn').addClass('btn-disabled');
 })
 
-$('#tags').keyup(function(){
+const filterExperts = function(value){
 
-    var value = this.value.toLowerCase();
-    if(value){
+    var el = $('#tags');
+
+    if(value.type){
+        value = el.val(),
+        valueLowerCase = value.toLowerCase();
+    }
+
+    if(valueLowerCase){
         $('#clearBtn').removeClass('btn-disabled');
-        var condition = `[data-background*=\"${value}\"]`;
+        var condition = `[data-background*=\"${valueLowerCase}\"]`;
         $(`.card.block${condition}`).show()
         $('.card.block').not(condition).hide()
     }else{
@@ -151,29 +164,29 @@ $('#tags').keyup(function(){
         $('#clearBtn').addClass('btn-disabled');
     }
     if(params.suggestions === "true" || !params.suggestions){
-        $('#missingExpertLink').attr('href', `https://github.com/esri-es/arcgis-experts/issues/new?title=Missing%20expert%20in%20${this.value}`)
+        $('#missingExpertLink').attr('href', `https://github.com/esri-es/arcgis-experts/issues/new?title=Missing%20expert%20in%20${value}`)
     }
 
     $('[data-background="missing"]').show();
 
-    if(this.value){
+    if(value){
 
 
         // Avoid display all techs
-        var regex = new RegExp(this.value, 'i'),
+        var regex = new RegExp(value, 'i'),
             filteredNames = filtered_keys(links, regex),
             hasAwesomePage = false,
-            topic = encodeURIComponent(this.value);
-            issue_title = encodeURIComponent(`New resource page for ${this.value}`),
+            topic = encodeURIComponent(value);
+            issue_title = encodeURIComponent(`New resource page for ${value}`),
             issue_body = encodeURIComponent(`I would like to have a new resource page about this topic. Should we ask [the experts](https://esri-es.github.io/arcgis-experts/?topic=${topic}) to check if they can help us with this?.\n\nWe should start adding the [resource page template](RESOURCE_PAGE_TEMPLATE.md). I have checked the [project structure](https://github.com/hhkaos/awesome-arcgis/blob/master/SUMMARY.md) and I think this page should be placed under "**[REPLACE THIS]**" section.\n\nCheers!`),
-            topic_quoted = encodeURIComponent(`"${this.value}"`);
+            topic_quoted = encodeURIComponent(`"${value}"`);
             search_link = `https://esri-es.github.io/arcgis-search/?search=${topic_quoted}&utm_source=arcgis-experts&utm_medium=page`;
 
-        var str = `We haven\'t found any page on the <a href="https://esri-es.github.io/awesome-arcgis/">Awesome List for ArcGIS Developers</a> for \"<strong><a href="${search_link}">${this.value}</a></strong>\", feel free to <a href="https://github.com/hhkaos/awesome-arcgis/issues/new?title=${issue_title}&body=${issue_body}">ask for it</a>.`
+        var str = `We haven\'t found any page on the <a href="https://esri-es.github.io/awesome-arcgis/">Awesome List for ArcGIS Developers</a> for \"<strong><a href="${search_link}">${value}</a></strong>\", feel free to <a href="https://github.com/hhkaos/awesome-arcgis/issues/new?title=${issue_title}&body=${issue_body}">ask for it</a>.`
 
         $('.alert').html('Learn more about <span class="selected-techs"></span> in the Awesome list of resources')
 
-        if(filteredNames.length > 0){
+        if(filteredNames.length > 0 && filteredNames.length < 4){
             //console.log("filteredNames=",filteredNames)
 
             filteredNames.forEach(function(elem, i){
@@ -202,7 +215,9 @@ $('#tags').keyup(function(){
     }else{
         $('.alert').hide();
     }
-});
+};
+
+$('#tags').keyup(filterExperts);
 
 function openExpertModal(expertName){
     $(`#${expertName} .showModalProfile`)[0].click();
