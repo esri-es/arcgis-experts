@@ -2204,7 +2204,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "KoopJS, ArcGIS Enterprise, Python"
+		"technologies": "KoopJS, ArcGIS Enterprise, Python, KoopJS"
 	}, {
 		"consent": false,
 		"name": "Adam Pfister",
@@ -2873,7 +2873,7 @@
 		"blog": "https://community.esri.com/people/KGerrow-esristaff/blog",
 		"website": null,
 		"podcast": null,
-		"geodev": false,
+		"geodev": true,
 		"advocate": false,
 		"technologies": "Configurable Apps, Storymaps"
 	},
