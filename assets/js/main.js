@@ -6,6 +6,10 @@ var params = getUrlParams(),
     anchors = getUrlAnchors(),
     links, experts, showAll = false;
 
+if(params.showAll && params.showAll === "true" ){
+    showAll = true;
+}
+
 $(document).ready(function(){
     if(params.bg){
         var bg = decodeURIComponent(params.bg);
@@ -22,9 +26,6 @@ $(document).ready(function(){
     }
     if(params.suggestions === "true" || !params.suggestions){
         $('#missingCard').css('display', '');
-    }
-    if(params.showAll && params.showAll === "true" ){
-        showAll = true;
     }
 });
 
