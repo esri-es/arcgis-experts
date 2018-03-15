@@ -3066,7 +3066,7 @@
 		"advocate": false,
 		"technologies": "Machine learning, Artificial Intelligence (AI)"
 	},
-    {
+	{
 		"consent": false,
 		"name": "Mark Cooney",
 		"picture": "https://media.licdn.com/dms/image/C4D03AQFu1CseAI-AnA/profile-displayphoto-shrink_800_800/0?e=1526274000&v=alpha&t=lpCSIDqCEBYdVgfrVphfOHm7r9TnFUPgIU6CoGOxxpY",
@@ -3084,7 +3084,7 @@
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Story Maps, Story Map Shortlist"
-	},
+	}
 
 
 ]
