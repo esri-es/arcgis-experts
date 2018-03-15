@@ -281,7 +281,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Storymaps, Design, User Experience (UX), User Interfaces (UI)"
+		"technologies": "Story Maps, Design, User Experience (UX), User Interfaces (UI)"
 	},
 	{
 		"consent": false,
@@ -300,7 +300,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "Storymaps"
+		"technologies": "Story Maps"
 	},
 	{
 		"consent": false,
@@ -319,7 +319,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "Storymaps"
+		"technologies": "Story Maps"
 	},
 	{
 		"consent": false,
@@ -338,7 +338,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "Storymaps"
+		"technologies": "Story Maps"
 	},
 	{
 		"consent": false,
@@ -357,7 +357,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "Storymaps"
+		"technologies": "Story Maps"
 	},
 	{
 		"consent": false,
@@ -376,7 +376,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Storymaps"
+		"technologies": "Story Maps"
 	},
 	{
 		"consent": false,
@@ -395,7 +395,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Storymaps"
+		"technologies": "Story Maps"
 	},
 	{
 		"consent": true,
@@ -414,7 +414,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Storymaps"
+		"technologies": "Story Maps"
 	},
 	{
 		"consent": false,
@@ -813,7 +813,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS Runtime SDK for Qt, AppStudio for ArcGIS, Storymaps"
+		"technologies": "ArcGIS Runtime SDK for Qt, AppStudio for ArcGIS, Story Maps"
 	},
 	{
 		"consent": true,
@@ -870,7 +870,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": true,
-		"technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Storymaps, NodeJS, Esri Startup Program, Calcite, Cedar, Demographics, Geocoding, Open Source, oAuth"
+		"technologies": "ArcGIS API for JavaScript, ArcGIS REST API, Workforce for ArcGIS, Vector Tiles, KoopJS, ArcGIS Open Data, ArcGIS Online, Esri Leaflet, AngularJS, Story Maps, NodeJS, Esri Startup Program, Calcite, Cedar, Demographics, Geocoding, Open Source, oAuth"
 	},
 	{
 		"consent": true,
@@ -1554,7 +1554,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS API for JavaScript, Storymaps, User Experience (UX), Design, User Interfaces (UI), Operations Dashboard for ArcGIS, ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS, Calcite"
+		"technologies": "ArcGIS API for JavaScript, Story Maps, User Experience (UX), Design, User Interfaces (UI), Operations Dashboard for ArcGIS, ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS, Calcite"
 	},
 	{
 		"consent": true,
@@ -1916,7 +1916,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS API for JavaScript, NodeJS, Web AppBuilder for ArcGIS - Developer Edition, jQuery, Python, ArcGIS API for Python, ArcPy, ArcGIS REST API, ArcGIS Enterprise, ArcGIS Runtime SDK for Java, Calcite, CityEngine, Operations Dashboard for ArcGIS, Storymaps"
+		"technologies": "ArcGIS API for JavaScript, NodeJS, Web AppBuilder for ArcGIS - Developer Edition, jQuery, Python, ArcGIS API for Python, ArcPy, ArcGIS REST API, ArcGIS Enterprise, ArcGIS Runtime SDK for Java, Calcite, CityEngine, Operations Dashboard for ArcGIS, Story Maps"
 	}, {
 		"consent": false,
 		"name": "Mark Baird",
@@ -2856,7 +2856,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "Storymaps"
+		"technologies": "Story Maps"
 	},
 	{
 		"consent": false,
@@ -2875,7 +2875,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Configurable Apps, Storymaps"
+		"technologies": "Configurable Apps, Story Maps"
 	},
 	{
 		"consent": false,
@@ -2913,7 +2913,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Storymaps"
+		"technologies": "Story Maps"
 	},
 	{
 		"consent": false,
@@ -3065,7 +3065,26 @@
 		"geodev": false,
 		"advocate": false,
 		"technologies": "Machine learning, Artificial Intelligence (AI)"
-	}
+	},
+    {
+		"consent": false,
+		"name": "Mark Cooney",
+		"picture": "https://media.licdn.com/dms/image/C4D03AQFu1CseAI-AnA/profile-displayphoto-shrink_800_800/0?e=1526274000&v=alpha&t=lpCSIDqCEBYdVgfrVphfOHm7r9TnFUPgIU6CoGOxxpY",
+		"linkedin": "https://www.linkedin.com/in/mark-cooney-a7285524/",
+		"twitter": null,
+		"github": "https://github.com/cooney",
+		"geonet": "https://community.esri.com/people/mcooney-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": true,
+		"advocate": false,
+		"technologies": "Story Maps, Story Map Shortlist"
+	},
 
 
 ]

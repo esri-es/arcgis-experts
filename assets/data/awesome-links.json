@@ -194,7 +194,10 @@
     "Sencha (ExtJS)": {
         "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/extjs-sencha/"
     },
-    "Storymaps": {
+    "Story Maps": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/configurable-apps/"
+    },
+    "Story Map Shortlist": {
         "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/configurable-apps/"
     },
     "StreetMap Premium for ArcGIS": {
