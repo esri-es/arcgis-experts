@@ -3180,7 +3180,7 @@
 		"technologies": "ArcGIS Desktop, ArcGIS Hub, ArcGIS Image Server, ArcGIS Online, ArcGIS Open Data, ArcGIS Pro, Imagery and Rasters, Network Analyst, Remote Sensing, Web AppBuilder for ArcGIS"
 	},
     {
-        "consent": false,
+        "consent": true,
         "name": "Adriana Rangel",
         "picture": "https://media.licdn.com/dms/image/C4D00AQE-xjcfD-bvFg/profile-displayphoto-shrink_800_800/0?e=1521543600&v=alpha&t=q_otvtfFIg6xOlM_P_QwbqgkiFNoWqqCYVYlBYoXIxo",
         "linkedin": "https://www.linkedin.com/in/adriana-rangel/",
