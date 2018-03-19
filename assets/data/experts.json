@@ -1402,7 +1402,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS Pro SDK"
+		"technologies": "ArcGIS API for JavaScript 3.x, Web AppBuilder for ArcGIS - Developer Edition, ArcPy, ArcGIS Enterprise, GeoEvent"
 	},
 	{
 		"consent": true,
