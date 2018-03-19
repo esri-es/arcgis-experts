@@ -3161,7 +3161,7 @@
 		"technologies": "Story Maps, ArcGIS Online, ArcGIS Pro"
 	},
 	{
-		"consent": false,
+		"consent": true,
 		"name": "José Jiménez",
 		"picture": null,
 		"linkedin": "https://www.linkedin.com/in/jose-jimenez-viciano/",
