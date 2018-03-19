@@ -3088,7 +3088,7 @@
 	{
 		"consent": true,
 		"name": "Jaime Nieves",
-		"picture": "http://desarrolladores.esri.es/code/esri-spain/images/jaime-nieves.jpg",
+		"picture": "./assets/imgs/jaime-nieves.png",
 		"linkedin": "https://www.linkedin.com/in/jaimenieves/",
 		"twitter": null,
 		"github": null,
