@@ -3234,6 +3234,6 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": true,
-		"technologies": "ArcGIS API for JavaScript, ArcGIS Desktop, ArcGIS Enterprise, ArcGIS Online, ArcGIS Pro, ArcGIS Pro (scripting with Python), ArcGIS Server, ArcGIS Utility Network, Basemaps, Collector for ArcGIS, Configurable Apps, Demographics, Imagery and Rasters, Network Analyst, Python, Remote Sensing, Story Maps, Survey123 for ArcGIS, Vector Tiles, WFS, WMS, WMTS, Web AppBuilder for ArcGIS, Web AppBuilder for ArcGIS - Developer Edition, Web, Web Scene Viewer, Web Scene specification, Widgets, Workforce for ArcGIS"
+		"technologies": "ArcGIS API for JavaScript, ArcGIS Desktop, ArcGIS Online, ArcGIS Pro, ArcGIS Pro (scripting with Python), ArcGIS Utility Network, Configurable Apps, Imagery and Rasters, Network Analyst, Python, Remote Sensing, Story Maps, Web AppBuilder for ArcGIS - Developer Edition, Web Scene Viewer, Widgets"
 	}
 ]
