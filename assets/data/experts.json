@@ -3140,7 +3140,24 @@
 		"geodev": false,
 		"advocate": true,
 		"technologies": "ArcGIS Enterprise, ArcGIS Online, ArcGIS Pro, Esri Startup Program, Artificial Intelligence (AI), ArcGIS Desktop, Collector for ArcGIS, Python, Web AppBuilder for ArcGIS, WCS, WFS, WMS, WMTS, INSPIRE"
+	},
+	{
+		"consent": true,
+		"name": "Sergio Domenech",
+		"picture": "https://media.licdn.com/dms/image/C5603AQF0lP1XO8vwzA/profile-displayphoto-shrink_800_800/0?e=1526634000&v=alpha&t=kcQdn50zdHdWBl2pAOEbYpTtLw_WSrGIvF9-34kzGEE",
+		"linkedin": "https://www.linkedin.com/in/sdomzu/",
+		"twitter": "https://twitter.com/sdomzu",
+		"github": null,
+		"geonet": null,
+		"arcgisonline": "https://www.arcgis.com/home/search.html?q=owner%3Asdomzu.dev&start=1&sortOrder=desc&sortField=numviews",
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": "https://www.youtube.com/user/sdomzu",
+		"blog": "https://esriblog.wordpress.com/author/sdomzu/",
+		"website": null,
+		"podcast": null,
+		"geodev": false,
+		"advocate": true,
+		"technologies": "Story Maps, ArcGIS Online, ArcGIS Pro"
 	}
-
-
 ]
