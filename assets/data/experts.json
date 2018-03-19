@@ -604,7 +604,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Web AppBuilder for ArcGIS - Developer Edition"
+		"technologies": "Web AppBuilder for ArcGIS - Developer Edition, Operations Dashboard for ArcGIS"
 	},
 	{
 		"consent": false,
@@ -3102,7 +3102,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": true,
-		"technologies": "ArcGIS Platform, ArcGIS Online, Operations Dashboard for ArcGIS, Insights for ArcGIS, ArcGIS Maps for Office, ArcGIS Desktop, ArcGIS Pro, Collector for ArcGIS, Survey123 for ArcGIS, Smart Mapping, ArcGIS for Water Utilities, Web App Builder for ArcGIS, Story Maps, Workforce for ArcGIS, Business Analyst Web App, Arcade, ArcGIS Demographics Data, GeoEnrichment, Spatial Analyst for ArcGIS, Spatial Statistics, Configurable Apps, Geocoding, Network Analyst, Routing Services, Remote Sensing, Graphic Design, Imagery and Raster"
+		"technologies": "ArcGIS Platform, ArcGIS Online, Operations Dashboard for ArcGIS, Insights for ArcGIS, ArcGIS Maps for Office, Collector for ArcGIS, Survey123 for ArcGIS, Smart Mapping, ArcGIS for Water Utilities, Web App Builder for ArcGIS, Story Maps, Workforce for ArcGIS, Business Analyst Web App, Arcade, ArcGIS Demographics Data, GeoEnrichment, Configurable Apps, Geocoding, Network Analyst, Routing Services, Graphic Design, Spanish"
 	},
 	{
 		"consent": true,
