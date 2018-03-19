@@ -3159,5 +3159,24 @@
 		"geodev": false,
 		"advocate": true,
 		"technologies": "Story Maps, ArcGIS Online, ArcGIS Pro"
+	},
+	{
+		"consent": false,
+		"name": "José Jiménez",
+		"picture": null,
+		"linkedin": "https://www.linkedin.com/in/jose-jimenez-viciano/",
+		"twitter": "http://twitter.com/jjvgrau",
+		"github": null,
+		"geonet": null,
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": false,
+		"advocate": true,
+		"technologies": "ArcGIS Desktop, ArcGIS Hub, ArcGIS Image Server, ArcGIS Online, ArcGIS Open Data, ArcGIS Pro, Imagery and Rasters, Network Analyst, Remote Sensing, Web AppBuilder for ArcGIS"
 	}
 ]
