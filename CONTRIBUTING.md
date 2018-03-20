@@ -32,9 +32,35 @@ This list is a work in progress, so if you miss some topic please [open an issue
 
 ## Improving the list of experts
 
+### Expert profile
+
+This list explains what every property included in the [expert template](https://github.com/esri-es/arcgis-experts/blob/master/ISSUE_TEMPLATE.md):
+
+|Field|Value|Optional|Description|
+|---|---|---|---|
+|consent|true\|false|False|It means the expert has already accepted to be listed in this directory
+|name|string|False|Expert name
+|picture|string|False|URL pointing an expert picture
+|linkedin|string|True|URL pointing to the expert account (only if it shares content about ArcGIS)
+|twitter|string|True|URL pointing to the expert account (only if it shares content about ArcGIS)
+|github|string|True|URL pointing to the expert account (only if it shares content about ArcGIS)
+|geonet|string|True|URL pointing to the expert account
+|arcgisonline|string|True|URL pointing to the expert account
+|stackoverflow|string|True|URL pointing to the expert account
+|stackexchange|string|True|URL pointing to the expert account
+|youtube|string|True|URL pointing to the expert account (only if it shares content about ArcGIS)
+|blog|string|True|URL pointing to the expert account (only if it shares content about ArcGIS)
+|website|string|True|URL pointing to the expert account (only if it shares content about ArcGIS)
+|podcast|string|True|URL pointing to the expert podcast (only if it shares content about ArcGIS)
+|geodev|true\|false|False|Does the expert use to write code and feel comfortable talking about that
+|advocate|true\|false|False|Is the expert willing to help on GeoNet
+|technologies|string|False|Comma separated value of technologies the expert know, share content or can help with
+
 ### Add new experts
 
 If you want to suggest a new expert you can directly do a [pull request](https://help.github.com/articles/about-pull-requests/) or if you feel lazy, or do not know how to do that, [open a issue](https://github.com/esri-es/arcgis-experts/issues/new) and fill [this template](./ISSUE_TEMPLATE.md).
+
+> **Note:** having the support of other experts included in this list will help us on the evaluation process, so please let us know if any other expert is supporting this candidate.
 
 ### Update existing profiles
 
