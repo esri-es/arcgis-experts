@@ -11,8 +11,9 @@ We have not many rules (yet ;-P), this is a list of topics we consider you can h
 - [Fixing bugs or adding enhancements](#fixing-bugs-or-adding-enhancements)
 - [Suggesting new topics](#suggesting-new-topics)
 - [Improving the list of experts](#improving-the-list-of-experts)
-    - [Add new experts](#add-new-experts)
-    - [Update existing profiles](#update-existing-profiles)
+  - [Expert profile](#expert-profile)
+  - [Add new experts](#add-new-experts)
+  - [Update existing profiles](#update-existing-profiles)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
