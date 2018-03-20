@@ -984,7 +984,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": true,
-		"technologies": "ArcGIS API for JavaScript 3.x, ArcGIS API for JavaScript 4.x, ReactJS, VueJS, EmberJS, Knockout, Dojo, Electron, ArcGIS REST API"
+		"technologies": "ArcGIS API for JavaScript 3.x, ArcGIS API for JavaScript 4.x, ReactJS, VueJS, EmberJS, Knockout, Dojo, Electron, ArcGIS REST API, Arcade"
 	},
 	{
 		"consent": false,
@@ -1269,7 +1269,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "ArcGIS Desktop, ArcGIS Pro"
+		"technologies": "ArcGIS Desktop, ArcGIS Pro, Arcade"
 	},
 	{
 		"consent": true,
@@ -2970,7 +2970,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS API for JavaScript 4.x"
+		"technologies": "ArcGIS API for JavaScript 4.x, Arcade"
 	},
 	{
 		"consent": false,
