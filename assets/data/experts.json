@@ -3235,5 +3235,24 @@
 		"geodev": false,
 		"advocate": true,
 		"technologies": "ArcGIS API for JavaScript, ArcGIS Desktop, ArcGIS Online, ArcGIS Pro, ArcGIS Pro (scripting with Python), ArcGIS Utility Network, Configurable Apps, Imagery and Rasters, Network Analyst, Python, Remote Sensing, Story Maps, Web AppBuilder for ArcGIS - Developer Edition, Web Scene Viewer, Widgets"
+	},
+	{
+		"consent": true,
+		"name": "Adrián Pérez",
+		"picture": "https://media.licdn.com/dms/image/C4E03AQGksnr9owmBTg/profile-displayphoto-shrink_200_200/0?e=1526680800&v=alpha&t=pPx0SiusNN06ggqvsfDl4nYYGOzHf6Y92__z9XgOeLA",
+		"linkedin": "https://www.linkedin.com/in/adri%C3%A1n-p%C3%A9rez-beneito-414771a6/",
+		"twitter": null,
+		"github": "https://github.com/AdriSolid",
+		"geonet": "https://community.esri.com/people/Adri2c",
+		"arcgisonline": "http://adri2c.maps.arcgis.com/home/index.html",
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": true,
+		"advocate": true,
+		"technologies": "ArcGIS API for JavaScript 3.x, ArcGIS API for JavaScript 4.x, ArcGIS REST API, ArcPy, Cedar, Dojo, Esri Leaflet, Web AppBuilder for ArcGIS - Developer Edition, Widgets"
 	}
 ]
