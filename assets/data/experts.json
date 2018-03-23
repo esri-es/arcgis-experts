@@ -1250,7 +1250,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "ArcGIS Desktop, ArcGIS Online, ArcGIS Open Data, ArcGIS Pro, ArcGIS Earth, ArcGIS Maps for Office, Esri Business Analyst, KoopJS, Operations Dashboard for ArcGIS, Web AppBuilder for ArcGIS, Workforce for ArcGIS"
+		"technologies": "ArcGIS Desktop, ArcGIS Online, ArcGIS Open Data, ArcGIS Pro, ArcGIS Earth, ArcGIS Maps for Office, Esri Business Analyst, KoopJS, Operations Dashboard for ArcGIS, Web AppBuilder for ArcGIS, Workforce for ArcGIS, Arcade"
 	},
 	{
 		"consent": true,
@@ -1288,7 +1288,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "GeoEvent Server, GeoAnalytics Server, Insights for ArcGIS, ArcGIS Enterprise"
+		"technologies": "GeoEvent Server, GeoAnalytics Server, Insights for ArcGIS, ArcGIS Enterprise, Arcade"
 	},
 	{
 		"consent": true,
@@ -3254,5 +3254,43 @@
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS API for JavaScript 3.x, ArcGIS API for JavaScript 4.x, ArcGIS REST API, ArcPy, Cedar, Dojo, Esri Leaflet, Web AppBuilder for ArcGIS - Developer Edition, Widgets"
+	},
+	{
+		"consent": true,
+		"name": "Víctor Estévez",
+		"picture": "./assets/imgs/victor-estevez.jpg",
+		"linkedin": "https://www.linkedin.com/in/victorestevezgonzalez",
+		"twitter": "https://twitter.com/vitinho10",
+		"github": null,
+		"geonet": null,
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": false,
+		"advocate": true,
+		"technologies": "ArcGIS Online, Web AppBuilder for ArcGIS, ArcGIS Server, ArcGIS Enterprise"
+	},
+	{
+		"consent": true,
+		"name": "Rubén Pérez",
+		"picture": "https://media.licdn.com/dms/image/C4D03AQHXAv3CY9fvFA/profile-displayphoto-shrink_800_800/0?e=1526986800&v=alpha&t=PdGQmUOA-k-IbcglEFpgk3LObjWUDkwpsLpaT_PLf3c",
+		"linkedin": "https://www.linkedin.com/in/ruben-perez-planillo-7b12641b/",
+		"twitter": null,
+		"github": null,
+		"geonet": "https://community.esri.com/people/ruben.perezesri-es-esridist",
+		"arcgisonline": "https://www.arcgis.com/home/search.html?q=owner%3Aruben.perez_geogeeks&start=1&sortOrder=desc&sortField=numviews",
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": "https://www.flickr.com/photos/theecclecticoneironaut/",
+		"podcast": null,
+		"geodev": true,
+		"advocate": true,
+		"technologies": "ArcGIS Utility Network Management Extension, ArcGIS Enterprise, ArcGIS Online, Collector for ArcGIS, Web AppBuilder for ArcGIS, Web AppBuilder for ArcGIS - Developer Edition, Workforce for ArcGIS, Survey123 for ArcGIS, Web Map Specification, Network Analyst, ArcGIS Server, Portal for ArcGIS, ArcGIS Pro, Geodatabase, Vector Tiles"
 	}
 ]
