@@ -528,7 +528,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "Navigator for ArcGIS, Explorer for ArcGIS, Geodatabase, iOS and Android Runtime SDKs"
+		"technologies": "Navigator for ArcGIS, Explorer for ArcGIS, Geodatabase, ArcGIS Runtime SDK for Android, ArcGIS Runtime SDK for iOS"
 	},
 	{
 		"consent": false,
@@ -737,7 +737,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS Runtime SDK for .NET, ArcGIS Runtime SDK for WPF"
+		"technologies": "ArcGIS Runtime SDK for .NET, ArcGIS Runtime SDK for WPF, Xamarin"
 	},
 	{
 		"consent": false,
@@ -756,7 +756,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS Runtime SDK for .NET, Virtual Reality (VR), ArcGIS Runtime SDK for WPF"
+		"technologies": "ArcGIS Runtime SDK for .NET, Virtual Reality (VR), ArcGIS Runtime SDK for WPF, Xamarin"
 	},
 	{
 		"consent": true,
@@ -1970,7 +1970,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS Runtime SDK for macOS"
+		"technologies": "ArcGIS Runtime SDK for macOS, ArcGIS Runtime SDK for iOS"
 	}, {
 		"consent": false,
 		"name": "Gagandeep Singh",
@@ -1988,7 +1988,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS Runtime SDK for macOS"
+		"technologies": "ArcGIS Runtime SDK for macOS, ArcGIS Runtime SDK for iOS"
 	}, {
 		"consent": false,
 		"name": "Tamrat Belayneh",
@@ -3292,5 +3292,101 @@
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS Utility Network Management Extension, ArcGIS Enterprise, ArcGIS Online, Collector for ArcGIS, Web AppBuilder for ArcGIS, Web AppBuilder for ArcGIS - Developer Edition, Workforce for ArcGIS, Survey123 for ArcGIS, Web Map Specification, Network Analyst, ArcGIS Server, Portal for ArcGIS, ArcGIS Pro, Geodatabase, Vector Tiles"
+	},
+	{
+		"consent": false,
+		"name": "Rama Chintapalli",
+		"picture": "https://media.licdn.com/dms/image/C4D03AQHYTdbmDyDzFw/profile-displayphoto-shrink_800_800/0?e=1527332400&v=alpha&t=FkVaj9xzZa32HGrUTXKUWWEG_XtrwsXUSuaABTpHd8o",
+		"linkedin": "https://www.linkedin.com/in/rama-chintapalli-668a9516/",
+		"twitter": null,
+		"github": "https://github.com/rchintapalli",
+		"geonet": "https://community.esri.com/people/rChintapalli-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": true,
+		"advocate": false,
+		"technologies": "ArcGIS Runtime SDK for Android"
+	},
+	{
+		"consent": false,
+		"name": "Sandie Peters",
+		"picture": "https://avatars3.githubusercontent.com/u/7891400?s=460&v=4",
+		"linkedin": "https://www.linkedin.com/in/sandie-peters-29a553/",
+		"twitter": null,
+		"github": "https://github.com/zinfin",
+		"geonet": "https://community.esri.com/people/Sandie_Peters-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": true,
+		"advocate": false,
+		"technologies": "ArcGIS Runtime SDK for Android"
+	},
+	{
+		"consent": false,
+		"name": "Mara Stoica",
+		"picture": "https://pbs.twimg.com/profile_images/949436029328486400/Fpr1vdgq_400x400.jpg",
+		"linkedin": "https://www.linkedin.com/in/marastoica/",
+		"twitter": "https://twitter.com/codergrl",
+		"github": "https://github.com/marastoica",
+		"geonet": "https://community.esri.com/people/mstoica-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": true,
+		"advocate": false,
+		"technologies": "Xamarin"
+	},
+	{
+		"consent": false,
+		"name": "Thomas Dunn",
+		"picture": "https://media.licdn.com/dms/image/C5603AQF_MpflbRFX8w/profile-displayphoto-shrink_800_800/0?e=1527332400&v=alpha&t=oVqgwZ213miWr_h-iBh5AaCLPSL85uuYkHxRtKu404M",
+		"linkedin": "https://www.linkedin.com/in/mrthomasadunn/",
+		"twitter": null,
+		"github": "https://github.com/tdunn",
+		"geonet": "https://community.esri.com/people/tdunn-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": true,
+		"advocate": false,
+		"technologies": "ArcGIS Runtime SDK for Qt"
+	},
+	{
+		"consent": false,
+		"name": "Koushik Hajra",
+		"picture": "https://media.licdn.com/dms/image/C5103AQHGdHysZpDs1A/profile-displayphoto-shrink_800_800/0?e=1527332400&v=alpha&t=fqqWISwEFylYPiDWs7ghsNxmzV52beNzLLD4-0wV_4g",
+		"linkedin": "https://www.linkedin.com/in/koushik-hajra-2b32a41/",
+		"twitter": null,
+		"github": "https://github.com/khajra",
+		"geonet": "https://community.esri.com/people/khajra-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": true,
+		"advocate": false,
+		"technologies": "ArcGIS Runtime SDK for Qt"
 	}
+
 ]
