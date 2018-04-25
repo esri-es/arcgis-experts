@@ -419,7 +419,7 @@
 	{
 		"consent": false,
 		"name": "Tony Mason",
-		"picture": "https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/01e/1b6/247e0c4.jpg",
+		"picture": "https://avatars0.githubusercontent.com/u/7331107?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/tonymmason",
 		"twitter": null,
 		"github": "https://github.com/tonymason",
@@ -875,7 +875,7 @@
 	{
 		"consent": true,
 		"name": "Mark Jagt",
-		"picture": "https://media-exp2.licdn.com/media/p/3/000/006/081/3600517.jpg",
+		"picture": "https://avatars2.githubusercontent.com/u/7136592?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/markjagt",
 		"twitter": null,
 		"github": "https://github.com/mjagt",
@@ -1046,7 +1046,7 @@
 	{
 		"consent": false,
 		"name": "Justin Colville",
-		"picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/088/3a5/3cd9749.jpg",
+		"picture": "./assets/imgs/justin-colville.jpeg",
 		"linkedin": "https://www.linkedin.com/in/justin-colville-18b29aa4/",
 		"twitter": null,
 		"github": "https://github.com/justincolville",
@@ -1450,7 +1450,7 @@
 		"twitter": "https://twitter.com/dmfenton",
 		"github": "https://github.com/dmfenton",
 		"geonet": "https://community.esri.com/people/DFenton-esristaff",
-		"arcgisonline": null,
+		"arcgisonline": "http://www.arcgis.com/home/search.html?q=owner%3ADFenton_dcdev",
 		"stackoverflow": null,
 		"stackexchange": null,
 		"youtube": null,
@@ -1521,7 +1521,7 @@
 	{
 		"consent": false,
 		"name": "Max Payson",
-		"picture": "https://media.licdn.com/media/AAMABADGAAwAAQAAAAAAAA4aAAAAJDk4MDM1NmQ4LWM3NTgtNDhkOS1iMjg4LTExMmE1NWUxN2ZhMg.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/814642075605942277/ypyHnX4-_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/max-payson-08328b99/",
 		"twitter": "https://twitter.com/mhp207",
 		"github": "http://github.com/mpayson",
@@ -1635,7 +1635,7 @@
 	{
 		"consent": false,
 		"name": "Javier Gutierrez",
-		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAA0vAAAAJGJiODY2NmVmLTBlYzAtNGJiZC1iNzhlLTJiZmFkNjdmZTcyOQ.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/499301003209232385/7OAOIYZB_400x400.jpeg",
 		"linkedin": "https://www.linkedin.com/in/jgtrez/",
 		"twitter": "https://twitter.com/jgutierrez0",
 		"github": "https://github.com/gutierrezj",
@@ -2154,7 +2154,7 @@
 	}, {
 		"consent": false,
 		"name": "Hussein Nasser",
-		"picture": "https://pbs.twimg.com/profile_images/934174489507590144/lM1jlV9M_400x400.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/984174464521809920/iLq9JFPK_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/hnaser/",
 		"twitter": "https://twitter.com/hnasr",
 		"github": "https://github.com/hnasr",
@@ -2226,7 +2226,7 @@
 	}, {
 		"consent": true,
 		"name": "Lars Schmitz",
-		"picture": "https://media-exp2.licdn.com/media/p/3/005/01b/0e3/36c6d5b.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/2874203984/f3264622ab55df1f643883c65cd54989_400x400.png",
 		"linkedin": "https://www.linkedin.com/in/larsschmitz/",
 		"twitter": "https://twitter.com/pilukinum",
 		"github": null,
@@ -2244,7 +2244,7 @@
 	}, {
 		"consent": false,
 		"name": "Katie Decker",
-		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAs5AAAAJDAyYjczNTE4LTM0NDItNDkyMi04NTgwLWIwOGI1NGM1ZDQwNg.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/832452463613538304/yw4bZ-vL_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/katdecker/",
 		"twitter": "https://twitter.com/globaldecker",
 		"github": null,
@@ -2370,7 +2370,7 @@
 	}, {
 		"consent": false,
 		"name": "Matthias Schenker",
-		"picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAvdAAAAJDg3Y2IxMDI1LWIyY2ItNDljYS1hMzg3LTIwN2Q1MzRlNzAzYg.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/76954183/n623300336_103614_1027_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/matthias-schenker-274623a/",
 		"twitter": "https://twitter.com/MattSchenker",
 		"github": "https://github.com/mschenker",
@@ -2424,7 +2424,7 @@
 	}, {
 		"consent": false,
 		"name": "Chris Catania",
-		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAVCAAAAJDc4NDIzNzI4LWZjNGUtNDZjMi1iYjgzLTVhYzAxZmIwYTVjMQ.jpg",
+		"picture": "/assets/imgs/christophercatania.jpeg",
 		"linkedin": "https://www.linkedin.com/in/christophercatania/",
 		"twitter": "https://twitter.com/chriscatania",
 		"github": null,
@@ -2478,7 +2478,7 @@
 	}, {
 		"consent": false,
 		"name": "Candace Loya",
-		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAA1vAAAAJGI3YWYwNzE0LTVmYmUtNGE3Zi04OGJlLTZhZmU0NzA0Y2JkNA.jpg",
+		"picture": "./assets/imgs/candace-loya.jpeg",
 		"linkedin": "https://www.linkedin.com/in/candaceloya909/",
 		"twitter": null,
 		"github": null,
@@ -2496,7 +2496,7 @@
 	}, {
 		"consent": false,
 		"name": "Craig McCabe",
-		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAA0mAAAAJDNlZmVkN2QyLTJiYzQtNDMyOC1iZTk3LWM2OGFhYTZmODQ0OQ.jpg",
+		"picture": "https://avatars0.githubusercontent.com/u/3483599?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/craigmccabe/",
 		"twitter": null,
 		"github": "https://github.com/craig-mccabe",
@@ -2550,7 +2550,7 @@
 	}, {
 		"consent": false,
 		"name": "Steven Nelson",
-		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAjyAAAAJGJiOThhNjNlLWY5ZjktNDE1OC1hOWNiLTZkNDdjYzI0YjNhMQ.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/789699065512497152/vmK8_iAR_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/smichaelnelson/",
 		"twitter": "https://twitter.com/smnelsondesign",
 		"github": null,
@@ -2595,7 +2595,7 @@
 	{
 		"consent": false,
 		"name": "Omar Maher",
-		"picture": "https://media.licdn.com/media/AAEAAQAAAAAAAAt3AAAAJGViNjZkMzQyLTgyNTMtNGFhOS05YWIwLWEzOGUxMGRhZjFlMA.jpg",
+		"picture": "https://avatars0.githubusercontent.com/u/1046042?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/omaher/",
 		"twitter": "https://twitter.com/osalama",
 		"github": "https://github.com/OmarSalama",
@@ -2614,7 +2614,7 @@
 	{
 		"consent": false,
 		"name": "Russell Roberts",
-		"picture": "https://media.licdn.com/media/AAEAAQAAAAAAAARsAAAAJDE1ZmQ2YTI2LTczMzUtNGRkZC05YTMzLTIxMjM5NDU5ZTc0Zg.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/906225284499873792/W86aJ0T4_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/russjroberts/",
 		"twitter": "https://twitter.com/rssllrbrts?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2BjlDv1k6RWC4bEpsfehXJg%3D%3D",
 		"github": null,
@@ -2671,7 +2671,7 @@
 	{
 		"consent": false,
 		"name": "Arthur (Art) Haddad",
-		"picture": "https://media.licdn.com/media/AAEAAQAAAAAAAAjoAAAAJDdkODhmNWE4LTIyZTItNGVkNC1hMDc1LWM0NjRjNTRmY2M5Mg.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/705415103332487168/Rbk-0LR1_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/ahaddad/",
 		"twitter": "https://twitter.com/ajhaddad",
 		"github": "https://github.com/arthaddad",
@@ -2709,7 +2709,7 @@
 	{
 		"consent": false,
 		"name": "Vicki Lynn Cove",
-		"picture": "https://media.licdn.com/media/p/7/005/08a/39c/3fe8d20.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/518412553815195648/FJG1CJHU_400x400.jpeg",
 		"linkedin": "https://www.linkedin.com/in/vickilynncove/",
 		"twitter": "https://twitter.com/vickilynncove",
 		"github": "https://github.com/vcove",
@@ -2728,7 +2728,7 @@
 	{
 		"consent": false,
 		"name": "Lauren Bennett",
-		"picture": "https://media.licdn.com/media/p/4/000/162/1d1/293a1e7.jpg",
+		"picture": "./assets/imgs/lauren-bennett.jpeg",
 		"linkedin": "https://www.linkedin.com/in/lauren-rosenshein-bennett-99538851/",
 		"twitter": null,
 		"github": null,
@@ -2747,7 +2747,7 @@
 	{
 		"consent": false,
 		"name": "Rich Ruh",
-		"picture": "https://media.licdn.com/media/p/1/000/068/3b6/2487f0b.jpg",
+		"picture": "https://avatars2.githubusercontent.com/u/13242272?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/richruh/",
 		"twitter": null,
 		"github": "https://github.com/rRuh",
@@ -2766,7 +2766,7 @@
 	{
 		"consent": false,
 		"name": "Shaun Walbridge",
-		"picture": "https://media.licdn.com/media/p/2/000/01c/11e/34fe822.jpg",
+		"picture": "./assets/imgs/shaun-walbridge.jpeg",
 		"linkedin": "https://www.linkedin.com/in/shaun-walbridge-5491371/",
 		"twitter": null,
 		"github": "https://github.com/scw",
@@ -2785,7 +2785,7 @@
 	{
 		"consent": false,
 		"name": "Atma Mani",
-		"picture": "https://media.licdn.com/media/AAEAAQAAAAAAAAdVAAAAJDljOGExYjIxLWY4MzgtNDczNS1hNWVmLTEzNWNkMzRiYTJjOA.jpg",
+		"picture": "https://avatars1.githubusercontent.com/u/6750179?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/atmabharathi/",
 		"twitter": null,
 		"github": "https://github.com/atmamani",
@@ -2804,7 +2804,7 @@
 	{
 		"consent": false,
 		"name": "Kerry Robinson",
-		"picture": "https://media.licdn.com/media/p/7/000/284/064/34c43d7.jpg",
+		"picture": "https://avatars0.githubusercontent.com/u/3383476?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/kerry-robinson-9a80177/",
 		"twitter": null,
 		"github": "https://github.com/kerryrobinson",
@@ -2842,7 +2842,7 @@
 	{
 		"consent": false,
 		"name": "Bern Szukalski",
-		"picture": "https://media.licdn.com/media/AAEAAQAAAAAAAAUuAAAAJGZmYWQwM2U2LWQ5OTMtNDBlMi1iNTgyLWEzMmQwMGFiYzFmMQ.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/412826637806206976/w78tVULr_400x400.png",
 		"linkedin": "https://www.linkedin.com/in/bernszukalski",
 		"twitter": "https://twitter.com/bernszukalski",
 		"github": null,
@@ -2918,7 +2918,7 @@
 	{
 		"consent": false,
 		"name": "Nitin Bajaj",
-		"picture": "https://media.licdn.com/media/AAIA_wDGAAAAAQAAAAAAAArsAAAAJDMxOTMyYzMwLWIwZWYtNDliOS04YWNiLWRmZDQ1N2VkYjNhZg.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/676290253297094656/SxlgYpYN_400x400.png",
 		"linkedin": "https://www.linkedin.com/in/nitinsbajaj/",
 		"twitter": "https://twitter.com/nitinSbajaj",
 		"github": null,
@@ -2956,7 +2956,7 @@
 	{
 		"consent": false,
 		"name": "Kristian Ekenes",
-		"picture": "https://media.licdn.com/media/p/6/005/007/2d3/2ae30d4.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/806946771536490497/5izwtbyK_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/kristian-ekenes/",
 		"twitter": "https://twitter.com/kekenes?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Biz3FARyWTiStI1T7Y6zYhg%3D%3D",
 		"github": "https://github.com/ekenes",
@@ -2994,7 +2994,7 @@
 	{
 		"consent": false,
 		"name": "Vinay Viswambharan",
-		"picture": "https://media.licdn.com/media/AAEAAQAAAAAAAAYxAAAAJDQyNGEzYWE4LTJjZDctNGEyNi04Y2RjLWFhODZiZmZiZWM3YQ.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/378800000105804057/d3a71bf611e6e0738e86057149cad708_400x400.jpeg",
 		"linkedin": "https://www.linkedin.com/in/vinayviswambharan/",
 		"twitter": "https://twitter.com/Vinay_1977",
 		"github": "https://github.com/TheVinay",
@@ -3182,7 +3182,7 @@
 	{
 		"consent": true,
 		"name": "Adriana Rangel",
-		"picture": "https://media.licdn.com/dms/image/C4D00AQE-xjcfD-bvFg/profile-displayphoto-shrink_800_800/0?e=1522162800&v=alpha&t=ETVZWk0E7A9QapLgwK4s5geMwWi-_ErEPo24iC-1Z0A",
+		"picture": "https://pbs.twimg.com/profile_images/925306133140602880/aYSZqwQO_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/adriana-rangel/",
 		"twitter": "https://twitter.com/Adriana_Rangel_",
 		"github": null,
@@ -3387,6 +3387,44 @@
 		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcGIS Runtime SDK for Qt"
+	},
+	{
+		"consent": false,
+		"name": "Lisa Berry",
+		"picture": "https://pbs.twimg.com/profile_images/744995410964447232/ab-NSbze_400x400.jpg",
+		"linkedin": "https://www.linkedin.com/in/lisaberrygis/",
+		"twitter": "https://twitter.com/lisaberry_gis?lang=en",
+		"github": "https://github.com/lisaberrygis",
+		"geonet": "https://community.esri.com/people/lberry-esristaff",
+		"arcgisonline": "https://www.arcgis.com/home/search.html?q=owner:lisa_berry&restrict=false",
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "Arcade, Living Atlas"
+	},
+	{
+		"consent": true,
+		"name": "Leticia Matas Álvarez",
+		"picture": "https://avatars3.githubusercontent.com/u/25487196?s=460&v=4",
+		"linkedin": "https://www.linkedin.com/in/matasalvarezleticia/",
+		"twitter": "https://twitter.com/aicel_m",
+		"github": "https://github.com/aicelm",
+		"geonet": null,
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": true,
+		"advocate": true,
+		"technologies": "ArcGIS API for JavaScript, ArcGIS API for JavaScript 3.x, ArcGIS API for JavaScript 4.x, ArcGIS Desktop, ArcMap, ArcGIS Online, ArcGIS Open Data, ArcGIS Pro, Basemaps, Calcite, Configurable Apps, Living Atlas, Operations Dashboard for ArcGIS, Story Maps, Vector Tiles, Web AppBuilder for ArcGIS, Web AppBuilder for ArcGIS - Developer Edition"
 	}
 
 ]

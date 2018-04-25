@@ -312,3 +312,9 @@ function unique(list) {
     });
     return result;
 }
+
+function imgError(image) {
+   image.onerror = "";
+   image.src = "./assets/imgs/no_avatar.jpg";
+   return true;
+}

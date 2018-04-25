@@ -169,7 +169,7 @@
             {{/if}}
 
             {{if picture}}
-                <img class="card-image" src="{{:picture}}" alt="{{:name}}">
+                <img class="card-image" src="{{:picture}}" alt="{{:name}}" onerror="imgError(this);">
             {{else}}
                 <img class="card-image" src="./assets/imgs/no_avatar.jpg" alt="{{:name}}">
             {{/if}}
