@@ -2532,7 +2532,7 @@
 	}, {
 		"consent": false,
 		"name": "Don Kuehne",
-		"picture": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAANFAAAAJDdhNjQ1OGM2LWVlMTUtNDgwYy04YjhkLWVmODczMGRmYmJkNw.jpg",
+		"picture": "./assets/imgs/don-kuehne.png",
 		"linkedin": "https://www.linkedin.com/in/don-kuehne-0b85365/",
 		"twitter": null,
 		"github": null,
