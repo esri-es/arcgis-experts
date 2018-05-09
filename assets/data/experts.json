@@ -113,7 +113,7 @@
 		"technologies": "Full Motion Video"
 	},
 	{
-		"consent": false,
+		"consent": true,
 		"name": "Christopher Zent",
 		"picture": "./assets/imgs/christopher-zent.jpg",
 		"linkedin": "https://www.linkedin.com/in/christopher-zent-3578579/",
@@ -262,7 +262,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS Hub, ArcGIS Open Data, Cedar, KoopJS"
+		"technologies": "ArcGIS Hub, ArcGIS Open Data, Cedar, KoopJS, Bots"
 	},
 	{
 		"consent": false,
@@ -1117,7 +1117,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "AngularJS, EmberJS, oAuth, ArcGIS Hub, ArcGIS REST API"
+		"technologies": "AngularJS, EmberJS, oAuth, ArcGIS Hub, ArcGIS REST API, Bots"
 	},
 	{
 		"consent": false,
@@ -1573,7 +1573,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": true,
-		"technologies": "ArcGIS API for JavaScript"
+		"technologies": "ArcGIS API for JavaScript, Bots"
 	},
 	{
 		"consent": true,
