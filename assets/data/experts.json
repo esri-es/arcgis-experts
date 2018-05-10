@@ -77,7 +77,7 @@
 	{
 		"consent": true,
 		"name": "Cody Benkelman",
-		"picture": "https://media-exp1.licdn.com/media/AAEAAQAAAAAAAAoHAAAAJDFiYmQ4Mjg2LTdmZTctNDcyZi1iM2M3LTk5YmNhNGI5ZTk5Mg.jpg",
+		"picture": "./assets/imgs/cody-benkelman.jpeg",
 		"linkedin": "https://www.linkedin.com/in/cody-benkelman-0b62761",
 		"twitter": null,
 		"github": "https://github.com/codybenkelman",
@@ -761,7 +761,7 @@
 	{
 		"consent": true,
 		"name": "Eric Bader",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAVHAAAAJDQ3ZjdhNzI0LWJkZTMtNGM2MC04MWRkLWI3MDE3YzRmZjBjYQ.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/648904629963481088/jQ4wGmPM_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/eric-bader-b44ab83a/",
 		"twitter": "https://twitter.com/ECBader",
 		"github": "https://github.com/eric906",
@@ -856,7 +856,7 @@
 	{
 		"consent": true,
 		"name": "Raul Jimenez",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/01c/2dd/1be9db8.jpg",
+		"picture": "./assets/imgs/raul-jimenez.jpeg",
 		"linkedin": "https://es.linkedin.com/in/jimenezortegaraul",
 		"twitter": "https://www.twitter.com/hhkaos",
 		"github": "https://www.github.com/hhkaos",
@@ -1236,7 +1236,7 @@
 	{
 		"consent": true,
 		"name": "Federico Lopez",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAvxAAAAJDIyNzBlZWY2LWJkZWEtNGFjNi04NGIyLTUwYTdmOGE3NTk1OQ.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/3180734040/d62689538d639697bbe6ff3ea006f46b_400x400.jpeg",
 		"linkedin": "https://www.linkedin.com/in/federico-lópez-fernández-9372a1140/",
 		"twitter": "https://twitter.com/fedelopezfdez",
 		"github": null,
@@ -1255,7 +1255,7 @@
 	{
 		"consent": true,
 		"name": "Nacho Vazquez",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAMRAAAAJGY4Y2ZmZWU5LTQyY2QtNDUxMi05ZTQ0LWE5ODgwNjY1YjE5Yw.jpg",
+		"picture": "./assets/imgs/nacho-vazquez.jpeg",
 		"linkedin": "https://es.linkedin.com/in/ignaciovazquezvelez",
 		"twitter": "https://twitter.com/nachogondorff",
 		"github": null,
@@ -1331,7 +1331,7 @@
 	{
 		"consent": true,
 		"name": "Lorenzo Mateos",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/095/2cf/3b5fe1a.jpg",
+		"picture": "./assets/imgs/lorenzo-mateos.jpeg",
 		"linkedin": "https://es.linkedin.com/in/lorenzo-mateos-corchero-8745b393",
 		"twitter": null,
 		"github": null,
@@ -1369,7 +1369,7 @@
 	{
 		"consent": true,
 		"name": "Joan Pere",
-		"picture": "https://media.licdn.com/media/AAMABADGAAwAAQAAAAAAAA4IAAAAJGQyZWU4ZTU2LWIxMjctNDliNS04MWE4LTFkYjVmODJkZTFjOQ.jpg",
+		"picture": "./assets/imgs/joan-pere.jpeg",
 		"linkedin": "https://es.linkedin.com/in/joanpereavariento",
 		"twitter": "https://twitter.com/JoanPereNules",
 		"github": "https://github.com/JoanPere",
@@ -1409,7 +1409,7 @@
 		"name": "Carlos López",
 		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfLAAAAJGJiYjM5MTUxLTY1ZDAtNGE3YS05OTg3LWY4ODM3NDU3MmY3Nw.jpg",
 		"linkedin": "https://es.linkedin.com/in/carlos-lópez-moyano-1b0bb330",
-		"twitter": "https://twitter.com/raloji",
+		"twitter": null,
 		"github": null,
 		"geonet": "https://community.esri.com/people/carlos.lopezesri-es-esridist",
 		"arcgisonline": null,
@@ -1540,7 +1540,7 @@
 	{
 		"consent": true,
 		"name": "Alejandro Pequeño",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfJAAAAJDA0NmMwY2IxLWFjYzktNDdmYy1iMmYyLTVhMWQ3YzM4MjUwNQ.jpg",
+		"picture": "https://pbs.twimg.com/profile_images/876445529332477952/BOfBDtNa_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/alejandro-peque%C3%B1o-pulleiro-a6157b123/",
 		"twitter": "https://twitter.com/alejanndropeq",
 		"github": "https://github.com/alejandropeq",
@@ -1559,7 +1559,7 @@
 	{
 		"consent": true,
 		"name": "Jorge Barrachina",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAw9AAAAJDIxOGQ1ZGIzLTdmNDEtNGNjZi05YTYyLTAzYzYzNjgzZjc5MQ.jpg",
+		"picture": "./assets/imgs/jorge-barrachina.jpeg",
 		"linkedin": "https://www.linkedin.com/in/jorgebarrachina/",
 		"twitter": "https://twitter.com/NTKOG",
 		"github": "https://github.com/ntkog",
@@ -1578,7 +1578,7 @@
 	{
 		"consent": true,
 		"name": "Yansa Tejada",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfjAAAAJDMxMTdiOTg3LWUzN2YtNGI2Ni1iZTcyLTFkZDJjMTY2OGE3NQ.jpg",
+		"picture": "./assets/imgs/yansa-tejada.jpeg",
 		"linkedin": "https://www.linkedin.com/in/yansa-tejada-mengibar-a1302b19",
 		"twitter": "https://twitter.com/yyansays",
 		"github": null,
@@ -1792,7 +1792,7 @@
 	{
 		"consent": true,
 		"name": "Andrew Stauffer",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbXAAAAJDFiYTgxMTdiLTcwNzgtNDE0OC1iMDYyLWZiZTJhOGE2M2M0ZA.jpg",
+		"picture": "./assets/imgs/andrew-jstauffer.jpeg",
 		"linkedin": "https://www.linkedin.com/in/andrewjstauffer/",
 		"twitter": null,
 		"github": null,
