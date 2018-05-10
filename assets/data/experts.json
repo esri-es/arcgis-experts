@@ -115,10 +115,10 @@
 	{
 		"consent": true,
 		"name": "Christopher Zent",
-		"picture": "./assets/imgs/christopher-zent.jpg",
-		"linkedin": "https://www.linkedin.com/in/christopher-zent-3578579/",
+		"picture": null,
+		"linkedin": null,
 		"twitter": null,
-		"github": "https://github.com/cjzent",
+		"github": null,
 		"geonet": "https://community.esri.com/people/czent-esristaff",
 		"arcgisonline": null,
 		"stackoverflow": null,
