@@ -493,7 +493,7 @@
 		"technologies": "Network Analyst"
 	},
 	{
-		"consent": false,
+		"consent": true,
 		"name": "Melinda Morang",
 		"picture": "https://pbs.twimg.com/profile_images/652943605137444864/dNhYTL54_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/melinda-morang-915a1b35/",
@@ -3102,7 +3102,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": true,
-		"technologies": "ArcGIS Platform, ArcGIS Online, Operations Dashboard for ArcGIS, Insights for ArcGIS, ArcGIS Maps for Office, Collector for ArcGIS, Survey123 for ArcGIS, Smart Mapping, ArcGIS for Water Utilities, Web App Builder for ArcGIS, Story Maps, Workforce for ArcGIS, Business Analyst Web App, Arcade, ArcGIS Demographics Data, GeoEnrichment, Configurable Apps, Geocoding, Network Analyst, Routing Services, Graphic Design, Spanish"
+		"technologies": "ArcGIS Platform, ArcGIS Online, Operations Dashboard for ArcGIS, Insights for ArcGIS, ArcGIS Maps for Office, Collector for ArcGIS, Survey123 for ArcGIS, Smart Mapping, ArcGIS for Water Utilities, Web AppBuilder for ArcGIS, Story Maps, Workforce for ArcGIS, Business Analyst Web App, Arcade, ArcGIS Demographics Data, GeoEnrichment, Configurable Apps, Geocoding, Network Analyst, Routing Services, Graphic Design, Spanish"
 	},
 	{
 		"consent": true,
@@ -3291,7 +3291,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": true,
-		"technologies": "ArcGIS Utility Network Management Extension, ArcGIS Enterprise, ArcGIS Online, Collector for ArcGIS, Web AppBuilder for ArcGIS, Web AppBuilder for ArcGIS - Developer Edition, Workforce for ArcGIS, Survey123 for ArcGIS, Web Map Specification, Network Analyst, ArcGIS Server, Portal for ArcGIS, ArcGIS Pro, Geodatabase, Vector Tiles"
+		"technologies": "ArcGIS Utility Network Management Extension, ArcGIS Enterprise, ArcGIS Online, Collector for ArcGIS, Web AppBuilder for ArcGIS, Web AppBuilder for ArcGIS - Developer Edition, Workforce for ArcGIS, Survey123 for ArcGIS, Web Map specification, Network Analyst, ArcGIS Server, Portal for ArcGIS, ArcGIS Pro, Geodatabase, Vector Tiles"
 	},
 	{
 		"consent": false,
@@ -3425,6 +3425,63 @@
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS API for JavaScript, ArcGIS API for JavaScript 3.x, ArcGIS API for JavaScript 4.x, ArcGIS Desktop, ArcMap, ArcGIS Online, ArcGIS Open Data, ArcGIS Pro, Basemaps, Calcite, Configurable Apps, Living Atlas, Operations Dashboard for ArcGIS, Story Maps, Vector Tiles, Web AppBuilder for ArcGIS, Web AppBuilder for ArcGIS - Developer Edition"
+	}, {
+		"consent": false,
+		"name": "Deelesh Mandloi",
+		"picture": "https://avatars1.githubusercontent.com/u/2244952?s=460&v=4",
+		"linkedin": "https://www.linkedin.com/in/deelesh-mandloi-5993515/",
+		"twitter": null,
+		"github": "https://github.com/deelesh",
+		"geonet": "https://community.esri.com/people/dmandloi-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": "http://deelesh.github.io/",
+		"website": null,
+		"podcast": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "Network Analyst"
+	},
+	{
+		"consent": false,
+		"name": "Dmitry Kudinov",
+		"picture": "./assets/imgs/dmitry-kudinov.jpeg",
+		"linkedin": "https://www.linkedin.com/in/dmitrykudinov/",
+		"twitter": null,
+		"github": "https://github.com/dmitrykudinov",
+		"geonet": "https://community.esri.com/people/dKudinov-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "Network Analyst"
+	},
+	{
+		"consent": true,
+		"name": "Ben Flanagan",
+		"picture": "https://pbs.twimg.com/profile_images/1001762356492492800/5NPLaf12_400x400.jpg",
+		"linkedin": "https://www.linkedin.com/in/flanaganben/",
+		"twitter": "https://twitter.com/benflan",
+		"github": null,
+		"geonet": "https://community.esri.com/people/BFlanaganesriuk-esridist",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": false,
+		"advocate": true,
+		"technologies": "Vector Tiles, ArcGIS Online, Story Maps, ArcGIS Pro, Cartography, UX, User Experience, Web Map, Web AppBuilder, Design, ArcGIS Desktop, Web Apps, Spatial Analysis"
 	}
+
 
 ]
