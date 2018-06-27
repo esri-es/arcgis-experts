@@ -182,7 +182,7 @@ const filterExperts = function(value){
             hasAwesomePage = false,
             topic = encodeURIComponent(value);
             issue_title = encodeURIComponent(`New resource page for ${value}`),
-            issue_body = encodeURIComponent(`I would like to have a new resource page about this topic. Should we ask [the experts](https://esri-es.github.io/arcgis-experts/?topic=${topic}) to check if they can help us with this?.\n\nWe should start adding the [resource page template](RESOURCE_PAGE_TEMPLATE.md). I have checked the [project structure](https://github.com/hhkaos/awesome-arcgis/blob/master/SUMMARY.md) and I think this page should be placed under "**[REPLACE THIS]**" section.\n\nCheers!`),
+            issue_body = encodeURIComponent(`I would like to have a new resource page about this topic. Should we ask [the experts](https://esri-es.github.io/arcgis-experts/?topic=${topic}) to check if they can help us with this?.\n\nWe should start adding the [product page template](PRODUCT_PAGE_TEMPLATE.md). I have checked the [project structure](https://github.com/hhkaos/awesome-arcgis/blob/master/SUMMARY.md) and I think this page should be placed under "**[REPLACE THIS]**" section.\n\nCheers!`),
             topic_quoted = encodeURIComponent(`"${value}"`);
             search_link = `https://esri-es.github.io/arcgis-search/?search=${topic_quoted}&utm_source=arcgis-experts&utm_medium=page`;
 
