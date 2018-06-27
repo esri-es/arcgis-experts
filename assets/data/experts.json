@@ -3481,7 +3481,24 @@
 		"geodev": false,
 		"advocate": true,
 		"technologies": "Vector Tiles, ArcGIS Online, Story Maps, ArcGIS Pro, Cartography, UX, User Experience, Web Map, Web AppBuilder, Design, ArcGIS Desktop, Web Apps, Spatial Analysis"
+	},
+	{
+		"consent": true,
+		"name": "Xander Bakker",
+		"picture": "https://pbs.twimg.com/profile_images/466087594/XanderBakker_400x400.jpg",
+		"linkedin": "https://www.linkedin.com/in/xanderbakker",
+		"twitter": "https://twitter.com/XanderBakker",
+		"github": null,
+		"geonet": "https://community.esri.com/people/xander_bakker",
+		"arcgisonline": "http://www.arcgis.com/home/search.html?q=owner:xbakker@esri.co_utility_esri_co",
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": "https://www.youtube.com/channel/UC5rf13q0syugGRqisilBChQ",
+		"blog": "https://community.esri.com/content?filterID=contentstatus%5Bpublished%5D~objecttype~objecttype%5Bblogpost%5D",
+		"website": null,
+		"podcast": null,
+		"geodev": true,
+		"advocate": true,
+		"technologies": "ArcGIS Enterprise, ArcGIS Online, ArcGIS Pro, ArcMap, Web AppBuilder for ArcGIS, Collector for ArcGIS, Drone2Map for ArcGIS, Explorer for ArcGIS, Operations Dashboard for ArcGIS, Navigator for ArcGIS, Survey123 for ArcGIS, Workforce for ArcGIS, Insights for ArcGIS, Python, Arcade, URL schemes, Spatial Analysis, Lidar"
 	}
-
-
 ]
