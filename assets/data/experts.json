@@ -3535,11 +3535,11 @@
 	{
 		"consent": true,
 		"name": "Elvin Slavik",
-		"picture": "http://3.bp.blogspot.com/_vWpNXV6Qn0k/SQEB82ncwDI/AAAAAAAAACg/OSQ_8faIjHE/s320/elvin.jpg",
-		"linkedin": "./assets/imgs/elvin-slavik.jpg",
+		"picture": "./assets/imgs/elvin-slavik.jpg",
+		"linkedin": "https://www.linkedin.com/in/elvinslavik/",
 		"twitter": "https://twitter.com/SpatialDude",
-		"github": null,
-		"geonet": null,
+		"github": "https://github.com/spatialdude",
+		"geonet": "https://community.esri.com/people/eslavik-esristaff",
 		"arcgisonline": null,
 		"stackoverflow": null,
 		"stackexchange": null,
@@ -3547,7 +3547,7 @@
 		"blog": null,
 		"website": null,
 		"podcast": null,
-		"geodev": false,
+		"geodev": true,
 		"advocate": false,
 		"technologies": "ArcPad, AppStudio for ArcGIS, Survey123 for ArcGIS, AuGeo, QuickCapture"
 	}
