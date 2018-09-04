@@ -3500,5 +3500,24 @@
 		"geodev": true,
 		"advocate": true,
 		"technologies": "ArcGIS Enterprise, ArcGIS Online, ArcGIS Pro, ArcMap, Web AppBuilder for ArcGIS, Collector for ArcGIS, Drone2Map for ArcGIS, Explorer for ArcGIS, Operations Dashboard for ArcGIS, Navigator for ArcGIS, Survey123 for ArcGIS, Workforce for ArcGIS, Insights for ArcGIS, Python, Arcade, URL schemes, Spatial Analysis, Lidar"
+	},
+	{
+		"consent": true,
+		"name": "Elvin Slavik",
+		"picture": "http://3.bp.blogspot.com/_vWpNXV6Qn0k/SQEB82ncwDI/AAAAAAAAACg/OSQ_8faIjHE/s320/elvin.jpg",
+		"linkedin": null,
+		"twitter": "https://twitter.com/SpatialDude",
+		"github": null,
+		"geonet": null,
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": null,
+		"website": null,
+		"podcast": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "ArcPad, AppStudio for ArcGIS, Survey123 for ArcGIS, AuGeo, QuickCapture"
 	}
 ]
