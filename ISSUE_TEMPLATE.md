@@ -31,7 +31,7 @@ Here you can see an example in case you need it:
   "consent": true,
   "name": "Raul Jimenez",
   "picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/01c/2dd/1be9db8.jpg",
-  "linkedin": "https://es.linkedin.com/in/jimenezortegaraul",
+  "linkedin": "https://es.linkedin.com/in/jimenezortegaraul/",
   "twitter": "https://www.twitter.com/hhkaos",
   "github": "https://www.github.com/hhkaos",
   "geonet": "https://community.esri.com/people/raul.jimenezesri-es-esridist",
