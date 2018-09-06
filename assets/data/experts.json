@@ -3607,5 +3607,23 @@
 		"geodev": true,
 		"advocate": false,
 		"technologies": "Deep Learning, Machine Learning, Artificial Intelligence (AI)"
+	}, {
+		"consent": true,
+		"name": "Amy Niessen",
+		"picture": "https://www.dropbox.com/s/opb05nbnfbf288r/Amy_mit_Bretzeln.jpg",
+		"linkedin": "https://www.linkedin.com/in/amyniessen/",
+		"twitter": "https://twitter.com/esrigeodev",
+		"github": "https://github.com/kneeson",
+		"geonet": "https://community.esri.com/people/aniessen-esristaff",
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": "https://www.youtube.com/watch?v=-Gprb3xx7Q4&list=PLGZUzt4E4O2ILC945g6dPRoRyyYTXoYmx",
+		"blog": "https://www.esri.com/arcgis-blog/author/amy5511/",
+		"website": null,
+		"podcast": null,
+		"geodev": false,
+		"advocate": true,
+		"technologies": "DevSummit, GeoDev Webinars, GeoDev Meetups, Developer Events, GeoNet"
 	}
 ]
