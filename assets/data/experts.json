@@ -1407,7 +1407,7 @@
 	{
 		"consent": true,
 		"name": "Carlos López",
-		"picture": "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfLAAAAJGJiYjM5MTUxLTY1ZDAtNGE3YS05OTg3LWY4ODM3NDU3MmY3Nw.jpg",
+		"picture": "./assets/imgs/carlos-lopez.jpeg",
 		"linkedin": "https://es.linkedin.com/in/carlos-lópez-moyano-1b0bb330/",
 		"twitter": null,
 		"github": null,
@@ -2241,7 +2241,7 @@
 		"technologies": "KoopJS, ArcGIS Server, Esri Leaflet, Dojo, ArcGIS API for JavaScript"
 	},
 	{
-		"consent": true,
+		"consent": false,
 		"name": "Lars Schmitz",
 		"picture": "https://pbs.twimg.com/profile_images/2874203984/f3264622ab55df1f643883c65cd54989_400x400.png",
 		"linkedin": "https://www.linkedin.com/in/larsschmitz/",
@@ -2903,7 +2903,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Configurable Apps, Story Maps"
+		"technologies": "Configurable Apps, Story Maps, ArcGIS Online, Credits"
 	},
 	{
 		"consent": false,
@@ -3136,7 +3136,7 @@
 	{
 		"consent": true,
 		"name": "Carlos Herrera",
-		"picture": "https://media.licdn.com/dms/image/C4E03AQEOvzqp5MCCYQ/profile-displayphoto-shrink_800_800/0?e=1526634000&v=alpha&t=nw8GUJ3zf7UxtnVMxnxmE2SA-dcS749aj3Po-57YQ8c",
+		"picture": "https://pbs.twimg.com/profile_images/778292910395629572/4pHLcIAG_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/carlos-herrera-exp%C3%B3sito-07b6a893/",
 		"twitter": "https://twitter.com/MundoGISter",
 		"github": "https://github.com/MundoGister",
@@ -3155,7 +3155,7 @@
 	{
 		"consent": true,
 		"name": "Aitor Calero",
-		"picture": "https://media.licdn.com/dms/image/C4D03AQHKvpwCem6qUA/profile-displayphoto-shrink_800_800/0?e=1526634000&v=alpha&t=zyDaPBr2d6CFoggRwo1kKVlmCTajbKIM8p_-nlhGKq0",
+		"picture": "https://pbs.twimg.com/profile_images/743405090430672896/7BMgKoGS_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/aitorcalero/",
 		"twitter": "https://twitter.com/aitorcalero",
 		"github": "https://github.com/aitorcalero",
@@ -3174,7 +3174,7 @@
 	{
 		"consent": true,
 		"name": "Sergio Domenech",
-		"picture": "https://media.licdn.com/dms/image/C5603AQF0lP1XO8vwzA/profile-displayphoto-shrink_800_800/0?e=1526634000&v=alpha&t=kcQdn50zdHdWBl2pAOEbYpTtLw_WSrGIvF9-34kzGEE",
+		"picture": "https://pbs.twimg.com/profile_images/849615039803817984/MgH0I-vz_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/sdomzu/",
 		"twitter": "https://twitter.com/sdomzu",
 		"github": null,
@@ -3193,7 +3193,7 @@
 	{
 		"consent": true,
 		"name": "José Jiménez",
-		"picture": "https://media.licdn.com/dms/image/C5603AQHGmNQOTwRGPQ/profile-displayphoto-shrink_800_800/0?e=1526637600&v=alpha&t=72181dn37wgTTuAoyLwnt80H5mmdIJlzSDqn0Jg3SP4",
+		"picture": "https://pbs.twimg.com/profile_images/989813961586630656/eEhkL8gj_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/jose-jimenez-viciano/",
 		"twitter": "http://twitter.com/jjvgrau",
 		"github": null,
@@ -3250,7 +3250,7 @@
 	{
 		"consent": true,
 		"name": "Mónica Martí",
-		"picture": "https://media.licdn.com/dms/image/C4E03AQERWc8uTycFdg/profile-displayphoto-shrink_800_800/0?e=1526644800&v=alpha&t=V0h_7slZ1Hf33xvxoM9k8slaOlI-Q-YtbKqdtyjklwY",
+		"picture": "https://pbs.twimg.com/profile_images/923505730069651457/YfsDNwqS_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/monica-martigomez/",
 		"twitter": "https://twitter.com/MonicaMoMG",
 		"github": null,
@@ -3269,7 +3269,7 @@
 	{
 		"consent": true,
 		"name": "Adrián Pérez",
-		"picture": "https://media.licdn.com/dms/image/C4E03AQGksnr9owmBTg/profile-displayphoto-shrink_200_200/0?e=1526680800&v=alpha&t=pPx0SiusNN06ggqvsfDl4nYYGOzHf6Y92__z9XgOeLA",
+		"picture": "https://avatars3.githubusercontent.com/u/25487037?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/adri%C3%A1n-p%C3%A9rez-beneito-414771a6/",
 		"twitter": null,
 		"github": "https://github.com/AdriSolid",
@@ -3307,7 +3307,7 @@
 	{
 		"consent": true,
 		"name": "Rubén Pérez",
-		"picture": "https://media.licdn.com/dms/image/C4D03AQHXAv3CY9fvFA/profile-displayphoto-shrink_800_800/0?e=1526986800&v=alpha&t=PdGQmUOA-k-IbcglEFpgk3LObjWUDkwpsLpaT_PLf3c",
+		"picture": "./assets/imgs/ruben-perez.jpeg",
 		"linkedin": "https://www.linkedin.com/in/ruben-perez-planillo-7b12641b/",
 		"twitter": null,
 		"github": null,
@@ -3610,7 +3610,7 @@
 	}, {
 		"consent": true,
 		"name": "Amy Niessen",
-		"picture": "https://www.dropbox.com/s/opb05nbnfbf288r/Amy_mit_Bretzeln.jpg",
+		"picture": "https://avatars2.githubusercontent.com/u/4194927?s=460&v=4",
 		"linkedin": "https://www.linkedin.com/in/amyniessen/",
 		"twitter": "https://twitter.com/esrigeodev",
 		"github": "https://github.com/kneeson",
