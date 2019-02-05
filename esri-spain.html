@@ -78,7 +78,10 @@ strong{
           <select class="form-control" id="departament">
             <option>Todos</option>
             <option>Formación</option>
-            <option>Servicios profesionales</option>
+            <option>SS.PP. Estratégicos</option>
+            <option>SS.PP. Consultoría</option>
+            <option>SS.PP. Desarrollo</option>
+            <option>SS.PP.</option>
             <option>Marketing</option>
             <option>Comercial</option>
             <option>Contenidos</option>
@@ -172,7 +175,7 @@ strong{
                         data.foto = elem["gsx$foto"].$t;
                     }else{
                         var tmp = slugify(elem["gsx$nombre"].$t);
-                        data.foto = `http://desarrolladores.esri.es/code/esri-spain/images/${tmp}.jpg`;
+                        data.foto = `./assets/imgs/${tmp}.jpg`;
                     }
 
 
