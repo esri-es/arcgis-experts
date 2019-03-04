@@ -3625,5 +3625,24 @@
 		"geodev": false,
 		"advocate": true,
 		"technologies": "DevSummit, GeoDev Webinars, GeoDev Meetups, Developer Events, GeoNet"
+	},
+	{
+		"consent": true,
+		"name": "Franz Pucha Cofrep",
+		"picture": "https://franzpc.files.wordpress.com/2018/03/img_20170912_145911_430.jpg",
+		"linkedin": "https://www.linkedin.com/in/franzpc/",
+		"twitter": "https://twitter.com/franzpc/",
+		"github": "https://github.com/franzpc",
+		"geonet": null,
+		"arcgisonline": null,
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": "http://www.youtube.com/franzpc",
+		"blog": "https://geogeek.xyz",
+		"website": "https://acolita.com",
+		"podcast": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "GIS, Remote Sensing, Python, ArcGIS Pro, Story Maps, ArcGIS Online"
 	}
 ]
