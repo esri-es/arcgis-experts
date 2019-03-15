@@ -2393,7 +2393,7 @@
 		"technologies": "ArcGIS Runtime SDK for Android"
 	},
 	{
-		"consent": false,
+		"consent": true,
 		"name": "Matthias Schenker",
 		"picture": "https://pbs.twimg.com/profile_images/76954183/n623300336_103614_1027_400x400.jpg",
 		"linkedin": "https://www.linkedin.com/in/matthias-schenker-274623a/",
