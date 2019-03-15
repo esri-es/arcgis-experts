@@ -3,18 +3,18 @@
 
 <html>
 <head>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="bower_components/font-awesome/dist/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+<!--<link rel="stylesheet" href="bower_components/font-awesome/dist/css/font-awesome.min.css">-->
 
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="assets/libs/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="jsrender.min.js"></script>
+<script src="assets/libs/bootstrap.min.js"></script>
+<script src="assets/libs/jsrender.min.js"></script>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
 
@@ -78,7 +78,10 @@ strong{
           <select class="form-control" id="departament">
             <option>Todos</option>
             <option>Formación</option>
-            <option>Servicios profesionales</option>
+            <option>SS.PP. Estratégicos</option>
+            <option>SS.PP. Consultoría</option>
+            <option>SS.PP. Desarrollo</option>
+            <option>SS.PP.</option>
             <option>Marketing</option>
             <option>Comercial</option>
             <option>Contenidos</option>
@@ -89,7 +92,6 @@ strong{
             <option>Financiero</option>
             <option>Tecnología e Innovación</option>
             <option>Secretaría</option>
-            <option>Soluciones</option>
             <option>Recursos humanos</option>
           </select>
         </div>
@@ -108,7 +110,7 @@ strong{
 
 <li class="clearfix col-md-2 col-sm-4 col-xs-6 text-center clearfix" data-date="{{if datetime}}{{:datetime}}{{else}}999999999999999{{/if}}" data-department="{{:departamento}}">
     <a href="{{:linkedin}}">
-      <img src="images/{{:foto}}" class="thumbnail photo center" onerror="imgError(this);"/>
+      <img src="{{:foto}}" class="thumbnail photo center" onerror="imgError(this);"/>
     </a>
     {{if linkedin}}
       <a href="{{:linkedin}}">{{:nombre}}</a>
@@ -169,7 +171,12 @@ strong{
                     data.cargo = elem["gsx$cargo"].$t;
                     data.departamento = elem["gsx$departamento"].$t;
                     data.linkedin = elem["gsx$linkedin"].$t;
-                    data.foto = slugify(elem["gsx$nombre"].$t) + ".jpg";
+                    if(elem["gsx$foto"].$t){
+                        data.foto = elem["gsx$foto"].$t;
+                    }else{
+                        var tmp = slugify(elem["gsx$nombre"].$t);
+                        data.foto = `./assets/imgs/${tmp}.jpg`;
+                    }
 
 
                     htmlOutput = template.render(data);
@@ -202,7 +209,7 @@ strong{
 
   function imgError(image) {
     image.onerror = "";
-    image.src = "images/anonymous-user.png";
+    image.src = "http://desarrolladores.esri.es/code/esri-spain/images/anonymous-user.png";
     return true;
 }
 

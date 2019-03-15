@@ -68,14 +68,26 @@
     "ArcPy": {
         "url": "https://esri-es.github.io/awesome-arcgis/back-end/technologies/python/"
     },
+    "Artificial Intelligence (AI)": {
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/disciplines/artificial-intelligence/"
+    },
     "Basemaps": {
         "url": null
+    },
+    "BIM": {
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/disciplines/bim/"
     },
     "Calcite": {
         "url": null
     },
     "Collector for ArcGIS": {
         "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/collector-for-arcgis/"
+    },
+    "D3.js": {
+        "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/d3/"
+    },
+    "Deep Learning": {
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/disciplines/artificial-intelligence/"
     },
     "Demographics": {
         "url": null
@@ -125,6 +137,9 @@
     "Imagery and Rasters": {
         "url": null
     },
+    "Indoor": {
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/disciplines/indoor/"
+    },
     "Insights for ArcGIS": {
         "url": null
     },
@@ -139,6 +154,9 @@
     },
     "Living Atlas": {
         "url": null
+    },
+    "Machine Learning": {
+        "url": "https://esri-es.github.io/awesome-arcgis/esri/disciplines/artificial-intelligence/"
     },
     "Navigator for ArcGIS": {
         "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/navigator-for-arcgis/"
@@ -176,7 +194,10 @@
     "Sencha (ExtJS)": {
         "url": "https://esri-es.github.io/awesome-arcgis/front-end/technologies/extjs-sencha/"
     },
-    "Storymaps": {
+    "Story Maps": {
+        "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/configurable-apps/"
+    },
+    "Story Map Shortlist": {
         "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/configurable-apps/"
     },
     "StreetMap Premium for ArcGIS": {
@@ -203,7 +224,7 @@
     "Web AppBuilder": {
         "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/web-appbuilder/"
     },
-    "Web AppBuilder for ArcGIS (Developer Edition)": {
+    "Web AppBuilder for ArcGIS - Developer Edition": {
         "url": "https://esri-es.github.io/awesome-arcgis/arcgis/products/web-appbuilder/developer-edition/?h=web%20appbuilder"
     },
     "Web Map specification": {

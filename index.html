@@ -39,7 +39,7 @@
 </head>
 
 <body>
-    <div class="grid-container">
+    <div class="grid-container" id="header" style="display: none">
         <div class="column-24">
             <!-- desktop sized navigation -->
             <div class="tablet-hide">
@@ -51,7 +51,27 @@
                 <!-- user specific dropdowns -->
                 <nav class="class-top-nav-list right" role="navigation" aria-labelledby="usernav">
 
-                    <a class="top-nav-link margin-left-1" href="https://github.com/esri-es/arcgis-experts/blob/master/README.md">About this page</a>
+                    <div class="dropdown js-dropdown">
+                      <!-- extends side-nav -->
+                      <button class="btn btn-transparent dropdown-btn js-dropdown-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false">
+                        About this project
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 32 32" class="svg-icon"><path d="M28 9v5L16 26 4 14V9l12 12L28 9z"/></svg>
+                      </button>
+                      <!-- extends side-nav -->
+                      <nav class="dropdown-menu modifier-class" role="menu">
+                        <!-- extends side-nav-link -->
+                        <a href="https://github.com/esri-es/arcgis-experts/blob/master/README.md#who-is-listed-in-this-project" class="dropdown-link" role="menu-item">Who is listed in this project</a>
+                        <a href="https://github.com/esri-es/arcgis-experts/blob/master/README.md#why-this-project" class="dropdown-link" role="menu-item">Why this project?</a>
+                        <a href="https://github.com/esri-es/arcgis-experts/blob/master/README.md#what-it-is-not" class="dropdown-link" role="menu-item">What it is not</a>
+                        <a href="https://github.com/esri-es/arcgis-experts/issues" class="dropdown-link" role="menu-item">Ideas, issues, questions, ...</a>
+                        <span class="dropdown-title">Tips and tricks</span>
+                        <a href="https://github.com/esri-es/arcgis-experts/blob/master/README.md#solving-your-questions-on-geonet" class="dropdown-link" role="menu-item">Solving your questions on GeoNet
+</a>
+                        <a href="https://github.com/esri-es/arcgis-experts/blob/master/README.md#filter-by-url" class="dropdown-link" role="menu-item">Filter by URL</a>
+                        <a href="https://github.com/esri-es/arcgis-experts/blob/master/README.md#embed-this-project" class="dropdown-link" role="menu-item">Embed this project</a>
+                      </nav>
+                    </div>
+
                     <!--<a class="top-nav-link margin-left-1" href="esri-spain.html">Esri Spain Experts</a>-->
                     <a class="btn btn-clear margin-left-1 leader-half" href="https://github.com/esri-es/arcgis-experts/blob/master/CONTRIBUTING.md">Contribute</a>
                 </nav>
@@ -70,7 +90,7 @@
             </div>
         </div>
     </div>
-    <header class="sub-nav" role="banner">
+    <header class="sub-nav" role="banner" id="searchBar" style="display: none">
         <div class="grid-container">
 
             <div class="ui-front leader-1">
@@ -106,11 +126,14 @@
         <p id="techs" class="trailer-1"></p>
     </header>
 
-<div class="grid-container">
-    <div class="alert alert-yellow modifier-class is-active leader-1 text-center" style="display:none">
+<div id="awesome" class="grid-container" style="display: none">
+    <div class="alert alert-yellow modifier-class is-active leader-1 text-center" style="display: none">
       Learn more about <span class="selected-techs"></span> in the Awesome list of resources
     </div>
 
+
+</div>
+<div class="grid-container">
     <div class="block-group block-group-6-up tablet-block-group-3-up phone-block-group-2-up leader-1" id="expert-list">
     </div>
 </div>
@@ -122,106 +145,122 @@
 ************************************************************
 -->
 <script id="expertCard" type="text/x-jsrender">
-<div class="card block trailer-1" id="{{slugify:name}}" data-background="{{lower:technologies}}">
-    <figure
-        class="card-image-wrap showModalProfile"
-        data-userslug="{{slugify:name}}"
-        data-userIndex="{{:#index}}"
-    >
-        {{if geodev || advocate}}
-            <mark class="tag label font-size--3">
-            {{if geodev}}
-                <span class="tooltip" aria-label="He/she can write code">#geodev</span>
+
+{{if ~showAll || consent}}
+
+    <div class="card block trailer-1" id="{{slugify:name}}" data-background="{{lower:technologies}}">
+        <figure
+            class="card-image-wrap showModalProfile"
+            data-userslug="{{slugify:name}}"
+            data-userIndex="{{:#getIndex()}}"
+        >
+            {{if geodev || advocate}}
+                <mark class="tag label font-size--3">
+                {{if geodev}}
+                    <span class="tooltip" aria-label="Use to write code">#geodev</span>
+                {{/if}}
+
+                {{if geodev && advocate}} & {{/if}}
+
+                {{if advocate}}
+                    <span class="tooltip" aria-label="Willing to help you on GeoNet">#advocate</span>
+                {{/if}}
+                </mark>
             {{/if}}
 
-            {{if geodev && advocate}} & {{/if}}
-
-            {{if advocate}}
-                <span class="tooltip" aria-label="His/her job is to make developers lifes easier">#advocate</span>
-            {{/if}}
-            </mark>
-        {{/if}}
-
-        {{if picture}}
-            <img class="card-image" src="{{:picture}}" alt="{{:name}}">
-        {{else}}
-            <img class="card-image" src="./assets/imgs/no_avatar.jpg" alt="{{:name}}">
-        {{/if}}
-
-        <figcaption class="card-image-caption text-center">
-            {{firstname:name}}
-            <span class="phone-hide">{{lastname:name}}</span>
-        </figcaption>
-    </figure>
-
-    <div class="card-content text-center">
-        <p class="font-size--1 card-last">
-
-            {{if github}}
-                <a href="{{:github}}" target="blank" class="tooltip social" aria-label="Github">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
+            {{if picture}}
+                <img class="card-image" width="220" height="220" src="{{:picture}}" alt="{{:name}}" onerror="imgError(this);">
+            {{else}}
+                <img class="card-image" width="220" height="220" src="./assets/imgs/no_avatar.jpg" alt="{{:name}}">
             {{/if}}
 
-            {{if stackexchange}}
-                <a href="{{:stackexchange}}" target="blank" class="tooltip social" aria-label="StackExchange">
-                    <i class="fa fa-stack-exchange" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+            <figcaption class="card-image-caption text-center" title="{{:name}}">
+                {{firstname:name}}
+                <span class="phone-hide">{{lastname:name}}</span>
+            </figcaption>
+        </figure>
 
-            {{if stackoverflow}}
-                <a href="{{:stackoverflow}}" target="blank" class="tooltip social" aria-label="StackOverflow">
-                    <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+        <div class="card-content text-center">
+            <p class="font-size--1 card-last">
 
-            {{if linkedin}}
-                <a href="{{:linkedin}}" target="blank" class="tooltip social" aria-label="Linkedin">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+                {{if github}}
+                    <a href="{{:github}}" target="blank" class="tooltip social" aria-label="Github">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-            {{if twitter}}
-                <a href="{{:twitter}}" target="blank" class="tooltip social" aria-label="Twitter">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+                {{if stackexchange}}
+                    <a href="{{:stackexchange}}" target="blank" class="tooltip social" aria-label="StackExchange">
+                        <i class="fa fa-stack-exchange" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-            {{if geonet}}
-                <a href="{{:geonet}}" target="blank" class="tooltip social" aria-label="GeoNet">
-                    <i class="fa fa-comments-o" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+                {{if stackoverflow}}
+                    <a href="{{:stackoverflow}}" target="blank" class="tooltip social" aria-label="StackOverflow">
+                        <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-            {{if youtube}}
-                <a href="{{:youtube}}" target="blank" class="tooltip social" aria-label="Youtube channel">
-                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+                {{if linkedin}}
+                    <a href="{{:linkedin}}detail/recent-activity/" target="blank" class="tooltip social" aria-label="Linkedin">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-            {{if blog}}
-                <a href="{{:blog}}" target="blank" class="tooltip social" aria-label="Blog">
-                    <i class="fa fa-rss" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+                {{if twitter}}
+                    <a href="{{:twitter}}" target="blank" class="tooltip social" aria-label="Twitter">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-            {{if arcgisonline}}
-                <a href="{{:arcgisonline}}" target="blank" class="tooltip social" aria-label="ArcGIS Online">
-                    <i class="fa fa-globe" aria-hidden="true"></i>
-                </a>
-            {{/if}}
+                {{if geonet}}
+                    <a href="{{:geonet}}" target="blank" class="tooltip social" aria-label="GeoNet">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
-            <span class="tooltip" aria-label="Full user profile">
-                <i
-                    class="showModalProfile fa fa-question-circle"
-                    data-userslug="{{slugify:name}}"
-                    data-userIndex="{{:#index}}"
-                ></i>
-            </span>
-        </p>
+                {{if youtube}}
+                    <a href="{{:youtube}}" target="blank" class="tooltip social" aria-label="Youtube channel">
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
 
+                {{if website}}
+                    <a href="{{:website}}" target="blank" class="tooltip social" aria-label="Website">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
+
+                {{if blog}}
+                    <a href="{{:blog}}" target="blank" class="tooltip social" aria-label="Blog">
+                        <i class="fa fa-rss" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
+
+                {{if arcgisonline}}
+                    <a href="{{:arcgisonline}}" target="blank" class="tooltip social" aria-label="ArcGIS Online">
+                        <i class="fa fa-map" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
+
+                {{if podcast}}
+                    <a href="{{:podcast}}" target="blank" class="tooltip social" aria-label="Podcast">
+                        <i class="fa fa-podcast" aria-hidden="true"></i>
+                    </a>
+                {{/if}}
+
+                <span class="tooltip" aria-label="Full user profile">
+                    <i
+                        class="showModalProfile fa fa-question-circle"
+                        data-userslug="{{slugify:name}}"
+                        data-userIndex="{{:#index}}"
+                    ></i>
+                </span>
+            </p>
+
+        </div>
     </div>
-</div>
+{{/if}}
 
 </script>
 
@@ -232,7 +271,7 @@
 ************************************************************
 -->
 <script id="missingExpert" type="text/x-jsrender">
-<div class="card block trailer-1" data-background="missing">
+<div class="card block trailer-1" data-background="missing" id="missingCard">
     <figure class="card-image-wrap">
 
         <img class="card-image" src="./assets/imgs/contributors-wanted.png" alt="{{:name}}">
@@ -247,7 +286,7 @@
             <a
                 id="missingExpertLink"
                 target="_blank"
-                class="btn btn-fill"
+                class="btn btn-fill ellipsis"
                 href="https://github.com/esri-es/arcgis-experts/issues/new">
                 <span class="tablet-hide">Suggest expert</span>
                 <span class="tablet-show">Suggest</span>
@@ -295,7 +334,11 @@
                         Social profiles:
                     </strong>
                 </p>
-                <p id="expertSocialLinks" class="trailer-0"></p>
+                <p id="expertSocialLinks"></p>
+                <p id="arcgirSearch" class="trailer-0">
+                    Find more about
+                    <a href=""><span></span> on ArcGIS Search</a>.
+                </p>
             </div>
             <div class="col-right phone-hide">
 
