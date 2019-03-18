@@ -338,7 +338,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "Story Maps"
+		"technologies": "Story Maps, User Interfaces (UI), User Experience (UX), Design"
 	},
 	{
 		"consent": false,
@@ -3644,5 +3644,24 @@
 		"geodev": false,
 		"advocate": false,
 		"technologies": "GIS, Remote Sensing, Python, ArcGIS Pro, Story Maps, ArcGIS Online"
+	},
+	{
+		"consent": false,
+		"name": "Andy Skinner",
+		"picture": "./assets/imgs/andy-skinner.jpeg",
+		"linkedin": "https://www.linkedin.com/in/andrew-skinner-0931a014/",
+		"twitter": null,
+		"github": "https://github.com/askinner13",
+		"geonet": null,
+		"arcgisonline": "https://www.arcgis.com/home/search.html?q=owner%3Aajskinner3&restrict=false&start=1&sortOrder=desc&sortField=numviews&focus=applications-web",
+		"stackoverflow": null,
+		"stackexchange": null,
+		"youtube": null,
+		"blog": "https://www.esri.com/arcgis-blog/author/ajskinner2/",
+		"website": null,
+		"podcast": null,
+		"geodev": false,
+		"advocate": false,
+		"technologies": "User Interfaces (UI), User Experience (UX), Design"
 	}
 ]
