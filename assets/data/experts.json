@@ -34,7 +34,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "AppStudio for ArcGIS, Survey123 for ArcGIS, Collector for ArcGIS, Explorer for ArcGIS, Navigator for ArcGIS, Workforce for ArcGIS, ArcGIS Runtime SDK for Qt, ArcGIS Enterprise"
+		"technologies": "AppStudio for ArcGIS, Survey123 for ArcGIS, Collector for ArcGIS, Explorer for ArcGIS, Navigator for ArcGIS, Workforce for ArcGIS, ArcGIS Runtime SDK for Qt, ArcGIS Enterprise, Spike"
 	},
 	{
 		"consent": false,
@@ -338,7 +338,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "Story Maps, User Interfaces (UI), User Experience (UX), Design"
+		"technologies": "Story Maps, User Interfaces (UI), User Experience (UX), Design, Cartography"
 	},
 	{
 		"consent": false,
@@ -1307,7 +1307,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "ArcGIS Open Data, Living Atlas, Geocoding, ArcGIS Online, Basemaps"
+		"technologies": "ArcGIS Open Data, Living Atlas, Geocoding, ArcGIS Online, Basemaps, FME"
 	},
 	{
 		"consent": true,
@@ -3226,7 +3226,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": true,
-		"technologies": "3D, Analytics, ArcGIS Business Analyst, ArcGIS Desktop, ArcGIS Earth, ArcGIS Enterprise, ArcGIS Hub, ArcGIS Image Server, ArcGIS Maps for Office, ArcGIS Marketplace, ArcGIS Online, ArcGIS Open Data, ArcGIS Pro, ArcGIS REST API, ArcGIS Server, Artificial Intelligence (AI), Augmented Reality (AR), Basemaps, Building Information Modeling (BIM), Collector for ArcGIS, Computer-aided design (CAD), Configurable Apps, Demographics, Design, Drone2Map, Esri Business Analyst, Esri Labs, Esri Startup Program, Explorer for ArcGIS, GeoAnalytics Server, GeoEnrichment, GeoEvent Server, GeoNet, Geocoding, Geodatabase, INSPIRE, Image Management, Imagery and Rasters, Insights for ArcGIS, KML, Lidar, Living Atlas, Machine Learning, Mixed Reality (MR), Navigator for ArcGIS, Network Analyst, OGC, Open Source, Operations Dashboard for ArcGIS, Public transit, Remote Sensing, Story Maps, StreetMap Premium for ArcGIS, Survey123 for ArcGIS, User Experience (UX), Vector Tiles, Virtual Reality (VR), WCS, WFS, WMS, WMTS, Waze, Web AppBuilder for ArcGIS, Web Map specification, Web Scene Viewer, Widgets, Workforce for ArcGIS"
+		"technologies": "3D, Analytics, ArcGIS Business Analyst, ArcGIS Desktop, ArcGIS Earth, ArcGIS Enterprise, ArcGIS Hub, ArcGIS Image Server, ArcGIS Maps for Office, ArcGIS Marketplace, ArcGIS Online, ArcGIS Open Data, ArcGIS Pro, ArcGIS REST API, ArcGIS Server, Artificial Intelligence (AI), Augmented Reality (AR), Basemaps, Building Information Modeling (BIM), Collector for ArcGIS, Computer-aided design (CAD), Configurable Apps, Demographics, Design, Drone2Map, Esri Business Analyst, Esri Labs, Esri Startup Program, Explorer for ArcGIS, GeoAnalytics Server, GeoEnrichment, GeoEvent Server, GeoNet, Geocoding, Geodatabase, INSPIRE, Image Management, Imagery and Rasters, Insights for ArcGIS, KML, Lidar, Living Atlas, Machine Learning, Mixed Reality (MR), Navigator for ArcGIS, Network Analyst, OGC, Open Source, Operations Dashboard for ArcGIS, Public transit, Remote Sensing, Story Maps, StreetMap Premium for ArcGIS, Survey123 for ArcGIS, User Experience (UX), Vector Tiles, Virtual Reality (VR), WCS, WFS, WMS, WMTS, Waze, Web AppBuilder for ArcGIS, Web Map specification, Web Scene Viewer, Widgets, Workforce for ArcGIS, Spike"
 	},
 	{
 		"consent": true,
@@ -3652,7 +3652,7 @@
 		"linkedin": "https://www.linkedin.com/in/andrew-skinner-0931a014/",
 		"twitter": null,
 		"github": "https://github.com/askinner13",
-		"geonet": null,
+		"geonet": "https://community.esri.com/people/askinner-esristaff",
 		"arcgisonline": "https://www.arcgis.com/home/search.html?q=owner%3Aajskinner3&restrict=false&start=1&sortOrder=desc&sortField=numviews&focus=applications-web",
 		"stackoverflow": null,
 		"stackexchange": null,
@@ -3663,5 +3663,24 @@
 		"geodev": false,
 		"advocate": false,
 		"technologies": "User Interfaces (UI), User Experience (UX), Design, Basemaps"
-	}
+	},
+    {
+        "consent": false,
+        "name": "Geoff Taylor",
+        "picture": "./assets/imgs/geoff-taylor.jpeg",
+        "linkedin": "https://www.linkedin.com/in/geoffhtaylor/",
+        "twitter": "https://twitter.com/GeoffHTaylor",
+        "github": "https://github.com/geoffrt",
+        "geonet": "https://community.esri.com/people/gtaylor-esristaff",
+        "arcgisonline": "https://www.arcgis.com/home/search.html?q=owner%3Agtaylor_ourcityc&restrict=false&start=1&sortOrder=true&sortField=relevance",
+        "stackoverflow": null,
+        "stackexchange": null,
+        "youtube": null,
+        "blog": null,
+        "website": null,
+        "podcast": null,
+        "geodev": false,
+        "advocate": false,
+        "technologies": "Zeb-Revo, Lidar, 3D"
+    }
 ]
