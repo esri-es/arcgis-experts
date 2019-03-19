@@ -205,7 +205,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "GeoEvent Server, Deep Learning, Machine Learning, Artificial Intelligence (AI)"
+		"technologies": "GeoEvent Server, Deep Learning, Machine Learning, Artificial Intelligence (AI), Spark, Cassandra, Big Data"
 	},
 	{
 		"consent": false,
