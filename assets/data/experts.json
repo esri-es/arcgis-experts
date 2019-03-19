@@ -1535,7 +1535,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS API for JavaScript, ReactJS, ArcGIS API for Python, ArcGIS Online, NodeJS, Esri Startup Program"
+		"technologies": "ArcGIS API for JavaScript, ReactJS, ArcGIS API for Python, ArcGIS Online, NodeJS, Esri Startup Program, Safegraph"
 	},
 	{
 		"consent": true,
@@ -3681,6 +3681,6 @@
         "podcast": null,
         "geodev": false,
         "advocate": false,
-        "technologies": "Zeb-Revo, Lidar, 3D"
+        "technologies": "ZEB-REVO, Lidar, 3D"
     }
 ]
