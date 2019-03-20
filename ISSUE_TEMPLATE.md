@@ -35,7 +35,7 @@ Here you can see an example in case you need it:
   "twitter": "https://www.twitter.com/hhkaos",
   "github": "https://www.github.com/hhkaos",
   "geonet": "https://community.esri.com/people/raul.jimenezesri-es-esridist",
-  "arcgisonline": "http://www.arcgis.com/home/search.html?q=owner:hhkaos2",
+  "arcgisonline": ["hhkaos2", "raul.jimenez_geogeeks"],
   "stackoverflow": "https://stackoverflow.com/users/3541972/hhkaos",
   "stackexchange": null,
   "youtube": "https://www.youtube.com/GeoDevelopers",
