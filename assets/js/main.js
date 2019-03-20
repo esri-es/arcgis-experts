@@ -10,6 +10,16 @@ if(params.showAll && params.showAll === "true" ){
     showAll = true;
 }
 
+$.views.converters("agol", function(val) {
+  // Convert data-value or expression to upper case
+  var searchUrl = 'https://www.arcgis.com/home/search.html';
+  if(typeof val === 'string'){
+      return val;
+  }else{
+      return `${searchUrl}?q=${encodeURIComponent(`(owner=${val.join(" OR owner:")})`)}`;
+  }
+});
+
 $(document).ready(function(){
     if(params.bg){
         var bg = decodeURIComponent(params.bg);
