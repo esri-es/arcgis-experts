@@ -175,7 +175,7 @@
 		"picture": "https://pbs.twimg.com/profile_images/489426544264085506/BsgyioAS_400x400.jpeg",
 		"linkedin": null,
 		"twitter": "https://www.twitter.com/sfoss_esri",
-		"github": null,
+		"github": "https://github.com/sfoss",
 		"geonet": "https://community.esri.com/people/SFoss-esristaff",
 		"arcgisonline": null,
 		"stackoverflow": null,
@@ -186,7 +186,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "ArcGIS Enterprise, GeoAnalytics Server, GeoEvent Server"
+		"technologies": "ArcGIS Enterprise, GeoAnalytics Server, GeoEvent Server, IoT, Big Data"
 	},
 	{
 		"consent": false,
@@ -3682,5 +3682,24 @@
         "geodev": false,
         "advocate": false,
         "technologies": "ZEB-REVO, Lidar, 3D"
+    },{
+
+        "consent": false,
+        "name": "Sarah Ambrose",
+        "picture": "./assets/imgs/sarah-ambrose.jpeg",
+        "linkedin": "https://www.linkedin.com/in/sarah-ambrose-a3558928",
+        "twitter": null,
+        "github": "https://github.com/smambrose",
+        "geonet": "https://community.esri.com/people/SAmbrose-esristaff",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "youtube": null,
+        "blog": "https://community.esri.com/people/SAmbrose-esristaff/content?filterID=contentstatus%5Bpublished%5D~objecttype~objecttype%5Bblogpost%5D",
+        "website": null,
+        "podcast": null,
+        "geodev": false,
+        "advocate": false,
+        "technologies": "GeoAnalytics Server, Big Data"
     }
 ]
