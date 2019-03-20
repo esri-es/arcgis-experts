@@ -16,7 +16,7 @@ $.views.converters("agol", function(val) {
   if(typeof val === 'string'){
       return val;
   }else{
-      return `${searchUrl}?q=${encodeURIComponent(`(owner=${val.join(" OR owner:")})`)}`;
+      return `${searchUrl}?q=${encodeURIComponent(`(owner:${val.join(" OR owner:")})`)}`;
   }
 });
 
