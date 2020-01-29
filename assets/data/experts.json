@@ -234,7 +234,7 @@
 		"twitter": "https://twitter.com/geogangster",
 		"github": "https://github.com/jgravois",
 		"geonet": "https://geonet.esri.com/people/JGravois-esristaff",
-		"arcgisonline": "http://www.arcgis.com/home/search.html?q=owner:jgravois",
+		"arcgisonline": ["jgravois"],
 		"stackoverflow": "http://stackoverflow.com/users/494139/jgravois",
 		"stackexchange": "https://gis.stackexchange.com/users/21012/john-gravois?tab=profile",
 		"youtube": null,
@@ -319,7 +319,7 @@
 		"podcast": null,
 		"geodev": false,
 		"advocate": false,
-		"technologies": "Story Maps"
+		"technologies": "Story Maps, Accessibility"
 	},
 	{
 		"consent": false,
@@ -918,7 +918,7 @@
 		"twitter": "https://twitter.com/al_laframboise",
 		"github": "https://github.com/alaframboise",
 		"geonet": "https://geonet.esri.com/people/alaframboise-esristaff",
-		"arcgisonline": "http://www.arcgis.com/home/search.html?q=owner:al_geodev",
+		"arcgisonline": ["al_geodev","alaframboise3"],
 		"stackoverflow": null,
 		"stackexchange": null,
 		"youtube": null,
@@ -956,7 +956,7 @@
 		"twitter": "https://twitter.com/nixta",
 		"github": "https://github.com/nixta",
 		"geonet": "https://community.esri.com/people/NFurness-esristaff",
-		"arcgisonline": null,
+		"arcgisonline": ["nixta_geodev", "nfurness3"],
 		"stackoverflow": null,
 		"stackexchange": null,
 		"youtube": null,
@@ -2647,7 +2647,7 @@
 		"twitter": "https://twitter.com/rssllrbrts?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2BjlDv1k6RWC4bEpsfehXJg%3D%3D",
 		"github": null,
 		"geonet": null,
-		"arcgisonline": "http://www.arcgis.com/home/search.html?q=owner%3Arussell_jsapi&restrict=false&start=1&sortOrder=desc&sortField=numviews",
+		"arcgisonline": ["russell_jsapi"],
 		"stackoverflow": null,
 		"stackexchange": null,
 		"youtube": null,
@@ -2694,7 +2694,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "Configurable Apps, ArcGIS API for JavaScript 4.x"
+		"technologies": "Configurable Apps, ArcGIS API for JavaScript 4.x, Accessibility"
 	},
 	{
 		"consent": false,
@@ -2989,7 +2989,7 @@
 		"twitter": "https://twitter.com/kekenes?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Biz3FARyWTiStI1T7Y6zYhg%3D%3D",
 		"github": "https://github.com/ekenes",
 		"geonet": "https://community.esri.com/people/KEkenes-esristaff",
-		"arcgisonline": null,
+		"arcgisonline": ["kekenesri"],
 		"stackoverflow": null,
 		"stackexchange": null,
 		"youtube": null,
@@ -2998,7 +2998,7 @@
 		"podcast": null,
 		"geodev": true,
 		"advocate": false,
-		"technologies": "ArcGIS API for JavaScript 4.x, Arcade"
+		"technologies": "ArcGIS API for JavaScript 4.x, Arcade, User Interfaces (UI), User Experience (UX), Design"
 	},
 	{
 		"consent": false,
@@ -3236,7 +3236,7 @@
 		"twitter": "https://twitter.com/D4n1l0P4lerm0",
 		"github": "https://github.com/padanilo",
 		"geonet": "https://community.esri.com/people/danilo.palermoesri-es-esridist",
-		"arcgisonline": null,
+		"arcgisonline": ["danilo.preventas"],
 		"stackoverflow": null,
 		"stackexchange": null,
 		"youtube": null,
@@ -3701,5 +3701,24 @@
         "geodev": false,
         "advocate": false,
         "technologies": "GeoAnalytics Server, Big Data"
+    },
+    {
+        "consent": false,
+        "name": "Julio Ochoa",
+        "picture": "https://avatars2.githubusercontent.com/u/6144462?s=460&v=4",
+        "linkedin": "https://www.linkedin.com/in/julioochoa/",
+        "twitter": "https://twitter.com/julio8a",
+        "github": "https://github.com/julio8a",
+        "geonet": "https://community.esri.com/people/jochoa-esristaff",
+        "arcgisonline": null,
+        "stackoverflow": null,
+        "stackexchange": null,
+        "youtube": null,
+        "blog": null,
+        "website": "https://julio8a.com/",
+        "podcast": null,
+        "geodev": false,
+        "advocate": false,
+        "technologies": "Design, User Experience (UX), User Interfaces (UI)"
     }
 ]
